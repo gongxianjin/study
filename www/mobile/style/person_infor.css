@@ -1,0 +1,103 @@
+body {
+  background-color: #f2f2f2;
+}
+body div.header {
+  top: 0;
+  height: 50px;
+  line-height: 50px;
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  z-index: 100;
+  color: #151515;
+  transition: 300ms;
+  border-bottom: 1px solid #e8e8e8;
+}
+body div.header >span.header-back {
+  position: absolute;
+  left: 6px;
+  top: 5px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  overflow: hidden;
+  height: 40px;
+}
+body div.header >span.header-back >i {
+  font-size: 22px;
+}
+body div.header .header-text {
+  position: absolute;
+  left: 50px;
+  height: 100%;
+  font-size: 20px;
+  display: inline-block;
+  right: 50px !important;
+  text-align: center !important;
+}
+body div.page {
+  background-color: #f2f2f2;
+  padding-top: 50px;
+  transition: 300ms;
+  position: relative;
+  z-index: 10;
+  font-size: 14px;
+}
+body div.page .basic-info {
+  margin-top: 14px !important;
+}
+body div.page .basic-info .weui-cell .weui-cell__hd {
+  font-size: 16px;
+  color: #333;
+}
+body div.page .basic-info .weui-cell .weui-cell__bd {
+  text-align: right;
+  height: 60px;
+  line-height: 60px;
+  margin-right: 10px;
+  color: #999;
+  font-size: 14px;
+}
+body div.page .basic-info .weui-cell .weui-cell__bd .header-img >span {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #ffe9e9;
+  overflow: hidden;
+  display: inline-block;
+}
+body div.page .basic-info .weui-cell .weui-cell__bd .header-img >span img {
+  width: 100%;
+}
+body .js_dialog .weui-mask {
+  background-color: rgba(0,0,0,0.4);
+}
+body .js_dialog .weui-dialog .weui-dialog__hd {
+  padding-bottom: 0.5em;
+  padding-top: 1.3em;
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+body .js_dialog .weui-dialog .weui-dialog__hd .weui-dialog__title {
+  color: #333;
+}
+body .js_dialog .weui-dialog .weui-dialog__bd .weui-cells:before,
+body .js_dialog .weui-dialog .weui-dialog__bd .weui-cells:after {
+  width: 0 !important;
+  height: 0 !important;
+}
+body .js_dialog .weui-dialog .weui-dialog__bd .weui-cells .weui-cell {
+  padding: 10px 5px !important;
+}
+body .js_dialog .weui-dialog .weui-dialog__bd .weui-cells .weui-cell .weui-cell__hd {
+  color: #333;
+}
+body .js_dialog .weui-dialog .weui-dialog__bd .weui-cells .weui-cell .weui-cell__bd {
+  text-align: right;
+}
+body .js_dialog .weui-dialog .weui-dialog__bd .weui-cells .weui-cell .weui-cell__bd .weui-icon-checked:before {
+  color: #f9655a !important;
+}

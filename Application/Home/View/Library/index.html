@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <link rel="stylesheet" href="/mobile/css/weui.css">
+    <link rel="stylesheet" href="/mobile/css/weui_reset.css">
+    <link rel="stylesheet" href="/mobile/fonts/iconfont.css">
+    <link rel="stylesheet" href="/mobile/style/library.css">
+    <title>图书馆</title>
+</head>
+<body>
+<div class="header">
+    <!--左侧图标-->
+    <span class="header-back" onclick="window.history.go(-1)">
+            <i class="txh icon-xiangzuo"></i>
+        </span>
+    <!--中间文字-->
+    <span class="header-text">图书馆</span>
+    <!--右侧按钮-->
+    <span class="header-btn">
+            <a href="#"><i class="txh icon-share"></i></a>
+    </span>
+
+</div>
+<div class="page">
+    <div class="library-title">
+        <div class="library-left">
+            <img src="/mobile/images/header_img.png" alt="">
+        </div>
+        <div class="library-text">
+            您的会员天数3天后到期
+        </div>
+        <div class="library-right">
+            <a href="#">
+                <img src="/mobile/images/right_bg.png" alt="">
+                <div class="right_aside">
+                    <i class="txh icon-qiandao"></i>
+                    <p>签到</p>
+                </div>
+            </a>
+            <a href="#">
+                <img src="/mobile/images/right_bg.png" alt="">
+                <div class="right_aside">
+                    <i class="txh icon-shizhongtianjia"></i>
+                    <p>续期</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="library-content">
+        <div data-type='scroll' class="library-function">
+            <div id="wrapper">
+                <div id="scroller">
+                    <include file="Common/classify" />
+                </div>
+            </div>
+        </div>
+        <div class="line">
+            <img src="/mobile/images/library/line.png" alt="">
+        </div>
+        <foreach name="levelList" item="item">
+            <div class="library-box">
+                <div class="library-box-title">
+                    <div class="box-title-left"><a href="#">{$item.name}</a></div>
+                    <div class="box-title-right">
+                        <a href="{:U('book_list', array('level_id'=>$item['id']))}">更多<i class="txh icon-xiangzuo-copy"></i></a>
+                    </div>
+                </div>
+                <div class="library-box-content">
+                    <php> $bookList = D('Book')->where(array('level_id'=>$item['id']))->limit(3)->select(); </php>
+                    <volist name="bookList" id="item">
+                        <div class="box-content-list <eq name='key' value='1'>list-center</eq> ">
+                            <a href="{:U('library/book', array('book_id'=>$item['id']))}">
+                                <img src="{:imageDomain($item['cover_img'])}" style="width: 105px; height: 142px; border-radius: 5px;" alt="">
+                                <p>{$item.name}</p>
+                            </a>
+                        </div>
+                    </volist>
+                </div>
+            </div>
+        </foreach>
+    </div>
+</div>
+</body>
+<script src="/mobile/js/zepto.min.js"></script>
+<script src="/mobile/js/weui.min.js"></script>
+<script src="/mobile/js/jweui.min.js"></script>
+<script src="/mobile/js/iscroll.js"></script>
+<script>
+    var myscroll;
+    function loaded(){
+        myscroll=new IScroll("#wrapper", { scrollX: true, scrollY: false, mouseWheel: true,click:true });
+    }
+    window.addEventListener("DOMContentLoaded",loaded,false);
+</script>
+</html>

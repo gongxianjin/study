@@ -1,0 +1,65 @@
+<extend name="Common/header" />
+<block name="stylesheet"><link rel="stylesheet" href="/mobile/style/student_personal.css"></block>
+<block name="title">个人中心</block>
+<block name="content">
+
+    <div class="header">
+        <div class="header-img">
+            <div class="teacher-header">
+                <a href="{:U('user/personal_infor')}">
+                    <img src="{:imageDomain($userInfo['head_img'])}"  style="border-radius: 50%;" alt="">
+                </a>
+            </div>
+            <p>{$userInfo.nickname}</p>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="weui-tabbar page-tabber">
+            <a href="javascript:;" class="weui-tabbar__item">
+                <img style="width: 24px" src="/mobile/images/person/icon3.png" alt="" class="weui-tabbar__icon">
+                <p class="weui-tabbar__label">我的课程</p>
+            </a>
+            <a href="javascript:;" class="weui-tabbar__item">
+                    <span style="display: inline-block;position: relative;">
+                        <img src="/mobile/images/person/icon1.png" alt="" class="weui-tabbar__icon">
+                    </span>
+                <p class="weui-tabbar__label">我的班级</p>
+            </a>
+            <a href="javascript:;" class="weui-tabbar__item">
+                <img style="width: 18px;height: 18px" src="/mobile/images/person/icon4.png" alt="" class="weui-tabbar__icon">
+                <p class="weui-tabbar__label">我的作品</p>
+            </a>
+        </div>
+        <div class="page-placeholder"></div>
+        <div class="page-list">
+            <div class="weui-cells">
+                <a class="weui-cell weui-cell_access" href="{:U('user/integral')}">
+                    <div class="weui-cell__bd">
+                        <p>我的积分</p>
+                    </div>
+                    <div class="weui-cell__ft"></div>
+                </a>
+                <a class="weui-cell weui-cell_access" href="javascript:;">
+                    <div class="weui-cell__bd">
+                        <p>缺读记录</p>
+                    </div>
+                    <div class="weui-cell__ft">缺读天数 0 天</div>
+                </a>
+                <a id="showIOSDialog1" class="weui-cell weui-cell_access" href="javascript:;">
+                    <div class="weui-cell__bd">
+                        <p>生成专属二维码</p>
+                    </div>
+                    <div class="weui-cell__ft"></div>
+                </a>
+                <a class="weui-cell weui-cell_access" href="{:U('user/deposit_cash')}">
+                    <div class="weui-cell__bd">
+                        <p>申请退还保证金</p>
+                    </div>
+                    <div class="weui-cell__ft"></div>
+                </a>
+
+            </div>
+        </div>
+    </div>
+</block>

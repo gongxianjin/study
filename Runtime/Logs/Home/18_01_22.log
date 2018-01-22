@@ -1,0 +1,41 @@
+[ 2018-01-22T18:14:14+08:00 ] 127.0.0.1 /Home/login/login.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '18628246831' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\AppServ\www\study\ThinkPHP\Common\functions.php 第 1272 行.
+
+[ 2018-01-22T18:14:14+08:00 ] 127.0.0.1 /
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2018-01-22T18:14:16+08:00 ] 127.0.0.1 /Home/user/personal.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-01-22T18:14:17+08:00 ] 127.0.0.1 /Home/forum/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-01-22T18:14:17+08:00 ] 127.0.0.1 /Home/forum/bbs_list.html?p=1
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0510s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `forum` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `forum` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `forum`.*,`user`.`nickname`,`user`.`head_img` FROM `forum` LEFT JOIN `user` ON `user`.`id` = `forum`.`user_id`  LIMIT 0,20   [ RunTime:0.0010s ]
+
+[ 2018-01-22T18:14:17+08:00 ] 127.0.0.1 /Home/forum/bbs_list.html?p=2
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `forum` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `forum` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `forum`.*,`user`.`nickname`,`user`.`head_img` FROM `forum` LEFT JOIN `user` ON `user`.`id` = `forum`.`user_id`  LIMIT 20,20   [ RunTime:0.0000s ]
+
+[ 2018-01-22T18:16:22+08:00 ] 127.0.0.1 /
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0000s ]
+

@@ -1,0 +1,151 @@
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  background-color: #e8e8e8;
+}
+body div.header {
+  top: 0;
+  z-index: 100;
+  color: #fff;
+  transition: 300ms;
+  position: relative;
+  width: 100%;
+}
+body div.header .header-functionBar {
+  height: 50px;
+  line-height: 50px;
+  background-color: #2addfd;
+}
+body div.header .header-functionBar >span.header-back {
+  position: absolute;
+  left: 6px;
+  top: 5px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  overflow: hidden;
+  height: 40px;
+}
+body div.header .header-functionBar >span.header-back >i {
+  font-size: 28px;
+}
+body div.header .header-functionBar .header-text {
+  position: absolute;
+  left: 50px;
+  font-size: 20px;
+  display: inline-block;
+  right: 50px !important;
+  text-align: center !important;
+}
+body div.header .header-functionBar .header-btn {
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+  width: 60px;
+  right: 0;
+}
+body div.header .header-functionBar .header-btn >a {
+  text-align: center;
+  height: 100%;
+  color: #fff;
+}
+body div.header .header-functionBar .header-btn >a >i {
+  font-size: 20px;
+}
+body div.page {
+  margin-bottom: 45px;
+  transition: 300ms;
+  margin-top: 50px;
+  z-index: 10;
+  font-size: 14px;
+  background-color: transparent;
+}
+body div.page .content-box {
+  position: absolute;
+  top: 0;
+  bottom: 10px;
+  background-color: #fff;
+  z-index: 998;
+  width: 100%;
+  overflow: hidden;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+body div.page .content-box .address-text {
+  font-size: 15px;
+  color: #666;
+}
+body div.page .content-box .content-holder {
+  width: 100%;
+  height: 10px;
+  background-color: #e8e8e8;
+}
+body div.page .content-box .weui-form-preview:after {
+  width: 0 !important;
+  height: 0 !important;
+  border: none !important;
+}
+body div.page .content-box .weui-form-preview .weui-form-preview__ft {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 200px;
+}
+body div.page .content-box .weui-form-preview .weui-form-preview__ft .weui-form-preview__btn {
+  flex: 1;
+  text-align: left;
+  font-weight: 200;
+  padding-left: 15px;
+  color: #999;
+}
+body div.page .content-box .weui-form-preview .weui-form-preview__ft .weui-form-preview__btn i {
+  margin-right: 3px;
+}
+body div.page .content-box .weui-form-preview .weui-form-preview__ft .active {
+  color: #21dcfd;
+}
+body div.page .content-box .weui-form-preview .weui-form-preview__ft .right-edit {
+  width: 110px;
+  display: flex;
+  text-align: right;
+  color: #999;
+  font-size: 14px;
+  font-weight: 200;
+}
+body div.page .content-box .weui-form-preview .weui-form-preview__ft .right-edit .remove {
+  margin-left: 10px;
+  font-weight: 200;
+}
+body div.page .content-box .weui-form-preview .weui-form-preview__ft .right-edit .remove i {
+  margin-right: -3px;
+  font-weight: 200;
+}
+body div.page .content-box .weui-form-preview .weui-form-preview__bd .weui-form-preview__item .weui-form-preview__label {
+  text-align: left;
+  color: #333;
+  text-align-last: left;
+  font-size: 16px;
+}
+body div.page .content-box .weui-form-preview .weui-form-preview__bd .weui-form-preview__item .edit-text {
+  text-align: left;
+  font-weight: 200;
+  font-size: 16px;
+  color: #333;
+}
+body div.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+}
+body div.footer a {
+  display: inline-block;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  background-color: #f9655a;
+}

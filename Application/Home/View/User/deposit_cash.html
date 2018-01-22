@@ -1,0 +1,31 @@
+<extend name="Common/common" />
+<block name="stylesheet"><link rel="stylesheet" href="/mobile/style/deposit_cash.css"></block>
+<block name="title">我的保证金</block>
+<block name="content">
+    <div class="page">
+        <div class="page-content">
+            <div class="page-content-img">
+                <img src="/mobile/images/addclass/cash.png" alt="">
+                <span>{$money}</span>
+            </div>
+            <p>我的保证金（元）</p>
+        </div>
+        <div class="apply_join">
+            <if condition="floatval($money)">
+                <a href="#">退还保证金</a>
+                <else/>
+                <!--<a href="#" onclick="ck.deposit();" class="refund_deposit">缴纳保证金</a>-->
+            </if>
+        </div>
+    </div>
+    <script type="text/javascript">
+        (function(_){
+            _.deposit = function()
+            {
+                $.get("{:U('weixin/pay')}", { re : '{:U("index")}' }, function(returnData){
+                    ajaxReturnMsg(returnData);
+                });
+            }
+        })(ck={});
+    </script>
+</block>

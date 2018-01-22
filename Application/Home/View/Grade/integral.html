@@ -1,0 +1,164 @@
+<extend name="Common/common" />
+<block name="stylesheet">
+    <link rel="stylesheet" href="/mobile/style/integral.css">
+</block>
+<block name="title">我的班级</block>
+<block name="header_btn"> <a href="javascript:;" onclick="ck.submit();">保存</a> </block>
+<block name="content">
+
+</block>
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <link rel="stylesheet" href="./lib/css/weui.css">
+    <link rel="stylesheet" href="./lib/css/weui_reset.css">
+    <link rel="stylesheet" href="./fonts/iconfont.css">
+    <link rel="stylesheet" href="./style/integral.css">
+    <title>学生班级页面--积分</title>
+</head>
+<body>
+<div class="header">
+    <!--左侧图标-->
+        <span class="header-back" onclick="window.history.go(-1)">
+            <i class="txh icon-xiangzuo"></i>
+        </span>
+    <!--中间文字-->
+    <span class="header-text">学生班级页面</span>
+    <!--右侧按钮-->
+     <span class="header-btn">
+            <a href="#"><i class="txh icon-share"></i></a>
+    </span>
+
+</div>
+<div class="page">
+    <div class="integral-title">
+        <div class="integral-header">
+            <img src="./images/integral/integral_header.png" alt="">
+       </div>
+        <div class="integral-aside">
+            <p>A 雅思乐Mr Wu今日赢得了</p>
+        </div>
+        <div class="prise">
+            <img src="./images/integral/prise.png" alt="">
+            <p>第<span>28</span>名</p>
+        </div>
+
+    </div>
+    <div class="integral-content">
+        <div class="integral-tab">
+            <div class="tab-item item-active">今日</div>
+            <div class="tab-item">本周</div>
+            <div class="tab-item">本月</div>
+        </div>
+        <div class="tab-item-content">
+            <div class="item-content-title">
+                <select name="" id="" class="weui-select">
+                    <option value="1">积分排名</option>
+                </select>
+            </div>
+            <div class="item-content-lists">
+                <div class="weui-cells">
+                    <a class="weui-cell weui-cell_access" href="javascript:;">
+                        <div class="weui-cell__hd">
+                            <img src="./images/integral/left1.png" alt="">
+                        </div>
+                        <div class="weui-cell__bd">
+                            <img src="./images/integral/header1.png" alt="">
+                            <div class="bd_aside">
+                                <p>木魅</p>
+                                <span>第1名</span>
+                            </div>
+                        </div>
+                        <div class="weui-cell__ft">
+                            <img src="./images/integral/coin.png" alt="">
+                            <p>476</p>
+                        </div>
+                    </a>
+                    <a class="weui-cell weui-cell_access" href="javascript:;">
+                        <div class="weui-cell__hd">
+                            <img src="./images/integral/left2.png" alt="">
+                        </div>
+                        <div class="weui-cell__bd">
+                            <img src="./images/integral/header2.png" alt="">
+                            <div class="bd_aside">
+                                <p>木魅</p>
+                                <span>第2名</span>
+                            </div>
+                        </div>
+                        <div class="weui-cell__ft">
+                            <img src="./images/integral/coin.png" alt="">
+                            <p>425</p>
+                        </div>
+                    </a>
+                    <a class="weui-cell weui-cell_access" href="javascript:;">
+                        <div class="weui-cell__hd">
+                            <img src="./images/integral/left3.png" alt="">
+                        </div>
+                        <div class="weui-cell__bd">
+                            <img src="./images/integral/header3.png" alt="">
+                            <div class="bd_aside">
+                                <p>木魅</p>
+                                <span>第3名</span>
+                            </div>
+                        </div>
+                        <div class="weui-cell__ft">
+                            <img src="./images/integral/coin.png" alt="">
+                            <p>375</p>
+                        </div>
+                    </a>
+                    <a class="weui-cell weui-cell_access" href="javascript:;">
+                        <div class="weui-cell__hd">
+                            <span>4</span>
+                        </div>
+                        <div class="weui-cell__bd">
+                            <img src="./images/integral/header4.png" alt="">
+                            <div class="bd_aside">
+                                <p>木魅</p>
+                                <span>第4名</span>
+                            </div>
+                        </div>
+                        <div class="weui-cell__ft">
+                            <img src="./images/integral/coin.png" alt="">
+                            <p>215</p>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        <div class="tab-item-content" style="display: none">222</div>
+        <div class="tab-item-content" style="display: none">333</div>
+    </div>
+</div>
+<div class="footer">
+    <a href="#"><i class="txh icon-fenxiang"></i>分享给微信好友</a>
+</div>
+</body>
+<script src="lib/js/zepto.min.js"></script>
+<script src="lib/js/weui.min.js"></script>
+<script src="lib/js/jweui.min.js"></script>
+<script>
+    $(function(){
+        $(".integral-tab").on("click",".tab-item",function(){
+            if(!$(this).hasClass(".item-active")){
+                $(this).addClass(".item-active").siblings().removeClass(".item-active");
+                $($(".tab-item-content")[$(this).index()]).css("display","block").siblings().css("display","none");
+                $(".integral-tab").css("display","flex")
+            }
+        })
+    })
+</script>
+</html>

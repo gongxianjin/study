@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <link rel="stylesheet" href="/mobile/css/weui.css">
+    <link rel="stylesheet" href="/mobile/css/weui_reset.css">
+    <link rel="stylesheet" href="/mobile/fonts/iconfont.css">
+    <link rel="stylesheet" href="/mobile/style/no_class.css">
+    <title>学生未加入班级</title>
+</head>
+<body>
+<div class="header">
+    <!--左侧图标-->
+        <span class="header-back" onclick="window.history.go(-1)">
+            <i class="txh icon-xiangzuo"></i>
+        </span>
+    <!--中间文字-->
+    <span class="header-text">我的班级</span>
+    <!--右侧按钮-->
+     <span class="header-btn">
+            <a  id="showIOSDialog1" style="font-weight: normal">添加</a>
+    </span>
+
+</div>
+<div class="page">
+    <div class="page-content">
+        <div class="page-content-img">
+            <img src="/mobile/images/addclass/worn.png" alt="">
+        </div>
+        <div class="page-content-class">
+            <p>您还未加入任何班级</p>
+        </div>
+    </div>
+</div>
+<div class="js_dialog" id="iosDialog1" style="display: none;">
+    <div class="weui-mask"></div>
+    <div class="weui-dialog">
+        <div class="weui-dialog__hd"><strong class="weui-dialog__title">加入班级</strong></div>
+        <div class="weui-dialog__bd">
+            <input type="text" placeholder="请输入班级编号">
+        </div>
+        <div class="weui-dialog__ft">
+            <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_default">取消</a>
+            <a href="javascript:;" class="weui-dialog__btn ">确定</a>
+        </div>
+    </div>
+</div>
+</body>
+<script src="/mobile/js/zepto.min.js"></script>
+<script src="/mobile/js/weui.min.js"></script>
+<script src="/mobile/js/jweui.min.js"></script>
+<script>
+    $(function(){
+        var $iosDialog1 = $('#iosDialog1');
+        $('#showIOSDialog1').on('click', function(){
+            $iosDialog1.fadeIn(200);
+        });
+        $(".weui-mask").click(function(){
+            $iosDialog1.fadeOut(200);
+        });
+        $(".weui-dialog__ft").on("click","a",function(){
+            $iosDialog1.fadeOut(200);
+        })
+    })
+</script>
+</html>

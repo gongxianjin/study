@@ -1,0 +1,7 @@
+<php> $classifyList = D('BookClassify')->classifyList($platform_id); </php>
+<foreach name="classifyList" item="item" >
+    <a class="function-list" href="{:U('', array('classify_id'=>$item['id']))}">
+        <img src="{:imageDomain($item['head_img'])}" style="width: 52px; height: 52px; border-radius: 50%;" alt="">
+        <p>{$item.name}</p>
+    </a>
+</foreach>

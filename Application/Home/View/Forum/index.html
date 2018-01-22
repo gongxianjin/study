@@ -1,0 +1,92 @@
+<extend name="Common/common" />
+<block name="stylesheet">
+    <link rel="stylesheet" href="/mobile/style/public_index.css">
+</block>
+<block name="title">微论坛</block>
+<block name="header_btn"> <a href="{:U('forum/edit')}">发布话题</a> </block>
+<block name="content">
+
+    <div class="header-function">
+        <div class="function-bar">
+            <div class="bar-list active">
+                <i class="txh icon-dongtai" style="font-size: 14px"></i>动态
+            </div>
+            <div class="bar-list">
+                <i class="txh icon-remen1"></i>热门
+            </div>
+            <div class="bar-list">
+                <i class="txh icon-faxian"></i>发现
+            </div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="page-content page-content-common" id="listWarp">
+            <div class="function-banner"></div>
+            <div class="topic-list-box" id="content"></div>
+        </div>
+    </div>
+
+    <script>
+        $(function(){
+            $(".function-bar").on("click",".bar-list",function(){
+                if(!($(this).hasClass("active"))){
+                    $(this).addClass("active").siblings().removeClass("active");
+                    $($(".page-content-common")[$(this).index()]).css("display","block").siblings().css("display","none");
+                }
+            });
+            $(".tag-list-box").on("click",".tag-list",function(){
+                if(!($(this).hasClass("active"))){
+                    $(this).addClass("active").siblings().removeClass("active");
+                }
+            });
+        });
+
+        $(function(){
+            var page = 0;
+            $('#listWarp').dropload({
+                scrollArea : window,
+                loadDownFn : function(me){
+                    page++;
+                    $.ajax({
+                        type: 'GET',
+                        url: '{:U("forum/bbs_list")}?p=' + page,
+                        dataType: 'json',
+                        success: function(data)
+                        {
+                            var is_data = true;
+                            var content = data.data['content'] || [];
+                            if( content.length )
+                            {
+                                is_data = false;
+                                for(var item in content)
+                                {
+                                    $('#content').append($('<div class="topic-list"><div class="topic-list-title">' +
+                                            '<div class="list-title-left"><div class="left-header">' +
+                                            '<img src="' + content[item]['head_img'] + '" alt="">' +
+                                            '</div>' +
+                                            '<div class="left-username">' +
+                                            '<p class="username">' + content[item]['nickname'] + '</p>' +
+                                            '<p class="time">' + content[item]['time'] + '</p>' +
+                                            '</div></div>' +
+                                            '<div class="list-title-right"><a href="#">私信</a><a href="#">关注</a></div></div>' +
+                                            '<div class="topic-list-content">' + content[item]['content'] + '</div>' +
+                                            '<div class="topic-list-footer">' +
+                                            '<a href="#"><i class="txh icon-pinglun"></i>' + content[item]['comments'] + '</a>' +
+                                            '<a href="#"><i class="txh icon-zan"></i>' + content[item]['praise'] + '</a>' +
+                                            '</div></div>  <div class="placeholder"></div>'));
+                                }
+                            }
+                            me.lock();
+                            me.noData(is_data);
+                            me.resetload();
+                        },
+                        error: function(){
+                            me.resetload();
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+</block>

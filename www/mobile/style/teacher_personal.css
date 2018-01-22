@@ -1,0 +1,129 @@
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  position: relative;
+}
+body div.header {
+  top: 0;
+  height: 200px;
+  text-align: center;
+  background-image: url("../images/person/person_t_bg.jpg");
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: cover;
+  z-index: 100;
+  color: #fff;
+  transition: 300ms;
+  position: relative;
+}
+body div.header .header-btn {
+  position: absolute;
+  color: #fff;
+  right: 10px;
+  top: 10px;
+}
+body div.header .header-btn >a {
+  color: #fff;
+}
+body div.header .header-img {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+}
+body div.header .header-img .teacher-header {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: inline-block;
+}
+body div.header .header-img .teacher-header img {
+  width: 100%;
+}
+body div.header .header-img p {
+  margin-top: -10px;
+}
+body div.page {
+  background-color: #fff;
+  height: 50%;
+  overflow: hidden;
+  position: relative;
+}
+body div.page .page-tabber {
+  background-color: #fff;
+  top: 0;
+  height: 80px;
+  margin-top: 20px;
+}
+body div.page .page-tabber:before {
+  height: 0 !important;
+  width: 0 !important;
+}
+body div.page .page-tabber .weui-tabbar__item {
+  position: relative;
+}
+body div.page .page-tabber .weui-tabbar__item:after {
+  position: absolute;
+  content: '';
+  width: 1px;
+  height: 20px;
+  background-color: #e8e8e8;
+  top: 15px;
+  right: 0;
+}
+body div.page .page-tabber .weui-tabbar__item:last-child:after {
+  width: 0;
+  height: 0;
+}
+body div.page .page-tabber .weui-tabbar__item .weui-tabbar__icon {
+  height: 22px;
+  width: 36px;
+}
+body div.page .page-tabber .weui-tabbar__item .weui-tabbar__label {
+  color: #333;
+  font-size: 14px;
+  margin-top: 5px;
+}
+body div.page .page-placeholder {
+  width: 100%;
+  height: 8px;
+  margin-top: 100px;
+  background-color: #ededed;
+}
+body div.page .page-list .weui-cells {
+  margin-top: 0;
+}
+body div.page .page-list .weui-cells .weui-cell {
+  line-height: 25px;
+}
+body div.page .page-list .weui-cells .weui-cell .weui-cell__bd {
+  color: #333;
+  font-size: 14px;
+}
+body div.footer {
+  z-index: 20;
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  background-color: #fff;
+  background-image: url("../images/footer_bg2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 0;
+}
+body div.footer .footer-tabber {
+  background: transparent;
+}
+body div.footer .footer-tabber:before {
+  height: 0 !important;
+  width: 0 !important;
+}
+body div.footer .footer-tabber .weui-tabbar__icon {
+  height: 36px;
+  width: 36px;
+}
+body div.footer .footer-tabber .weui-tabbar__label {
+  color: #333;
+  font-size: 14px;
+}

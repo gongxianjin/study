@@ -1,0 +1,114 @@
+body {
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+body div.header {
+  top: 0;
+  height: 50px;
+  line-height: 50px;
+  width: 100%;
+  background-color: #2addfd;
+  position: fixed;
+  z-index: 100;
+  color: #fff;
+  transition: 300ms;
+}
+body div.header >span.header-back {
+  position: absolute;
+  left: 6px;
+  top: 5px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  overflow: hidden;
+  height: 40px;
+}
+body div.header >span.header-back >i {
+  font-size: 28px;
+}
+body div.header .header-text {
+  position: absolute;
+  left: 50px;
+  height: 100%;
+  font-size: 20px;
+  display: inline-block;
+  right: 50px !important;
+  text-align: center !important;
+}
+body div.header .header-btn {
+  position: absolute;
+  text-align: center;
+  height: 100%;
+  display: inline-block;
+  width: 80px;
+  right: 0;
+}
+body div.header .header-btn >a {
+  text-align: center;
+  height: 100%;
+  color: #fff;
+  font-weight: normal;
+  font-size: 12px;
+  background-color: #c5d95b;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+body div.page {
+  top: 50px;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  position: absolute;
+  overflow-y: auto;
+  background-color: #ebebeb;
+}
+body div.page .class-list-box .activity-list {
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 6px;
+  border: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  padding: 15px;
+}
+body div.page .class-list-box .activity-list .img-box {
+  position: relative;
+}
+body div.page .class-list-box .activity-list .img-box img {
+  width: 100%;
+}
+body div.page .class-list-box .activity-list .img-box p {
+  font-size: 18px;
+  color: #fff;
+  background-color: rgba(0,0,0,0.5);
+  line-height: 45px;
+  position: absolute;
+  bottom: 7px;
+  display: block;
+  padding: 0 20px;
+  right: 0;
+  left: 0;
+}
+body div.page .class-list-box .function-list {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+body div.page .class-list-box .function-list .list-box {
+  display: flex;
+  width: 120px;
+  justify-content: space-between;
+}
+body div.page .class-list-box .function-list .fuction {
+  background-image: url("../images/right_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 54px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+}

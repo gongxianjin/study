@@ -1,0 +1,111 @@
+<blockquote class="layui-elem-quote">
+    <form class="layui-form" action="">
+        <div class="layui-form-item" style="margin: 0;">
+            <div class="layui-input-inline">
+                <input type="text" name="name" value="{:I('get.name', '')}" placeholder="分类名称" class="layui-input">
+            </div>
+            <div class="layui-input-inline">
+                <button class="layui-btn" lay-submit="">查询</button>
+                <button type="button" class="layui-btn layui-btn-normal"
+                        onclick="ck.setGoodsType(0, '', 0);">添加分类</button>
+            </div>
+        </div>
+    </form>
+</blockquote>
+
+<table class="layui-table">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>分类名称</th>
+        <th>分类类型</th>
+        <th>创建时间</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody>
+    <foreach name="showData" item="item">
+        <tr>
+            <td>{$item.id}</td>
+            <td>{$item.name}</td>
+            <td>{$item['whether'] ? '实物类' : '虚拟类'}</td>
+            <td>{:date('Y-m-d H:i:s', $item['time'])}</td>
+            <td>
+                <a class="layui-btn layui-btn-xs" lay-event="edit" onclick="ck.setGoodsType({$item.id}, '{$item.name}', {$item.whether});">编辑</a>
+                <!--<a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>-->
+            </td>
+        </tr>
+    </foreach>
+    </tbody>
+</table>
+<div class="layui-laypage"  style="position: absolute; right: 15px;">
+    {$page}
+</div>
+
+<script>
+    layui.use(['layer', 'form'], function(){
+        var form = layui.form, $ = layui.jquery, layer = window.parent.layer || layui.layer;
+
+        (function(_){
+            _.setGoodsType = function(type_id, name, w_id)
+            {
+                var wid_1 = w_id ? '' : 'checked=""', wid_2 = w_id ? 'checked=""' : '';
+                console.log(wid_1);
+                console.log(wid_2);
+                var div = $('<div></div>');
+                div.append($('<input type="hidden" name="type_id" value="'+type_id+'" /><div class="layui-form-item">' +
+                        '<label class="layui-form-label">分类类型</label>' +
+                        '<div class="layui-input-block">' +
+                        '<input type="radio" name="type" value="0" title="虚拟类" '+wid_1+'>' +
+                        '<input type="radio" name="type" value="1" title="实物类" '+wid_2+'>' +
+                        '</div>')
+                );
+                div.append($('<div class="layui-form-item"></div>').html(
+                        $('<div class="layui-inline"><label class="layui-form-label">分类名称</label></div>').append(
+                                $('<div class="layui-input-inline"></div>').html(
+                                        $('<input type="text" name="type_name" value="'+name+'" class="layui-input" />')
+                                ))
+                ));
+                div.append($('<div class="layui-form-item"></div>').html(
+                        $('<div class="layui-inline"><label class="layui-form-label"></label></div>').append(
+                                $('<div class="layui-input-inline"></div>').html(
+                                        $('<button class="layui-btn"   lay-submit lay-filter="formSubmit" style="width: 100%;">保存</button>')
+                                ))
+                ));
+                layer.open({
+                    type: 1,
+                    title: '编辑分类',
+                    content: "<form class='layui-form'>" + $(div).html() + "</form>"
+                });
+                form.render();
+            };
+
+            _.save = function(type_id)
+            {
+                var type_name = $('input[name="type_name"]').val();
+                var w_id = $('input[name="type"]').val();
+                if( ! type_name){
+                    return;
+                }
+                $.post("{:U('goods/setGoodsType')}", {
+                    type_id: type_id,
+                    name: type_name,
+                    w_id: w_id
+                }, function(returnData){
+                    ajaxReturn(returnData, true);
+                });
+            }
+        })(ck={});
+        form.on('submit(formSubmit)', function(data){
+            var type_name = $('input[name="type_name"]').val();
+            if( ! type_name){
+                return;
+            }
+            $.post("{:U('score/setGoodsType')}", data.field, function(returnData){
+                layer.closeAll();
+                ajaxReturn(returnData, true);
+            });
+            return false;
+        });
+    });
+</script>

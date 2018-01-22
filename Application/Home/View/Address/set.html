@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <link rel="stylesheet" href="/mobile/css/weui.css">
+    <link rel="stylesheet" href="/mobile/css/weui_reset.css">
+    <link rel="stylesheet" href="/mobile/fonts/iconfont.css">
+    <link rel="stylesheet" href="/mobile/style/add_address.css">
+    <title>新增收货地址</title>
+</head>
+<body>
+<div class="header">
+    <div class="header-functionBar">
+        <span class="header-back" onclick="window.history.back();">
+            <i class="txh icon-xiangzuo"></i>
+        </span>
+        <span class="header-text">编辑收件地址</span>
+        <span class="header-btn">
+            <a href="javascript:;" onclick="ck.save();">保存</a>
+        </span>
+    </div>
+</div>
+<div class="page" style="margin-bottom: 0;">
+    <div class="content-box">
+        <div class="weui-cells">
+            <input type="hidden" name="address_id" value="{$id}" />
+            <div class="weui-cell">
+                <div class="weui-cell__hd">
+                    <label  class="weui-label">收货人</label>
+                </div>
+                <div class="weui-cell__bd">
+                    <input class="weui-input" type="text"  value="{$nickname}" name="nickname" placeholder="收货人姓名">
+                </div>
+            </div>
+            <div class="weui-cell">
+                <div class="weui-cell__hd">
+                    <label  class="weui-label">手机号码</label>
+                </div>
+                <div class="weui-cell__bd">
+                    <input class="weui-input" type="text" name="phone"  value="{$phone}" placeholder="请输入手机号码">
+                </div>
+            </div>
+            <div class="weui-cell weui-cell_select weui-cell_select-after">
+                <div class="weui-cell__hd">
+                    <label  class="weui-label">所在地区</label>
+                </div>
+                <div class="weui-cell__bd">
+                    <input class="weui-input"   value="{$city}"
+                           style="height: 45px;" type="text" id="city-picker" readonly="readonly" name="city"  />
+                </div>
+            </div>
+            <div class="weui-cell">
+                <div class="weui-cell__hd">
+                    <label  class="weui-label">详细地址</label>
+                </div>
+                <div class="weui-cell__bd">
+                    <input class="weui-input" type="text" name="address" value="{$address}" placeholder="街道、楼牌号等">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+<include file="Common/js" />
+<script>
+    $('#city-picker').on('click',function(){
+        weui.picker(province(), {
+            onConfirm: function (result) {
+                $('#city-picker').val(result.join(" "));
+            }});
+    });
+    (function(_)
+    {
+        _.save = function()
+        {
+            $.post("{:U('address/setAddress')}", {
+                address_id : $('input[name="address_id"]').val(),
+                nickname : $('input[name="nickname"]').val(),
+                phone : $('input[name="phone"]').val(),
+                city : $('input[name="city"]').val(),
+                address : $('input[name="address"]').val()
+            }, function(returnData){
+                ajaxReturnMsg(returnData);
+            });
+        };
+    })(ck={});
+</script>
+</html>

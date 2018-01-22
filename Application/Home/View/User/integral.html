@@ -1,0 +1,64 @@
+<extend name="Common/common" />
+<block name="stylesheet"><link rel="stylesheet" href="/mobile/style/my_integral.css"></block>
+<block name="title">我的积分</block>
+<block name="content">
+
+   <div class="page">
+       <div class="page-content">
+           <div class="page-content-img">
+               <img src="/mobile/images/integral/coin2.png" alt="">
+               <span class="coin-total">{$score}</span>
+           </div>
+           <p class="down-aside">
+               <a href="{:U('shop/index')}">去兑换商城礼品></a>
+           </p>
+       </div>
+       <div class="content-tab-box">
+           <div class="content-tab-header">
+               <div class="tab-header-left cur"><a>收入</a></div>
+               <div class="tab-header-right"><a>支出</a></div>
+           </div>
+           <div class="tab-content-lists">
+               <foreach name="detail" item="item">
+                   <if condition="$item.type == 0">
+                       <div class="content-list">
+                           <div class="list-top">
+                               <div class="list-top-left">
+                                   {$item.content} <span>{$item.score}</span>
+                               </div>
+                               <div class="list-top-right">+{$item.score}</div>
+                           </div>
+                           <div class="list-down">{:date('Y-m-d H:i:s', $item['time'])}</div>
+                       </div>
+                   </if>
+               </foreach>
+           </div>
+
+           <div class="tab-content-lists" style="display: none">
+               <foreach name="detail" item="item">
+                   <if condition="$item.type == 1">
+                       <div class="content-list">
+                           <div class="list-top">
+                               <div class="list-top-left">
+                                   {$item.content} <span>{$item.score}</span>
+                               </div>
+                               <div class="list-top-right">-{$item.score}</div>
+                           </div>
+                           <div class="list-down">{:date('Y-m-d H:i:s', $item['time'])}</div>
+                       </div>
+                   </if>
+               </foreach>
+           </div>
+       </div>
+   </div>
+
+    <script>
+        $(".content-tab-header").on("click","div",function(){
+            if(!$(this).hasClass("cur")){
+                $(this).addClass("cur").siblings().removeClass("cur");
+            }
+            $($(".tab-content-lists")[$(this).index()]).css("display","block").siblings().css("display","none");
+            $(".content-tab-header").css("display","flex");
+        })
+    </script>
+</block>

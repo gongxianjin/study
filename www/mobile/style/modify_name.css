@@ -1,0 +1,101 @@
+body,
+html {
+  background-color: #f2f2f2;
+}
+body div.header,
+html div.header {
+  top: 0;
+  height: 50px;
+  line-height: 50px;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid #e8e8e8;
+  position: fixed;
+  z-index: 100;
+  color: #151515;
+  transition: 300ms;
+}
+body div.header >span.header-back,
+html div.header >span.header-back {
+  position: absolute;
+  left: 6px;
+  top: 5px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  overflow: hidden;
+  height: 40px;
+}
+body div.header >span.header-back >i,
+html div.header >span.header-back >i {
+  font-size: 22px;
+}
+body div.header .header-text,
+html div.header .header-text {
+  position: absolute;
+  left: 50px;
+  height: 100%;
+  font-size: 20px;
+  display: inline-block;
+  right: 50px !important;
+  text-align: center !important;
+}
+body div.header .header-btn,
+html div.header .header-btn {
+  position: absolute;
+  text-align: center;
+  height: 100%;
+  display: inline-block;
+  width: 60px;
+  right: 0;
+}
+body div.header .header-btn >a,
+html div.header .header-btn >a {
+  font-size: 16px;
+  text-align: center;
+  height: 100%;
+  color: #888;
+}
+body div.page,
+html div.page {
+  padding-top: 50px;
+  transition: 300ms;
+  position: relative;
+  z-index: 10;
+  font-size: 14px;
+}
+body div.page .modify-name,
+html div.page .modify-name {
+  padding: 10px 15px;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+}
+body div.page .modify-name >input,
+html div.page .modify-name >input {
+  width: 95%;
+  height: 35px;
+  color: #333;
+  box-sizing: border-box;
+  background-color: transparent;
+  border-color: transparent;
+  -webkit-appearance: none;
+  outline: none;
+  border: none;
+  padding-right: 10px;
+}
+body div.page .modify-name >i,
+html div.page .modify-name >i {
+  color: #cbcdcc;
+  font-size: 20px;
+  cursor: pointer;
+}
+body .aside-instruct,
+html .aside-instruct {
+  margin-top: 10px;
+  padding: 0 15px;
+  color: #aaa;
+  font-size: 14px;
+}

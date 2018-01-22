@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>发布</title>
+    <link rel="stylesheet" href="./lib/css/weui.css">
+    <link rel="stylesheet" href="./lib/css/weui_reset.css">
+    <link rel="stylesheet" href="./fonts/iconfont.css">
+    <link rel="stylesheet" href="./style/public.css">
+</head>
+<body>
+<div class="header">
+    <!--左侧图标-->
+    <span class="header-back" onclick="window.history.go(-1)">
+            <i class="txh icon-xiangzuo"></i>
+        </span>
+    <!--中间文字-->
+    <span class="header-text"></span>
+    <!--右侧按钮-->
+    <span class="header-btn">
+        <a style="font-weight: normal;">
+           <i class="txh icon-share"></i>
+        </a>
+    </span>
+
+</div>
+
+<div class="page">
+    <div class="instruct_text">
+        免责声明：本平台发布的所有信息（收费、免费）展示，内容本身与平台无关，平台不负任何责任。
+    </div>
+    <div class="textarea-box">
+        <textarea class="weui-textarea" placeholder="请输入文本" rows="5"></textarea>
+    </div>
+    <div class="uploader js_show">
+        <div class="page__bd">
+            <div class="weui-cells weui-cells_form">
+                <div class="weui-cell">
+                    <div class="weui-cell__bd">
+                        <div class="weui-uploader">
+                            <div class="weui-uploader__hd">
+                                <p class="weui-uploader__title">上传图片</p>
+                                <div class="weui-uploader__info">最多上传9张照片</div>
+                            </div>
+                            <div class="weui-uploader__bd">
+                                <ul class="weui-uploader__files" id="uploaderFiles">
+                                    <li class="weui-uploader__file" style="background-image:url(./images/activity/public1.png)">
+                                        <div class="img-mask"></div>
+                                        <div class="img-delete">
+                                            <i class="txh icon-shanchu"></i>
+                                        </div>
+                                    </li>
+                                    <li class="weui-uploader__file" style="background-image:url(./images/activity/public2.png)">
+                                        <div class="img-mask"></div>
+                                        <div class="img-delete">
+                                            <i class="txh icon-shanchu"></i>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="weui-uploader__input-box">
+                                    <input id="uploaderInput" class="weui-uploader__input" type="file" accept="image/*" multiple="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="lib/js/zepto.min.js"></script>
+<script src="lib/js/weui.min.js"></script>
+<script src="lib/js/jweui.min.js"></script>
+<script src="lib/js/jquery.min.js"></script>
+<script type="text/javascript" class="uploader js_show">
+    $(function(){
+        var tmpl = '<li class="weui-uploader__file" style="background-image:url(#url#)"></li>',
+            $uploaderInput = $("#uploaderInput"),
+            $uploaderFiles = $("#uploaderFiles")
+        ;
+
+        $uploaderInput.on("change", function(e){
+            var src, url = window.URL || window.webkitURL || window.mozURL, files = e.target.files;
+            for (var i = 0, len = files.length; i < len; ++i) {
+                var file = files[i];
+
+                if (url) {
+                    src = url.createObjectURL(file);
+                } else {
+                    src = e.target.result;
+                }
+
+                $uploaderFiles.append($(tmpl.replace('#url#', src)));
+            }
+        });
+
+    });</script>
+
+</html>

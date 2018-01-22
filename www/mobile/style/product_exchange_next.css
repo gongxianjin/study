@@ -1,0 +1,269 @@
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  background-color: #e8e8e8;
+}
+body div.header {
+  top: 0;
+  z-index: 100;
+  color: #fff;
+  transition: 300ms;
+  position: relative;
+  width: 100%;
+}
+body div.header .header-functionBar {
+  height: 50px;
+  line-height: 50px;
+  background-color: #2addfd;
+}
+body div.header .header-functionBar >span.header-back {
+  position: absolute;
+  left: 6px;
+  top: 5px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  overflow: hidden;
+  height: 40px;
+}
+body div.header .header-functionBar >span.header-back >i {
+  font-size: 28px;
+}
+body div.header .header-functionBar .header-text {
+  position: absolute;
+  left: 50px;
+  font-size: 20px;
+  display: inline-block;
+  right: 50px !important;
+  text-align: center !important;
+}
+body div.header .header-functionBar .header-btn {
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+  width: 60px;
+  right: 0;
+}
+body div.header .header-functionBar .header-btn >a {
+  text-align: center;
+  height: 100%;
+  color: #fff;
+}
+body div.header .header-functionBar .header-btn >a >i {
+  font-size: 20px;
+}
+body div.header .header-tabbar {
+  background-color: #fff;
+  height: 55px;
+  padding: 10px;
+}
+body div.header .header-tabbar .person-infor {
+  font-size: 16px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+body div.header .header-tabbar .person-infor .infor-left {
+  flex: 1;
+}
+body div.header .header-tabbar .person-infor .infor-left .person-infor-top {
+  color: #333;
+  font-size: 16px;
+}
+body div.header .header-tabbar .person-infor .infor-left .person-infor-top .username {
+  margin-right: 20px;
+}
+body div.header .header-tabbar .person-infor .infor-left .person-infor-down {
+  font-size: 14px;
+  color: #666;
+  padding-left: 5px;
+  margin-top: 3px;
+}
+body div.header .header-tabbar .person-infor .infor-right {
+  width: 20px;
+  color: #999;
+}
+body div.page {
+  margin-bottom: 45px;
+  transition: 300ms;
+  margin-top: 135px;
+  z-index: 10;
+  font-size: 14px;
+  background-color: transparent;
+}
+body div.page .content-box {
+  position: absolute;
+  top: 0;
+  padding-right: 10px;
+  bottom: 10px;
+  background-color: #fff;
+  z-index: 998;
+  width: 100%;
+  overflow: hidden;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+body div.page .content-box .product-list {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 10px;
+  padding-left: 0;
+  margin-left: 10px;
+}
+body div.page .content-box .product-list .product-list-left {
+  width: 100px;
+  height: 110px;
+  margin-right: 10px;
+}
+body div.page .content-box .product-list .product-list-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+body div.page .content-box .product-list .product-list-right {
+  flex: 1;
+}
+body div.page .content-box .product-list .product-list-right .list-product-title {
+  line-height: 40px;
+  color: #333;
+  font-size: 18px;
+}
+body div.page .content-box .product-list .product-list-right .list-product-price {
+  font-weight: 200;
+  color: #999;
+  font-size: 14px;
+}
+body div.page .content-box .product-list .product-list-right .list-product-num {
+  font-size: 16px;
+  font-weight: 200;
+  color: #999;
+  line-height: 35px;
+}
+body div.page .content-box .common-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10px;
+  border-bottom: 1px solid #e8e8e8;
+  margin-left: 10px;
+  padding-left: 0;
+}
+body div.page .content-box .common-list:last-child {
+  border: none;
+}
+body div.page .content-box .common-list .common-list-left {
+  width: 150px;
+  font-size: 14px;
+  color: #666;
+  font-weight: 300;
+}
+body div.page .content-box .common-list .common-list-right {
+  flex: 1;
+  text-align: right;
+}
+body div.page .content-box .common-list .common-list-right button {
+  padding: 6px 8px;
+  background-color: #fff;
+  border: 1px solid #e8e8e8;
+  outline: none;
+}
+body div.page .content-box .common-list .common-list-right button.btn-center {
+  margin: 0 10px;
+}
+body div.page .content-box .common-list .common-list-right button.current {
+  border: none;
+  background-color: #f9655a;
+  color: #fff;
+}
+body div.page .content-box .common-list .common-list-right .cart-amount {
+  position: relative;
+  width: 130px;
+  height: 32px;
+  border: 1px solid #d4dadd;
+  border-radius: 4px;
+  vertical-align: middle;
+  display: inline-block;
+}
+body div.page .content-box .common-list .common-list-right .cart-amount .reduce-num {
+  position: absolute;
+  display: inline-block;
+  width: 30px;
+  height: 32px;
+  overflow: hidden;
+  z-index: 11;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 32px;
+  text-align: center;
+  color: #708595;
+  background-color: #f7f7f7;
+  left: 0;
+  border-right: 1px solid #ddd;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+body div.page .content-box .common-list .common-list-right .cart-amount .num-amounts {
+  position: absolute;
+  left: 30px;
+  width: 70px;
+  height: 32px;
+  font-size: 14px;
+  line-height: 32px;
+  text-align: center;
+  color: #666;
+  border: none;
+  outline: none;
+}
+body div.page .content-box .common-list .common-list-right .cart-amount .add-num {
+  position: absolute;
+  display: inline-block;
+  width: 30px;
+  height: 32px;
+  overflow: hidden;
+  z-index: 11;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 32px;
+  text-align: center;
+  color: #708595;
+  background-color: #f7f7f7;
+  right: 0;
+  border-left: 1px solid #ddd;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+body div.page .content-box .common-list .pay-price {
+  color: #666;
+  font-size: 14px;
+  font-weight: 100;
+}
+body div.page .content-box .common-list .pay-price span {
+  color: #f9655a;
+  font-size: 24px;
+  font-weight: 200;
+}
+body div.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+}
+body div.footer a {
+  display: inline-block;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  background-color: #f9655a;
+}
+body .weui-dialog .weui-dialog__bd {
+  color: #666;
+}
+body .weui-dialog .weui-dialog__btn_primary {
+  color: #219dfd;
+}

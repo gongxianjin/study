@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <link rel="stylesheet" href="/mobile/css/weui.css">
+    <link rel="stylesheet" href="/mobile/css/weui_reset.css">
+    <link rel="stylesheet" href="/mobile/fonts/iconfont.css">
+    <link rel="stylesheet" href="/mobile/style/product_detail.css">
+    <title>商品详情</title>
+</head>
+<body>
+<div class="header">
+    <div class="header-functionBar">
+        <span class="header-back" onclick="window.location.href = '{:U('shop/index')}';">
+            <i class="txh icon-xiangzuo"></i>
+        </span>
+        <span class="header-text">商品详情</span>
+    </div>
+    <style type="text/css">
+        .header-topImg{position: relative;}
+        .header-topImg img{position: absolute;}
+    </style>
+    <div class="header-topImg">
+        <volist name=":json_decode($img, true)" id="img">
+            <img src="{:imageDomain($img)}"  alt="">
+        </volist>
+    </div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <volist name=":json_decode($img, true)" id="img">
+                <div class="swiper-slide"><img src="{:imageDomain($img)}" alt=""></div>
+            </volist>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <div class="header-tabbar">
+        <div class="product-title">{$name}</div>
+        <div class="product-price">
+            <span>{$score}</span>积分 +
+            <span>{:sprintf("%.2f", $price)}</span>元
+        </div>
+        <div class="product-introduce">
+            <div class="introduce-left">
+                原价: <s>￥{:sprintf("%.2f", $old_price)}</s>
+            </div>
+            <div class="introduce-right">
+                <span><label>库存:</label>{$count}</span>
+                <span><label>已售:</label>{$sold}</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="page">
+    <div class="product-detail">
+        <div class="product-detail-title">商品详情</div>
+        <div class="product-detail-content">
+            {$content}
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <a href="{:U('shop/next', array('goods_id'=>$id))}">立即兑换</a>
+</div>
+</body>
+</html>

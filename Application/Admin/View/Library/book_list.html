@@ -1,0 +1,60 @@
+<blockquote class="layui-elem-quote">
+    <form class="layui-form" action="">
+        <div class="layui-form-item" style="margin: 0;">
+            <div class="layui-input-inline">
+                <input type="text" name="name" value="{:I('get.name', '')}" placeholder="图书名称" class="layui-input">
+            </div>
+            <div class="layui-input-inline">
+                <button class="layui-btn" lay-submit="">查询</button>
+                <a onclick="ck.setBook(false, '');" class="layui-btn layui-btn-normal">添加图书</a>
+            </div>
+        </div>
+    </form>
+</blockquote>
+
+<table class="layui-table">
+    <thead>
+    <tr>
+        <th>名称名称</th>
+        <th>分类</th>
+        <th>分级</th>
+        <th>创建时间</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody>
+    <foreach name="showData" item="item">
+        <tr>
+            <td>{$item.name}</td>
+            <td>{$item.classify_name}</td>
+            <td>{$item.level_name}</td>
+            <td>{:date('Y-m-d H:i:s', $item['time'])}</td>
+            <td>
+                <a class="layui-btn layui-btn-xs" lay-event="edit" onclick="ck.setBook({$item.id},'{$item.name}');">编辑</a>
+            </td>
+        </tr>
+    </foreach>
+    </tbody>
+</table>
+
+<div class="layui-laypage"  style="position: absolute; right: 15px;">
+    {$page}
+</div>
+
+<script>
+    layui.use(['layer', 'form'], function(){
+        var layer = layui.layer;
+        (function(_){
+            _.setBook = function(book_id)
+            {
+                layer.open({
+                    type: 2,
+                    title: '编辑图书',
+                    area: ['80%', '90%'],
+                    scrollbar: false,
+                    content: '{:U("edit")}?book_id=' + book_id
+                });
+            }
+        })(ck={});
+    });
+</script>

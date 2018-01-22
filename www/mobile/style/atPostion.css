@@ -1,0 +1,59 @@
+body {
+  background-color: #f2f2f2;
+}
+body div.header {
+  top: 0;
+  height: 50px;
+  line-height: 50px;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid #e8e8e8;
+  position: fixed;
+  z-index: 100;
+  color: #151515;
+  transition: 300ms;
+}
+body div.header >span.header-back {
+  position: absolute;
+  left: 6px;
+  top: 5px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  overflow: hidden;
+  height: 40px;
+}
+body div.header >span.header-back >i {
+  font-size: 22px;
+}
+body div.header .header-text {
+  position: absolute;
+  left: 50px;
+  height: 100%;
+  font-size: 20px;
+  display: inline-block;
+  right: 50px !important;
+  text-align: center !important;
+}
+body div.page {
+  padding-top: 50px;
+  transition: 300ms;
+  position: relative;
+  z-index: 10;
+  font-size: 14px;
+  background-color: #f2f2f2;
+}
+body div.page .weui-cells:before,
+body div.page .weui-cells:after {
+  height: 0 !important;
+  width: 0 !important;
+}
+body div.page .weui-cells .weui-cell .weui-cell__bd {
+  color: #333;
+}
+body div.page .weui-cells .weui-cell .current-city {
+  color: #70beff;
+}
+body div.page .weui-cells .weui-cell .weui-cell__ft {
+  font-size: 14px;
+}

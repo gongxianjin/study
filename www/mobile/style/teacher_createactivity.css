@@ -1,0 +1,209 @@
+body {
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+body div.header {
+  top: 0;
+  height: 50px;
+  line-height: 50px;
+  width: 100%;
+  background-color: #2addfd;
+  position: fixed;
+  z-index: 100;
+  color: #fff;
+  transition: 300ms;
+}
+body div.header >span.header-back {
+  position: absolute;
+  left: 6px;
+  top: 5px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  overflow: hidden;
+  height: 40px;
+}
+body div.header >span.header-back >i {
+  font-size: 28px;
+}
+body div.header .header-text {
+  position: absolute;
+  left: 50px;
+  height: 100%;
+  font-size: 20px;
+  display: inline-block;
+  right: 50px !important;
+  text-align: center !important;
+}
+body div.header .header-btn {
+  position: absolute;
+  text-align: center;
+  height: 100%;
+  display: inline-block;
+  width: 60px;
+  right: 0;
+}
+body div.header .header-btn >a {
+  text-align: center;
+  height: 100%;
+  color: #fff;
+  font-weight: normal;
+  font-size: 13px;
+}
+body div.page {
+  top: 50px;
+  bottom: 45px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  overflow-y: auto;
+}
+body div.page .class-name {
+  box-sizing: border-box;
+  margin: 10px;
+  padding-bottom: 15px;
+}
+body div.page .class-name label {
+  font-weight: 500;
+  display: block;
+  text-align: left;
+  font-size: 16px;
+  color: #333;
+  line-height: 40px;
+}
+body div.page .class-name input {
+  width: 95%;
+  height: 40px;
+  font-size: 14px;
+}
+body div.page .activity-setting {
+  padding: 10px;
+}
+body div.page .activity-setting label {
+  font-weight: 500;
+  display: block;
+  text-align: left;
+  font-size: 16px;
+  color: #333;
+  line-height: 40px;
+}
+body div.page .activity-setting .date-box {
+  padding-right: 17px;
+}
+body div.page .activity-setting .input-box {
+  display: flex;
+  align-items: center;
+}
+body div.page .activity-setting .input-box label {
+  font-size: 14px;
+  color: #666;
+  width: 90px;
+}
+body div.page .activity-setting .input-box .weui-input {
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid #e8e8e8;
+}
+body div.page .activity-setting .input-box input {
+  height: 30px;
+  border-radius: 4px;
+  margin-right: 10px;
+  flex: 1;
+}
+body div.page .lesson-img-box {
+  margin: 20px 10px;
+  text-align: center;
+}
+body div.page .lesson-img-box img {
+  width: 100%;
+}
+body div.page .lesson-img-box a {
+  padding: 5px 15px;
+  border-radius: 4px;
+  color: #999;
+  border: 1px solid #79a594;
+  font-weight: 300;
+  margin-top: 15px;
+  display: inline-block;
+}
+body div.page .add-lesson {
+  margin: 10px;
+}
+body div.page .add-lesson .add-lesson-title {
+  line-height: 45px;
+  font-weight: 500;
+  display: block;
+  text-align: left;
+  font-size: 16px;
+  color: #333;
+}
+body div.page .add-lesson .add-lesson-content {
+  border-top: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+}
+body div.page .add-lesson .add-lesson-content .lesson-list {
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #e8e8e8;
+}
+body div.page .add-lesson .add-lesson-content .lesson-list:first-child {
+  border: none;
+}
+body div.page .add-lesson .add-lesson-content .lesson-list .list-one {
+  color: #666;
+}
+body div.page .add-lesson .add-lesson-content .lesson-list .list-two {
+  color: #65d3f0;
+}
+body div.page .add-lesson .add-lesson-content .lesson-list .list-three {
+  color: #666;
+}
+body div.page .add-lesson .add-lesson-content .lesson-list .list-three span {
+  font-size: 18px;
+  color: #333;
+}
+body div.page .add-lesson .add-lesson-content .lesson-list .list-four {
+  color: #65d3f0;
+}
+body div.page .add-lesson .add-lesson-footer {
+  text-align: center;
+  margin: 15px;
+}
+body div.page .add-lesson .add-lesson-footer a {
+  display: inline;
+  padding: 7px 20px;
+  border-radius: 4px;
+  background-color: #f2f2f4;
+  color: #333;
+}
+body div.page .add-lesson .add-lesson-footer a i {
+  color: #65d3f0;
+  font-size: 18px;
+  margin-right: 2px;
+}
+body div.page div.footer-box a {
+  display: inline-block;
+  width: 90%;
+  margin-left: 5%;
+  line-height: 45px;
+  height: 45px;
+  text-align: center;
+  background-color: #65d3f0;
+  color: #fff;
+  margin-top: 20px;
+  border-radius: 30px;
+}
+body div.page div.footer-box a i {
+  font-size: 18px;
+  margin-right: 3px;
+}
+body div.page div.footer-box a.homework {
+  background-color: transparent;
+  color: #65d3f0;
+  border: 1px solid #65d3f0;
+}

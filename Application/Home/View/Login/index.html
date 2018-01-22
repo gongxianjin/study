@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <link rel="stylesheet" href="/mobile/css/weui.css">
+    <link rel="stylesheet" href="/mobile/css/weui_reset.css">
+    <link rel="stylesheet" href="/mobile/fonts/iconfont.css">
+    <link rel="stylesheet" href="/mobile/style/login.css">
+    <title>登录</title>
+</head>
+<body>
+<div class="header">
+    <!--左侧图标-->
+    <span class="header-back" onclick="window.history.go(-1)">
+            <i class="txh icon-xiangzuo"></i>
+        </span>
+    <!--中间文字-->
+    <span class="header-text">登录童学惠</span>
+    <!--右侧按钮-->
+    <span class="header-btn">
+            <a href="{:U('login/register')}">注册</a>
+        </span>
+</div>
+<div class="page">
+    <form action="#">
+        <div class="login-box">
+            <div class="login-list">
+                <i class="txh icon-shouji"></i>
+                <input type="text" name="phone" placeholder="手机号/子账号">
+            </div>
+            <div class="login-list">
+                <i class="txh icon-suo" style="margin-left: 3px;font-size: 20px;margin-top: 4px"></i>
+                <input type="password" name="password" placeholder="密码">
+            </div>
+            <div class="login-submit">
+                <a href="#" onclick="ck.login();">登录</a>
+            </div>
+            <div class="login-instruct">
+                <a href="{:U('login/find_password')}">忘记密码？</a>
+            </div>
+            <div class="login-other">
+                <div class="left-line"></div>
+                <div class="center-text">第三方登录</div>
+                <div class="right-line"></div>
+            </div>
+            <div class="login-weixin">
+                <a href="{:U('weixin/authorize')}">
+                    <i class="txh icon-weixin"></i>
+                    <p>微信登录</p>
+                </a>
+            </div>
+        </div>
+    </form>
+
+</div>
+</body>
+<include file="Common/js" />
+
+<script>
+    (function(_){
+        _.login = function()
+        {
+            var phone = $('input[name="phone"]').val();
+            if( ! checkPhone(phone) ){
+                return;
+            }
+
+            var password = $('input[name="password"]').val();
+            if( ! checkPassword(password) ){
+                return;
+            }
+
+            $.post("{:U('login/login')}", {phone: phone, password: password}, function(param){
+                ajaxReturnMsg($.parseJSON(param));
+            }, "JSON");
+        }
+    })(ck={});
+</script>
+</html>

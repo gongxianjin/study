@@ -1,0 +1,120 @@
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+body:before {
+  content: ' ';
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url("../images/book/book_bg.png") center 0 no-repeat;
+  background-size: cover;
+}
+body div.header {
+  top: 0;
+  height: 50px;
+  line-height: 50px;
+  width: 100%;
+  background-color: transparent;
+  position: relative;
+  z-index: 100;
+  color: #fff;
+  transition: 300ms;
+}
+body div.header >a.header-back {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 40px;
+  background-color: rgba(0,0,0,0.5);
+  line-height: 40px;
+  text-align: center;
+  overflow: hidden;
+  height: 40px;
+  border-radius: 50%;
+}
+body div.header >a.header-back >i {
+  font-size: 28px;
+}
+body div.header .header-text {
+  position: absolute;
+  left: 50px;
+  height: 100%;
+  font-size: 20px;
+  display: inline-block;
+  right: 50px !important;
+  text-align: center !important;
+}
+body div.header .header-btn {
+  position: absolute;
+  text-align: center;
+  height: 100%;
+  display: inline-block;
+  width: 60px;
+  right: 0;
+}
+body div.header .header-btn >a {
+  text-align: center;
+  height: 100%;
+  color: #333;
+  font-size: 14px;
+}
+body div.page {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  transition: 300ms;
+  z-index: 10;
+  font-size: 14px;
+}
+body div.page img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+body div.footer {
+  z-index: 20;
+  position: fixed;
+  height: 40px;
+  width: 100%;
+  background-color: #fff;
+  bottom: 0;
+}
+body div.footer .pagetion {
+  position: absolute;
+  z-index: 1000;
+  top: -28px;
+  left: 10px;
+  background-color: #7c7c7c;
+  border-radius: 20px;
+  padding: 1px 6px;
+  color: #fff;
+  font-size: 10px;
+  cursor: pointer;
+}
+body div.footer .line {
+  position: fixed;
+  bottom: 28px;
+}
+body div.footer .line >img {
+  width: 100%;
+}
+body div.footer .weui-tabbar {
+  background: transparent;
+}
+body div.footer .weui-tabbar:before {
+  height: 0 !important;
+  width: 0 !important;
+}
+body div.footer .weui-tabbar .weui-tabbar__icon {
+  height: 20px;
+  width: 24px;
+}
+body div.footer .weui-tabbar .weui-tabbar__label {
+  color: #343434;
+  font-size: 14px;
+  line-height: 1.4;
+}

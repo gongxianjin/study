@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <link rel="stylesheet" href="/mobile/css/weui.css">
+    <title></title>
+    <script src="/mobile/js/zepto.min.js"></script>
+    <script src="/mobile/js/weui.min.js"></script>
+    <script src="/mobile/js/jweui.min.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+    <?php if( isset($param['redirect_url']) ){ ?>
+    window.location.href = '<?php  echo $param['redirect_url']; ?>';
+    <?php } else { ?>
+    weui.alert('<?php echo $param['message']; ?>', function()
+    {
+        <?php if( isset($_SERVER['HTTP_REFERER']) ) { ?>
+        window.location.href = '<?php  echo $_SERVER['HTTP_REFERER']; ?>';
+        <?php } else {  ?>
+        window.history.back();
+        <?php } ?>
+    });
+    <?php } ?>
+</script>
+</body>
+</html>

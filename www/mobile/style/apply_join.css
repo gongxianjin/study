@@ -1,0 +1,164 @@
+body {
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+body div.header {
+  top: 0;
+  height: 50px;
+  line-height: 50px;
+  width: 100%;
+  background-color: #2addfd;
+  border-bottom: 1px solid #e8e8e8;
+  position: fixed;
+  z-index: 100;
+  color: #fff;
+  transition: 300ms;
+}
+body div.header >span.header-back {
+  position: absolute;
+  left: 6px;
+  top: 5px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  overflow: hidden;
+  height: 40px;
+}
+body div.header >span.header-back >i {
+  font-size: 28px;
+}
+body div.header .header-text {
+  position: absolute;
+  left: 50px;
+  height: 100%;
+  font-size: 20px;
+  display: inline-block;
+  right: 50px !important;
+  text-align: center !important;
+}
+body div.header .header-btn {
+  position: absolute;
+  text-align: center;
+  height: 100%;
+  display: inline-block;
+  width: 60px;
+  right: 0;
+}
+body div.header .header-btn >a {
+  text-align: center;
+  height: 100%;
+  color: #fff;
+  font-weight: normal;
+  font-size: 13px;
+}
+body div.page {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  transition: 300ms;
+  position: relative;
+  z-index: 10;
+  font-size: 14px;
+  background-color: #fff;
+}
+body div.page .page-content {
+  text-align: center;
+  margin-top: 40px;
+  position: relative;
+}
+body div.page .page-content .page-content-img {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #20daf7;
+  text-align: center;
+  line-height: 80px;
+}
+body div.page .page-content .page-content-img img {
+  width: 100%;
+}
+body div.page .page-content p {
+  color: #333;
+}
+body div.page .apply_join {
+  text-align: center;
+  margin-top: 30px;
+}
+body div.page .apply_join >a {
+  width: 90%;
+  height: 45px;
+  line-height: 45px;
+  background-color: #20daf7;
+  display: inline-block;
+  text-align: center;
+  border-radius: 30px;
+  color: #fff;
+}
+body div.page .weui-cells .weui-cell .weui-cell__bd {
+  color: #2e2e2e;
+  font-size: 14px;
+}
+body div.page .weui-cells .weui-cell .weui-cell__ft {
+  color: #666;
+  font-size: 13px;
+}
+body div.page .page-content-class {
+  margin-top: 35px;
+  margin-bottom: 5px;
+  text-align: center;
+  color: #9a9a9a;
+}
+body div.page .page-content-class .span-center {
+  margin: 0 10px;
+}
+body div.page .page-content-addclass {
+  margin-top: 30px;
+  text-align: center;
+}
+body div.page .page-content-addclass >a {
+  background-color: #2addfd;
+  color: #fff;
+  display: inline-block;
+  width: 60%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 20px;
+}
+body div.js_dialog .weui-mask {
+  background: rgba(0,0,0,0.4);
+}
+body div.js_dialog .weui-dialog__hd {
+  padding: 0.8em 1.6em 0.2em;
+}
+body div.js_dialog .weui-dialog__hd .weui-dialog__title {
+  font-size: 16px;
+  color: #333;
+}
+body div.js_dialog .weui-dialog__bd .label-input {
+  text-align: left;
+}
+body div.js_dialog .weui-dialog__bd .label-input input {
+  outline: none;
+  width: 90%;
+  height: 35px;
+  border: 1px solid #e1e1e1;
+  padding-left: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 10px;
+}
+body div.js_dialog .weui-dialog__ft {
+  line-height: 40px;
+}
+body div.js_dialog .weui-dialog__ft .weui-dialog__btn {
+  font-size: 16px;
+  color: #21bcfd;
+}
+body div.js_dialog .weui-dialog__ft .weui-dialog__btn_default {
+  color: #333;
+}

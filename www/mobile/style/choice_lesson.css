@@ -1,0 +1,163 @@
+body {
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+body div.header {
+  top: 0;
+  height: 50px;
+  line-height: 50px;
+  width: 100%;
+  background-color: #2addfd;
+  position: fixed;
+  z-index: 100;
+  color: #fff;
+  transition: 300ms;
+}
+body div.header >span.header-back {
+  position: absolute;
+  left: 6px;
+  top: 5px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  overflow: hidden;
+  height: 40px;
+}
+body div.header >span.header-back >i {
+  font-size: 28px;
+}
+body div.header .header-text {
+  position: absolute;
+  left: 50px;
+  height: 100%;
+  font-size: 20px;
+  display: inline-block;
+  right: 50px !important;
+  text-align: center !important;
+}
+body div.header .header-btn {
+  position: absolute;
+  text-align: center;
+  height: 100%;
+  display: inline-block;
+  width: 60px;
+  right: 0;
+}
+body div.header .header-btn >a {
+  text-align: center;
+  height: 100%;
+  color: #fff;
+  font-weight: normal;
+  font-size: 13px;
+}
+body div.page {
+  top: 50px;
+  bottom: 45px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  position: absolute;
+  overflow-y: auto;
+}
+body div.page .header-placeholder {
+  height: 180px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+body div.page .header-placeholder img {
+  height: 80%;
+  object-fit: cover;
+}
+body div.page .header-placeholder .banner-text {
+  margin-top: 10px;
+  padding: 10px 15px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  font-size: 18px;
+  color: #ee9c28;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  box-sizing: border-box;
+}
+body div.page div.choice-list-box {
+  margin-top: 10px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+body div.page div.choice-list-box .choice-list {
+  border: 1px solid #e8e8e8;
+  border-radius: 6px;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 15px;
+}
+body div.page div.choice-list-box .choice-list .close {
+  position: absolute;
+  opacity: 0;
+}
+body div.page div.choice-list-box .choice-list.active {
+  border: 1px solid #20daf7;
+}
+body div.page div.choice-list-box .choice-list.active .close {
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #20daf7;
+  color: #fff;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  border-radius: 5px;
+}
+body div.page div.choice-list-box .choice-list .list-left {
+  width: 40px;
+  margin-right: 20px;
+}
+body div.page div.choice-list-box .choice-list .list-left img {
+  width: 100%;
+  object-fit: cover;
+}
+body div.page div.choice-list-box .choice-list .list-right {
+  flex: 1;
+}
+body div.page div.choice-list-box .choice-list .list-right p {
+  line-height: 30px;
+}
+body div.page div.choice-list-box .choice-list .list-right p.basic-text {
+  color: #333;
+  font-size: 18px;
+}
+body div.page div.choice-list-box .choice-list .list-right p.sex {
+  color: #20daf7;
+  font-size: 16px;
+}
+body div.footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 45px;
+  z-index: 100;
+}
+body div.footer a {
+  display: inline-block;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: #20daf7;
+  color: #fff;
+}
+body div.footer a i {
+  margin-right: 3px;
+}

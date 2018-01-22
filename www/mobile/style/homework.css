@@ -1,0 +1,145 @@
+body {
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+body div.header {
+  top: 0;
+  height: 50px;
+  line-height: 50px;
+  width: 100%;
+  background-color: #2addfd;
+  position: fixed;
+  z-index: 100;
+  color: #fff;
+  transition: 300ms;
+}
+body div.header >span.header-back {
+  position: absolute;
+  left: 6px;
+  top: 5px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  overflow: hidden;
+  height: 40px;
+}
+body div.header >span.header-back >i {
+  font-size: 28px;
+}
+body div.header .header-text {
+  position: absolute;
+  left: 50px;
+  height: 100%;
+  font-size: 20px;
+  display: inline-block;
+  right: 50px !important;
+  text-align: center !important;
+}
+body div.header .header-btn {
+  position: absolute;
+  text-align: center;
+  height: 100%;
+  display: inline-block;
+  width: 60px;
+  right: 0;
+}
+body div.header .header-btn >a {
+  text-align: center;
+  height: 100%;
+  color: #fff;
+  font-weight: normal;
+  font-size: 13px;
+}
+body div.page {
+  top: 50px;
+  bottom: 95px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  position: absolute;
+  overflow-y: auto;
+}
+body div.page .step-list-box {
+  padding: 10px;
+}
+body div.page .step-list-box .aside-text {
+  font-size: 12px;
+  margin-left: 70px;
+  margin-top: 5px;
+  font-weight: 300;
+  color: #d3583c;
+}
+body div.page .step-list-box .step-list {
+  margin-bottom: 10px;
+}
+body div.page .step-list-box .step-list label {
+  display: block;
+  font-size: 14px;
+  color: #222;
+  font-weight: 500;
+  line-height: 45px;
+}
+body div.page .step-list-box .step-list select {
+  font-weight: 300;
+}
+body div.page .step-list-box .step-list .choice-list {
+  display: flex;
+  align-items: center;
+}
+body div.page .step-list-box .step-list .choice-list label {
+  width: 90px;
+  color: #999;
+  font-weight: 300;
+}
+body div.page .lesson-list-box {
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+body div.page .lesson-list-box .aside-text {
+  font-size: 12px;
+  margin-left: 70px;
+  margin-top: 5px;
+  font-weight: 300;
+  color: #d3583c;
+}
+body div.page .lesson-list-box .lesson-list {
+  line-height: 45px;
+}
+body div.page .lesson-list-box .lesson-list label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  margin-right: 10px;
+}
+body div.page .lesson-list-box .lesson-list input {
+  height: 30px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+body div.footer {
+  position: fixed;
+  bottom: 50px;
+  width: 90%;
+  height: 45px;
+  z-index: 100;
+  margin-left: 5%;
+  box-sizing: border-box;
+}
+body div.footer a {
+  display: inline-block;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: #20daf7;
+  color: #fff;
+  border-radius: 20px;
+}
+body div.footer a i {
+  margin-right: 3px;
+}

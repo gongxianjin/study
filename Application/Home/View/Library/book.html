@@ -1,0 +1,79 @@
+<extend name="Common/common" />
+<block name="stylesheet">
+    <style type="text/css">
+        .page{
+            width: 100%; height: 100%;
+        }
+        .page img{
+            width: 100%; height: 100%;
+            position: absolute;
+        }
+        #myCanvas{
+            border-radius: 50%; width: 35px; height: 35px; position: absolute; margin-left: 3px;
+        }
+    </style>
+</block>
+<block name="loadUpFn"></block>
+<block name="title">{$bookInfo.name}</block>
+<block name="content">
+
+    <div class="page">
+        <img src="/mobile/images/book/content_bg.jpg" alt="">
+        <img src="/mobile/images/book/content_bg.jpg" alt="">
+        <img src="/mobile/images/book/content_bg.jpg" alt="">
+        <img src="/mobile/images/book/content_bg.jpg" alt="">
+        <img src="/mobile/images/book/content_bg.jpg" alt="">
+        <img src="/mobile/images/book/content_bg.jpg" alt="">
+        <img src="/mobile/images/book/content_bg.jpg" alt="">
+        <img src="/mobile/images/book/content_bg.jpg" alt="">
+    </div>
+
+
+    <div class="weui-tabbar">
+
+        <a href="javascript:;" class="weui-tabbar__item">
+            <img src="/mobile/images/voice.png" class="weui-tabbar__icon" style="margin-top: 14px;">
+            <p class="weui-tabbar__label">听原音</p>
+        </a>
+
+        <a href="javascript:;"  class="weui-tabbar__item">
+            <canvas id="myCanvas"></canvas>
+            <span style="display: inline-block;position: relative;">
+                <img src="/mobile/images/luyin.png" class="weui-tabbar__icon" style="width: 40px;height: 34px">
+            </span>
+            <p class="weui-tabbar__label">录制</p>
+        </a>
+
+        <a href="javascript:;" class="weui-tabbar__item">
+            <img src="/mobile/images/shiting.png" class="weui-tabbar__icon" style="margin-top: 14px;">
+            <p class="weui-tabbar__label">试听</p>
+        </a>
+
+    </div>
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+    <script>
+        wx.startRecord();
+//
+//        wx.config({
+//            debug: true, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+//            appId: '', // 必填，公众号的唯一标识
+//            timestamp: '', // 必填，生成签名的时间戳
+//            nonceStr: '', // 必填，生成签名的随机串
+//            signature: '',// 必填，签名，见附录1
+//            jsApiList: [] // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
+//        });
+//        wx.startRecord();
+//
+//        wx.stopRecord({
+//            success: function (res) {
+//                var localId = res.localId;
+//            }
+//        });
+//
+//        wx.onVoiceRecordEnd({
+//            complete: function (res) {
+//                var localId = res.localId;
+//            }
+//        });
+    </script>
+</block>

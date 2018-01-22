@@ -1,0 +1,89 @@
+
+<blockquote class="layui-elem-quote">
+    <form class="layui-form" action="">
+        <div class="layui-form-item" style="margin: 0;">
+            <div class="layui-input-inline">
+                <input type="text" name="name" value="{:I('get.name', '')}" placeholder="平台名称" class="layui-input">
+            </div>
+            <div class="layui-input-inline">
+                <button class="layui-btn" lay-submit="">查询</button>
+                <!--<button type="button" class="layui-btn layui-btn-normal"-->
+                        <!--onclick="ck.setClassLevel(false, false);">添加班级</button>-->
+            </div>
+        </div>
+    </form>
+</blockquote>
+
+<table class="layui-table">
+    <thead>
+    <tr>
+        <th>平台名称</th>
+        <th>创建时间</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody>
+    <foreach name="showData" item="item">
+        <tr>
+            <td>{$item.platform_name}</td>
+            <td>{:date('Y-m-d H:i:s', $item['time'])}</td>
+            <td>
+                <!--<a class="layui-btn layui-btn-xs" lay-event="edit" onclick="ck.setClassLevel({$item.id}, this);">编辑</a>-->
+                <!--<a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>-->
+            </td>
+        </tr>
+    </foreach>
+    </tbody>
+</table>
+
+<div class="layui-laypage"  style="position: absolute; right: 15px;">
+    {$page}
+</div>
+
+
+<div class="site-text site-block" id="editClassGrade" style="display: none;margin-top: 20px;">
+    <form class="layui-form"  style="padding: 10px;" action="{:U('group/setClassGrade')}" method="post">
+        <input type="hidden" name="grade_id" />
+        <div class="layui-form-item">
+            <label class="layui-form-label">等级名称</label>
+            <div class="layui-input-block">
+                <input type="text" name="grade_name" required="" lay-verify="required"
+                       placeholder="等级名称" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">等级范围</label>
+            <div class="layui-input-block">
+                <input type="text" name="grade_range" required="" lay-verify="required"
+                       placeholder="等级名称：如 3~6" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">押金金额</label>
+            <div class="layui-input-block">
+                <input type="text" name="grade_price" placeholder="押金金额: 默认值为: 100.00" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-input-block">
+                <button class="layui-btn" lay-submit="" lay-filter="">立即提交</button>
+            </div>
+        </div>
+    </form>
+</div>
+<script>
+    layui.use(['layer', 'form'], function(){
+        var $ = layui.jquery, layer = layui.layer;
+        (function(_){
+            _.setClassLevel = function(level_id, obj)
+            {
+                layer.open({type: 1, title: '编辑', area: ['400px', '300px'], content: $('#editClassGrade').html()});
+                var td = $(obj).parent().parent().find('td');
+                $('input[name="grade_id"]').val(level_id);
+                $('input[name="grade_name"]').val(td.eq(1).html());
+                $('input[name="grade_range"]').val(td.eq(2).html());
+                $('input[name="grade_price"]').val(td.eq(3).html());
+            }
+        })(ck={});
+    });
+</script>

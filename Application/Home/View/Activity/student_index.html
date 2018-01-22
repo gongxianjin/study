@@ -1,0 +1,21 @@
+<extend name="Common/common" />
+<block name="stylesheet">
+    <link rel="stylesheet" href="/mobile/style/teacher_activity.css">
+</block>
+<block name="title">我的活动</block>
+<block name="content">
+    <div class="page">
+        <div class="class-list-box">
+            <foreach name="showData" item="item">
+                <div class="activity-list">
+                    <div class="img-box">
+                        <a href="{:U('activity/details', array('activity_id'=>$item['id']))}">
+                            <img src="{:imageDomain($item['cover_img'], '/mobile/images/activity/activity1.png')}" alt="">
+                            <p>{$item.name}</p>
+                        </a>
+                    </div>
+                </div>
+            </foreach>
+        </div>
+    </div>
+</block>

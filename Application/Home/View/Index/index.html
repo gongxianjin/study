@@ -1,0 +1,113 @@
+<extend name="Common/header" />
+<block name="stylesheet"><link rel="stylesheet" href="/mobile/style/index.css"></block>
+<block name="title">首页</block>
+<block name="content">
+    <div class="header">
+        <!--左侧图标-->
+        <span class="header-back" onclick="window.history.go(-1)">
+            <a href="#"><img src="/mobile/images/logo.png" alt=""></a>
+        </span>
+        <!--中间文字-->
+        <span class="header-text">童学惠</span>
+        <!--右侧按钮-->
+        <span class="header-btn">
+        <if condition="session('?login_info')">
+            <a href="{:U('user/personal')}"><i class="txh icon-geren-80"></i></a>
+        <else/>
+            <a href="{:U('login/index')}"><i class="txh icon-geren-80"></i></a>
+        </if>
+    </span>
+    </div>
+
+    <div class="page">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="/mobile/images/slide1.png" alt=""></div>
+                <div class="swiper-slide"><img src="/mobile/images/slide2.png" alt=""></div>
+                <div class="swiper-slide"><img src="/mobile/images/slide1.png" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="activity-container">
+            <div class="weui-flex">
+                <a class="weui-flex__item" href="{:U('activity/index')}">
+                    <div  class="placeholder">
+                        <img src="/mobile/images/buy1.png" alt="">
+                        <p>课程活动</p>
+                    </div>
+                </a>
+                <a class="weui-flex__item">
+                    <div  class="placeholder">
+                        <img src="/mobile/images/buy2.png" alt="">
+                        <p>今日作业</p>
+                    </div>
+                </a>
+                <a class="weui-flex__item" href="{:U('shop/index')}">
+                    <div  class="placeholder">
+                        <img src="/mobile/images/buy3.png" alt="">
+                        <p>积分商城</p>
+                    </div>
+                </a>
+                <a class="weui-flex__item" href="{:U('library/index')}">
+                    <div  class="placeholder">
+                        <img src="/mobile/images/buy4.png" alt="">
+                        <p>图书馆</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="absent-day">
+            <div class="absent-container">
+                <div class="left-absent_img">
+                    <img src="/mobile/images/absent.png" alt="">
+                </div>
+                <div class="center-calender">
+                    <i class="txh icon-rili"></i>
+                    <span>缺课天数</span>
+                </div>
+                <div class="right-days">
+                    <span>20天</span>
+                </div>
+            </div>
+        </div>
+        <div class="hots">
+            <div class="hot-header">
+                <i class="txh icon-remen"></i>
+                <span>热门活动</span>
+            </div>
+            <div class="hot-content">
+                <div class="weui-flex">
+                    <foreach name="hotActivity" item="item">
+                        <a class="weui-flex__item" href="{:U('activity/details', array('activity_id'=>$item['id']))}">
+                            <div  class="placeholder" style="margin-right: 10px">
+                                <img src="{:imageDomain($item['cover_img'], '/mobile/images/slide1.png')}" alt="">
+                            </div>
+                        </a>
+                    </foreach>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows : true,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
+    </script>
+</block>
+
+
+

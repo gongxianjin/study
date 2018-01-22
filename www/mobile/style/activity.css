@@ -1,0 +1,184 @@
+body {
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+body div.header {
+  top: 0;
+  height: 50px;
+  line-height: 50px;
+  width: 100%;
+  background-color: #2addfd;
+  position: fixed;
+  z-index: 100;
+  color: #fff;
+  transition: 300ms;
+}
+body div.header >span.header-back {
+  position: absolute;
+  left: 6px;
+  top: 5px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  overflow: hidden;
+  height: 40px;
+}
+body div.header >span.header-back >i {
+  font-size: 28px;
+}
+body div.header .header-text {
+  position: absolute;
+  left: 50px;
+  height: 100%;
+  font-size: 20px;
+  display: inline-block;
+  right: 50px !important;
+  text-align: center !important;
+}
+body div.header .header-btn {
+  position: absolute;
+  text-align: center;
+  height: 100%;
+  display: inline-block;
+  width: 60px;
+  right: 0;
+}
+body div.header .header-btn >a {
+  text-align: center;
+  height: 100%;
+  color: #fff;
+  font-weight: normal;
+  font-size: 13px;
+}
+body div.page {
+  top: 50px;
+  bottom: 45px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  position: absolute;
+  overflow-y: auto;
+}
+body div.page .page-banner {
+  height: 200px;
+  width: 100%;
+  position: relative;
+}
+body div.page .page-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+body div.page .page-banner .banner-text {
+  padding: 10px 15px;
+  position: absolute;
+  bottom: 0;
+  font-size: 18px;
+  color: #fff;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+body div.page .sign_up_people {
+  height: 60px;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+body div.page .sign_up_people div {
+  display: inline-block;
+}
+body div.page .sign_up_people .sign_up_left {
+  width: 45%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 14px;
+  color: #666;
+  font-weight: 300;
+  line-height: 60px;
+}
+body div.page .sign_up_people .sign_up_right {
+  position: relative;
+  height: 60px;
+  top: 15px;
+  width: 53%;
+  text-align: right;
+  overflow: hidden;
+}
+body div.page .sign_up_people .sign_up_right >img {
+  width: 30px;
+  height: 30px;
+  margin-left: -5px;
+}
+body div.page .ensure_money a {
+  background-color: #ff6801;
+  color: #fff;
+  display: block;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 15px;
+  font-size: 18px;
+}
+body div.page .ensure_money a .ensure {
+  font-size: 14px;
+  font-weight: 400;
+}
+body div.page .activity-detail {
+  width: 100%;
+  overflow: hidden;
+}
+body div.page .activity-detail .activity-detail-title {
+  margin: 15px;
+  position: relative;
+  padding-left: 5px;
+}
+body div.page .activity-detail .activity-detail-title:before {
+  position: absolute;
+  width: 2px;
+  height: 13px;
+  content: '';
+  background-color: #20daf7;
+  top: 6px;
+  left: -3px;
+  font-size: 16px;
+  color: #333;
+}
+body div.page .activity-detail .activity-detail-content,
+body div.page .activity-detail .activity-detail-aside {
+  padding: 15px;
+  padding-top: 0;
+}
+body div.page .activity-detail .activity-detail-content p,
+body div.page .activity-detail .activity-detail-aside p {
+  color: #666;
+}
+body div.page .activity-detail .activity-detail-video {
+  overflow: hidden;
+  margin: 0 15px;
+}
+body div.page .activity-detail .activity-detail-video video {
+  width: 100%;
+  object-fit: cover;
+}
+body div.footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 45px;
+  z-index: 100;
+}
+body div.footer a {
+  display: inline-block;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: #20daf7;
+  color: #fff;
+}
+body div.footer a i {
+  margin-right: 3px;
+}

@@ -1,0 +1,295 @@
+body {
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+body .aside-right {
+  position: fixed;
+  right: 10px;
+  bottom: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  background-color: #e3662d;
+  z-index: 10000;
+}
+body .aside-right a i {
+  color: #fff;
+  font-size: 22px;
+}
+body div.header {
+  top: 0;
+  height: 50px;
+  line-height: 50px;
+  width: 100%;
+  background-color: #2addfd;
+  position: fixed;
+  z-index: 100;
+  color: #fff;
+  transition: 300ms;
+}
+body div.header >span.header-back {
+  position: absolute;
+  left: 6px;
+  top: 5px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  overflow: hidden;
+  height: 40px;
+}
+body div.header >span.header-back >i {
+  font-size: 28px;
+}
+body div.header .header-text {
+  position: absolute;
+  left: 50px;
+  height: 100%;
+  font-size: 20px;
+  display: inline-block;
+  right: 50px !important;
+  text-align: center !important;
+}
+body div.header .header-btn {
+  position: absolute;
+  text-align: center;
+  height: 100%;
+  display: inline-block;
+  width: 80px;
+  right: 0;
+}
+body div.header .header-btn >a {
+  padding: 3px 6px;
+  border-radius: 4px;
+  text-align: center;
+  height: 100%;
+  color: #fff;
+  font-weight: normal;
+  font-size: 12px;
+  background-color: #c3d957;
+}
+body div.header .header-btn >a >i {
+  font-size: 10px;
+}
+body .header-function {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+}
+body .header-function .function-bar {
+  box-sizing: border-box;
+  height: 50px;
+  line-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e8e8e8;
+}
+body .header-function .function-bar .bar-list {
+  flex: 1;
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+}
+body .header-function .function-bar .bar-list i {
+  font-size: 13px;
+  margin-right: 2px;
+}
+body .header-function .function-bar .active {
+  color: #333;
+  border-bottom: 1px solid #55a5f2;
+}
+body .header-function .function-bar .active i {
+  color: #55a5f2;
+}
+body .header-function .function-banner {
+  margin-top: 2px;
+  height: 120px;
+  width: 100%;
+  background-image: url("../images/luntan/publicindex_banner.png");
+  background-size: 100% 100%;
+}
+body .header-function .recommend-topic {
+  height: 45px;
+  line-height: 45px;
+  border-bottom: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  padding: 0 15px;
+  font-size: 14px;
+  color: #333;
+}
+body .header-function .recommend-topic i {
+  color: #f5d84a;
+  margin-right: 5px;
+}
+body div.page {
+  top: 101px;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  overflow: hidden;
+  overflow-y: auto;
+}
+body div.page .aside-right {
+  position: fixed;
+  right: 10px;
+  bottom: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  background-color: #e3662d;
+  z-index: 10000;
+}
+body div.page .aside-right a i {
+  color: #fff;
+  font-size: 22px;
+}
+body div.page .function-banner {
+  margin-top: 2px;
+  height: 120px;
+  width: 100%;
+  background-image: url("../images/luntan/publicindex_banner.png");
+  background-size: 100% 100%;
+}
+body div.page .recommend-topic {
+  height: 45px;
+  line-height: 45px;
+  border-bottom: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  padding: 0 15px;
+  font-size: 14px;
+  color: #333;
+}
+body div.page .recommend-topic i {
+  color: #f5d84a;
+  margin-right: 5px;
+}
+body div.page .topic-list-box .topic-list .topic-list-title {
+  padding: 15px 15px 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body div.page .topic-list-box .topic-list .topic-list-title .list-title-left {
+  display: flex;
+  align-items: center;
+}
+body div.page .topic-list-box .topic-list .topic-list-title .list-title-left .left-header {
+  width: 50px;
+  margin-right: 10px;
+}
+body div.page .topic-list-box .topic-list .topic-list-title .list-title-left .left-header img {
+  width: 100%;
+}
+body div.page .topic-list-box .topic-list .topic-list-title .list-title-left .left-username {
+  color: #999;
+  font-size: 14px;
+}
+body div.page .topic-list-box .topic-list .topic-list-title .list-title-left .left-username .time {
+  font-size: 12px;
+}
+body div.page .topic-list-box .topic-list .topic-list-title .list-title-right {
+  font-size: 12px;
+}
+body div.page .topic-list-box .topic-list .topic-list-title .list-title-right a {
+  color: #e51500;
+  padding: 3px 6px;
+  border-radius: 4px;
+  border: 1px solid #e8e8e8;
+}
+body div.page .topic-list-box .topic-list .topic-list-title .list-title-right a:first-child {
+  margin-right: 10px;
+}
+body div.page .topic-list-box .topic-list .topic-list-content {
+  margin: 0 15px;
+  line-height: 26px;
+  font-size: 14px;
+  color: #999;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+body div.page .topic-list-box .topic-list .topic-list-footer {
+  height: 45px;
+  line-height: 45px;
+  display: flex;
+  border-top: 1px solid #e8e8e8;
+}
+body div.page .topic-list-box .topic-list .topic-list-footer a {
+  flex: 1;
+  text-align: center;
+  font-size: 14px;
+  color: #999;
+}
+body div.page .topic-list-box .topic-list .topic-list-footer a i {
+  margin-right: 4px;
+}
+body div.page .topic-list-box .topic-list .topic-list-footer a:first-child {
+  position: relative;
+}
+body div.page .topic-list-box .topic-list .topic-list-footer a:first-child:after {
+  height: 20px;
+  position: absolute;
+  width: 1px;
+  background-color: #e8e8e8;
+  content: '';
+  right: 0;
+  top: 50%;
+  margin-top: -10px;
+}
+body div.page .tag-list-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 10px 0;
+  padding-left: 15px;
+  border-bottom: 1px solid #e8e8e8;
+}
+body div.page .tag-list-box a {
+  display: inline-block;
+  padding: 5px 10px;
+  flex: 1;
+  background-color: #b0afb0;
+  font-size: 14px;
+  color: #fff;
+  margin-right: 15px;
+  border-radius: 4px;
+}
+body div.page .tag-list-box a.active {
+  background-color: #e2642c;
+}
+body div.page div.footer-box a {
+  display: inline-block;
+  width: 90%;
+  margin-left: 5%;
+  line-height: 45px;
+  height: 45px;
+  text-align: center;
+  background-color: #65d3f0;
+  color: #fff;
+  margin-top: 20px;
+  border-radius: 30px;
+}
+body div.page div.footer-box a i {
+  font-size: 18px;
+  margin-right: 3px;
+}
+body div.page div.footer-box a.homework {
+  background-color: transparent;
+  color: #65d3f0;
+  border: 1px solid #65d3f0;
+}

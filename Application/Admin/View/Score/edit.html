@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>{:C('APP_NAME')}</title>
+    <link rel="stylesheet" href="/asstes/layui/css/layui.css">
+    <script src="/asstes/layui/layui.js"></script>
+</head>
+<style>
+    ._preview{
+        width: 150px; height: 100px;
+        float: left; position: relative;
+        margin: 15px 30px 5px 0;
+    }
+    ._preview ._preview_close{
+        position: absolute;  display: inline-block;
+        height: 20px; width: 20px; line-height: 20px;
+        border-radius: 10px; background: red; color: #ffffff;
+        text-align: center; top: -10px; right: -10px; cursor: pointer;
+    }
+    ._preview img, ._preview audio{
+        width: 100%; height: 100%;
+    }
+</style>
+<body>
+<div style="padding: 5px;">
+    <form class="layui-form"  action="">
+        <input type="hidden" name="goods_id" value="{:isset($id)?$id:''}" >
+        <div class="layui-form-item">
+            <label class="layui-form-label">商品名称</label>
+            <div class="layui-input-inline">
+                <input type="text" name="goods_name"  required  lay-verify="required"
+                       placeholder="商品名称" value="{:isset($name)?$name:''}" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">商品原价</label>
+            <div class="layui-input-inline">
+                <input type="text" name="goods_old_price"  required  lay-verify="required"
+                       placeholder="商品原价" value="{:isset($old_price)?$old_price:''}" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">商品价格</label>
+            <div class="layui-input-inline">
+                <input type="text" name="goods_price"  required  lay-verify="required"
+                       placeholder="商品价格" value="{:isset($price)?$price:''}" autocomplete="off" class="layui-input">
+            </div>
+            <label class="layui-form-label">兑换积分</label>
+            <div class="layui-input-inline">
+                <input type="text" name="goods_score"  required  lay-verify="required"
+                       placeholder="兑换积分" value="{:isset($score)?$score:''}" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <label class="layui-form-label">库存数量</label>
+            <div class="layui-input-inline">
+                <input type="text" name="goods_count"  required  lay-verify="required"
+                       placeholder="库存数量" value="{:isset($count)?$count:''}" autocomplete="off" class="layui-input">
+            </div>
+            <label class="layui-form-label">销售数量</label>
+            <div class="layui-input-inline">
+                <input type="text" name="goods_sold"  required  lay-verify="required"
+                       placeholder="销售数量" value="{:isset($sold)?$sold:''}" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <label class="layui-form-label">所属分类</label>
+            <div class="layui-input-inline">
+                <select name="goods_type_id"  lay-filter="province">
+                    {:W('Select/selectGoodsType', array(isset($type_id)?$type_id:0))}
+                </select>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <label class="layui-form-label">资源链接</label>
+            <div class="layui-input-block" style="width: 80%;">
+                <input type="text" class="layui-input" name="goods_url" value="{:isset($url)?$url:''}" />
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <label class="layui-form-label">商品图片</label>
+            <div class="layui-input-block">
+                <button type="button" class="layui-btn layui-btn-normal" id="goods_img">选择图片</button>
+                <button type="button" class="layui-btn" id="upload">图片上传</button>
+            </div>
+            <div class="layui-input-block"  id="_preview_images">
+                <if condition="isset($img)" >
+                    <volist name=":json_decode($img, true)" id="item">
+                        <div class="_preview">
+                            <input type="hidden" name="images" value="{$item}" />
+                            <a class="_preview_close"><i class="layui-icon">ဆ</i></a>
+                            <img src="{:C('aliyun.oss_host')}{$item}" />
+                        </div>
+                    </volist>
+                </if>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <label class="layui-form-label">商品描述</label>
+            <div class="layui-input-block" style="width: 80%;">
+                <textarea class="layui-textarea" name="content">{:isset($content)?$content:''}</textarea>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <label class="layui-form-label"></label>
+            <div class="layui-input-block">
+                <button type="button" class="layui-btn" lay-submit lay-filter="formSubmit">保存</button>
+            </div>
+        </div>
+    </form>
+</div>
+<script>
+    layui.use(['element', 'form', 'upload', 'layer'], function(){
+        var form = layui.form, $ = layui.jquery, upload = layui.upload, layer = window.parent.layer || layui.layer;
+        upload.render({
+            elem: '#goods_img',
+            url: '{:U("upload/files")}',
+            auto: false,
+            multiple: true,
+            field: 'files',
+            bindAction: '#upload',
+            choose: function(obj)
+            {
+                var files = obj.pushFile();
+                obj.preview(function(index, file, result)
+                {
+                    var _preview = $('<div class="_preview"></div>');
+                    _preview.html($('<input type="hidden" name="images" value="" data-index="'+index+'" />'));
+                    _preview.append($('<a class="_preview_close"><i class="layui-icon">ဆ</i></a>').click(function(){
+                        delete files[index];
+                        _preview.remove();
+                    }));
+                    _preview.append($('<img src="'+result+'" />'));
+                    $('#_preview_images').append(_preview);
+                });
+            },before: function(){
+                if($('input[data-index]').length){
+                    layer.msg('图片上传中...', {icon: 16, shade: 0.3});
+                }
+            },done: function(res, index){
+                $('input[data-index="'+index+'"]').val(res.info);
+            },allDone: function(){
+                if( ! $('input[data-index]').length ) {
+                    layer.alert('上传成功');
+                }
+            }
+        });
+        $('._preview_close').click(function(){
+            $(this).parent().remove();
+        });
+        form.on('submit(formSubmit)', function(data){
+            if( ! parseInt(data.field['goods_type_id']) )
+            {
+                layer.msg('选择分类');
+                return;
+            }
+            var images = $('input[name="images"]');
+            data.field['images'] = [];
+            $.each(images, function(index, item){
+                if( item.value ){
+                    data.field['images'].push(item.value);
+                }
+            });
+            layer.load(2);
+            $.post("{:U('score/setGoods')}", data.field, function(returnData){
+                layer.closeAll('loading');
+                if( typeof returnData.status == undefined){
+                    layer.msg('操作失败');
+                    return ;
+                }
+                layer.alert(returnData.info);
+                if( returnData.status ){
+                    setTimeout("window.parent.location.reload();", 1500);
+                }
+            });
+            return false;
+        });
+    });
+</script>
+</body>
+</html>

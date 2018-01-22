@@ -1,0 +1,138 @@
+body {
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+body div.header {
+  top: 0;
+  height: 50px;
+  line-height: 50px;
+  width: 100%;
+  background-color: #2addfd;
+  position: fixed;
+  z-index: 100;
+  color: #fff;
+  transition: 300ms;
+}
+body div.header >span.header-back {
+  position: absolute;
+  left: 6px;
+  top: 5px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  overflow: hidden;
+  height: 40px;
+}
+body div.header >span.header-back >i {
+  font-size: 28px;
+}
+body div.header .header-text {
+  position: absolute;
+  left: 50px;
+  height: 100%;
+  font-size: 20px;
+  display: inline-block;
+  right: 50px !important;
+  text-align: center !important;
+}
+body div.header .header-btn {
+  position: absolute;
+  text-align: center;
+  height: 100%;
+  display: inline-block;
+  width: 60px;
+  right: 0;
+}
+body div.header .header-btn >a {
+  text-align: center;
+  height: 100%;
+  color: #fff;
+  font-weight: normal;
+  font-size: 13px;
+}
+body div.page {
+  top: 50px;
+  bottom: 45px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  overflow-y: auto;
+}
+body div.page .instruct_text {
+  box-sizing: border-box;
+  margin: 10px;
+  color: #999;
+  font-size: 14px;
+  line-height: 30px;
+}
+body div.page .textarea-box {
+  margin: 0 10px 10px;
+}
+body div.page .textarea-box .weui-textarea {
+  box-sizing: border-box;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  color: #999;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px;
+}
+body div.page .uploader .weui-cells:before {
+  height: 0;
+  border: none;
+}
+body div.page .uploader .weui-cells .weui-uploader__title {
+  font-size: 14px;
+  color: #666;
+}
+body div.page .uploader .weui-cells .weui-uploader__info {
+  font-size: 12px;
+  color: #999;
+}
+body div.page .uploader .weui-cells .weui-uploader__file {
+  position: relative;
+}
+body div.page .uploader .weui-cells .weui-uploader__file .img-mask {
+  position: absolute;
+  background: rgba(0,0,0,0.6);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+body div.page .uploader .weui-cells .weui-uploader__file .img-delete {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -22px;
+  margin-left: -15px;
+}
+body div.page .uploader .weui-cells .weui-uploader__file .img-delete i {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+}
+body div.page div.footer-box a {
+  display: inline-block;
+  width: 90%;
+  margin-left: 5%;
+  line-height: 45px;
+  height: 45px;
+  text-align: center;
+  background-color: #65d3f0;
+  color: #fff;
+  margin-top: 20px;
+  border-radius: 30px;
+}
+body div.page div.footer-box a i {
+  font-size: 18px;
+  margin-right: 3px;
+}
+body div.page div.footer-box a.homework {
+  background-color: transparent;
+  color: #65d3f0;
+  border: 1px solid #65d3f0;
+}

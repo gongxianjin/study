@@ -1,0 +1,56 @@
+<extend name="Common/common" />
+<block name="stylesheet">
+    <link rel="stylesheet" href="/mobile/style/choice_lesson.css">
+</block>
+<block name="title">选择课程</block>
+<block name="content">
+
+    <div class="page">
+        <div class="header-placeholder">
+            <img src="/mobile/images/activity/choice_lesson_bg.png" alt="">
+            <p class="banner-text">请根据孩子年龄选择不同的课程</p>
+        </div>
+        <div class="choice-list-box">
+            <foreach name="courseMap" item="item">
+                <div class="choice-list" grade_info="{$item.id}">
+                    <div class="close">
+                        <i class="txh icon-gou1"></i>
+                    </div>
+                    <div class="list-left">
+                        <img src="{:imageDomain($item['head_img'], '/mobile/images/activity/people1.png')}" alt="">
+                    </div>
+                    <div class="list-right">
+                        <p class="basic-text">{$item.title}</p>
+                        <p class="sex">{$item.describe}</p>
+                    </div>
+                    <div>报名金额： {$item.price}元</div>
+                </div>
+            </foreach>
+        </div>
+    </div>
+    <div class="footer">
+        <a href="#" onclick="ck.pay();">
+            <i class="txh icon-addpeople"></i>点击支付保证金报名
+        </a>
+    </div>
+    <script>
+        var grade_id = 0;
+        $(".choice-list-box").on("click",".choice-list",function()
+        {
+            if(!$(this).hasClass("active")){
+                grade_id = $(this).attr('grade_info');
+                $(this).addClass("active").siblings().removeClass("active")
+            }
+        });
+        (function(_){
+            _.pay = function()
+            {
+                if( ! grade_id ){
+                    return false;
+                }
+                window.location.href = '{:U("order/caution")}?grade_id=' + grade_id;
+            }
+        })(ck={});
+
+    </script>
+</block>

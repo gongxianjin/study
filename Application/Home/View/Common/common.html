@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <link rel="stylesheet" href="/mobile/layui/css/layui.css">
+    <link rel="stylesheet" href="/mobile/css/weui.css">
+    <link rel="stylesheet" href="/mobile/css/weui_reset.css">
+    <link rel="stylesheet" href="/mobile/fonts/iconfont.css">
+    <link rel="stylesheet" href="/mobile/css/dropload.css">
+    <link rel="stylesheet" href="/mobile/css/style.css">
+    <block name="stylesheet"></block>
+    <title><block name="title"></block></title>
+    <script type="text/javascript" src="/mobile/layui/layui.js"></script>
+    <script type="text/javascript" src="/mobile/layer/layer.js"></script>
+    <include file="Common/js" />
+</head>
+<body>
+
+<div class="dropload-up"></div>
+<div class="header">
+        <span class="header-back" onclick="window.history.back();">
+            <i class="txh icon-xiangzuo"></i>
+        </span>
+    <span class="header-text"><block name="title"></block></span>
+    <span class="header-btn" style="position: absolute; right: 20px;color: #3972a8;">
+        <block name="header_btn"></block>
+    </span>
+</div>
+<block name="content"></block>
+</body>
+<block name="loadUpFn">
+    <script>
+        $(function(){
+            $(document.body).dropload({
+                scrollArea : window,
+                loadUpFn : function(me){
+                    document.location.reload();
+                    me.resetload();
+                }
+            });
+        });
+    </script>
+</block>
+</html>

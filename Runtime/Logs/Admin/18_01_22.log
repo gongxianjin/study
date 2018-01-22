@@ -1,0 +1,117 @@
+[ 2018-01-22T17:44:19+08:00 ] 127.0.0.1 /Admin/login/login.html
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2018-01-22T17:44:47+08:00 ] 127.0.0.1 /Admin/login/login.html
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2018-01-22T17:44:48+08:00 ] 127.0.0.1 /Admin/login/login.html
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2018-01-22T17:44:59+08:00 ] 127.0.0.1 /Admin/login/login.html
+ERR: SQLSTATE[HY000] [1049] Unknown database 'ershiyitianxuexi'
+
+[ 2018-01-22T18:00:31+08:00 ] 127.0.0.1 /Admin/login/login.html
+ERR: SQLSTATE[HY000] [1049] Unknown database 'ershiyitianxuexi'
+
+[ 2018-01-22T18:01:15+08:00 ] 127.0.0.1 /Admin/login/login.html
+ERR: SQLSTATE[HY000] [1049] Unknown database 'ershiyitianxuexi'
+
+[ 2018-01-22T18:01:17+08:00 ] 127.0.0.1 /Admin/login/login.html
+ERR: SQLSTATE[HY000] [1049] Unknown database 'ershiyitianxuexi'
+
+[ 2018-01-22T18:01:19+08:00 ] 127.0.0.1 /Admin/login/login.html
+ERR: SQLSTATE[HY000] [1049] Unknown database 'ershiyitianxuexi'
+
+[ 2018-01-22T18:03:46+08:00 ] 127.0.0.1 /Admin/login/login.html
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0480s ]
+SQL: SELECT * FROM `admin` WHERE `account` = 'admin' AND `password` = '735db5254d09da3201c8f0d1c8fbd5d3' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\AppServ\www\study\ThinkPHP\Common\functions.php 第 1272 行.
+
+[ 2018-01-22T18:03:49+08:00 ] 127.0.0.1 /Admin/library/classify.html
+SQL: SHOW COLUMNS FROM `book_classify` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `book_classify` WHERE `platform_id` = 1 LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT * FROM `book_classify` WHERE `platform_id` = 1 LIMIT 0,15   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant head_img - assumed 'head_img' F:\AppServ\www\study\Runtime\Cache\Admin\e39a118dd6b6b5b8d4fd09c299e38654.php 第 95 行.
+NOTIC: [8] Array to string conversion F:\AppServ\www\study\Runtime\Cache\Admin\e39a118dd6b6b5b8d4fd09c299e38654.php 第 95 行.
+NOTIC: [8] Use of undefined constant head_img - assumed 'head_img' F:\AppServ\www\study\Runtime\Cache\Admin\e39a118dd6b6b5b8d4fd09c299e38654.php 第 95 行.
+NOTIC: [8] Array to string conversion F:\AppServ\www\study\Runtime\Cache\Admin\e39a118dd6b6b5b8d4fd09c299e38654.php 第 95 行.
+
+[ 2018-01-22T18:03:50+08:00 ] 127.0.0.1 /Admin/library/level.html
+SQL: SHOW COLUMNS FROM `classify_level` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classify_level` WHERE `platform_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `classify_level` WHERE `platform_id` = 1 LIMIT 0,15   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_classify` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`name` FROM `book_classify`  [ RunTime:0.0010s ]
+
+[ 2018-01-22T18:03:50+08:00 ] 127.0.0.1 /Admin/library/book_list.html
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `book` WHERE `book`.`platform_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `book`.*,`book_classify`.`name` as `classify_name`,`classify_level`.`name` as `level_name` FROM `book` LEFT JOIN `book_classify` ON `book_classify`.`id` = `book`.`classify_id` LEFT JOIN `classify_level` ON `classify_level`.`id` = `book`.`level_id`  WHERE `book`.`platform_id` = 1 LIMIT 0,15   [ RunTime:0.0010s ]
+
+[ 2018-01-22T18:03:52+08:00 ] 127.0.0.1 /Admin/classes/index.html
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classes` WHERE `classes`.`platform_id` = 1 AND `classes`.`user_id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `classes`.*,`platform`.`platform_name`,`user`.`nickname` FROM `classes` LEFT JOIN `user` ON `user`.`id`=`classes`.`user_id` LEFT JOIN `platform` ON `platform`.`id`=`classes`.`platform_id`  WHERE `classes`.`platform_id` = 1 AND `classes`.`user_id` = 0 LIMIT 0,15   [ RunTime:0.0010s ]
+
+[ 2018-01-22T18:03:52+08:00 ] 127.0.0.1 /Admin/classes/index.html
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classes` WHERE `classes`.`platform_id` = 1 AND `classes`.`user_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `classes`.*,`platform`.`platform_name`,`user`.`nickname` FROM `classes` LEFT JOIN `user` ON `user`.`id`=`classes`.`user_id` LEFT JOIN `platform` ON `platform`.`id`=`classes`.`platform_id`  WHERE `classes`.`platform_id` = 1 AND `classes`.`user_id` = 0 LIMIT 0,15   [ RunTime:0.0010s ]
+
+[ 2018-01-22T18:03:54+08:00 ] 127.0.0.1 /Admin/classes/index.html
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classes` WHERE `classes`.`platform_id` = 1 AND `classes`.`user_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `classes`.*,`platform`.`platform_name`,`user`.`nickname` FROM `classes` LEFT JOIN `user` ON `user`.`id`=`classes`.`user_id` LEFT JOIN `platform` ON `platform`.`id`=`classes`.`platform_id`  WHERE `classes`.`platform_id` = 1 AND `classes`.`user_id` = 0 LIMIT 0,15   [ RunTime:0.0000s ]
+
+[ 2018-01-22T18:03:54+08:00 ] 127.0.0.1 /Admin/classes/index.html
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classes` WHERE `classes`.`platform_id` = 1 AND `classes`.`user_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `classes`.*,`platform`.`platform_name`,`user`.`nickname` FROM `classes` LEFT JOIN `user` ON `user`.`id`=`classes`.`user_id` LEFT JOIN `platform` ON `platform`.`id`=`classes`.`platform_id`  WHERE `classes`.`platform_id` = 1 AND `classes`.`user_id` = 0 LIMIT 0,15   [ RunTime:0.0000s ]
+
+[ 2018-01-22T18:03:54+08:00 ] 127.0.0.1 /Admin/classes/index.html
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classes` WHERE `classes`.`platform_id` = 1 AND `classes`.`user_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `classes`.*,`platform`.`platform_name`,`user`.`nickname` FROM `classes` LEFT JOIN `user` ON `user`.`id`=`classes`.`user_id` LEFT JOIN `platform` ON `platform`.`id`=`classes`.`platform_id`  WHERE `classes`.`platform_id` = 1 AND `classes`.`user_id` = 0 LIMIT 0,15   [ RunTime:0.0010s ]
+
+[ 2018-01-22T18:03:54+08:00 ] 127.0.0.1 /Admin/classes/index.html
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classes` WHERE `classes`.`platform_id` = 1 AND `classes`.`user_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `classes`.*,`platform`.`platform_name`,`user`.`nickname` FROM `classes` LEFT JOIN `user` ON `user`.`id`=`classes`.`user_id` LEFT JOIN `platform` ON `platform`.`id`=`classes`.`platform_id`  WHERE `classes`.`platform_id` = 1 AND `classes`.`user_id` = 0 LIMIT 0,15   [ RunTime:0.0000s ]
+
+[ 2018-01-22T18:03:55+08:00 ] 127.0.0.1 /Admin/library/classify.html
+SQL: SHOW COLUMNS FROM `book_classify` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `book_classify` WHERE `platform_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book_classify` WHERE `platform_id` = 1 LIMIT 0,15   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant head_img - assumed 'head_img' F:\AppServ\www\study\Runtime\Cache\Admin\e39a118dd6b6b5b8d4fd09c299e38654.php 第 95 行.
+NOTIC: [8] Array to string conversion F:\AppServ\www\study\Runtime\Cache\Admin\e39a118dd6b6b5b8d4fd09c299e38654.php 第 95 行.
+NOTIC: [8] Use of undefined constant head_img - assumed 'head_img' F:\AppServ\www\study\Runtime\Cache\Admin\e39a118dd6b6b5b8d4fd09c299e38654.php 第 95 行.
+NOTIC: [8] Array to string conversion F:\AppServ\www\study\Runtime\Cache\Admin\e39a118dd6b6b5b8d4fd09c299e38654.php 第 95 行.
+
+[ 2018-01-22T18:03:55+08:00 ] 127.0.0.1 /Admin/library/classify.html
+SQL: SHOW COLUMNS FROM `book_classify` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `book_classify` WHERE `platform_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `book_classify` WHERE `platform_id` = 1 LIMIT 0,15   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant head_img - assumed 'head_img' F:\AppServ\www\study\Runtime\Cache\Admin\e39a118dd6b6b5b8d4fd09c299e38654.php 第 95 行.
+NOTIC: [8] Array to string conversion F:\AppServ\www\study\Runtime\Cache\Admin\e39a118dd6b6b5b8d4fd09c299e38654.php 第 95 行.
+NOTIC: [8] Use of undefined constant head_img - assumed 'head_img' F:\AppServ\www\study\Runtime\Cache\Admin\e39a118dd6b6b5b8d4fd09c299e38654.php 第 95 行.
+NOTIC: [8] Array to string conversion F:\AppServ\www\study\Runtime\Cache\Admin\e39a118dd6b6b5b8d4fd09c299e38654.php 第 95 行.
+
+[ 2018-01-22T18:26:15+08:00 ] 127.0.0.1 /Admin/library/level.html
+SQL: SHOW COLUMNS FROM `classify_level` [ RunTime:0.0340s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classify_level` WHERE `platform_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `classify_level` WHERE `platform_id` = 1 LIMIT 0,15   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book_classify` [ RunTime:0.1880s ]
+SQL: SELECT `id`,`name` FROM `book_classify`  [ RunTime:0.0260s ]
+
+[ 2018-01-22T18:26:16+08:00 ] 127.0.0.1 /Admin/library/book_list.html
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0250s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `book` WHERE `book`.`platform_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `book`.*,`book_classify`.`name` as `classify_name`,`classify_level`.`name` as `level_name` FROM `book` LEFT JOIN `book_classify` ON `book_classify`.`id` = `book`.`classify_id` LEFT JOIN `classify_level` ON `classify_level`.`id` = `book`.`level_id`  WHERE `book`.`platform_id` = 1 LIMIT 0,15   [ RunTime:0.0770s ]
+
+[ 2018-01-22T18:26:19+08:00 ] 127.0.0.1 /Admin/Library/edit.html?book_id=false
+SQL: SHOW COLUMNS FROM `book_classify` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name` FROM `book_classify`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `classify_level` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`name` FROM `classify_level` WHERE `classify_id` = 0  [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\study\Application\Admin\Widget\SelectWidget.class.php 第 29 行.
+

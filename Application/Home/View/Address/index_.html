@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <link rel="stylesheet" href="/mobile/css/weui.css">
+    <link rel="stylesheet" href="/mobile/css/weui_reset.css">
+    <link rel="stylesheet" href="/mobile/fonts/iconfont.css">
+    <link rel="stylesheet" href="/mobile/style/choice_address.css">
+    <title>选择收货地址</title>
+</head>
+<body>
+<div class="header">
+    <div class="header-functionBar">
+        <span class="header-back" onclick="window.history.back().reload();">
+            <i class="txh icon-xiangzuo"></i>
+        </span>
+        <span class="header-text">选择收货地址</span>
+        <span class="header-btn">
+            <a href="{:U('address/set')}" style="font-size: 30px;">+</a>
+        </span>
+    </div>
+</div>
+<div class="page">
+    <div class="content-box" style="background: none;">
+        <foreach name="showData" item="item">
+            <div class="weui-form-preview">
+                <div class="weui-form-preview__bd">
+                    <div class="weui-form-preview__item">
+                        <label class="weui-form-preview__label">{$item.name}</label>
+                        <span class="weui-form-preview__value edit-text">{$item.phone}</span>
+                    </div>
+                    <div class="weui-form-preview__item">
+                        <label class="weui-form-preview__label edit-text address-text">
+                            {$item.address}
+                        </label>
+                    </div>
+                </div>
+                <div class="weui-form-preview__ft">
+                    <a class="{$item['def']?'active':''} weui-form-preview__btn weui-form-preview__btn_default"
+                         href="javascript:" onclick="ck.setDefault({$item.id});" >
+                        <i class="txh icon-wancheng1"></i>默认地址
+                    </a>
+                    <div class="right-edit">
+                        <a class="edit" href="{:U('address/set', array('address_id'=>$item['id']))}">
+                            <i class="txh icon-bianji" style="font-size: 13px;margin-right: 2px"></i>编辑
+                        </a>
+                        <div class="remove" onclick="ck.remove({$item.id});"><i class="txh icon-shanchu"></i> 删除</div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-holder"></div>
+        </foreach>
+    </div>
+</div>
+</body>
+<include file="Common/js" />
+<script type="text/javascript" src="/mobile/layer/layer.js"></script>
+<script>
+    (function(_){
+        _.setDefault = function(address_id)
+        {
+            $.get("{:U('address/set_default')}", {address_id: address_id}, function(returnData){
+                ajaxReturnMsg(returnData, true);
+            });
+        };
+        _.remove = function(address_id)
+        {
+            layer.open({
+                content: '确定删除该收件地址么？'
+                ,btn: ['删除', '取消']
+                ,skin: 'footer'
+                ,yes: function(index)
+                {
+                    layer.close(index);
+                    $.post("{:U('address/remove')}", {address_id: address_id}, function(returnData){
+                        ajaxReturnMsg(returnData, true);
+                    });
+
+                }
+            });
+        };
+    })(ck={});
+</script>
+</html>

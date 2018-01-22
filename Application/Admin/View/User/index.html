@@ -1,0 +1,90 @@
+<blockquote class="layui-elem-quote">
+    <form class="layui-form" action="">
+        <div class="layui-form-item" style="margin: 0;">
+            <div class="layui-input-inline">
+                <input type="text" name="name" value="{:I('get.name', '')}" placeholder="用户名称" class="layui-input">
+            </div>
+            <div class="layui-input-inline">
+                <button class="layui-btn" lay-submit="">查询</button>
+            </div>
+        </div>
+    </form>
+</blockquote>
+
+<table class="layui-table">
+    <thead>
+    <tr>
+        <th>账号/手机号码</th>
+        <th>用户名称</th>
+        <th>所属平台</th>
+        <th>用户类型</th>
+        <th>用户属性</th>
+        <th>性别</th>
+        <th>生日</th>
+        <th>创建时间</th>
+        <!--<th>操作</th>-->
+    </tr>
+    </thead>
+    <tbody>
+    <foreach name="showData" item="item">
+        <tr>
+            <td>{$item.phone}</td>
+            <td>{$item.nickname}</td>
+            <td>{$item.platform_name}</td>
+            <td>{:W('List/identity', array($item['type']))}</td>
+            <td>
+                <eq name="item.type" value="0">
+                    <if condition=" $item['parent_id']  ">
+                        子账号
+                        <else/>
+                        家长账号
+                    </if>
+                </eq>
+            </td>
+            <td>{:W('List/sex', array($item['type']))}</td>
+            <td>{$item.birthday}</td>
+            <td>{:date('Y-m-d H:i:s', $item['time'])}</td>
+            <!--<td>-->
+                <!--<a class="layui-btn layui-btn-xs" lay-event="edit" onclick="ck.setClassLevel({$item.id}, this);">编辑</a>-->
+                <!--<a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>-->
+            <!--</td>-->
+        </tr>
+    </foreach>
+    </tbody>
+</table>
+
+<div class="layui-laypage"  style="position: absolute; right: 15px;">
+    {$page}
+</div>
+
+
+<div class="site-text site-block" id="editClassGrade" style="display: none;margin-top: 20px;">
+    <form class="layui-form"  style="padding: 10px;" action="{:U('group/setClassGrade')}" method="post">
+        <input type="hidden" name="grade_id" />
+        <div class="layui-form-item">
+            <label class="layui-form-label">等级名称</label>
+            <div class="layui-input-block">
+                <input type="text" name="grade_name" required="" lay-verify="required"
+                       placeholder="等级名称" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">等级范围</label>
+            <div class="layui-input-block">
+                <input type="text" name="grade_range" required="" lay-verify="required"
+                       placeholder="等级名称：如 3~6" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">押金金额</label>
+            <div class="layui-input-block">
+                <input type="text" name="grade_price" placeholder="押金金额: 默认值为: 100.00" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-input-block">
+                <button class="layui-btn" lay-submit="" lay-filter="">立即提交</button>
+            </div>
+        </div>
+    </form>
+</div>

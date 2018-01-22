@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <link rel="stylesheet" href="/mobile/css/weui.css">
+    <link rel="stylesheet" href="/mobile/css/weui_reset.css">
+    <link rel="stylesheet" href="/mobile/fonts/iconfont.css">
+    <link rel="stylesheet" href="/mobile/style/register.css">
+    <link rel="stylesheet" href="/mobile/style/find_password.css">
+    <title>注册</title>
+</head>
+<script src="/mobile/js/zepto.min.js"></script>
+<script src="/mobile/js/weui.min.js"></script>
+<script src="/mobile/js/jweui.min.js"></script>
+<body>
+<div class="header">
+    <!--左侧图标-->
+        <span class="header-back" onclick="window.history.go(-1)">
+            <i class="txh icon-xiangzuo"></i>
+        </span>
+    <!--中间文字-->
+    <span class="header-text">注册童学惠账号</span>
+    <!--右侧按钮-->
+        <span class="header-btn">
+            <a href="{:U('login/index')}">登录</a>
+        </span>
+</div>
+<div class="page">
+    <div class="header-img">
+        <img src="/mobile/images/gift.png" alt="">
+        <p>手机注册，领童学惠学习福利！</p>
+    </div>
+    <form action="#">
+        <div class="login-box">
+            <div class="login-list">
+                <i class="txh icon-shouji"></i>
+                <input type="text" name="phone" value="" placeholder="填写手机号">
+            </div>
+            <div class="login-list list-yanzheng">
+                <i style="font-size: 18px;margin-left: 5px;margin-top: 5px" class="txh icon-shiliangzhinengduixiang"></i>
+                <input type="text" name="code" placeholder="输入短信验证码">
+                <a href="javascript:;" onclick="getCode();" id="send_code">发送验证码</a>
+            </div>
+            <div class="login-list">
+                <i class="txh icon-suo" style="margin-left: 3px;font-size: 20px;margin-top: 4px"></i>
+                <input type="password" name="password" placeholder="设置密码（6-20位字符）">
+            </div>
+            <div class="login-submit">
+                <a href="#" onclick="ck.register();">注册</a>
+            </div>
+            <div class="login-instruct">
+                注册代表您已经阅读并同意 <a href="#">《童学会用户协议》</a>
+            </div>
+        </div>
+    </form>
+</div>
+
+</body>
+<include file="Common/js" />
+<script>
+    var open_id = "{:I('open_id', '')}";
+    if( open_id ){
+        weui.alert("请绑定手机号码");
+    }
+    (function(_){
+        _.register = function()
+        {
+            var phone = $('input[name="phone"]').val();
+            if( ! checkPhone(phone) ){
+                return;
+            }
+
+            var code = $('input[name="code"]').val();
+            if( ! checkCode(code) ){
+                return;
+            }
+
+            var password = $('input[name="password"]').val();
+            var _password = $('input[name="_password"]').val();
+            if( ! checkPassword(password) || ! checkPassword(_password) ){
+                return;
+            }
+            $.post("{:U('login/register_')}", {code: code, phone: phone, password: password, open_id: open_id},function(param){
+                ajaxReturnMsg($.parseJSON(param));
+            }, "JSON");
+        }
+    })(ck={});
+</script>

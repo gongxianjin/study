@@ -1,0 +1,104 @@
+<blockquote class="layui-elem-quote">
+    <form class="layui-form" action="">
+        <div class="layui-form-item" style="margin: 0;">
+            <div class="layui-input-inline">
+                <input type="text" name="name" value="{:I('get.name', '')}" placeholder="分类名称" class="layui-input">
+            </div>
+            <div class="layui-input-inline">
+                <select name="classify_id">{:W('Select/selectClassify', array(I('classify_id', 0, 'intval')))}</select>
+            </div>
+            <div class="layui-input-inline">
+                <button class="layui-btn" lay-submit="">查询</button>
+                <button type="button" class="layui-btn layui-btn-normal"
+                        onclick="ck.setLevel(0, '', 0);">添加分级</button>
+            </div>
+        </div>
+    </form>
+</blockquote>
+
+<table class="layui-table">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>名称</th>
+        <th>创建时间</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody>
+    <foreach name="showData" item="item">
+        <tr>
+            <td>{$item.id}</td>
+            <td>{$item.name}</td>
+            <td>{:date('Y-m-d H:i:s', $item['time'])}</td>
+            <td>
+                <a class="layui-btn layui-btn-xs" lay-event="edit" onclick="ck.setLevel('{$item.classify_id}', '{$item.name}', '{$item.id}');">编辑</a>
+                <!--<a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>-->
+            </td>
+        </tr>
+    </foreach>
+    </tbody>
+</table>
+<div class="layui-laypage"  style="position: absolute; right: 15px;">
+    {$page}
+</div>
+
+<script>
+    layui.use(['layer', 'form'], function(){
+        var $ = layui.jquery, layer = layui.layer;
+        (function(_){
+            _.setLevel = function(classify_id, level_name, level_id)
+            {
+                var classify = $.parseJSON('{:json_encode(W("List/classify"))}');
+                var strings  = "<option value='0'>请选择...</option>";
+                for (var _classify_id in classify)
+                {
+                    var selected = '';
+                    if(_classify_id == classify_id){
+                        selected = 'selected';
+                    }
+                    strings += "<option value='" + _classify_id + "' " + selected + " >"+ classify[_classify_id] +"</option>";
+                }
+                var div = $('<div></div>');
+                div.append($('<div class="layui-form-item" style="margin-top: 20px;"></div>').html(
+                        $('<div class="layui-inline"><label class="layui-form-label">所属分类</label></div>').append(
+                                $('<div class="layui-input-inline"></div>').html(
+                                        $('<select class="layui-input" name="classify_select" style="max-height: 50px;"></select>').html(strings)
+                                ))
+                ));
+                div.append($('<div class="layui-form-item"></div>').html(
+                        $('<div class="layui-inline"><label class="layui-form-label">分级名称</label></div>').append(
+                                $('<div class="layui-input-inline"></div>').html(
+                                        $('<input type="text" name="classify_level" value="'+level_name+'" class="layui-input" />')
+                                ))
+                ));
+                div.append($('<div class="layui-form-item"></div>').html(
+                        $('<div class="layui-inline"><label class="layui-form-label"></label></div>').append(
+                                $('<div class="layui-input-inline"></div>').html(
+                                        $('<button class="layui-btn" onclick="ck.save('+ level_id +');" style="width: 100%;">保存</button>')
+                                ))
+                ));
+                layer.open({
+                    type: 1,
+                    title: '编辑图书分级',
+                    content: $(div).html()
+                });
+            };
+            _.save = function(level_id)
+            {
+                var classify_id = $('select[name="classify_select"]').val();
+                var level_name = $('input[name="classify_level"]').val();
+                if( ! classify_id || ! level_name){
+                    return;
+                }
+                $.post("{:U('library/setLevel')}", {
+                    level_id: level_id,
+                    classify_id: classify_id,
+                    level_name: level_name
+                }, function(returnData){
+                    ajaxReturn(returnData, true);
+                });
+            }
+        })(ck={});
+    });
+</script>

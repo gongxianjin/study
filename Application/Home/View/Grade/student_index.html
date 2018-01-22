@@ -1,0 +1,23 @@
+<extend name="Common/common" />
+<block name="stylesheet">
+    <link rel="stylesheet" href="/mobile/style/teacher_class.css">
+    <php>
+        $type = I('get.type', 0, 'intval');
+        $name = $type ? '课程' : '班级';
+    </php>
+</block>
+<block name="title">我的{$name}</block>
+<block name="header_btn"></block>
+<block name="content">
+    <div class="page">
+        <div class="class-list-box">
+            <foreach name="showData" item="item">
+                <div class="class-list clearfix">
+                    <img src="{:imageDomain($item['img'])}" style="width: 100px; height: 142px;" alt="">
+                    <p>{$item.name}</p>
+                    <p><a href="{:U('grade/homework', array('grade_id'=>$item['id']))}">我的作业</a></p>
+                </div>
+            </foreach>
+        </div>
+    </div>
+</block>

@@ -1,0 +1,154 @@
+<extend name="Common/common" />
+<block name="stylesheet"><link rel="stylesheet" href="/mobile/style/person_infor.css"></block>
+<block name="title">个人信息设置</block>
+<block name="header_btn"><a  id="saveBtn" style="font-weight: normal">保存</a></block>
+<block name="content">
+
+  <div class="page">
+      <div class="weui-cells basic-info">
+
+          <a class="weui-cell weui-cell_access" href="javascript:;"  id="upload_hd">
+              <div class="weui-cell__hd">
+                  头像
+              </div>
+              <div class="weui-cell__bd weui-cell_primary">
+                  <div class="header-img" >
+                        <span>
+                            <img id="head_img" src="{:imageDomain($userInfo['head_img'])}" alt="">
+                            <input id="head_img_value" name="head_img" value="{$userInfo.head_img}" type="hidden">
+                            <input id="uploaderInput" class="weui-uploader__input" type="file" accept="image/*">
+                        </span>
+                  </div>
+              </div>
+              <span class="weui-cell__ft"></span>
+          </a>
+
+          <a class="weui-cell weui-cell_access" href="javascript:;">
+              <div class="weui-cell__hd">
+                  昵称
+              </div>
+              <div class="weui-cell__bd weui-cell_primary">
+                  <input class="weui-input" type="text" name="nickname"
+                         style="text-align: right;" maxlength="10" value="{$userInfo.nickname}" />
+              </div>
+              <span class="weui-cell__ft"></span>
+          </a>
+
+          <a id="search_sex" class="weui-cell weui-cell_access" href="javascript:;">
+              <div class="weui-cell__hd">
+                  性别
+              </div>
+              <div class="weui-cell__bd weui-cell_primary">
+                  <input type="text" class="weui-input" style="text-align: right;"  name="sex" id="sex_value"
+                         readonly="readonly" value="{:($userInfo['sex']=='1') ? '男' :($userInfo['sex']==2?'女':'')}" />
+              </div>
+              <span class="weui-cell__ft"></span>
+          </a>
+          <a class="weui-cell weui-cell_access" id="search_birthday" href="javascript:;">
+              <div class="weui-cell__hd">
+                  生日
+              </div>
+              <div class="weui-cell__bd weui-cell_primary">
+                  <input type="text" value="{$userInfo.birthday}" class="weui-input" name="birthday"
+                         style="text-align: right;" readonly="readonly" id="birthday_value_input" />
+              </div>
+              <span class="weui-cell__ft"></span>
+          </a>
+      </div>
+      <div class="weui-cells basic-info">
+          <a class="weui-cell weui-cell_access" href="javascript:;">
+              <div class="weui-cell__hd">
+                  地区
+              </div>
+              <div class="weui-cell__bd weui-cell_primary">
+                  <input class="weui-input" type="text" name="city" id='city-picker'
+                         style="text-align: right;" maxlength="10" value="{$userInfo.city}" />
+              </div>
+              <span class="weui-cell__ft"></span>
+          </a>
+      </div>
+  </div>
+
+    <script>
+        $('#saveBtn').on('click', function(){
+            var head_img = $('input[name="head_img"]').val();
+            if( ! head_img ){
+                weui.alert('请选择头像');
+            }
+            var nickname = $('input[name="nickname"]').val();
+            if( ! nickname ){
+                weui.alert('请填写昵称');
+            }
+            $.post("{:U('user/setPersonal')}", {
+                head_img: head_img,
+                nickname: nickname,
+                sex: $('input[name="sex"]').val(),
+                birthday: $('input[name="birthday"]').val(),
+                city: $('input[name="city"]').val()
+            }, function(returnData){
+                ajaxReturnMsg(returnData);
+            });
+        });
+
+        $('#city-picker').on('click',function(){
+            weui.picker(province(), {
+                onConfirm: function (result) {
+                    $('#city-picker').val(result.join(" "));
+                }});
+        });
+
+        $('#search_sex').on('click', function () {
+            var sexType = 1;
+            if($('#sex_value').val() == '女'){
+                sexType = 2;
+            }
+            weui.picker([{label: '男', value: 1}, {label: '女', value: 2}],{
+                defaultValue: [sexType],
+                onConfirm: function (result) {
+                    $('#sex_value').val(result[0] == 1 ? '男' : '女');
+                }});
+        });
+
+        $('#search_birthday').on('click', function () {
+            var year = (new Date()).getFullYear();
+            weui.datePicker({
+                start: year - 100,
+                end: year,
+                onConfirm: function (result)
+            {
+                $('#birthday_value_input').val(result[0]+'-'+result[1]+'-'+result[2]);
+            }});
+        });
+
+        weui.uploader('#upload_hd', {
+            url: '{:U("upload/head_img")}',
+            auto: true,
+            type: 'file',
+            fileVal: 'head_img',
+            onQueued: function(){
+                $('#head_img').attr('src', this.url);
+            },onBeforeSend: function(){
+                $("#loading_text").html('头像上传中');
+                $("#loadingToast").fadeIn(100);
+            },onSuccess: function (ret){
+                $("#loadingToast").fadeOut(100);
+                if((typeof ret.code) == undefined)
+                {
+                    weui.alert('上传异常');
+                    return;
+                }
+                if( ret.code )
+                {
+                    weui.alert(ret.message);
+                    return;
+                }
+                $('#head_img_value').val(ret.filename);
+                return true;
+            }
+        });
+    </script>
+</block>
+
+
+
+

@@ -1,0 +1,138 @@
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  background-color: #e8e8e8;
+}
+body div.header {
+  top: 0;
+  z-index: 100;
+  color: #fff;
+  transition: 300ms;
+  position: relative;
+  width: 100%;
+}
+body div.header .header-functionBar {
+  height: 50px;
+  line-height: 50px;
+  background-color: #2addfd;
+}
+body div.header .header-functionBar >span.header-back {
+  position: absolute;
+  left: 6px;
+  top: 5px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  overflow: hidden;
+  height: 40px;
+}
+body div.header .header-functionBar >span.header-back >i {
+  font-size: 28px;
+}
+body div.header .header-functionBar .header-text {
+  position: absolute;
+  left: 50px;
+  font-size: 20px;
+  display: inline-block;
+  right: 50px !important;
+  text-align: center !important;
+}
+body div.header .header-functionBar .header-btn {
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+  width: 60px;
+  right: 0;
+}
+body div.header .header-functionBar .header-btn >a {
+  text-align: center;
+  height: 100%;
+  color: #fff;
+}
+body div.header .header-functionBar .header-btn >a >i {
+  font-size: 20px;
+}
+body div.header .header-topImg {
+  width: 100%;
+  height: 220px;
+}
+body div.header .header-topImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+body div.header .header-tabbar {
+  background-color: #fff;
+  height: 85px;
+  padding: 10px;
+}
+body div.header .header-tabbar .product-title {
+  line-height: 24px;
+  font-size: 16px;
+  color: #666;
+}
+body div.header .header-tabbar .product-price {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #dd2b2b;
+}
+body div.header .header-tabbar .product-introduce {
+  display: flex;
+  justify-content: space-between;
+  color: #999;
+  font-weight: 100;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+body div.page {
+  margin-bottom: 35px;
+  transition: 300ms;
+  margin-top: 385px;
+  z-index: 10;
+  font-size: 14px;
+  background-color: transparent;
+}
+body div.page .product-detail {
+  position: absolute;
+  top: 0px;
+  padding-right: 10px;
+  bottom: 10px;
+  background-color: #fff;
+  z-index: 998;
+  width: 100%;
+  overflow: hidden;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+body div.page .product-detail .product-detail-title {
+  line-height: 45px;
+  padding: 0 10px;
+  color: #333;
+  font-size: 16px;
+  padding-top: 5px;
+}
+body div.page .product-detail .product-detail-content {
+  font-size: 14px;
+  color: #888;
+  font-weight: 200;
+  padding: 0 10px;
+  line-height: 25px;
+}
+body div.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+}
+body div.footer a {
+  display: inline-block;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  background-color: #f9655a;
+}
