@@ -198,7 +198,7 @@
 
             </div>
             <div class="unit-footer">
-                <a href="#">合成预览</a>
+                <a href="<?php echo U('Home/CreateBook/previewBook');?>">合成预览</a>
                 <a href="#">保存</a>
             </div>
         </div>
@@ -235,7 +235,7 @@
                         };
                         switch(col){
                             case 1: 
-                                var html = '<div class="activity-list-' + (index % 2 == 0 ? "left" : "right") + ' activity-list-common"><div class="img-box"><img src="/mobile/images/activity/activity1.png" alt=""><p>' + items.name + '<span class="' + items.s_html + '">[' + items.status + ']</span></p></div><div class="function-list"><div class="list-box"><div class="fuction">修改</div><div class="fuction">删除</div></div></div></div>';
+                                var html = '<div class="activity-list-' + (index % 2 == 0 ? "left" : "right") + ' activity-list-common"><div class="img-box"><img src="/mobile/images/activity/activity1.png" alt=""><p>' + (items.name).substr(0,5) + '<span class="' + items.s_html + '">[' + items.status + ']</span></p></div><div class="function-list"><div class="list-box"><div class="fuction">修改</div><div class="fuction">删除</div></div></div></div>';
                                 break;
                             case 3:
                                 var html = '<div class="activity-list-' + (index % 2 == 0 ? "left" : "right") + ' activity-list-common"><div class="img-box"><img src="/mobile/images/activity/activity1.png" alt=""><p>' + (items.book_name).substr(0,5) +'<span style="font-weight: 200;margin-left:5px ">' + (items.name).substr(0,5) + '</span></p></div><div class="function-list"><div class="list-box"><div class="fuction">修改</div><div class="fuction">删除</div></div></div></div>';

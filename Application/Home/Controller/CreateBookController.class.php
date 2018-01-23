@@ -38,6 +38,26 @@ class CreateBookController extends Base{
 			$this->error("权限不足");
 		}
 	}
+
+	//合成预览
+	public function previewBook(){
+		echo "合成预览";
+	}
+
+	//保存课本
+	public function saveBook(){
+		echo "保存课本";
+	}
+
+	//保存课文
+	public function saveTextBook(){
+		echo "保存课文";
+	}
+
+	//发布课本
+	public function publishBook(){
+		echo "发布课本";
+	}
 }
 
 ?>

@@ -4,3 +4,54 @@ ERR: 无法加载模块:Mobile
 [ 2018-01-23T13:36:19+08:00 ] 127.0.0.1 /mobile/images/homemade/booklist-bg.png
 ERR: 无法加载模块:Mobile
 
+[ 2018-01-23T20:49:27+08:00 ] 127.0.0.1 /images/buy4.png
+ERR: 无法加载模块:Images
+
+[ 2018-01-23T20:49:27+08:00 ] 127.0.0.1 /images/absent.png
+ERR: 无法加载模块:Images
+
+[ 2018-01-23T20:49:27+08:00 ] 127.0.0.1 /images/buy1.png
+ERR: 无法加载模块:Images
+
+[ 2018-01-23T20:49:27+08:00 ] 127.0.0.1 /images/buy2.png
+ERR: 无法加载模块:Images
+
+[ 2018-01-23T20:49:27+08:00 ] 127.0.0.1 /images/buy3.png
+ERR: 无法加载模块:Images
+
+[ 2018-01-23T20:51:18+08:00 ] 127.0.0.1 /images/buy1.png
+ERR: 无法加载模块:Images
+
+[ 2018-01-23T20:51:18+08:00 ] 127.0.0.1 /images/buy3.png
+ERR: 无法加载模块:Images
+
+[ 2018-01-23T20:51:18+08:00 ] 127.0.0.1 /images/buy4.png
+ERR: 无法加载模块:Images
+
+[ 2018-01-23T20:51:18+08:00 ] 127.0.0.1 /images/absent.png
+ERR: 无法加载模块:Images
+
+[ 2018-01-23T20:51:18+08:00 ] 127.0.0.1 /images/buy2.png
+ERR: 无法加载模块:Images
+
+[ 2018-01-23T20:51:37+08:00 ] 127.0.0.1 /images/buy2.png
+ERR: 无法加载模块:Images
+
+[ 2018-01-23T20:51:37+08:00 ] 127.0.0.1 /images/buy3.png
+ERR: 无法加载模块:Images
+
+[ 2018-01-23T20:51:37+08:00 ] 127.0.0.1 /images/buy4.png
+ERR: 无法加载模块:Images
+
+[ 2018-01-23T20:51:37+08:00 ] 127.0.0.1 /images/absent.png
+ERR: 无法加载模块:Images
+
+[ 2018-01-23T20:51:37+08:00 ] 127.0.0.1 /images/buy1.png
+ERR: 无法加载模块:Images
+
+[ 2018-01-23T21:01:02+08:00 ] 127.0.0.1 /person_manager.html
+ERR: 无法加载模块:Person_manager
+
+[ 2018-01-23T21:01:05+08:00 ] 127.0.0.1 /person_manager.html
+ERR: 无法加载模块:Person_manager
+

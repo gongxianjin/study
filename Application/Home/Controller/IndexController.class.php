@@ -7,6 +7,7 @@ class IndexController extends Base
     public function index()
     {
         $this->assign('hotActivity', D('Activity')->activityList($this->platform_id, 3));
+        $this->assign("user_type",(int)$this->user_type);
         $this->display();
     }
 }

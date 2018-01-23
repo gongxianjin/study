@@ -1,5 +1,8 @@
 <extend name="Common/header" />
-<block name="stylesheet"><link rel="stylesheet" href="/mobile/style/index.css"></block>
+<block name="stylesheet">
+<link rel="stylesheet" href="/mobile/style/index.css">
+<link rel="stylesheet" href="/mobile/style/teacherIndex.css">
+</block>
 <block name="title">首页</block>
 <block name="content">
     <div class="header">
@@ -28,48 +31,18 @@
             </div>
             <div class="swiper-pagination"></div>
         </div>
-        <div class="activity-container">
-            <div class="weui-flex">
-                <a class="weui-flex__item" href="{:U('activity/index')}">
-                    <div  class="placeholder">
-                        <img src="/mobile/images/buy1.png" alt="">
-                        <p>课程活动</p>
-                    </div>
-                </a>
-                <a class="weui-flex__item">
-                    <div  class="placeholder">
-                        <img src="/mobile/images/buy2.png" alt="">
-                        <p>今日作业</p>
-                    </div>
-                </a>
-                <a class="weui-flex__item" href="{:U('shop/index')}">
-                    <div  class="placeholder">
-                        <img src="/mobile/images/buy3.png" alt="">
-                        <p>积分商城</p>
-                    </div>
-                </a>
-                <a class="weui-flex__item" href="{:U('library/index')}">
-                    <div  class="placeholder">
-                        <img src="/mobile/images/buy4.png" alt="">
-                        <p>图书馆</p>
-                    </div>
-                </a>
-            </div>
-        </div>
-        <div class="absent-day">
-            <div class="absent-container">
-                <div class="left-absent_img">
-                    <img src="/mobile/images/absent.png" alt="">
-                </div>
-                <div class="center-calender">
-                    <i class="txh icon-rili"></i>
-                    <span>缺课天数</span>
-                </div>
-                <div class="right-days">
-                    <span>20天</span>
-                </div>
-            </div>
-        </div>
+        <!--根据不同身份切换不同模板-->
+        <if condition="$user_type eq 2">
+            <!--管理员-->
+            <include file="Index/manager" />
+        <elseif condition="$user_type eq 1" />
+            <!-- 教师 -->
+            <include file="Index/teacher" />
+        <else />
+            <!-- 学生 -->
+            <include file="Index/student" />
+        </if>
+
         <div class="hots">
             <div class="hot-header">
                 <i class="txh icon-remen"></i>

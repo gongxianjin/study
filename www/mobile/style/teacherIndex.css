@@ -1,0 +1,198 @@
+body {
+  background-color: #f3f3f3;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+body div.header {
+  top: 0;
+  height: 50px;
+  line-height: 50px;
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  z-index: 100;
+  color: #151515;
+  transition: 300ms;
+}
+body div.header >span.header-back {
+  position: absolute;
+  left: 15px;
+  top: 5px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  overflow: hidden;
+  height: 40px;
+}
+body div.header >span.header-back >a>img {
+  width: 100%;
+}
+body div.header .header-text {
+  position: absolute;
+  left: 50px;
+  height: 100%;
+  font-size: 20px;
+  display: inline-block;
+  right: 50px !important;
+  text-align: center !important;
+}
+body div.header .header-btn {
+  position: absolute;
+  text-align: center;
+  height: 100%;
+  display: inline-block;
+  width: 60px;
+  right: 0;
+}
+body div.header .header-btn >a {
+  text-align: center;
+  height: 100%;
+  color: #151515;
+}
+body div.header .header-btn >a >i {
+  font-size: 32px;
+}
+body div.page {
+  /*top: 50px;*/
+  bottom: 75px;
+  transition: 300ms;
+  z-index: 10;
+  font-size: 14px;
+  overflow: hidden;
+  overflow-y: auto;
+  box-sizing: border-box;
+  background-color: #f3f3f3;
+}
+body div.page .swiper-container {
+  background-color: #fff;
+  width: 100%;
+}
+body div.page .swiper-container .swiper-slide {
+  width: 90%;
+  margin-left: 0.1%;
+  height: 100%;
+}
+body div.page .swiper-container .swiper-slide >img {
+  width: 100%;
+}
+body div.page .activity-container {
+  background-color: #fff;
+}
+body div.page .activity-container .weui-flex {
+  margin-right: 10px;
+}
+body div.page .activity-container .weui-flex .weui-flex__item {
+  text-align: center;
+  cursor: pointer;
+}
+body div.page .activity-container .weui-flex .weui-flex__item .placeholders {
+  margin: 5px;
+  text-align: center;
+  color: #2d2d2d;
+}
+body div.page .activity-container .weui-flex .weui-flex__item .placeholders >img {
+  width: 60%;
+}
+body div.page .absent-day {
+  background-color: #fff;
+  padding-bottom: 2px;
+  padding-top: 1px;
+}
+body div.page .absent-day .absent-container {
+  background-color: #f5f5f5;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin: 15px;
+  border-radius: 10px;
+  position: relative;
+  height: 50px;
+  line-height: 50px;
+}
+body div.page .absent-day .absent-container .left-absent_img {
+  top: -15px;
+  width: 100px;
+  position: absolute;
+}
+body div.page .absent-day .absent-container .left-absent_img >img {
+  width: 90%;
+}
+body div.page .absent-day .absent-container .center-calender {
+  padding-left: 120px;
+}
+body div.page .absent-day .absent-container .center-calender a {
+  color: #404040;
+  font-weight: bold;
+  padding: 5px;
+  padding-right: 8px;
+  border-radius: 6px;
+}
+body div.page .absent-day .absent-container .center-calender >span {
+  color: #404040;
+  font-weight: bold;
+}
+body div.page .absent-day .absent-container .right-days {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  text-align: center;
+}
+body div.page .absent-day .absent-container .right-days >span {
+  font-size: 18px;
+  color: #76aafd;
+  font-weight: 400;
+}
+body div.page .hots {
+  margin-top: 8px;
+  background-color: #fff;
+}
+body div.page .hots .hot-header {
+  height: 35px;
+  line-height: 35px;
+  padding: 0 15px;
+}
+body div.page .hots .hot-header >i {
+  color: #c9ced1;
+  font-size: 18px;
+}
+body div.page .hots .hot-header >span {
+  color: #2d2d2d;
+  font-size: 16px;
+}
+body div.page .hots .hot-content {
+  padding: 10px 15px;
+  padding-top: 5px;
+}
+body div.page .hots .hot-content .weui-flex .weui-flex__item .placeholders img {
+  width: 100%;
+  height: 93px;
+  overflow: hidden;
+}
+body div.footer {
+  z-index: 20;
+  position: fixed;
+  height: 78px;
+  width: 100%;
+  background-image: url("../images/footer_bg2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fff;
+  bottom: 0;
+}
+body div.footer .weui-tabbar {
+  background: transparent;
+}
+body div.footer .weui-tabbar:before {
+  height: 0 !important;
+  width: 0 !important;
+}
+body div.footer .weui-tabbar .weui-tabbar__icon {
+  height: 36px;
+  width: 36px;
+}
+body div.footer .weui-tabbar .weui-tabbar__label {
+  color: #333;
+  font-size: 14px;
+}
