@@ -192,3 +192,57 @@ ul{
     margin-top: 10px;
     text-align: left
 }
+.clearfix:after{
+    content:".";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden
+}
+.clearfix{overflow:hidden;_zoom:1;}
+input,textarea{
+    text-indent: 0;
+    background: transparent;
+    border: 1px solid #e8e8e8;
+    resize:none;
+    outline:none;  /*清除选中效果的默认蓝色边框 */
+    -webkit-appearance:none;  /*清除浏览器默认的样式 */
+    line-height: normal;
+    padding-left: 10px;
+}
+select{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url(../../images/arrow.png) no-repeat scroll right center transparent;
+    padding-right: 14px;
+    height: 30px;
+    width: 100%;
+    border: 1px solid #d8d8d8;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 4px;
+    color: #A0A0A0;
+    background-color: #fff;
+    font-size: 14px;
+}
+input[type="checkbox"]{
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    display:none
+}
+
+ input[type="checkbox"] + span{
+    width:20px;height:20px;
+    display:inline-block;
+    background:url("../../images/activity/checkbox_01.gif")  no-repeat;background-position:0 0;}
+input[type="checkbox"]:checked + span{background-position:0 -21px}
+
+
+.comment-box{
+    display: none;
+}
+.showBox{
+    display: flex ;
+}

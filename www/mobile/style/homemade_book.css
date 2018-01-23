@@ -1,0 +1,294 @@
+body {
+  background-image: url("../images/homemade/booklist-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+body div.page {
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  position: absolute;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 6px;
+}
+body div.page .book-relavant {
+  width: 100%;
+}
+body div.page .book-relavant .class-name {
+  box-sizing: border-box;
+  margin: 10px;
+  padding-bottom: 15px;
+}
+body div.page .book-relavant .class-name label {
+  font-weight: 500;
+  display: block;
+  text-align: left;
+  font-size: 16px;
+  color: #333;
+  line-height: 40px;
+  box-sizing: border-box;
+}
+body div.page .book-relavant .class-name input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  font-size: 14px;
+}
+body div.page .book-relavant .unit-footer {
+  display: flex;
+  margin: 10px;
+}
+body div.page .book-relavant .unit-footer a {
+  flex: 1;
+  display: inline-block;
+  background-color: #44d2ee;
+  color: #fff;
+  text-align: center;
+  padding: 8px 0;
+  border-radius: 40px;
+  font-size: 14px;
+  font-weight: 300;
+}
+body div.page .book-relavant .unit-footer a:first-child {
+  margin-right: 10px;
+}
+body div.page .book-relavant .unit-table {
+  margin: 10px;
+  box-sizing: border-box;
+}
+body div.page .book-relavant .unit-table .imagetable {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 11px;
+  color: #333;
+  border-width: 1px;
+  border-color: #999;
+  border-collapse: collapse;
+}
+body div.page .book-relavant .unit-table .imagetable th {
+  border-width: 1px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #e8e8e8;
+  border-left: none;
+  text-align: center;
+  border-right: none;
+  font-weight: 400;
+}
+body div.page .book-relavant .unit-table .imagetable td {
+  border-width: 1px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #e8e8e8;
+  border-left: none;
+  border-right: none;
+  text-align: center;
+  color: #666;
+}
+body div.page .book-relavant .unit-table .imagetable td input {
+  margin-right: 3px;
+}
+body div.page .book-relavant .unit-table .imagetable td a {
+  display: inline-block;
+  margin-right: 3px;
+  color: #44d2ee;
+  font-weight: 300;
+}
+body div.page .book-relavant .lesson-img-box {
+  margin: 20px 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+body div.page .book-relavant .lesson-img-box img {
+  width: 100%;
+}
+body div.page .book-relavant .lesson-img-box a {
+  padding: 5px 15px;
+  border-radius: 4px;
+  color: #999;
+  border: 1px solid #79a594;
+  font-weight: 300;
+  margin-top: 15px;
+  display: inline-block;
+}
+body div.page .book-relavant .activity-setting {
+  padding: 10px;
+  padding-top: 0;
+  margin-top: -10px;
+}
+body div.page .book-relavant .activity-setting label {
+  font-weight: 500;
+  display: block;
+  text-align: left;
+  font-size: 16px;
+  color: #333;
+  line-height: 40px;
+}
+body div.page .book-relavant .activity-setting .date-box {
+  padding-right: 17px;
+}
+body div.page .book-relavant .activity-setting .unit-aside {
+  font-size: 10px;
+  width: 100%;
+  text-align: center;
+  margin: 10px;
+  color: #666;
+}
+body div.page .book-relavant .activity-setting .input-box {
+  display: flex;
+  align-items: center;
+}
+body div.page .book-relavant .activity-setting .input-box .add-unit {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  background-color: #f2f2f4;
+  color: #333;
+  font-weight: 200;
+  border-radius: 3px;
+  padding: 0 10px;
+  font-size: 12px;
+}
+body div.page .book-relavant .activity-setting .input-box .add-unit i {
+  font-size: 10px;
+  color: #6cd3ee;
+}
+body div.page .book-relavant .activity-setting .input-box label {
+  font-size: 14px;
+  color: #666;
+  width: 80px;
+  font-weight: 200;
+}
+body div.page .book-relavant .activity-setting .input-box .weui-input {
+  font-weight: 200;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid #e8e8e8;
+}
+body div.page .book-relavant .activity-setting .input-box input {
+  height: 30px;
+  border-radius: 4px;
+  margin-right: 10px;
+  flex: 1;
+}
+.page-header-box {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.page-header-box .header-box-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.page-header-box .header-box-content .page-header-list {
+  flex: 1;
+  text-align: center;
+  margin-top: 20px;
+}
+.page-header-box .header-box-content .page-header-list .page-header-list-top {
+  width: 50px;
+  height: 50px;
+  background-color: #bedca6;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.page-header-box .header-box-content .page-header-list .page-header-list-top i {
+  font-size: 26px;
+}
+.page-header-box .header-box-content .page-header-list .top-list1 {
+  background-color: #bedca6;
+}
+.page-header-box .header-box-content .page-header-list .top-list2 {
+  background-color: #92c3ee;
+}
+.page-header-box .header-box-content .page-header-list .top-list3 {
+  background-color: #b8e6db;
+}
+.page-header-box .header-box-content .page-header-list .top-list4 {
+  background-color: #c1c7e1;
+}
+.page-header-box .header-box-content .page-header-list .page-header-list-down p {
+  color: #343434;
+}
+.page-header-box .header-box-line {
+  margin-top: 10px;
+}
+.page-header-box .header-box-line img {
+  width: 100%;
+}
+.page-body-box {
+  position: absolute;
+  top: 130px;
+  left: 0px;
+  bottom: 0;
+  width: 100%;
+  overflow-y: auto;
+}
+.page-body-box .class-list-box .activity-list {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  margin-top: 15px;
+}
+.page-body-box .class-list-box .activity-list .activity-list-left {
+  margin-right: 10px;
+}
+.page-body-box .class-list-box .activity-list .activity-list-common {
+  flex: 1;
+  text-align: center;
+  border-bottom: 1px solid #ededed;
+}
+.page-body-box .class-list-box .activity-list .activity-list-common .img-box {
+  position: relative;
+  width: 100%;
+  max-height: 150px;
+  overflow: hidden;
+}
+.page-body-box .class-list-box .activity-list .activity-list-common .img-box img {
+  width: 100%;
+  border-radius: 6px;
+}
+.page-body-box .class-list-box .activity-list .activity-list-common .img-box p {
+  color: #343434;
+  display: block;
+  text-align: center;
+  font-size: 14px;
+}
+.page-body-box .class-list-box .activity-list .activity-list-common .img-box p span {
+  margin-left: 2px;
+  color: #666;
+}
+.page-body-box .class-list-box .activity-list .activity-list-common .img-box p span.public {
+  color: #eb8c4a;
+}
+.page-body-box .class-list-box .activity-list .activity-list-common .function-list {
+  padding: 10px;
+}
+.page-body-box .class-list-box .activity-list .activity-list-common .function-list .list-box {
+  display: flex;
+  justify-content: space-between;
+}
+.page-body-box .class-list-box .activity-list .activity-list-common .function-list .fuction {
+  background-image: url("../images/right_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 54px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+}

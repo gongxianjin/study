@@ -18,4 +18,27 @@ class BookModel extends Model
     {
         return $this->where(array('id' => $book_id))->find();
     }
+
+    public function getBooks($teacher_id){
+        if (isset($teacher_id)) {
+            $res = array();
+            $oneBook = array();
+            $query = M("Book")->where("user_id = " . (int)$teacher_id)->order("id asc")->select();
+            foreach($query as $one){
+                foreach($one as $key => $value){
+                    $oneBook[$key] = $one[$key];
+                }
+                if ((int)$oneBook['status'] == 1) {
+                   $oneBook['status'] = "已发布";
+                   $oneBook['s_html'] = "public";
+                }else{
+                    $oneBook['status'] = "未发布";
+                    $oneBook['s_html'] = "";
+                }
+                array_push($res, $oneBook);
+                $oneBook = array();
+            }
+        }
+        return $res;
+    }
 }

@@ -1,0 +1,1546 @@
+[ 2018-01-23T13:32:12+08:00 ] 127.0.0.1 /Home/login/login.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '13555555555' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Library/WebServer/Documents/Study/ThinkPHP/Common/functions.php 第 1272 行.
+
+[ 2018-01-23T13:32:12+08:00 ] 127.0.0.1 /
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0008s ]
+
+[ 2018-01-23T13:32:33+08:00 ] 127.0.0.1 /Home/CreateBook
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T13:32:33+08:00 ] 127.0.0.1 /Home/lib/css/weui.css
+ERR: 无法加载控制器:Lib
+
+[ 2018-01-23T13:32:33+08:00 ] 127.0.0.1 /Home/style/homemade_book.css
+ERR: 无法加载控制器:Style
+
+[ 2018-01-23T13:32:33+08:00 ] 127.0.0.1 /Home/lib/css/weui_reset.css
+ERR: 无法加载控制器:Lib
+
+[ 2018-01-23T13:32:33+08:00 ] 127.0.0.1 /Home/fonts/iconfont.css
+ERR: 无法加载控制器:Fonts
+
+[ 2018-01-23T13:32:33+08:00 ] 127.0.0.1 /Home/lib/js/zepto.min.js
+ERR: 无法加载控制器:Lib
+
+[ 2018-01-23T13:32:33+08:00 ] 127.0.0.1 /Home/lib/js/jquery.min.js
+ERR: 无法加载控制器:Lib
+
+[ 2018-01-23T13:32:33+08:00 ] 127.0.0.1 /Home/lib/js/jweui.min.js
+ERR: 无法加载控制器:Lib
+
+[ 2018-01-23T13:32:33+08:00 ] 127.0.0.1 /Home/lib/js/weui.min.js
+ERR: 无法加载控制器:Lib
+
+[ 2018-01-23T13:32:33+08:00 ] 127.0.0.1 /Home/lib/js/jweui.min.js
+ERR: 无法加载控制器:Lib
+
+[ 2018-01-23T13:32:33+08:00 ] 127.0.0.1 /Home/lib/js/jquery.min.js
+ERR: 无法加载控制器:Lib
+
+[ 2018-01-23T13:34:49+08:00 ] 127.0.0.1 /Home/CreateBook
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-23T13:34:49+08:00 ] 127.0.0.1 /Home/lib/js/zepto.min.js
+ERR: 无法加载控制器:Lib
+
+[ 2018-01-23T13:34:49+08:00 ] 127.0.0.1 /Home/lib/js/weui.min.js
+ERR: 无法加载控制器:Lib
+
+[ 2018-01-23T13:34:49+08:00 ] 127.0.0.1 /Home/lib/js/jweui.min.js
+ERR: 无法加载控制器:Lib
+
+[ 2018-01-23T13:34:49+08:00 ] 127.0.0.1 /Home/lib/js/jquery.min.js
+ERR: 无法加载控制器:Lib
+
+[ 2018-01-23T13:36:19+08:00 ] 127.0.0.1 /Home/CreateBook
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T13:37:10+08:00 ] 127.0.0.1 /Home/CreateBook
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T13:37:26+08:00 ] 127.0.0.1 /Home/CreateBook
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-23T13:43:03+08:00 ] 127.0.0.1 /Home/CreateBook
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T13:47:50+08:00 ] 127.0.0.1 /Home/CreateBook
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-23T13:50:40+08:00 ] 127.0.0.1 /Home/CreateBook
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T14:55:39+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 )  [ RunTime:0.0023s ]
+
+[ 2018-01-23T14:57:31+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0020s ]
+
+[ 2018-01-23T14:58:59+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:08:16+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:08:39+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:09:22+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:09:41+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:09:42+08:00 ] 127.0.0.1 /Home/CreateBook/[object%20Object].html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:09:42+08:00 ] 127.0.0.1 /Home/CreateBook/[object%20Object].html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:09:42+08:00 ] 127.0.0.1 /Home/CreateBook/[object%20Object].html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:09:44+08:00 ] 127.0.0.1 /Home/CreateBook/[object%20Object].html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:10:18+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T15:10:19+08:00 ] 127.0.0.1 /Home/CreateBook/[object%20Object].html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T15:12:05+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-23T15:12:17+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:12:18+08:00 ] 127.0.0.1 /Home/CreateBook/%7B%7D.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:12:22+08:00 ] 127.0.0.1 /Home/CreateBook/%7B%7D.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T15:12:59+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T15:13:00+08:00 ] 127.0.0.1 /Home/CreateBook/undefined.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-01-23T15:13:10+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:17:05+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:17:07+08:00 ] 127.0.0.1 /Home/CreateBook/undefined.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T15:17:30+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:19:16+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:19:17+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:19:19+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:19:19+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:19:21+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:21:12+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+
+[ 2018-01-23T15:21:50+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : attributes construct error /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;textBooks&quot;, id=&quot;text&quot; /&gt;&lt;/tpl&gt; /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                           ^ /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Couldn't find end of Start Tag tag line 1 /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;textBooks&quot;, id=&quot;text&quot; /&gt;&lt;/tpl&gt; /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                           ^ /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+
+[ 2018-01-23T15:21:52+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : attributes construct error /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;textBooks&quot;, id=&quot;text&quot; /&gt;&lt;/tpl&gt; /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                           ^ /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Couldn't find end of Start Tag tag line 1 /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;textBooks&quot;, id=&quot;text&quot; /&gt;&lt;/tpl&gt; /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                           ^ /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+
+[ 2018-01-23T15:22:00+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : attributes construct error /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;textBooks&quot;, id=&quot;text&quot; /&gt;&lt;/tpl&gt; /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                           ^ /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Couldn't find end of Start Tag tag line 1 /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;textBooks&quot;, id=&quot;text&quot; /&gt;&lt;/tpl&gt; /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                           ^ /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+
+[ 2018-01-23T15:22:12+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : attributes construct error /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;textBooks&quot;, id=&quot;text&quot; /&gt;&lt;/tpl&gt; /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                           ^ /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Couldn't find end of Start Tag tag line 1 /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;textBooks&quot;, id=&quot;text&quot; /&gt;&lt;/tpl&gt; /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                           ^ /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+
+[ 2018-01-23T15:22:13+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : attributes construct error /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;textBooks&quot;, id=&quot;text&quot; /&gt;&lt;/tpl&gt; /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                           ^ /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Couldn't find end of Start Tag tag line 1 /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;textBooks&quot;, id=&quot;text&quot; /&gt;&lt;/tpl&gt; /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                           ^ /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+
+[ 2018-01-23T15:22:36+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : attributes construct error /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;textBooks&quot;, id=&quot;text&quot; /&gt;&lt;/tpl&gt; /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                           ^ /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Couldn't find end of Start Tag tag line 1 /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;textBooks&quot;, id=&quot;text&quot; /&gt;&lt;/tpl&gt; /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                           ^ /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+
+[ 2018-01-23T15:22:41+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : attributes construct error /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;textBooks&quot;, id=&quot;text&quot; /&gt;&lt;/tpl&gt; /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                           ^ /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Couldn't find end of Start Tag tag line 1 /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;textBooks&quot;, id=&quot;text&quot; /&gt;&lt;/tpl&gt; /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                           ^ /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+
+[ 2018-01-23T15:22:43+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : attributes construct error /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;textBooks&quot;, id=&quot;text&quot; /&gt;&lt;/tpl&gt; /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                           ^ /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Couldn't find end of Start Tag tag line 1 /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;textBooks&quot;, id=&quot;text&quot; /&gt;&lt;/tpl&gt; /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                           ^ /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+
+[ 2018-01-23T15:23:10+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T15:24:17+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : attributes construct error /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;textBooks&quot;, id=&quot;text&quot; /&gt;&lt;/tpl&gt; /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                           ^ /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Couldn't find end of Start Tag tag line 1 /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;textBooks&quot;, id=&quot;text&quot; /&gt;&lt;/tpl&gt; /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                           ^ /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+
+[ 2018-01-23T15:24:23+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : attributes construct error /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;textBooks&quot;, id=&quot;text&quot; /&gt;&lt;/tpl&gt; /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                           ^ /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Couldn't find end of Start Tag tag line 1 /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;textBooks&quot;, id=&quot;text&quot; /&gt;&lt;/tpl&gt; /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                           ^ /Library/WebServer/Documents/Study/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+
+[ 2018-01-23T15:24:30+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: textBooks /Library/WebServer/Documents/Study/Runtime/Cache/Home/9de75537d820712f41b7c93af9698975.php 第 286 行.
+
+[ 2018-01-23T15:24:31+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:24:32+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+
+[ 2018-01-23T15:24:33+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:24:34+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:24:36+08:00 ] 127.0.0.1 /Home/CreateBook/.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: textBooks /Library/WebServer/Documents/Study/Runtime/Cache/Home/9de75537d820712f41b7c93af9698975.php 第 286 行.
+
+[ 2018-01-23T15:24:37+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+
+[ 2018-01-23T15:32:50+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:33:52+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:33:53+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:34:54+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T15:34:55+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:35:17+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T15:36:09+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T15:36:40+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-23T15:37:28+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:37:29+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:37:38+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+
+[ 2018-01-23T15:37:50+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T15:37:51+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:38:25+08:00 ] 127.0.0.1 /Home/CreateBook/.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-01-23T15:38:38+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:38:59+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-01-23T15:39:00+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:39:00+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:39:01+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:39:08+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:39:09+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0005s ]
+
+[ 2018-01-23T15:40:36+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T15:40:37+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:40:57+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-23T15:40:57+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:41:08+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:41:09+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:41:14+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:41:31+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:41:33+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+
+[ 2018-01-23T15:41:49+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:41:51+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+
+[ 2018-01-23T15:42:08+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:42:10+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:42:11+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:42:40+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-23T15:42:40+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:44:50+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:44:51+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:44:52+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:45:00+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:47:29+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T15:47:47+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+
+[ 2018-01-23T15:47:49+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:48:26+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:48:29+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T15:48:30+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:49:09+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:49:11+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:49:55+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T15:49:56+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:50:13+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:50:13+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:50:37+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T15:50:38+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:50:55+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T15:50:55+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+
+[ 2018-01-23T15:53:36+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T15:53:37+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0005s ]
+
+[ 2018-01-23T15:53:53+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-23T15:53:54+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0005s ]
+
+[ 2018-01-23T15:55:25+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T15:55:26+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T15:56:38+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T15:56:39+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:00:27+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-23T16:00:39+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:00:39+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:01:14+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:01:15+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:06:13+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:06:15+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:21:44+08:00 ] 127.0.0.1 /Home/CreateBook/.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-01-23T16:21:45+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0019s ]
+
+[ 2018-01-23T16:21:46+08:00 ] 127.0.0.1 /Home/CreateBook/.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-01-23T16:28:51+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:29:15+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:29:30+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:30:36+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:30:49+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:30:50+08:00 ] 127.0.0.1 /Home/CreateBook/.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:31:22+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:31:23+08:00 ] 127.0.0.1 /Home/CreateBook/.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:31:24+08:00 ] 127.0.0.1 /Home/CreateBook/.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:31:48+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:31:49+08:00 ] 127.0.0.1 /Home/CreateBook/.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:32:46+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:33:10+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/Study/Application/Home/Model/BookModel.class.php 第 25 行.
+
+[ 2018-01-23T16:33:26+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/Study/Application/Home/Model/BookModel.class.php 第 25 行.
+
+[ 2018-01-23T16:33:32+08:00 ] 127.0.0.1 /Home/CreateBook
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:33:34+08:00 ] 127.0.0.1 /Home/CreateBook/.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:33:44+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+
+[ 2018-01-23T16:33:47+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/Study/Application/Home/Model/BookModel.class.php 第 25 行.
+
+[ 2018-01-23T16:36:33+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-23T16:36:42+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:36:50+08:00 ] 127.0.0.1 /Home/CreateBook
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:36:51+08:00 ] 127.0.0.1 /Home/CreateBook/.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-23T16:36:57+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:38:20+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:38:22+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:38:24+08:00 ] 127.0.0.1 /Home/CreateBook/.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:39:15+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:39:22+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:39:30+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:40:30+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:40:31+08:00 ] 127.0.0.1 /Home/CreateBook/.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:40:38+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0014s ]
+
+[ 2018-01-23T16:40:50+08:00 ] 127.0.0.1 /Home/CreateBook/.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:40:52+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:40:54+08:00 ] 127.0.0.1 /Home/CreateBook/.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:41:31+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0005s ]
+
+[ 2018-01-23T16:41:32+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0006s ]
+
+[ 2018-01-23T16:41:36+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:41:39+08:00 ] 127.0.0.1 /Home/CreateBook/.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:42:06+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-01-23T16:42:08+08:00 ] 127.0.0.1 /Home/CreateBook/.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:42:16+08:00 ] 127.0.0.1 /Home/CreateBook/.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:42:26+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:42:27+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:42:28+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:44:15+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:44:16+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:44:16+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:44:17+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:44:28+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-23T16:44:29+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:44:29+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:44:31+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:44:33+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:44:35+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0007s ]
+
+[ 2018-01-23T16:44:36+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:45:44+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-01-23T16:45:44+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:46:11+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-23T16:46:12+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0008s ]
+
+[ 2018-01-23T16:46:29+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:46:31+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+
+[ 2018-01-23T16:46:31+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:46:31+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:50:20+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-23T16:50:20+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:50:27+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+
+[ 2018-01-23T16:50:29+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+
+[ 2018-01-23T16:51:15+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:51:16+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:51:27+08:00 ] 127.0.0.1 /Home/CreateBook/.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:51:33+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:51:34+08:00 ] 127.0.0.1 /Home/CreateBook/.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:51:34+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:51:40+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:51:41+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+
+[ 2018-01-23T16:51:42+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:51:42+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:51:43+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:52:17+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:52:19+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:52:27+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:52:28+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:52:54+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:52:54+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:53:06+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:53:31+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:53:32+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:53:44+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:53:45+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:53:52+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:55:29+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:55:39+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:55:40+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:55:49+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:55:53+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:56:50+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:56:51+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:57:24+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:57:25+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:57:26+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:57:49+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T16:57:51+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-23T16:57:57+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-23T17:02:45+08:00 ] 127.0.0.1 /Home/CreateBook
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T17:02:46+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0010s ]
+
+[ 2018-01-23T17:03:03+08:00 ] 127.0.0.1 /Home/CreateBook
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-23T17:03:04+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-23T17:03:33+08:00 ] 127.0.0.1 /Home/CreateBook
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-01-23T17:03:34+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
