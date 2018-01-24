@@ -133,7 +133,7 @@
             <img src="/mobile/images/absent.png" alt="">
         </div>
         <div class="center-calender">
-            <a href="homemade_book.html">
+            <a href="<?php echo U('Home/CreateBook/index');?>">
                 <i class="txh icon-jia"></i>
                 创建作业
             </a>

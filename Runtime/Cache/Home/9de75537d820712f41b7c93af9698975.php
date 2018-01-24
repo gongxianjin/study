@@ -122,8 +122,8 @@
 
             </div>
             <div class="unit-footer">
-                <a href="#">保存</a>
-                <a href="#">发布</a>
+                <a href="<?php echo U('Home/CreateBook/saveBook');?>">保存</a>
+                <a href="<?php echo U('Home/CreateBook/publishBook');?>">发布</a>
             </div>
         </div>
 
@@ -199,7 +199,7 @@
             </div>
             <div class="unit-footer">
                 <a href="<?php echo U('Home/CreateBook/previewBook');?>">合成预览</a>
-                <a href="#">保存</a>
+                <a href="<?php echo U('Home/CreateBook/saveTextBook');?>">保存</a>
             </div>
         </div>
         <!-- 图书列表-->
