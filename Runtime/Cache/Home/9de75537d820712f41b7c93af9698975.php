@@ -56,7 +56,7 @@
         <div style="display: none" class="body-box-common book-relavant">
             <!--自制课本-->
             <div class="class-name">
-                <label>课文名称</label>
+                <label>课本名称</label>
                 <input type="text" placeholder="小学英语">
             </div>
             <div class="lesson-img-box">
@@ -131,76 +131,46 @@
         </div>
         <div class=" body-box-common book-relavant" >
             <!--自制课文-->
-            <div class="class-name">
-                <label>课文名称</label>
-                <input type="text" placeholder="小学英语">
-            </div>
-            <div class="lesson-img-box">
-                <img src="/mobile/images/activity/activity_fengmian.png" alt="">
-                <a href="#">修改课文封面</a>
-            </div>
-            <div class="activity-setting">
-                <label>级别设置</label>
-
-                <div class="input-box">
-                    <label>课文级别:</label>
-                    <input type="text" placeholder="四年级">
+            <form method="post" action="<?php echo U('Home/CreateBook/createBooktext');?>" name="textBookForm" enctype="multipart/form-data">
+                <div class="class-name">
+                    <label>课文名称</label>
+                    <input type="text" placeholder="小学英语" name="bookName">
                 </div>
-                <div class="input-box date-box">
-                    <label>添加单元:</label>
-                    <input type="text" class="weui-input">
-                    <a href="#" class="add-unit">
-                        <i class="txh icon-jia"></i>添加单元
-                    </a>
+                <div class="lesson-img-box">
+                    <img src="/mobile/images/activity/activity_fengmian.png" alt="">
+                    <a href="#">修改课文封面</a>
                 </div>
-                <p class="unit-aside">
-                    课本内容由单元及旗下的课文组成
-                </p>
-            </div>
-            <div class="unit-table">
-                <table class="imagetable">
-                    <tr>
-                        <th>名称</th>
-                        <th>排序</th>
-                        <th>操作</th>
-                    </tr>
-                    <tr>
-                        <td>unit1</td>
-                        <td>1</td>
-                        <td>
-                            <input placeholder="1-1.jpg" type="file"  name="file" style="background-color:#EEEDEF;color:#666666;width: 63px;padding-left: 0;border: none;">
-                            <a href="#">删除</a>
-                            <input placeholder="1-1.jpg" type="file"  name="file" style="background-color:#EEEDEF;color:#666666;width: 63px;padding-left: 0;border: none;">
-                            <a href="#">添加课文</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>unit1</td>
-                        <td>1</td>
-                        <td>
-                            <input placeholder="1-1.jpg" type="file"  name="file" style="background-color:#EEEDEF;color:#666666;width: 63px;padding-left: 0;border: none;">
-                            <a href="#">删除</a>
-                            <input placeholder="1-1.jpg" type="file"  name="file" style="background-color:#EEEDEF;color:#666666;width: 63px;padding-left: 0;border: none;">
-                            <a href="#">添加课文</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>unit1</td>
-                        <td>1</td>
-                        <td>
-                            <input placeholder="1-1.jpg" type="file"  name="file" style="background-color:#EEEDEF;color:#666666;width: 63px;padding-left: 0;border: none;">
-                            <a href="#">删除</a>
-                            <input placeholder="1-1.jpg" type="file"  name="file" style="background-color:#EEEDEF;color:#666666;width: 63px;padding-left: 0;border: none;">
-                            <a href="#">添加课文</a>
-                        </td>
-                    </tr>
-                </table>
+                <div class="activity-setting">
+                    <label>级别设置</label>
 
-            </div>
-            <div class="unit-footer">
-                <a href="<?php echo U('Home/CreateBook/previewBook');?>">合成预览</a>
-                <a href="<?php echo U('Home/CreateBook/saveTextBook');?>">保存</a>
-            </div>
+                    <div class="input-box">
+                        <label>课文级别:</label>
+                        <input type="text" placeholder="四年级" name="bookClassify">
+                    </div>
+                    <div class="input-box date-box">
+                        <label>添加单元:</label>
+                        <input type="text" class="weui-input unitCount">
+                        <a href="#" class="add-unit">
+                            <i class="txh icon-jia"></i>添加单元
+                        </a>
+                    </div>
+                    <p class="unit-aside">
+                        课本内容由单元及旗下的课文组成
+                    </p>
+                </div>
+                <div class="unit-table">
+                    <table class="imagetable unit-tb">
+                        <!--课文列表-->
+                        
+
+                    </table>
+
+                </div>
+                <div class="unit-footer">
+                    <a href="<?php echo U('Home/CreateBook/previewBook');?>">合成预览</a>
+                    <a href="javascript:document.textBookForm.submit();">保存</a>
+                </div>
+            </form>
         </div>
         <!-- 图书列表-->
         <div style="display: none" class="class-list-box body-box-common activity-list-all" >
@@ -223,37 +193,54 @@
             //待使用div组
             var divs = new Array("",".activity-list-book-all","",".activity-list-all");
             var url = "<?php echo U('Home/CreateBook/" + urls[col] + "');?>";
-            console.log(url);
-            $.ajax({
-                url:url,
-                success:function(data){
-                    var res = "";
-                    var index = 0;
-                    $.each(data,function(no,items){
-                        if (index % 2 == 0) {
-                            res += '<div class="activity-list">';
-                        };
-                        switch(col){
-                            case 1: 
-                                var html = '<div class="activity-list-' + (index % 2 == 0 ? "left" : "right") + ' activity-list-common"><div class="img-box"><img src="/mobile/images/activity/activity1.png" alt=""><p>' + (items.name).substr(0,5) + '<span class="' + items.s_html + '">[' + items.status + ']</span></p></div><div class="function-list"><div class="list-box"><div class="fuction">修改</div><div class="fuction">删除</div></div></div></div>';
-                                break;
-                            case 3:
-                                var html = '<div class="activity-list-' + (index % 2 == 0 ? "left" : "right") + ' activity-list-common"><div class="img-box"><img src="/mobile/images/activity/activity1.png" alt=""><p>' + (items.book_name).substr(0,5) +'<span style="font-weight: 200;margin-left:5px ">' + (items.name).substr(0,5) + '</span></p></div><div class="function-list"><div class="list-box"><div class="fuction">修改</div><div class="fuction">删除</div></div></div></div>';
-                                break;
-                        }
-                        res += html;
-                        if (index % 2 != 0) {
-                            res += "</div>";
-                        };
-                        index++;
-                    });
-                    console.log(res);
-                    $(divs[col]).html(res);
-                }
-            });
+            if(col == 1 || col == 3){
+                $.ajax({
+                    url:url,
+                    success:function(data){
+                        var res = "";
+                        var index = 0;
+                        $.each(data,function(no,items){
+                            if (index % 2 == 0) {
+                                res += '<div class="activity-list">';
+                            };
+                            switch(col){
+                                case 1: 
+                                    var html = '<div class="activity-list-' + (index % 2 == 0 ? "left" : "right") + ' activity-list-common"><div class="img-box"><img src="/mobile/images/activity/activity1.png" alt=""><p>' + (items.name).substr(0,5) + '<span class="' + items.s_html + '">[' + items.status + ']</span></p></div><div class="function-list"><div class="list-box"><div class="fuction">修改</div><div class="fuction">删除</div></div></div></div>';
+                                    break;
+                                case 3:
+                                    var html = '<div class="activity-list-' + (index % 2 == 0 ? "left" : "right") + ' activity-list-common"><div class="img-box"><img src="/mobile/images/activity/activity1.png" alt=""><p>' + (items.book_name).substr(0,5) +'<span style="font-weight: 200;margin-left:5px ">' + (items.name).substr(0,5) + '</span></p></div><div class="function-list"><div class="list-box"><div class="fuction">修改</div><div class="fuction">删除</div></div></div></div>';
+                                    break;
+                            }
+                            res += html;
+                            if (index % 2 != 0) {
+                                res += "</div>";
+                            };
+                            index++;
+                        });
+                        console.log(res);
+                        $(divs[col]).html(res);
+                    }
+                });
+            }
+
             $($(".body-box-common")[$(this).index()]).css("display","block").siblings().css("display","none");
 
         })
+
+
+    //生成课本
+    $('.add-unit').click(function(){
+        //添加单元
+        var count = $('.unitCount').val();
+        var html = "";
+        html += "<tr><th>名称</th><th>排序</th><th>操作</th></tr>";
+        for(var i = 1;i <= count;i++){
+            html += '<tr><td>unit' + i + '</td><td>' + i + '</td><td><input placeholder="1-1.jpg" type="file" name="file' + i + '" style="background-color:#EEEDEF;color:#666666;width: 63px;padding-left: 0;border: none;"><a href="#">删除</a><input placeholder="1-1.jpg" type="file" name="file2[]" style="background-color:#EEEDEF;color:#666666;width: 63px;padding-left: 0;border: none;"><a href="#">添加课文</a></td></tr>';
+        }
+        html += '<input type="hidden" name="unitCount" value="' + count +'">';
+        $('.unit-tb').html(html);
+    });
     })
 </script>
+
 </html>

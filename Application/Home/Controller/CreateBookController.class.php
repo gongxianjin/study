@@ -53,10 +53,25 @@ class CreateBookController extends Base{
 	public function saveTextBook(){
 		echo "保存课文";
 	}
-
 	//发布课本
 	public function publishBook(){
 		echo "发布课本";
+	}
+
+
+	//自制课文
+	public function createBooktext(){
+		$post = I('post.');
+		$file = $_FILES['file1'];
+		$upload = new \Common\Model\Upload();
+		$filename = md5($file['tmp_name']) . '.' . end(explode('.', $file['name']));
+		echo $filename;
+		$upRes = $upload->upload($filename,$file['tmp_name']);
+		echo "result" . $upRes;
+	}
+
+	public function upload(){
+
 	}
 }
 
