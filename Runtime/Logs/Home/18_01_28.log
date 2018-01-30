@@ -4,3 +4,1076 @@ SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0051s ]
 SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0040s ]
 SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0010s ]
 
+[ 2018-01-28T13:07:46+08:00 ] 127.0.0.1 /Home/CreateBook
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-01-28T13:07:51+08:00 ] 127.0.0.1 /Home/CreateBook
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T13:09:53+08:00 ] 127.0.0.1 /Home/CreateBook
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T13:11:18+08:00 ] 127.0.0.1 /Home/CreateBook
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T13:12:16+08:00 ] 127.0.0.1 /Home/CreateBook
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T13:28:28+08:00 ] 127.0.0.1 /Home/CreateBook
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-01-28T13:28:36+08:00 ] 127.0.0.1 /Home/CreateBook/createBooktext.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 78 行.
+
+[ 2018-01-28T13:33:53+08:00 ] 127.0.0.1 /Home/CreateBook
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T13:34:12+08:00 ] 127.0.0.1 /Home/CreateBook
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T13:34:17+08:00 ] 127.0.0.1 /Home/CreateBook
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T13:34:37+08:00 ] 127.0.0.1 /Home/CreateBook/createBooktext.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: filename /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `booktext` [ RunTime:0.0006s ]
+
+[ 2018-01-28T13:35:41+08:00 ] 127.0.0.1 /Home/CreateBook/createBooktext.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 77 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: filename /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 79 行.
+NOTIC: [8] Undefined index: bookName /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `booktext` [ RunTime:0.0006s ]
+
+[ 2018-01-28T13:37:56+08:00 ] 127.0.0.1 /Home/CreateBook
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T13:38:07+08:00 ] 127.0.0.1 /Home/CreateBook/createBooktext.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: filename /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `booktext` [ RunTime:0.0005s ]
+
+[ 2018-01-28T13:38:25+08:00 ] 127.0.0.1 /Home/CreateBook/createBooktext.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: filename /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `booktext` [ RunTime:0.0005s ]
+
+[ 2018-01-28T13:40:53+08:00 ] 127.0.0.1 /Home/CreateBook/createBooktext.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: filename /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0005s ]
+
+[ 2018-01-28T13:40:55+08:00 ] 127.0.0.1 /Home/CreateBook/createBooktext.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: filename /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0006s ]
+
+[ 2018-01-28T13:42:02+08:00 ] 127.0.0.1 /Home/CreateBook/createBooktext.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: filename /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: dump /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 92 行.
+
+[ 2018-01-28T13:42:12+08:00 ] 127.0.0.1 /Home/CreateBook/createBooktext.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: filename /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0010s ]
+
+[ 2018-01-28T13:42:22+08:00 ] 127.0.0.1 /Home/CreateBook/createBooktext.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: filename /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0005s ]
+ERR: 
+
+[ 2018-01-28T13:42:59+08:00 ] 127.0.0.1 /Home/CreateBook/createBooktext.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: filename /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0006s ]
+
+[ 2018-01-28T13:45:48+08:00 ] 127.0.0.1 /Home/CreateBook/createBooktext.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: filename /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0006s ]
+
+[ 2018-01-28T13:46:35+08:00 ] 127.0.0.1 /Home/CreateBook/createBooktext.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: filename /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `book_res`  [ RunTime:0.0004s ]
+
+[ 2018-01-28T13:47:42+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T13:47:52+08:00 ] 127.0.0.1 /Home/CreateBook/createBooktext.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: filename /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0012s ]
+ERR: 1364:Field 'book_id' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `book_res` (`name`,`image`) VALUES ('晨曦测试','c5142f41305968188d92dfbdef4b3e96.jpg')
+ERR: 1364:Field 'book_id' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `book_res` (`name`,`image`) VALUES ('晨曦测试','c5142f41305968188d92dfbdef4b3e96.jpg')
+
+[ 2018-01-28T13:48:23+08:00 ] 127.0.0.1 /Home/CreateBook/createBooktext.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 77 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: filename /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 79 行.
+NOTIC: [8] Undefined index: bookName /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0011s ]
+ERR: 1364:Field 'book_id' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `book_res` (`name`,`image`) VALUES (NULL,'d41d8cd98f00b204e9800998ecf8427e.')
+ERR: 1364:Field 'book_id' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `book_res` (`name`,`image`) VALUES (NULL,'d41d8cd98f00b204e9800998ecf8427e.')
+
+[ 2018-01-28T13:53:09+08:00 ] 127.0.0.1 /Home/CreateBook/createBooktext.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: filename /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0008s ]
+SQL: INSERT INTO `book_res` (`book_id`,`name`,`image`) VALUES ('1','晨曦测试','7e659c1c43ceb8be354c05228af4e374.jpg') [ RunTime:0.0017s ]
+
+[ 2018-01-28T13:54:02+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T14:13:50+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-01-28T14:14:44+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T14:15:16+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-01-28T14:15:43+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T14:15:57+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T14:32:48+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T14:50:41+08:00 ] 127.0.0.1 /Home/CreateBook/createBooktext.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 79 行.
+NOTIC: [8] Undefined variable: filename /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 80 行.
+NOTIC: [8] Undefined index: book_id /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0007s ]
+ERR: 1048:Column 'book_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `book_res` (`book_id`,`name`,`image`) VALUES (NULL,'晨曦测试','042249ded4b753b624ba9f0d17b03da6.jpg')
+ERR: 1048:Column 'book_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `book_res` (`book_id`,`name`,`image`) VALUES (NULL,'晨曦测试','042249ded4b753b624ba9f0d17b03da6.jpg')
+
+[ 2018-01-28T14:51:07+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T14:51:32+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-01-28T14:51:59+08:00 ] 127.0.0.1 /Home/CreateBook/createBooktext.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 79 行.
+NOTIC: [8] Undefined variable: filename /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0007s ]
+SQL: INSERT INTO `book_res` (`book_id`,`name`,`image`) VALUES ('0','晨曦测试哦','d41d8cd98f00b204e9800998ecf8427e.') [ RunTime:0.0002s ]
+
+[ 2018-01-28T14:52:41+08:00 ] 127.0.0.1 /Home/CreateBook/createBooktext.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 79 行.
+NOTIC: [8] Undefined variable: filename /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0006s ]
+SQL: INSERT INTO `book_res` (`book_id`,`name`,`image`) VALUES ('0','晨曦测试哦','d41d8cd98f00b204e9800998ecf8427e.') [ RunTime:0.0004s ]
+
+[ 2018-01-28T14:53:54+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-28T14:54:18+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T15:23:08+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T15:24:47+08:00 ] 127.0.0.1 /Home/CreateBook/createBooktext.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: INSERT INTO `book_res` (`book_id`,`name`,`image`) VALUES ('0','小学课本','d41d8cd98f00b204e9800998ecf8427e.') [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `book_res` WHERE `book_id` = 0 AND `name` = '小学课本' AND `image` = 'd41d8cd98f00b204e9800998ecf8427e.' LIMIT 1   [ RunTime:0.0193s ]
+SQL: SHOW COLUMNS FROM `booktext_res` [ RunTime:0.0010s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 103 行.
+NOTIC: [8] Undefined variable: file2-1 /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 107 行.
+NOTIC: [8] Undefined index:  /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 107 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 108 行.
+ERR: 1406:Data too long for column 'content_voice' at row 1
+ [ SQL语句 ] : INSERT INTO `booktext_res` (`booktext_id`,`content_img`,`content_voice`,`time`) VALUES ('26','0','d41d8cd98f00b204e9800998ecf8427e.','1517124287')
+ERR: 1406:Data too long for column 'content_voice' at row 1
+ [ SQL语句 ] : INSERT INTO `booktext_res` (`booktext_id`,`content_img`,`content_voice`,`time`) VALUES ('26','0','d41d8cd98f00b204e9800998ecf8427e.','1517124287')
+
+[ 2018-01-28T15:28:10+08:00 ] 127.0.0.1 /Home/CreateBook/createBooktext.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0006s ]
+SQL: INSERT INTO `book_res` (`book_id`,`name`,`image`) VALUES ('0','小学课本','d41d8cd98f00b204e9800998ecf8427e.') [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `book_res` WHERE `book_id` = 0 AND `name` = '小学课本' AND `image` = 'd41d8cd98f00b204e9800998ecf8427e.' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `booktext_res` [ RunTime:0.0006s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 103 行.
+NOTIC: [8] Undefined variable: file2-1 /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 107 行.
+NOTIC: [8] Undefined index:  /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 107 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 108 行.
+SQL: INSERT INTO `booktext_res` (`booktext_id`,`content_img`,`content_voice`,`time`) VALUES ('26','3d15456cc121de8a33b357cdc630f82d.jpg','d41d8cd98f00b204e9800998ecf8427e.','1517124489') [ RunTime:0.0003s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 103 行.
+NOTIC: [8] Undefined variable: file2-2 /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 107 行.
+NOTIC: [8] Undefined index:  /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 107 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 108 行.
+SQL: INSERT INTO `booktext_res` (`booktext_id`,`content_img`,`content_voice`,`time`) VALUES ('26','f072164300cc75c77de7f8a1df2d3c68.png','d41d8cd98f00b204e9800998ecf8427e.','1517124490') [ RunTime:0.0004s ]
+
+[ 2018-01-28T15:28:13+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-28T15:30:48+08:00 ] 127.0.0.1 /Home/CreateBook/createBooktext.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: INSERT INTO `book_res` (`book_id`,`name`,`image`) VALUES ('0','图片问题处理','bb0dae01e50f9332a35a26570fcb5d50.jpg') [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `book_res` WHERE `book_id` = 0 AND `name` = '图片问题处理' AND `image` = 'bb0dae01e50f9332a35a26570fcb5d50.jpg' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `booktext_res` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: unitCount /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 98 行.
+
+[ 2018-01-28T15:30:49+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T15:45:15+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-28T15:47:06+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T15:47:37+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T15:48:36+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0057s ]
+
+[ 2018-01-28T15:48:55+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T15:49:57+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-28T15:50:22+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T15:50:42+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-28T15:50:53+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-28T15:51:53+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T15:52:40+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2018-01-28T15:54:57+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-28T15:56:01+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-28T18:47:08+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0013s ]
+
+[ 2018-01-28T18:47:10+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0020s ]
+
+[ 2018-01-28T18:47:19+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0015s ]
+
+[ 2018-01-28T18:47:20+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0011s ]
+
+[ 2018-01-28T19:08:24+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0057s ]
+
+[ 2018-01-28T20:35:53+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T21:08:49+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-01-28T21:09:09+08:00 ] 127.0.0.1 /Home/CreateBook/createBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: book_cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 60 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: upload /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 62 行.
+
+[ 2018-01-28T21:09:39+08:00 ] 127.0.0.1 /Home/CreateBook/createBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: book_cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 61 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 62 行.
+
+[ 2018-01-28T21:09:41+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-28T21:10:06+08:00 ] 127.0.0.1 /Home/CreateBook/createBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: book_cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 61 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 62 行.
+
+[ 2018-01-28T21:10:08+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-01-28T21:11:40+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T21:12:26+08:00 ] 127.0.0.1 /Home/CreateBook/createBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: book_cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 61 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 62 行.
+
+[ 2018-01-28T21:12:27+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T21:13:22+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T21:13:31+08:00 ] 127.0.0.1 /Home/CreateBook/createBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: book_cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 61 行.
+
+[ 2018-01-28T21:13:33+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-28T21:15:42+08:00 ] 127.0.0.1 /Home/CreateBook/previewBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T21:15:49+08:00 ] 127.0.0.1 /Home/CreateBook/createBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: book_cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 61 行.
+
+[ 2018-01-28T21:15:50+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T21:16:12+08:00 ] 127.0.0.1 /Home/CreateBook/createBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: book_cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 61 行.
+
+[ 2018-01-28T21:16:38+08:00 ] 127.0.0.1 /Home/CreateBook/createBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: book_cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 61 行.
+
+[ 2018-01-28T21:16:42+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T21:17:02+08:00 ] 127.0.0.1 /Home/CreateBook/createBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T21:17:15+08:00 ] 127.0.0.1 /Home/CreateBook/createBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 62 行.
+
+[ 2018-01-28T21:17:16+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-28T21:18:13+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-28T21:18:41+08:00 ] 127.0.0.1 /Home/CreateBook/createBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 62 行.
+
+[ 2018-01-28T21:18:42+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T21:18:56+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-28T21:22:34+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-28T21:22:41+08:00 ] 127.0.0.1 /Home/CreateBook/createBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 58 行.
+
+[ 2018-01-28T21:22:58+08:00 ] 127.0.0.1 /Home/CreateBook/createBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2018-01-28T21:23:39+08:00 ] 127.0.0.1 /Home/CreateBook/createBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-28T21:23:44+08:00 ] 127.0.0.1 /Home/CreateBook/createBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: isPublish /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 57 行.
+
+[ 2018-01-28T21:24:03+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-28T21:24:11+08:00 ] 127.0.0.1 /Home/CreateBook/createBooktext.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 133 行.
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0006s ]
+SQL: INSERT INTO `book_res` (`book_id`,`name`,`image`) VALUES ('0','啊啊啊','6c1543800a703125900ea4cf6732a8e3.jpg') [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `book_res` WHERE `book_id` = 0 AND `name` = '啊啊啊' AND `image` = '6c1543800a703125900ea4cf6732a8e3.jpg' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `booktext_res` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: unitCount /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 152 行.
+
+[ 2018-01-28T21:24:13+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T21:24:23+08:00 ] 127.0.0.1 /Home/CreateBook/createBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T21:28:42+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T21:30:07+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-28T21:30:14+08:00 ] 127.0.0.1 /Home/CreateBook/createBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-01-28T21:31:35+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-28T21:31:43+08:00 ] 127.0.0.1 /Home/CreateBook/createBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: INSERT INTO `book` (`user_id`,`platform_id`,`classify_id`,`level_id`,`type`,`name`,`author`,`press`,`cover_img`,`describe`,`time`,`status`) VALUES ('1','1','0','0','1','33','超会吹','','6294c27cafab6b5208162f0d4bd02d67.jpg','','1517146303','1') [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: textCount /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 87 行.
+SQL: SELECT `id` FROM `book` WHERE `user_id` = 1 AND `platform_id` = 1 AND `classify_id` = 0 AND `level_id` = 0 AND `type` = 1 AND `name` = '33' AND `author` = '超会吹' AND `press` = '' AND `cover_img` = '6294c27cafab6b5208162f0d4bd02d67.jpg' AND `describe` = '' AND `time` = 1517146303 AND `status` = 1 LIMIT 1   [ RunTime:0.0022s ]
+
+[ 2018-01-28T21:31:44+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-28T21:36:18+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-28T21:36:19+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 36 行.
+
+[ 2018-01-28T21:37:40+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T21:37:41+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 36 行.
+
+[ 2018-01-28T21:38:00+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 36 行.
+
+[ 2018-01-28T21:38:08+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-28T21:38:09+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 36 行.
+
+[ 2018-01-28T21:38:19+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-28T21:38:20+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 36 行.
+
+[ 2018-01-28T21:38:43+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 2 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-28T21:38:45+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 36 行.
+
+[ 2018-01-28T22:16:33+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-01-28T22:16:34+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 36 行.
+
+[ 2018-01-28T22:18:22+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T22:18:23+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 36 行.
+
+[ 2018-01-28T22:19:41+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-28T22:19:42+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 36 行.
+
+[ 2018-01-28T22:20:00+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T22:20:02+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 36 行.
+
+[ 2018-01-28T22:20:03+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0011s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 2 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-28T22:21:03+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-28T22:21:03+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 36 行.
+
+[ 2018-01-28T22:21:15+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-28T22:21:15+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 36 行.
+
+[ 2018-01-28T22:21:35+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 2 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-28T22:21:43+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 36 行.
+
+[ 2018-01-28T22:22:30+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T22:22:31+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 36 行.
+
+[ 2018-01-28T22:24:02+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T22:24:03+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 36 行.
+
+[ 2018-01-28T22:24:03+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 36 行.
+
+[ 2018-01-28T22:24:03+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 36 行.
+
+[ 2018-01-28T22:24:12+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-28T22:24:21+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T22:24:22+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0022s ]
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 36 行.
+
+[ 2018-01-28T22:24:28+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 36 行.
+
+[ 2018-01-28T22:24:29+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 2 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-28T22:24:30+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 36 行.
+
+[ 2018-01-28T22:24:31+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 2 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-28T22:24:55+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-28T22:24:55+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 36 行.
+
+[ 2018-01-28T22:24:55+08:00 ] 127.0.0.1 /Home/CreateBook/undefined
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T22:25:24+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 36 行.
+
+[ 2018-01-28T22:25:24+08:00 ] 127.0.0.1 /Home/CreateBook/undefined
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-28T22:25:41+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 36 行.
+
+[ 2018-01-28T22:29:41+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 35 行.
+
+[ 2018-01-28T22:30:36+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-28T22:30:43+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-28T22:30:50+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0013s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 2 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-28T22:32:37+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-28T22:32:38+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 2 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-28T22:32:39+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 2 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-28T22:32:39+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 2 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-28T22:32:39+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Application/Home/Model/BookResModel.class.php 第 23 行.
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 2 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-28T22:32:58+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-28T22:33:00+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 2 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-28T22:33:02+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-28T22:33:03+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 2 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-28T22:33:03+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 2 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-28T22:33:03+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 2 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-28T22:33:29+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-28T22:33:29+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 2 ) ORDER BY id asc  [ RunTime:0.0002s ]
+

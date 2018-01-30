@@ -1,0 +1,22 @@
+[ 2018-01-30T10:55:30+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/all_student.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0014s ]
+ERR: 1054:Unknown column 'all_student' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `classes` WHERE ( class_id = all_student and user_id = 1 ) LIMIT 1  
+ERR: 1054:Unknown column 'all_student' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `classes` WHERE ( class_id = all_student and user_id = 1 ) LIMIT 1  
+
+[ 2018-01-30T10:55:36+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/all_student.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0005s ]
+ERR: 1054:Unknown column 'all_student' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `classes` WHERE ( class_id = all_student and user_id = 1 ) LIMIT 1  
+ERR: 1054:Unknown column 'all_student' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `classes` WHERE ( class_id = all_student and user_id = 1 ) LIMIT 1  
+
+[ 2018-01-30T11:07:26+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+

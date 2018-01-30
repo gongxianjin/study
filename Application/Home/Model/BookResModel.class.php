@@ -20,6 +20,7 @@ class BookResModel extends Model{
 					foreach($one as $key => $value){
 						$oneBook[$key] = $one[$key];
 					}
+					$oneBook['image'] = imageDomain($oneBook['image']);
 					array_push($res, $oneBook);
 					$oneBook = array();
 				}

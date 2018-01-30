@@ -1,0 +1,122 @@
+body {
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+body div.header {
+  top: 0;
+  height: 50px;
+  line-height: 50px;
+  width: 100%;
+  background-color: #2addfd;
+  position: fixed;
+  z-index: 100;
+  color: #fff;
+  transition: 300ms;
+}
+body div.header >span.header-back {
+  position: absolute;
+  left: 6px;
+  top: 5px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  overflow: hidden;
+  height: 40px;
+}
+body div.header >span.header-back >i {
+  font-size: 28px;
+}
+body div.header .header-text {
+  position: absolute;
+  left: 50px;
+  height: 100%;
+  font-size: 20px;
+  display: inline-block;
+  right: 50px !important;
+  text-align: center !important;
+}
+body div.header .header-btn {
+  position: absolute;
+  text-align: center;
+  height: 100%;
+  display: inline-block;
+  width: 80px;
+  right: 0;
+}
+body div.header .header-btn >a {
+  text-align: center;
+  height: 100%;
+  color: #fff;
+  font-weight: normal;
+  font-size: 12px;
+  background-color: #c5d95b;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+body div.page {
+  top: 50px;
+  bottom: 45px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  position: absolute;
+  overflow-y: auto;
+}
+body div.page .class-list-box {
+  margin-top: 10px;
+  box-sizing: border-box;
+  width: 100%;
+}
+body div.page .class-list-box .class-list {
+  margin-bottom: 10px;
+  float: left;
+  width: 30%;
+  margin-left: 10px;
+}
+body div.page .class-list-box .class-list .deal-class {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body div.page .class-list-box .class-list .deal-class .left-deal a {
+  font-size: 12px;
+  color: #666;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  padding: 3px 8px;
+}
+body div.page .class-list-box .class-list .deal-class .right-deal {
+  color: #bc3b2e;
+  font-size: 18px;
+}
+body div.page .class-list-box .class-list .img-box {
+  border-radius: 10px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+body div.page .class-list-box .class-list .img-box .mask {
+  border-radius: 10px;
+  width: 100%;
+  height: 98%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(0,0,0,0.2);
+}
+body div.page .class-list-box .class-list .img-box img {
+  width: 100%;
+  height: 100%;
+}
+body div.page .class-list-box .class-list .img-box p {
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  position: absolute;
+  top: 45%;
+  width: 100%;
+}

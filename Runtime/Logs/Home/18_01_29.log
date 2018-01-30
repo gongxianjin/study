@@ -1,0 +1,1774 @@
+[ 2018-01-29T09:51:10+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0049s ]
+
+[ 2018-01-29T09:56:22+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2018-01-29T09:56:24+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+
+[ 2018-01-29T09:56:40+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0008s ]
+
+[ 2018-01-29T09:56:58+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T09:56:59+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0009s ]
+
+[ 2018-01-29T10:00:14+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:00:15+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:03:20+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-29T10:03:21+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0008s ]
+
+[ 2018-01-29T10:03:42+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:03:43+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-29T10:04:36+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0009s ]
+
+[ 2018-01-29T10:05:02+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:05:04+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:05:20+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:05:21+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0006s ]
+
+[ 2018-01-29T10:07:57+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:08:33+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T10:08:45+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:08:57+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-29T10:08:58+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:09:01+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html?book_id=2
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `book` WHERE ( id =  )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `book` WHERE ( id =  )
+
+[ 2018-01-29T10:09:59+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html?book_id=2
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `book` WHERE ( id =  )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `book` WHERE ( id =  )
+
+[ 2018-01-29T10:10:03+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html?book_id=2
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0009s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `book` WHERE ( id =  )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `book` WHERE ( id =  )
+
+[ 2018-01-29T10:11:38+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html?book_id=2
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `book` WHERE ( id =  )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `book` WHERE ( id =  )
+
+[ 2018-01-29T10:11:58+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html?book_id=2
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `book` WHERE ( id =  )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `book` WHERE ( id =  )
+
+[ 2018-01-29T10:12:03+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html?book_id=2
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0006s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `book` WHERE ( id =  )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `book` WHERE ( id =  )
+
+[ 2018-01-29T10:13:26+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html?book_id=2
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0009s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `book` WHERE ( id =  )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `book` WHERE ( id =  )
+
+[ 2018-01-29T10:14:20+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html?book_id=2
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:14:23+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html?book_id=2
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:14:35+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html?book_id=2
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T10:14:50+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html?book_id=2
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T10:15:05+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html?book_id=2
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T10:15:07+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html?book_id=2
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:16:05+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html?book_id=2
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:16:23+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html?book_id=2
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-29T10:16:27+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html?book_id=x
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T10:16:36+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html?book_id=x
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 189 行.
+
+[ 2018-01-29T10:16:48+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html?book_id=x
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:17:24+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-29T10:17:51+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html?sa=1
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T10:19:24+08:00 ] 127.0.0.1 /Home/CreateBook/test
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0056s ]
+
+[ 2018-01-29T10:19:31+08:00 ] 127.0.0.1 /Home/CreateBook/test?test=1
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T10:20:23+08:00 ] 127.0.0.1 /Home/CreateBook/test?get=1
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: get /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 202 行.
+
+[ 2018-01-29T10:20:34+08:00 ] 127.0.0.1 /Home/CreateBook/test?get=dsax
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: get /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 202 行.
+
+[ 2018-01-29T10:22:00+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0005s ]
+
+[ 2018-01-29T10:22:27+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:22:33+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks?test=1
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T10:22:36+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks?test=1
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T10:23:11+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T10:23:12+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:23:13+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:23:21+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T10:23:23+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:23:23+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:23:34+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T10:23:35+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:24:34+08:00 ] 127.0.0.1 /Home/CreateBook/test
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: get /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 202 行.
+
+[ 2018-01-29T10:24:41+08:00 ] 127.0.0.1 /Home/CreateBook/test?get=xxx
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: get /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 202 行.
+
+[ 2018-01-29T10:24:58+08:00 ] 127.0.0.1 /Home/CreateBook/test?test=xxx
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: test /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 202 行.
+
+[ 2018-01-29T10:25:02+08:00 ] 127.0.0.1 /Home/CreateBook/test?test=1
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: test /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 202 行.
+
+[ 2018-01-29T10:26:39+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:26:42+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:26:44+08:00 ] 127.0.0.1 /Home/CreateBook/test?test=1
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: test /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 202 行.
+
+[ 2018-01-29T10:26:45+08:00 ] 127.0.0.1 /Home/CreateBook/test?test=1
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: test /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 202 行.
+
+[ 2018-01-29T10:26:48+08:00 ] 127.0.0.1 /Home/CreateBook/test?test=1
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: test /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 202 行.
+
+[ 2018-01-29T10:27:01+08:00 ] 127.0.0.1 /Home/CreateBook/test?test=1
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-29T10:27:14+08:00 ] 127.0.0.1 /Home/CreateBook/test?test=1&b=1
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T10:27:21+08:00 ] 127.0.0.1 /
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0005s ]
+
+[ 2018-01-29T10:27:24+08:00 ] 127.0.0.1 /Home/CreateBook/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T10:27:32+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0010s ]
+
+[ 2018-01-29T10:27:45+08:00 ] 127.0.0.1 /Home/CreateBook/createBooktext.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0008s ]
+SQL: INSERT INTO `book_res` (`book_id`,`name`,`image`) VALUES ('0','ces','1f768b40a07a5e80d859c7280ce73d9b.jpg') [ RunTime:0.0031s ]
+SQL: SELECT `id` FROM `book_res` WHERE `book_id` = 0 AND `name` = 'ces' AND `image` = '1f768b40a07a5e80d859c7280ce73d9b.jpg' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `booktext_res` [ RunTime:0.0006s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 154 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 159 行.
+SQL: INSERT INTO `booktext_res` (`booktext_id`,`content_img`,`content_voice`,`time`) VALUES ('30','d41d8cd98f00b204e9800998ecf8427e.','d41d8cd98f00b204e9800998ecf8427e.','1517192865') [ RunTime:0.0006s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 154 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 159 行.
+SQL: INSERT INTO `booktext_res` (`booktext_id`,`content_img`,`content_voice`,`time`) VALUES ('30','d41d8cd98f00b204e9800998ecf8427e.','d41d8cd98f00b204e9800998ecf8427e.','1517192865') [ RunTime:0.0002s ]
+
+[ 2018-01-29T10:27:47+08:00 ] 127.0.0.1 /Home/CreateBook/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-29T10:27:51+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0006s ]
+
+[ 2018-01-29T10:27:52+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 2 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-29T10:27:53+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-29T10:27:54+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0011s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 2 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:28:06+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0005s ]
+
+[ 2018-01-29T10:28:13+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:28:15+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-29T10:29:04+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T10:29:24+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T10:30:06+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T10:30:10+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html?book_id=2
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:30:22+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html?book_id=2
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2018-01-29T10:31:00+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html?book_id=2
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T10:31:05+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html?sb=2
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T10:31:12+08:00 ] 127.0.0.1 /Home/CreateBook/test.html?sb=2
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T10:31:19+08:00 ] 127.0.0.1 /Home/CreateBook/test?sb=2
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-01-29T10:32:43+08:00 ] 127.0.0.1 /Home/CreateBook/test?sb=2
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T10:33:18+08:00 ] 127.0.0.1 /Home/CreateBook/index?sb=2
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T10:34:37+08:00 ] 127.0.0.1 /Home/test/index?sb=2
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:34:40+08:00 ] 127.0.0.1 /Home/Test/index?sb=2
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T10:34:46+08:00 ] 127.0.0.1 /Home/Test/getBook?sb=2
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T10:34:58+08:00 ] 127.0.0.1 /Home/Test/getBook?sb=2
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T10:35:05+08:00 ] 127.0.0.1 /Home/Test/getBook?sb=2
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:35:56+08:00 ] 127.0.0.1 /Home/Test/getBook?id=2
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T10:36:33+08:00 ] 127.0.0.1 /Home/Test/getBook?id=2
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:36:53+08:00 ] 127.0.0.1 /Home/Test/getBook?id=2
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/Study/Application/Home/Controller/TestController.class.php 第 10 行.
+
+[ 2018-01-29T10:36:54+08:00 ] 127.0.0.1 /Home/Test/getBook?id=2
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/Study/Application/Home/Controller/TestController.class.php 第 10 行.
+
+[ 2018-01-29T10:38:03+08:00 ] 127.0.0.1 /Home/Test/getBook.html?id=2
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/Study/Application/Home/Controller/TestController.class.php 第 10 行.
+
+[ 2018-01-29T10:39:09+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 2 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-29T10:42:25+08:00 ] 127.0.0.1 /Home/Test/getBook.html?id=2
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:46:29+08:00 ] 127.0.0.1 /Home/CreateBook/createBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:47:18+08:00 ] 127.0.0.1 /Home/Test/getBook.html?id=2
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T10:47:54+08:00 ] 127.0.0.1 /Home/CreateBook/test.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T10:48:02+08:00 ] 127.0.0.1 /Home/CreateBook/test.html?get=s\
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T10:48:05+08:00 ] 127.0.0.1 /Home/CreateBook/test.html?get=s
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:49:01+08:00 ] 127.0.0.1 /Home/CreateBook/test.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-29T10:49:19+08:00 ] 127.0.0.1 /Home/CreateBook/test.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:49:33+08:00 ] 127.0.0.1 /Home/CreateBook/test.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2018-01-29T10:49:38+08:00 ] 127.0.0.1 /Home/CreateBook/test.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:49:59+08:00 ] 127.0.0.1 /Home/CreateBook/test.html?x=111&y=222
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:50:10+08:00 ] 127.0.0.1 /Home/CreateBook/test_html?x=111&y=222
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:50:20+08:00 ] 127.0.0.1 /Home/CreateBook/test.html?x=111&y=222
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:50:31+08:00 ] 127.0.0.1 /Home/CreateBook/test?x=111&y=222
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:52:57+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:52:59+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:53:15+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:53:15+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:53:17+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T10:53:24+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0031s ]
+
+[ 2018-01-29T10:53:35+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+
+[ 2018-01-29T10:53:35+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:53:36+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+
+[ 2018-01-29T10:53:36+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:53:37+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:53:54+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2018-01-29T10:53:56+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+
+[ 2018-01-29T10:53:56+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0007s ]
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 189 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `book` WHERE ( id = Array )
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `book` WHERE ( id = Array )
+
+[ 2018-01-29T10:53:58+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0006s ]
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 189 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `book` WHERE ( id = Array )
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `book` WHERE ( id = Array )
+
+[ 2018-01-29T10:54:07+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `book` WHERE ( id =  )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `book` WHERE ( id =  )
+
+[ 2018-01-29T10:54:12+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T10:54:13+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-29T10:54:14+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: DELETE FROM `book` WHERE ( id = 1 ) [ RunTime:0.0018s ]
+
+[ 2018-01-29T10:54:15+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `book` WHERE ( id =  )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `book` WHERE ( id =  )
+
+[ 2018-01-29T10:54:43+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: book_id /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 190 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `book` WHERE ( id =  )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `book` WHERE ( id =  )
+
+[ 2018-01-29T10:54:44+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: book_id /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 190 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `book` WHERE ( id =  )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `book` WHERE ( id =  )
+
+[ 2018-01-29T10:56:52+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T10:57:26+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-01-29T10:58:13+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T10:58:15+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0005s ]
+
+[ 2018-01-29T10:58:17+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook/book_id/+%2B+id+%2B+.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: book_id /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 189 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `book` WHERE ( id =  )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `book` WHERE ( id =  )
+
+[ 2018-01-29T10:58:19+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook/book_id/+%2B+id+%2B+.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: book_id /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 189 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `book` WHERE ( id =  )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `book` WHERE ( id =  )
+
+[ 2018-01-29T11:00:02+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T11:00:03+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+
+[ 2018-01-29T11:00:04+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: DELETE FROM `book` WHERE ( id = 2 ) [ RunTime:0.0002s ]
+
+[ 2018-01-29T11:00:05+08:00 ] 127.0.0.1 /Home/CreateBook/deleteBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: book_id /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 189 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `book` WHERE ( id =  )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `book` WHERE ( id =  )
+
+[ 2018-01-29T11:03:45+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-29T11:03:47+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-29T11:03:48+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0015s ]
+
+[ 2018-01-29T11:03:50+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-29T11:03:52+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-29T11:03:53+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-29T11:04:10+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2018-01-29T11:04:11+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0001s ]
+
+[ 2018-01-29T11:04:11+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0018s ]
+
+[ 2018-01-29T11:04:11+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-29T11:04:12+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0014s ]
+
+[ 2018-01-29T11:04:25+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T11:04:26+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-29T11:04:26+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-29T11:04:26+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0014s ]
+
+[ 2018-01-29T11:05:16+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-29T11:05:44+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-29T11:18:09+08:00 ] 127.0.0.1 /Home/CreateBook/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-29T14:03:32+08:00 ] 127.0.0.1 /Home/CreateBook/test.html?get=s
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-01-29T14:03:34+08:00 ] 127.0.0.1 /
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0006s ]
+
+[ 2018-01-29T14:21:46+08:00 ] 127.0.0.1 /
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0005s ]
+
+[ 2018-01-29T14:21:58+08:00 ] 127.0.0.1 /Home/MyClass/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T14:22:16+08:00 ] 127.0.0.1 /Home/MyClass/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T14:23:04+08:00 ] 127.0.0.1 /Home/MyClass/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T14:23:06+08:00 ] 127.0.0.1 /Home/MyClass/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T14:23:22+08:00 ] 127.0.0.1 /Home/MyClass/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T14:23:25+08:00 ] 127.0.0.1 /Home/MyClass/teacher_createclass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T14:24:50+08:00 ] 127.0.0.1 /
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0006s ]
+
+[ 2018-01-29T14:24:51+08:00 ] 127.0.0.1 /Home/MyClass/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T14:38:43+08:00 ] 127.0.0.1 /Home/MyClass/manage_classthing.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T14:47:55+08:00 ] 127.0.0.1 /Home/MyClass/teacher_createclass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-01-29T14:47:59+08:00 ] 127.0.0.1 /Home/MyClass/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `classes` WHERE ( user_id = 1 ) ORDER BY class_id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-29T14:48:01+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T14:48:01+08:00 ] 127.0.0.1 /Home/MyClass/lib/js/weui.min.js
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-01-29T14:48:01+08:00 ] 127.0.0.1 /Home/MyClass/fonts/iconfont.css
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-01-29T14:48:01+08:00 ] 127.0.0.1 /Home/MyClass/style/teacher_createclass.css
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-29T14:48:01+08:00 ] 127.0.0.1 /Home/MyClass/lib/js/zepto.min.js
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-01-29T14:48:01+08:00 ] 127.0.0.1 /Home/MyClass/lib/css/weui_reset.css
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T14:48:01+08:00 ] 127.0.0.1 /Home/MyClass/lib/css/weui.css
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-29T14:48:01+08:00 ] 127.0.0.1 /Home/MyClass/lib/js/jweui.min.js
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T14:48:01+08:00 ] 127.0.0.1 /Home/MyClass/lib/js/jquery.min.js
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T14:48:01+08:00 ] 127.0.0.1 /Home/MyClass/lib/js/weui.min.js
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-29T14:48:02+08:00 ] 127.0.0.1 /Home/MyClass/lib/js/jweui.min.js
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T14:48:02+08:00 ] 127.0.0.1 /Home/MyClass/lib/js/jquery.min.js
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2018-01-29T14:48:45+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T14:49:50+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T14:51:38+08:00 ] 127.0.0.1 /Home/MyClass/all_student.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T14:54:28+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T14:54:31+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T15:08:22+08:00 ] 127.0.0.1 /Home/MyClass/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `classes` WHERE ( user_id = 1 ) ORDER BY class_id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-29T15:08:23+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T15:08:34+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T15:08:55+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T15:09:06+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T15:27:57+08:00 ] 127.0.0.1 /Home/MyClass/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `classes` WHERE ( user_id = 1 ) ORDER BY class_id asc  [ RunTime:0.0004s ]
+
+[ 2018-01-29T15:27:57+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T15:28:35+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T15:28:50+08:00 ] 127.0.0.1 /Home/MyClass/createClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: head_img /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 36 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 37 行.
+NOTIC: [8] Undefined variable: cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 38 行.
+
+[ 2018-01-29T15:28:53+08:00 ] 127.0.0.1 /Home/MyClass/createClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: head_img /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 36 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 37 行.
+NOTIC: [8] Undefined variable: cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 38 行.
+
+[ 2018-01-29T15:28:53+08:00 ] 127.0.0.1 /Home/MyClass/createClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: head_img /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 36 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 37 行.
+NOTIC: [8] Undefined variable: cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 38 行.
+
+[ 2018-01-29T15:28:53+08:00 ] 127.0.0.1 /Home/MyClass/createClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: head_img /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 36 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 37 行.
+NOTIC: [8] Undefined variable: cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 38 行.
+
+[ 2018-01-29T15:28:53+08:00 ] 127.0.0.1 /Home/MyClass/createClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: head_img /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 36 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 37 行.
+NOTIC: [8] Undefined variable: cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 38 行.
+
+[ 2018-01-29T15:28:53+08:00 ] 127.0.0.1 /Home/MyClass/createClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: head_img /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 36 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 37 行.
+NOTIC: [8] Undefined variable: cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 38 行.
+
+[ 2018-01-29T15:28:54+08:00 ] 127.0.0.1 /Home/MyClass/createClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: head_img /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 36 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 37 行.
+NOTIC: [8] Undefined variable: cover_img /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 38 行.
+
+[ 2018-01-29T15:29:03+08:00 ] 127.0.0.1 /Home/MyClass/createClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-29T15:29:37+08:00 ] 127.0.0.1 /Home/MyClass/createClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: head_img /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 36 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 37 行.
+
+[ 2018-01-29T15:29:39+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T15:29:51+08:00 ] 127.0.0.1 /Home/MyClass/createClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: head_img /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 36 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 37 行.
+
+[ 2018-01-29T15:30:27+08:00 ] 127.0.0.1 /Home/MyClass/createClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: head_img /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 36 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 37 行.
+
+[ 2018-01-29T15:30:32+08:00 ] 127.0.0.1 /Home/MyClass/createClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: head_img /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 36 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 37 行.
+
+[ 2018-01-29T15:30:32+08:00 ] 127.0.0.1 /Home/MyClass/createClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: head_img /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 36 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 37 行.
+
+[ 2018-01-29T15:30:32+08:00 ] 127.0.0.1 /Home/MyClass/createClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: head_img /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 36 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 37 行.
+
+[ 2018-01-29T15:32:07+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T15:32:17+08:00 ] 127.0.0.1 /Home/MyClass/createClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: head_img /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 36 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 37 行.
+
+[ 2018-01-29T15:32:19+08:00 ] 127.0.0.1 /Home/MyClass/createClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: head_img /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 36 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 37 行.
+
+[ 2018-01-29T15:32:19+08:00 ] 127.0.0.1 /Home/MyClass/createClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: head_img /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 36 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 37 行.
+
+[ 2018-01-29T15:32:19+08:00 ] 127.0.0.1 /Home/MyClass/createClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: head_img /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 36 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 37 行.
+
+[ 2018-01-29T15:33:09+08:00 ] 127.0.0.1 /Home/MyClass/createClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: head_img /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 36 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 37 行.
+
+[ 2018-01-29T15:35:30+08:00 ] 127.0.0.1 /Home/MyClass/createClass
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0011s ]
+SQL: INSERT INTO `classes` (`user_id`,`platform_id`,`class_name`,`count`,`time`,`status`,`image`,`description`) VALUES ('1','1','班级名称','0','1517211330','1','e1dcefb5df9519334aed68fbdc534cae.jpg','') [ RunTime:0.0009s ]
+
+[ 2018-01-29T15:37:12+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2018-01-29T15:37:22+08:00 ] 127.0.0.1 /Home/MyClass/createClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: head_img /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 36 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 37 行.
+
+[ 2018-01-29T15:37:23+08:00 ] 127.0.0.1 /Home/MyClass/createClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: head_img /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 36 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 37 行.
+
+[ 2018-01-29T15:37:24+08:00 ] 127.0.0.1 /Home/MyClass/createClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: head_img /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 36 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 37 行.
+
+[ 2018-01-29T15:37:24+08:00 ] 127.0.0.1 /Home/MyClass/createClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: head_img /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 36 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 37 行.
+
+[ 2018-01-29T15:37:24+08:00 ] 127.0.0.1 /Home/MyClass/createClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: head_img /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 36 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 37 行.
+
+[ 2018-01-29T15:37:24+08:00 ] 127.0.0.1 /Home/MyClass/createClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: head_img /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 36 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 37 行.
+
+[ 2018-01-29T15:37:25+08:00 ] 127.0.0.1 /Home/MyClass/createClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: head_img /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 36 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 37 行.
+
+[ 2018-01-29T15:37:25+08:00 ] 127.0.0.1 /Home/MyClass/createClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: head_img /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 36 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 37 行.
+
+[ 2018-01-29T15:37:25+08:00 ] 127.0.0.1 /Home/MyClass/createClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: head_img /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 36 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 37 行.
+
+[ 2018-01-29T15:37:46+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T15:37:59+08:00 ] 127.0.0.1 /Home/MyClass/createClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: head_img /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 36 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 37 行.
+
+[ 2018-01-29T15:39:58+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T15:40:00+08:00 ] 127.0.0.1 /Home/MyClass/createClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: head_img /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 36 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 37 行.
+
+[ 2018-01-29T15:41:58+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-01-29T15:42:06+08:00 ] 127.0.0.1 /Home/MyClass/createClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: head_img /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 36 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 37 行.
+
+[ 2018-01-29T16:17:38+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-01-29T16:18:32+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-01-29T16:20:08+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-29T16:23:38+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T16:23:51+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-29T16:24:24+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T16:24:31+08:00 ] 127.0.0.1 /Home/upload/head_img.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Common/Model/Upload.class.php 第 21 行.
+
+[ 2018-01-29T16:26:39+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-29T16:27:11+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T16:27:42+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T16:29:05+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-29T16:31:44+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T16:31:58+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-29T16:33:02+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T16:33:56+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T16:37:00+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-29T16:37:21+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T16:37:43+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T16:37:57+08:00 ] 127.0.0.1 /Home/upload/head_img.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Common/Model/Upload.class.php 第 21 行.
+
+[ 2018-01-29T16:42:33+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T16:43:56+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T16:54:41+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2018-01-29T16:54:45+08:00 ] 127.0.0.1 /Home/upload/head_img.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Common/Model/Upload.class.php 第 21 行.
+
+[ 2018-01-29T16:55:00+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-29T16:55:05+08:00 ] 127.0.0.1 /Home/upload/head_img.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Common/Model/Upload.class.php 第 21 行.
+
+[ 2018-01-29T16:56:13+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-01-29T16:56:16+08:00 ] 127.0.0.1 /Home/upload/head_img.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T16:56:32+08:00 ] 127.0.0.1 /Home/upload/head_img.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-01-29T16:57:07+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T16:57:13+08:00 ] 127.0.0.1 /Home/upload/head_img.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0022s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Common/Model/Upload.class.php 第 21 行.
+
+[ 2018-01-29T16:57:25+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T16:57:29+08:00 ] 127.0.0.1 /Home/upload/head_img.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Common/Model/Upload.class.php 第 21 行.
+
+[ 2018-01-29T16:58:41+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T16:58:51+08:00 ] 127.0.0.1 /Home/upload/head_img.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Common/Model/Upload.class.php 第 21 行.
+
+[ 2018-01-29T16:58:52+08:00 ] 127.0.0.1 /Home/MyClass/createClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: class_desc /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0008s ]
+SQL: INSERT INTO `classes` (`user_id`,`platform_id`,`class_name`,`count`,`time`,`status`,`image`,`description`) VALUES ('1','1','名称','0','1517216332','1','d674e5f94a4fa7081dc566532d110a1f.jpg','') [ RunTime:0.0006s ]
+
+[ 2018-01-29T16:59:30+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T16:59:50+08:00 ] 127.0.0.1 /Home/upload/head_img.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Common/Model/Upload.class.php 第 21 行.
+
+[ 2018-01-29T16:59:52+08:00 ] 127.0.0.1 /Home/MyClass/createClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: class_desc /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0009s ]
+SQL: INSERT INTO `classes` (`user_id`,`platform_id`,`class_name`,`count`,`time`,`status`,`image`,`description`) VALUES ('1','1','班级名称','0','1517216392','1','ea0025a8cb836b9a38ba01e2c869b838.jpg','') [ RunTime:0.0002s ]
+
+[ 2018-01-29T17:00:27+08:00 ] 127.0.0.1 /Home/MyClass/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `classes` WHERE ( user_id = 1 ) ORDER BY class_id asc  [ RunTime:0.0005s ]
+
+[ 2018-01-29T17:00:31+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T17:00:42+08:00 ] 127.0.0.1 /Home/upload/head_img.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Common/Model/Upload.class.php 第 21 行.
+
+[ 2018-01-29T17:00:43+08:00 ] 127.0.0.1 /Home/MyClass/createClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: class_desc /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0011s ]
+SQL: INSERT INTO `classes` (`user_id`,`platform_id`,`class_name`,`count`,`time`,`status`,`image`,`description`) VALUES ('1','1','添加测试了','0','1517216443','1','f9d9d2898188b3c9bdf2330cd8e82ad7.png','') [ RunTime:0.0003s ]
+
+[ 2018-01-29T17:00:51+08:00 ] 127.0.0.1 /Home/MyClass/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classes` WHERE ( user_id = 1 ) ORDER BY class_id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-29T17:02:32+08:00 ] 127.0.0.1 /Home/MyClass/class_detail.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T17:02:34+08:00 ] 127.0.0.1 /Home/MyClass/manage_classthing.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T17:02:38+08:00 ] 127.0.0.1 /Home/MyClass/addClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0054s ]
+
+[ 2018-01-29T18:35:04+08:00 ] 127.0.0.1 /Home/Test/getBook
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-29T18:35:08+08:00 ] 127.0.0.1 /Home/Test/getBook?a=1
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T18:35:57+08:00 ] 127.0.0.1 /Home/Test/getBook?a=1
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T18:35:58+08:00 ] 127.0.0.1 /Home/Test/getBook?a=1
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T18:37:07+08:00 ] 127.0.0.1 /Home/Test/getBook?a=1
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T18:39:39+08:00 ] 127.0.0.1 /Home/Test/getBook/a/1
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T18:41:43+08:00 ] 127.0.0.1 /Home/Test/getBook.html/a/1
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T18:41:47+08:00 ] 127.0.0.1 /Home/Test/getBook.html/a/1
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-29T18:41:54+08:00 ] 127.0.0.1 /Home/Test/getBook.html?a=1
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T18:42:11+08:00 ] 127.0.0.1 /Home/Test/getBook.html?a=1
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T18:42:17+08:00 ] 127.0.0.1 /Home/Test/getBook.html/a/1/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-29T18:42:20+08:00 ] 127.0.0.1 /Home/Test/getBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T18:43:42+08:00 ] 127.0.0.1 /Home/Test/getBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: text /Library/WebServer/Documents/Study/Application/Home/Controller/TestController.class.php 第 9 行.
+
+[ 2018-01-29T18:43:49+08:00 ] 127.0.0.1 /Home/Test/getBook.html?text=1
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T18:43:52+08:00 ] 127.0.0.1 /Home/Test/getBook.html?text=5
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T18:45:54+08:00 ] 127.0.0.1 /Home/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0006s ]
+
+[ 2018-01-29T18:45:55+08:00 ] 127.0.0.1 /Home/MyClass/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `classes` WHERE ( user_id = 1 ) ORDER BY class_id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-29T18:45:57+08:00 ] 127.0.0.1 /Home/MyClass/editClass/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T18:45:59+08:00 ] 127.0.0.1 /Home/MyClass/editClass/class_id/2.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-01-29T18:46:18+08:00 ] 127.0.0.1 /Home/MyClass/editClass/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T18:46:25+08:00 ] 127.0.0.1 /Home/MyClass/editClass/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T18:53:27+08:00 ] 127.0.0.1 /Home/MyClass/editClass/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T18:53:30+08:00 ] 127.0.0.1 /Home/MyClass/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classes` WHERE ( user_id = 1 ) ORDER BY class_id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-29T18:53:31+08:00 ] 127.0.0.1 /Home/MyClass/editClass/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T18:53:51+08:00 ] 127.0.0.1 /Home/MyClass/editClass/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T18:53:58+08:00 ] 127.0.0.1 /Home/MyClass/saveClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: class_desc /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+
+[ 2018-01-29T18:54:31+08:00 ] 127.0.0.1 /Home/MyClass/saveClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: class_desc /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0009s ]
+
+[ 2018-01-29T18:57:53+08:00 ] 127.0.0.1 /Home/MyClass/editClass/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T18:57:59+08:00 ] 127.0.0.1 /Home/MyClass/saveClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: class_desc /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0003s ]
+SQL: UPDATE `classes` SET `user_id`='1',`platform_id`='1',`class_name`='班级名称',`count`='0',`time`='1517223479',`status`='1',`image`='e1dcefb5df9519334aed68fbdc534cae.jpg',`description`='' WHERE ( class_id = 1 and user_id = 1 ) [ RunTime:0.0019s ]
+
+[ 2018-01-29T18:59:17+08:00 ] 127.0.0.1 /Home/MyClass/editClass/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T18:59:39+08:00 ] 127.0.0.1 /Home/MyClass/editClass/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T18:59:43+08:00 ] 127.0.0.1 /Home/MyClass/saveClass.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0005s ]
+SQL: UPDATE `classes` SET `user_id`='1',`platform_id`='1',`class_name`='班级名称',`count`='0',`time`='1517223583',`status`='1',`image`='e1dcefb5df9519334aed68fbdc534cae.jpg',`description`='增加简介了' WHERE ( class_id = 1 and user_id = 1 ) [ RunTime:0.0003s ]
+
+[ 2018-01-29T19:01:27+08:00 ] 127.0.0.1 /Home/MyClass/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( user_id = 1 ) ORDER BY class_id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-29T19:01:41+08:00 ] 127.0.0.1 /Home/MyClass/editClass/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T19:05:08+08:00 ] 127.0.0.1 /Home/MyClass/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classes` WHERE ( user_id = 1 ) ORDER BY class_id asc  [ RunTime:0.0005s ]
+
+[ 2018-01-29T19:05:09+08:00 ] 127.0.0.1 /Home/MyClass/delClass/class_id/4.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0005s ]
+SQL: DELETE FROM `classes` WHERE ( class_id = 4 and user_id = 1 ) [ RunTime:0.0012s ]
+
+[ 2018-01-29T19:05:11+08:00 ] 127.0.0.1 /Home/MyClass/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classes` WHERE ( user_id = 1 ) ORDER BY class_id asc  [ RunTime:0.0006s ]
+
+[ 2018-01-29T19:05:23+08:00 ] 127.0.0.1 /Home/MyClass/delClass/class_id/3.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: DELETE FROM `classes` WHERE ( class_id = 3 and user_id = 1 ) [ RunTime:0.0002s ]
+
+[ 2018-01-29T19:05:25+08:00 ] 127.0.0.1 /Home/MyClass/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `classes` WHERE ( user_id = 1 ) ORDER BY class_id asc  [ RunTime:0.0004s ]
+
+[ 2018-01-29T19:05:27+08:00 ] 127.0.0.1 /Home/MyClass/manage_classthing.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T19:35:24+08:00 ] 127.0.0.1 /Home/MyClass/manage_classthing.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T19:39:43+08:00 ] 127.0.0.1 /Home/MyClass/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` WHERE ( user_id = 1 ) ORDER BY class_id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-29T19:40:44+08:00 ] 127.0.0.1 /Home/MyClass/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( user_id = 1 ) ORDER BY class_id asc  [ RunTime:0.0003s ]
+
+[ 2018-01-29T19:40:45+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T19:41:20+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T19:42:00+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/class_detail.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-29T19:42:01+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/class_detail.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T19:45:05+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/5.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 5 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-29T19:45:58+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+

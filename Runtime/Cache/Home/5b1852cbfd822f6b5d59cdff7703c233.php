@@ -107,7 +107,7 @@
                 <p>我的活动</p>
             </div>
         </a>
-        <a href="maneger_class.html" class="weui-flex__item">
+        <a href="<?php echo U('Home/MyClass/index');?>" class="weui-flex__item">
             <div class="placeholders">
                 <img src="/mobile/images/buy2.png" alt="">
                 <p>我的班级</p>
