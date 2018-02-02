@@ -27,11 +27,11 @@
             <img style="width: 24px" src="/mobile/images/person/icon3.png" alt="" class="weui-tabbar__icon">
             <p class="weui-tabbar__label">今日作业预览</p>
         </a>
-        <a href="all_student.html" class="weui-tabbar__item">
+        <a href="{:U('Home/MyClass/addStudent',array('class_id' => $class['class_id']))}" class="weui-tabbar__item">
             <i style="color:#F4BC43;font-size: 20px" class="txh icon-tianjiachengyuan weui-tabbar__icon"></i>
             <p class="weui-tabbar__label">添加成员</p>
         </a>
-        <a href="homework_manager.html" class="weui-tabbar__item">
+        <a href="{:U('Home/MyClass/homeworkManager',array('class_id' => $class['class_id']))}" class="weui-tabbar__item">
             <i style="color:#A98DE4;font-size: 20px" class="txh icon-book weui-tabbar__icon"></i>
             <p class="weui-tabbar__label">班级作业</p>
         </a>
@@ -48,203 +48,25 @@
                 <th>手机号</th>
                 <th>角色</th>
             </tr>
-            <tr onclick="location='integral_manager_person.html'">
-                <td>
-                    <img src="/mobile/images/integral/left1.png" alt="">
-                </td>
-                <td>
-                    <img src="/mobile/images/header_img.png" alt="">
-                </td>
-                <td>李老师</td>
-                <td>18117663419</td>
-                <td>
-                    老师
-                </td>
-            </tr>
-            <tr onclick="location='integral_manager_person.html'">
-
-                <td>
-                    <img src="/mobile/images/integral/left2.png" alt="">
-                </td>
-                <td>
-                    <img src="/mobile/images/header_img.png" alt="">
-                </td>
-                <td>马萧萧</td>
-                <td>18117663419</td>
-                <td>
-                    学生
-                </td>
-            </tr>
-            <tr onclick="location='./integral_manager_person.html'">
-
-                <td>
-                    <img src="/mobile/images/integral/left3.png" alt="">
-                </td>
-                <td>
-                    <img src="/mobile/images/header_img.png" alt="">
-                </td>
-                <td>马萧萧</td>
-                <td>18117663419</td>
-                <td>
-                    学生
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    4
-                </td>
-                <td>
-                    <img src="/mobile/images/header_img.png" alt="">
-                </td>
-                <td>马萧萧</td>
-                <td>18117663419</td>
-                <td>
-                    学生
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    4
-                </td>
-                <td>
-                    <img src="./images/header_img.png" alt="">
-                </td>
-                <td>马萧萧</td>
-                <td>18117663419</td>
-                <td>
-                    学生
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    4
-                </td>
-                <td>
-                    <img src="./images/header_img.png" alt="">
-                </td>
-                <td>马萧萧</td>
-                <td>18117663419</td>
-                <td>
-                    学生
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    4
-                </td>
-                <td>
-                    <img src="./images/header_img.png" alt="">
-                </td>
-                <td>马萧萧</td>
-                <td>18117663419</td>
-                <td>
-                    学生
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    4
-                </td>
-                <td>
-                    <img src="./images/header_img.png" alt="">
-                </td>
-                <td>马萧萧</td>
-                <td>18117663419</td>
-                <td>
-                    学生
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    4
-                </td>
-                <td>
-                    <img src="./images/header_img.png" alt="">
-                </td>
-                <td>马萧萧</td>
-                <td>18117663419</td>
-                <td>
-                    学生
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    4
-                </td>
-                <td>
-                    <img src="./images/header_img.png" alt="">
-                </td>
-                <td>马萧萧</td>
-                <td>18117663419</td>
-                <td>
-                    学生
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    4
-                </td>
-                <td>
-                    <img src="./images/header_img.png" alt="">
-                </td>
-                <td>马萧萧</td>
-                <td>18117663419</td>
-                <td>
-                    学生
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    4
-                </td>
-                <td>
-                    <img src="./images/header_img.png" alt="">
-                </td>
-                <td>马萧萧</td>
-                <td>18117663419</td>
-                <td>
-                    学生
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    4
-                </td>
-                <td>
-                    <img src="./images/header_img.png" alt="">
-                </td>
-                <td>马萧萧</td>
-                <td>18117663419</td>
-                <td>
-                    学生
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    4
-                </td>
-                <td>
-                    <img src="./images/header_img.png" alt="">
-                </td>
-                <td>马萧萧</td>
-                <td>18117663419</td>
-                <td>
-                    学生
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    4
-                </td>
-                <td>
-                    <img src="./images/header_img.png" alt="">
-                </td>
-                <td>马萧萧</td>
-                <td>18117663419</td>
-                <td>
-                    学生
-                </td>
-            </tr>
+            <volist name="stuList" id="stu">
+                <tr onclick="location='{:U(\'Home/MyClass/stuDetail\',array(\'class_id\' => $class[\'class_id\'],\'stu_id\' => $stu[\'id\']))}'">
+                    <td>
+                        <if condition="$i lt 3">
+                            <img src="/mobile/images/integral/left1.png" alt="">
+                        <else />
+                            {$i + 1}
+                        </if>
+                    </td>
+                    <td>
+                        <img src="{:imageDomain($stu['head_img'])}" alt="">
+                    </td>
+                    <td>{$stu['name']}</td>
+                    <td>{$stu['phone']}</td>
+                    <td>
+                        {$stu['role']}
+                    </td>
+                </tr>
+            </volist>
             </tbody>
         </table>
     </div>

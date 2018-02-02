@@ -28,4 +28,33 @@ class UserFundsModel extends Model
     {
         return $this->add(array('user_id'=>$user_id));
     }
+
+    //getFundsDetail
+    public function getFundsDetail($user_id){
+        $res = array();
+        $res['id'] = $user_id;
+        $res['name'] = M('User')->where('id = ' . $user_id)->getField('nickname');
+        //可用积分
+        $res['score'] = $this->getScore($user_id);
+
+        $tmp = M('UserScoreDetail')->where('user_id = ' . $user_id)->select();
+        $scoreList = array();
+        $usedScore = 0;
+        foreach($tmp as $one){
+            $score = array(
+                    'score' => ((int)$one['type'] == 0 ? "+" : "-") . $one['score'],
+                    'source' => $one['source'],
+                    'value' => $one['value'],
+                    'time' => date("Y-m-d",(int)$one['time'])
+                );
+            array_push($scoreList, $score);
+            if ((int)$one['type'] == 1) {
+                $usedScore += $one['score'];                
+            }            
+        }
+        $res['usedScore'] = $usedScore;
+        $res['scoreList'] = $scoreList;
+
+        return $res;
+    }
 }

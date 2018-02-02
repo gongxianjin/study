@@ -1,0 +1,180 @@
+body {
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+body div.header {
+  top: 0;
+  height: 50px;
+  line-height: 50px;
+  width: 100%;
+  background-color: #2addfd;
+  z-index: 100;
+  color: #fff;
+  transition: 300ms;
+}
+body div.header >span.header-back {
+  position: absolute;
+  left: 6px;
+  top: 5px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  overflow: hidden;
+  height: 40px;
+}
+body div.header >span.header-back >i {
+  font-size: 28px;
+}
+body div.header .header-text {
+  position: absolute;
+  left: 50px;
+  font-size: 20px;
+  display: inline-block;
+  right: 50px !important;
+  text-align: center !important;
+}
+body div.header .header-btn {
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+  width: 60px;
+  right: 0;
+}
+body div.header .header-btn >a {
+  text-align: center;
+  height: 100%;
+  color: #fff;
+  font-weight: normal;
+  font-size: 13px;
+}
+body .page-content {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f29b32;
+  height: 149px;
+  box-sizing: border-box;
+  position: relative;
+}
+body .page-content .page-content-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+}
+body .page-content .page-content-img img {
+  width: 6%;
+}
+body .page-content .page-content-img .coin-total {
+  color: #fff;
+  font-weight: bold;
+  font-size: 28px;
+  margin-left: 3px;
+}
+body .page-content p {
+  color: #fff;
+}
+body .page-content p span {
+  padding: 0 10px;
+}
+body .page-content p span:first-child {
+  border-right: 1px solid #fff;
+}
+body .page-content .down-aside {
+  margin-top: 20px;
+}
+body .page-content .down-aside a {
+  color: #fff;
+  font-size: 12px;
+}
+body div.page {
+  top: 50px;
+  transition: 300ms;
+  position: absolute;
+  z-index: 10;
+  font-size: 14px;
+  background-color: #fff;
+  overflow-y: hidden;
+}
+body div.page .search-box {
+  position: fixed;
+  width: 100%;
+}
+body div.page .search-box .weui-search-bar__cancel-btn {
+  color: #2addfd;
+}
+body div.page .search-box .weui-cells {
+  margin-top: 0;
+  background-color: #fff;
+}
+body div.page .search-box .weui-cells .weui-cell p {
+  font-size: 14px;
+  color: #333;
+}
+body div.page .content-tab-box {
+  margin-top: 44px;
+}
+body div.page .content-tab-box .imagetable {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 13px;
+  color: #333;
+  border-width: 1px;
+  border-color: #999;
+  border-collapse: collapse;
+}
+body div.page .content-tab-box .imagetable .th_bg {
+  background-color: #f3f3f3;
+  color: #777;
+}
+body div.page .content-tab-box .imagetable th {
+  border-width: 1px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #e8e8e8;
+  border-left: none;
+  text-align: center;
+  border-right: none;
+  font-weight: 400;
+}
+body div.page .content-tab-box .imagetable td {
+  border-width: 1px;
+  padding: 8px 2px;
+  border-style: solid;
+  border-color: #e8e8e8;
+  border-left: none;
+  border-right: none;
+  text-align: center;
+  color: #666;
+  width: 35%;
+}
+body div.page .content-tab-box .imagetable td i {
+  margin-right: 10px;
+}
+body div.page .content-tab-box .imagetable td img {
+  width: 50%;
+}
+body div.page .content-tab-box .imagetable td input {
+  margin-right: 10px;
+}
+body div.page .content-tab-box .imagetable td a {
+  display: inline-block;
+  font-weight: 300;
+  background-color: #44d2ee;
+  color: #fff;
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-size: 11px;
+}
+body div.page .content-tab-box .imagetable tbody {
+  height: 616px;
+  overflow-y: auto;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}

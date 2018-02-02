@@ -27,11 +27,11 @@
             <img style="width: 24px" src="/mobile/images/person/icon3.png" alt="" class="weui-tabbar__icon">
             <p class="weui-tabbar__label">今日作业预览</p>
         </a>
-        <a href="all_student.html" class="weui-tabbar__item">
+        <a href="<?php echo U('Home/MyClass/addStudent',array('class_id' => $class['class_id']));?>" class="weui-tabbar__item">
             <i style="color:#F4BC43;font-size: 20px" class="txh icon-tianjiachengyuan weui-tabbar__icon"></i>
             <p class="weui-tabbar__label">添加成员</p>
         </a>
-        <a href="homework_manager.html" class="weui-tabbar__item">
+        <a href="<?php echo U('Home/MyClass/homeworkManager',array('class_id' => $class['class_id']));?>" class="weui-tabbar__item">
             <i style="color:#A98DE4;font-size: 20px" class="txh icon-book weui-tabbar__icon"></i>
             <p class="weui-tabbar__label">班级作业</p>
         </a>
@@ -48,203 +48,21 @@
                 <th>手机号</th>
                 <th>角色</th>
             </tr>
-            <tr onclick="location='integral_manager_person.html'">
-                <td>
-                    <img src="/mobile/images/integral/left1.png" alt="">
-                </td>
-                <td>
-                    <img src="/mobile/images/header_img.png" alt="">
-                </td>
-                <td>李老师</td>
-                <td>18117663419</td>
-                <td>
-                    老师
-                </td>
-            </tr>
-            <tr onclick="location='integral_manager_person.html'">
-
-                <td>
-                    <img src="/mobile/images/integral/left2.png" alt="">
-                </td>
-                <td>
-                    <img src="/mobile/images/header_img.png" alt="">
-                </td>
-                <td>马萧萧</td>
-                <td>18117663419</td>
-                <td>
-                    学生
-                </td>
-            </tr>
-            <tr onclick="location='./integral_manager_person.html'">
-
-                <td>
-                    <img src="/mobile/images/integral/left3.png" alt="">
-                </td>
-                <td>
-                    <img src="/mobile/images/header_img.png" alt="">
-                </td>
-                <td>马萧萧</td>
-                <td>18117663419</td>
-                <td>
-                    学生
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    4
-                </td>
-                <td>
-                    <img src="/mobile/images/header_img.png" alt="">
-                </td>
-                <td>马萧萧</td>
-                <td>18117663419</td>
-                <td>
-                    学生
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    4
-                </td>
-                <td>
-                    <img src="./images/header_img.png" alt="">
-                </td>
-                <td>马萧萧</td>
-                <td>18117663419</td>
-                <td>
-                    学生
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    4
-                </td>
-                <td>
-                    <img src="./images/header_img.png" alt="">
-                </td>
-                <td>马萧萧</td>
-                <td>18117663419</td>
-                <td>
-                    学生
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    4
-                </td>
-                <td>
-                    <img src="./images/header_img.png" alt="">
-                </td>
-                <td>马萧萧</td>
-                <td>18117663419</td>
-                <td>
-                    学生
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    4
-                </td>
-                <td>
-                    <img src="./images/header_img.png" alt="">
-                </td>
-                <td>马萧萧</td>
-                <td>18117663419</td>
-                <td>
-                    学生
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    4
-                </td>
-                <td>
-                    <img src="./images/header_img.png" alt="">
-                </td>
-                <td>马萧萧</td>
-                <td>18117663419</td>
-                <td>
-                    学生
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    4
-                </td>
-                <td>
-                    <img src="./images/header_img.png" alt="">
-                </td>
-                <td>马萧萧</td>
-                <td>18117663419</td>
-                <td>
-                    学生
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    4
-                </td>
-                <td>
-                    <img src="./images/header_img.png" alt="">
-                </td>
-                <td>马萧萧</td>
-                <td>18117663419</td>
-                <td>
-                    学生
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    4
-                </td>
-                <td>
-                    <img src="./images/header_img.png" alt="">
-                </td>
-                <td>马萧萧</td>
-                <td>18117663419</td>
-                <td>
-                    学生
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    4
-                </td>
-                <td>
-                    <img src="./images/header_img.png" alt="">
-                </td>
-                <td>马萧萧</td>
-                <td>18117663419</td>
-                <td>
-                    学生
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    4
-                </td>
-                <td>
-                    <img src="./images/header_img.png" alt="">
-                </td>
-                <td>马萧萧</td>
-                <td>18117663419</td>
-                <td>
-                    学生
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    4
-                </td>
-                <td>
-                    <img src="./images/header_img.png" alt="">
-                </td>
-                <td>马萧萧</td>
-                <td>18117663419</td>
-                <td>
-                    学生
-                </td>
-            </tr>
+            <?php if(is_array($stuList)): $i = 0; $__LIST__ = $stuList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$stu): $mod = ($i % 2 );++$i;?><tr onclick="location='<?php echo U('Home/MyClass/stuDetail',array('class_id' => $class['class_id'],'stu_id' => $stu['id']));?>'">
+                    <td>
+                        <?php if($i < 3): ?><img src="/mobile/images/integral/left1.png" alt="">
+                        <?php else: ?>
+                            <?php echo ($i + 1); endif; ?>
+                    </td>
+                    <td>
+                        <img src="<?php echo imageDomain($stu['head_img']);?>" alt="">
+                    </td>
+                    <td><?php echo ($stu['name']); ?></td>
+                    <td><?php echo ($stu['phone']); ?></td>
+                    <td>
+                        <?php echo ($stu['role']); ?>
+                    </td>
+                </tr><?php endforeach; endif; else: echo "" ;endif; ?>
             </tbody>
         </table>
     </div>

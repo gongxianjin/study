@@ -1,0 +1,241 @@
+body {
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+body div.header {
+  top: 0;
+  height: 50px;
+  line-height: 50px;
+  width: 100%;
+  background-color: #2addfd;
+  z-index: 100;
+  color: #fff;
+  transition: 300ms;
+}
+body div.header >span.header-back {
+  position: absolute;
+  left: 6px;
+  top: 5px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  overflow: hidden;
+  height: 40px;
+}
+body div.header >span.header-back >i {
+  font-size: 28px;
+}
+body div.header .header-text {
+  position: absolute;
+  left: 50px;
+  height: 100%;
+  font-size: 20px;
+  display: inline-block;
+  right: 50px !important;
+  text-align: center !important;
+}
+body div.header .header-btn {
+  position: absolute;
+  text-align: center;
+  height: 100%;
+  display: inline-block;
+  width: 60px;
+  right: 0;
+}
+body div.header .header-btn >a {
+  text-align: center;
+  height: 100%;
+  color: #fff;
+  font-weight: normal;
+  font-size: 13px;
+}
+body .page-content {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f29b32;
+  position: relative;
+}
+body .page-content .page-content-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+}
+body .page-content .page-content-img img {
+  width: 6%;
+}
+body .page-content .page-content-img .coin-total {
+  color: #fff;
+  font-weight: bold;
+  font-size: 28px;
+  margin-left: 3px;
+}
+body .page-content p {
+  color: #fff;
+}
+body .page-content p span {
+  padding: 0 10px;
+}
+body .page-content p span:first-child {
+  border-right: 1px solid #fff;
+}
+body .page-content .down-aside {
+  margin-top: 20px;
+}
+body .page-content .down-aside a {
+  color: #fff;
+  font-size: 12px;
+}
+body div.page {
+  top: 199px;
+  bottom: 55px;
+  transition: 300ms;
+  position: absolute;
+  z-index: 10;
+  font-size: 14px;
+  background-color: #fff;
+}
+body div.page .content-tab-box {
+  overflow-y: auto;
+}
+body div.page .content-tab-box .imagetable {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 13px;
+  color: #333;
+  border-width: 1px;
+  border-color: #999;
+  border-collapse: collapse;
+}
+body div.page .content-tab-box .imagetable .th_bg {
+  background-color: #f3f3f3;
+  color: #777;
+}
+body div.page .content-tab-box .imagetable th {
+  border-width: 1px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #e8e8e8;
+  border-left: none;
+  text-align: center;
+  border-right: none;
+  font-weight: 400;
+}
+body div.page .content-tab-box .imagetable td {
+  border-width: 1px;
+  padding: 8px 2px;
+  border-style: solid;
+  border-color: #e8e8e8;
+  border-left: none;
+  border-right: none;
+  text-align: center;
+  color: #666;
+}
+body div.page .content-tab-box .imagetable td:nth-child(1) {
+  width: 15%;
+}
+body div.page .content-tab-box .imagetable td:nth-child(2) {
+  width: 15%;
+}
+body div.page .content-tab-box .imagetable td img {
+  width: 50%;
+}
+body div.page .content-tab-box .imagetable td input {
+  margin-right: 10px;
+}
+body div.page .content-tab-box .imagetable td a {
+  display: inline-block;
+  font-weight: 300;
+  background-color: #44d2ee;
+  color: #fff;
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-size: 11px;
+}
+body .footer {
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  bottom: 0px;
+  margin-bottom: 10px;
+}
+body .footer a {
+  display: inline-block;
+  width: 80%;
+  margin-left: 10%;
+  line-height: 40px;
+  height: 40px;
+  text-align: center;
+  background-color: #d38664;
+  color: #fff;
+  border-radius: 30px;
+}
+body .js_dialog .weui-dialog {
+  border-radius: 8px;
+}
+body .js_dialog .weui-dialog .weui-dialog__hd {
+  background-color: #f5c554;
+  color: #a7643e;
+  padding: 10px 0;
+}
+body .js_dialog .weui-dialog__bd .weui-cells {
+  margin-top: 0px;
+}
+body .js_dialog .weui-dialog__bd .weui-cells:after {
+  height: 0;
+  border: 0;
+}
+body .js_dialog .weui-dialog__bd .weui-cells .weui-cell:before {
+  height: 0;
+  border: 0;
+}
+body .js_dialog .weui-dialog__bd .weui-cells .weui-cell a {
+  display: inline-block;
+  text-align: center;
+  padding: 5px 15px;
+  background-color: #f5c554;
+  color: #a7643e;
+  border-radius: 5px;
+  margin-left: 40%;
+  font-size: 14px;
+}
+body .js_dialog .weui-dialog__bd .weui-cells .interger-list-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body .js_dialog .weui-dialog__bd .weui-cells .interger-list-box .interger-list {
+  flex: 1;
+  text-align: center;
+  width: 40px;
+  height: 68px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  display: inline-block;
+  border: 5px solid #d5d0d5;
+  background-color: #bdb8bf;
+  color: #fff;
+}
+body .js_dialog .weui-dialog__bd .weui-cells .interger-list-box .interger-list.active {
+  border: 5px solid #f6da72;
+  background-color: #ecb03e;
+}
+body .js_dialog .weui-dialog__bd .weui-cells .interger-list-box .interger-list:nth-child(2) {
+  margin: 0 10px;
+}
+body .js_dialog .weui-dialog__bd .weui-cells .interger-list-box .interger-list i {
+  font-size: 20px;
+}
+body .js_dialog .weui-dialog__bd .weui-cells .interger-list-box .interger-list p {
+  font-size: 14px;
+}
+body .js_dialog .weui-dialog__bd .weui-cells .interger-list-box .interger-list p span {
+  font-size: 18px;
+  color: #f7cf64;
+}

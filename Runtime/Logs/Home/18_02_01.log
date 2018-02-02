@@ -1,0 +1,1522 @@
+[ 2018-02-01T10:10:01+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0228s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T10:10:03+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/today_work.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 0 and user_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-01T10:10:05+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T10:10:06+08:00 ] 127.0.0.1 /Home/MyClass/addStudent/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`nickname`,`head_img` FROM `user` WHERE ( platform_id = 1 )  [ RunTime:0.0003s ]
+
+[ 2018-02-01T10:10:08+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T10:12:40+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T10:12:43+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-01T10:12:44+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T10:12:46+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T10:12:47+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-01T10:12:49+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-01T10:12:50+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T10:12:51+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-01T10:16:27+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T10:16:28+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-01T10:16:30+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: class_id /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 160 行.
+
+[ 2018-02-01T10:16:33+08:00 ] 127.0.0.1 /Home/MyClass/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` WHERE ( user_id = 1 ) ORDER BY class_id asc  [ RunTime:0.0012s ]
+
+[ 2018-02-01T10:16:35+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T10:16:38+08:00 ] 127.0.0.1 /Home/MyClass/addStudent/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`nickname`,`head_img` FROM `user` WHERE ( platform_id = 1 )  [ RunTime:0.0002s ]
+
+[ 2018-02-01T10:16:43+08:00 ] 127.0.0.1 /Home/MyClass/addStuFunc.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( user_id = 1 and class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( user_id = 2 and class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( user_id = 3 and class_id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `classstudentlist` (`teacher_id`,`user_id`,`class_id`,`time`) VALUES ('1','3','1','1517451403') [ RunTime:0.0095s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0014s ]
+SQL: SELECT `count` FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `classes` SET `count`='1' WHERE ( class_id = 1 ) [ RunTime:0.0020s ]
+
+[ 2018-02-01T10:16:49+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-01T10:17:02+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T10:17:03+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-01T10:17:30+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T10:17:34+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T10:17:37+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/see_homework.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-01T10:17:39+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/0.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T10:17:40+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/see_homework.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-01T10:17:42+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/0.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T10:17:43+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/see_homework.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-01T10:17:47+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/0.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 0 ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2018-02-01T10:17:49+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/see_homework.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-02-01T10:17:50+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/0.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 0 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-01T10:17:51+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/see_homework.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T10:17:56+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: class_id /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 160 行.
+
+[ 2018-02-01T10:24:36+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/0.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T10:24:38+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: class_id /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 160 行.
+
+[ 2018-02-01T10:25:12+08:00 ] 127.0.0.1 /Home/MyClass/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classes` WHERE ( user_id = 1 ) ORDER BY class_id asc  [ RunTime:0.0005s ]
+
+[ 2018-02-01T10:25:13+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-01T10:25:15+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-01T10:25:16+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T10:26:00+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/see_homework.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T20:45:35+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0328s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0063s ]
+
+[ 2018-02-01T20:45:51+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-02-01T20:45:56+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-02-01T20:46:03+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-01T20:46:11+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/today_work.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 0 and user_id = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-02-01T20:46:13+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-01T20:46:14+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T20:46:30+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T21:04:42+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-01T21:05:01+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 1146:Table 'study.homework' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `homework`
+ERR: 1146:Table 'study.homework' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `homework`
+
+[ 2018-02-01T21:07:38+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1146:Table 'study.homework' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `homework`
+ERR: 1146:Table 'study.homework' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `homework`
+
+[ 2018-02-01T21:07:40+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1146:Table 'study.homework' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `homework`
+ERR: 1146:Table 'study.homework' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `homework`
+
+[ 2018-02-01T21:07:50+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classtasklist` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classtasklist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: one /Library/WebServer/Documents/Study/Application/Home/Model/ClasshomeworkModel.class.php 第 10 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `course_id` FROM `classhomework` WHERE ( id =  ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `course_id` FROM `classhomework` WHERE ( id =  ) LIMIT 1  
+
+[ 2018-02-01T21:08:26+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classtasklist` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classtasklist` WHERE ( class_id = 1 )  [ RunTime:0.0001s ]
+
+[ 2018-02-01T22:13:50+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-01T22:20:51+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/today_work.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 0 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:20:53+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:20:55+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/today_work.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 0 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:27:58+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/today_work.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 0 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:28:04+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `classtasklist` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classtasklist` WHERE ( class_id = 1 )  [ RunTime:0.0003s ]
+
+[ 2018-02-01T22:28:05+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-01T22:28:44+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/today_work.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 0 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:28:46+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-01T22:28:46+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/today_work.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 0 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:28:48+08:00 ] 127.0.0.1 /Home
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0004s ]
+
+[ 2018-02-01T22:28:55+08:00 ] 127.0.0.1 /Home/CreateBook/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:29:02+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+
+[ 2018-02-01T22:29:15+08:00 ] 127.0.0.1 /Home/CreateBook/createBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 61 行.
+
+[ 2018-02-01T22:29:16+08:00 ] 127.0.0.1 /Home/CreateBook/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:30:02+08:00 ] 127.0.0.1 /Home/CreateBook/createBooktext.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0005s ]
+SQL: INSERT INTO `book_res` (`book_id`,`name`,`image`) VALUES ('0','自制课本','d41d8cd98f00b204e9800998ecf8427e.') [ RunTime:0.0026s ]
+SQL: SELECT `id` FROM `book_res` WHERE `book_id` = 0 AND `name` = '自制课本' AND `image` = 'd41d8cd98f00b204e9800998ecf8427e.' LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `booktext_res` [ RunTime:0.0004s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 154 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 159 行.
+SQL: INSERT INTO `booktext_res` (`booktext_id`,`content_img`,`content_voice`,`time`) VALUES ('31','d41d8cd98f00b204e9800998ecf8427e.','d41d8cd98f00b204e9800998ecf8427e.','1517495402') [ RunTime:0.0004s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 154 行.
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 159 行.
+SQL: INSERT INTO `booktext_res` (`booktext_id`,`content_img`,`content_voice`,`time`) VALUES ('31','d41d8cd98f00b204e9800998ecf8427e.','d41d8cd98f00b204e9800998ecf8427e.','1517495402') [ RunTime:0.0001s ]
+
+[ 2018-02-01T22:30:03+08:00 ] 127.0.0.1 /Home/CreateBook/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-02-01T22:30:04+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:30:05+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:30:05+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:30:06+08:00 ] 127.0.0.1 /Home/CreateBook/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:30:07+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:30:07+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-02-01T22:30:09+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:30:10+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-02-01T22:30:10+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:30:11+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:30:11+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-02-01T22:30:11+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2018-02-01T22:30:14+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0001s ]
+
+[ 2018-02-01T22:30:15+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:30:18+08:00 ] 127.0.0.1 /Home/CreateBook/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:30:19+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0006s ]
+
+[ 2018-02-01T22:30:48+08:00 ] 127.0.0.1 /Home/CreateBook/createBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: INSERT INTO `book` (`user_id`,`platform_id`,`classify_id`,`level_id`,`type`,`name`,`author`,`press`,`cover_img`,`describe`,`time`,`status`) VALUES ('1','1','0','0','1','创建课本了啊','超会吹','','818b42ad046b4694010870088ca32df8.jpg','','1517495448','0') [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `book` WHERE `user_id` = 1 AND `platform_id` = 1 AND `classify_id` = 0 AND `level_id` = 0 AND `type` = 1 AND `name` = '创建课本了啊' AND `author` = '超会吹' AND `press` = '' AND `cover_img` = '818b42ad046b4694010870088ca32df8.jpg' AND `describe` = '' AND `time` = 1517495448 AND `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: INSERT INTO `book_res` (`book_id`,`name`,`image`,`audio`,`vide`,`desc`) VALUES ('3','unit1','','','','') [ RunTime:0.0004s ]
+SQL: INSERT INTO `book_res` (`book_id`,`name`,`image`,`audio`,`vide`,`desc`) VALUES ('3','unit2','','','','') [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:30:50+08:00 ] 127.0.0.1 /Home/CreateBook/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:30:51+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:30:52+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:30:53+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:31:09+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 3 ) ORDER BY id asc  [ RunTime:0.0010s ]
+
+[ 2018-02-01T22:31:11+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:31:12+08:00 ] 127.0.0.1 /Home/CreateBook/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 3 ) ORDER BY id asc  [ RunTime:0.0014s ]
+
+[ 2018-02-01T22:31:13+08:00 ] 127.0.0.1 /Home/CreateBook/getBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book` WHERE ( user_id = 1 ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:31:56+08:00 ] 127.0.0.1 /Home/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0005s ]
+
+[ 2018-02-01T22:31:57+08:00 ] 127.0.0.1 /Home/MyClass/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( user_id = 1 ) ORDER BY class_id asc  [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:31:59+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-01T22:32:01+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `classtasklist` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classtasklist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:32:02+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-01T22:39:23+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: count /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 191 行.
+
+[ 2018-02-01T22:39:24+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classtasklist` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classtasklist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:39:26+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: count /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 191 行.
+
+[ 2018-02-01T22:39:28+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `classtasklist` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classtasklist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:39:34+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: count /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 191 行.
+
+[ 2018-02-01T22:39:36+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `classtasklist` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classtasklist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:39:38+08:00 ] 127.0.0.1 /Home/MyClass
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( user_id = 1 ) ORDER BY class_id asc  [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:39:39+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:39:41+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-01T22:39:43+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classtasklist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classtasklist` WHERE ( class_id = 1 )  [ RunTime:0.0001s ]
+
+[ 2018-02-01T22:39:44+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: count /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 191 行.
+
+[ 2018-02-01T22:39:45+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `classtasklist` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classtasklist` WHERE ( class_id = 1 )  [ RunTime:0.0001s ]
+
+[ 2018-02-01T22:40:12+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classtasklist` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classtasklist` WHERE ( class_id = 1 )  [ RunTime:0.0001s ]
+
+[ 2018-02-01T22:44:47+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `classtasklist` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classtasklist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:44:48+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book`  [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:45:00+08:00 ] 127.0.0.1 /Home/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0013s ]
+
+[ 2018-02-01T22:45:02+08:00 ] 127.0.0.1 /Home/MyClass/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( user_id = 1 ) ORDER BY class_id asc  [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:45:04+08:00 ] 127.0.0.1 /Home/CreateBook/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-01T22:45:21+08:00 ] 127.0.0.1 /Home/CreateBook/createBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 61 行.
+
+[ 2018-02-01T22:45:22+08:00 ] 127.0.0.1 /Home/CreateBook/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:45:45+08:00 ] 127.0.0.1 /Home/CreateBook/createBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 61 行.
+
+[ 2018-02-01T22:45:46+08:00 ] 127.0.0.1 /Home/CreateBook/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:46:12+08:00 ] 127.0.0.1 /Home/CreateBook/createBook.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Only variables should be passed by reference /Library/WebServer/Documents/Study/Application/Home/Controller/CreateBookController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0006s ]
+SQL: INSERT INTO `book` (`user_id`,`platform_id`,`classify_id`,`level_id`,`type`,`name`,`author`,`press`,`cover_img`,`describe`,`time`,`status`) VALUES ('1','1','0','0','1','第三本课本','超会吹','','f564baad6b4d370b6cdee319e4ba8038.png','','1517496372','0') [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `book` WHERE `user_id` = 1 AND `platform_id` = 1 AND `classify_id` = 0 AND `level_id` = 0 AND `type` = 1 AND `name` = '第三本课本' AND `author` = '超会吹' AND `press` = '' AND `cover_img` = 'f564baad6b4d370b6cdee319e4ba8038.png' AND `describe` = '' AND `time` = 1517496372 AND `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: INSERT INTO `book_res` (`book_id`,`name`,`image`,`audio`,`vide`,`desc`) VALUES ('4','unit1','','','','') [ RunTime:0.0002s ]
+SQL: INSERT INTO `book_res` (`book_id`,`name`,`image`,`audio`,`vide`,`desc`) VALUES ('4','unit2','','','','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `book_res` (`book_id`,`name`,`image`,`audio`,`vide`,`desc`) VALUES ('4','unit3','','','','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `book_res` (`book_id`,`name`,`image`,`audio`,`vide`,`desc`) VALUES ('4','unit4','','','','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `book_res` (`book_id`,`name`,`image`,`audio`,`vide`,`desc`) VALUES ('4','unit5','','','','') [ RunTime:0.0001s ]
+
+[ 2018-02-01T22:46:13+08:00 ] 127.0.0.1 /Home/CreateBook/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-02-01T22:46:19+08:00 ] 127.0.0.1 /Home/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0005s ]
+
+[ 2018-02-01T22:46:20+08:00 ] 127.0.0.1 /Home/MyClass/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` WHERE ( user_id = 1 ) ORDER BY class_id asc  [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:46:21+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-01T22:46:22+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classtasklist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classtasklist` WHERE ( class_id = 1 )  [ RunTime:0.0001s ]
+
+[ 2018-02-01T22:46:24+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book`  [ RunTime:0.0001s ]
+
+[ 2018-02-01T22:58:02+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book`  [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:58:04+08:00 ] 127.0.0.1 /Home/MyClass/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 3 )  [ RunTime:0.0004s ]
+
+[ 2018-02-01T22:58:23+08:00 ] 127.0.0.1 /Home/MyClass/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 4 )  [ RunTime:0.0005s ]
+
+[ 2018-02-01T22:58:26+08:00 ] 127.0.0.1 /Home/MyClass/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 3 )  [ RunTime:0.0002s ]
+
+[ 2018-02-01T22:58:28+08:00 ] 127.0.0.1 /Home/MyClass/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 4 )  [ RunTime:0.0002s ]
+
+[ 2018-02-01T23:00:25+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book`  [ RunTime:0.0002s ]
+
+[ 2018-02-01T23:00:27+08:00 ] 127.0.0.1 /Home/MyClass/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 3 )  [ RunTime:0.0003s ]
+
+[ 2018-02-01T23:01:25+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book`  [ RunTime:0.0001s ]
+
+[ 2018-02-01T23:01:45+08:00 ] 127.0.0.1 /Home/MyClass/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 3 )  [ RunTime:0.0002s ]
+
+[ 2018-02-01T23:01:57+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book`  [ RunTime:0.0002s ]
+
+[ 2018-02-01T23:01:57+08:00 ] 127.0.0.1 /Home/MyClass/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 4 )  [ RunTime:0.0003s ]
+
+[ 2018-02-01T23:06:14+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book`  [ RunTime:0.0002s ]
+
+[ 2018-02-01T23:07:17+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book`  [ RunTime:0.0002s ]
+
+[ 2018-02-01T23:07:43+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book`  [ RunTime:0.0002s ]
+
+[ 2018-02-01T23:08:27+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book`  [ RunTime:0.0002s ]
+
+[ 2018-02-01T23:08:27+08:00 ] 127.0.0.1 /Home/MyClass/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 4 )  [ RunTime:0.0003s ]
+
+[ 2018-02-01T23:08:44+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book`  [ RunTime:0.0001s ]
+
+[ 2018-02-01T23:08:44+08:00 ] 127.0.0.1 /Home/MyClass/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 4 )  [ RunTime:0.0004s ]
+
+[ 2018-02-01T23:08:57+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book`  [ RunTime:0.0002s ]
+
+[ 2018-02-01T23:08:57+08:00 ] 127.0.0.1 /Home/MyClass/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 4 )  [ RunTime:0.0003s ]
+
+[ 2018-02-01T23:09:43+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book`  [ RunTime:0.0002s ]
+
+[ 2018-02-01T23:09:43+08:00 ] 127.0.0.1 /Home/MyClass/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 4 )  [ RunTime:0.0003s ]
+
+[ 2018-02-01T23:10:35+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book`  [ RunTime:0.0002s ]
+
+[ 2018-02-01T23:10:35+08:00 ] 127.0.0.1 /Home/MyClass/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 4 )  [ RunTime:0.0005s ]
+
+[ 2018-02-01T23:10:46+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book`  [ RunTime:0.0002s ]
+
+[ 2018-02-01T23:10:46+08:00 ] 127.0.0.1 /Home/MyClass/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 4 )  [ RunTime:0.0004s ]
+
+[ 2018-02-01T23:10:51+08:00 ] 127.0.0.1 /Home/MyClass/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 3 )  [ RunTime:0.0003s ]
+
