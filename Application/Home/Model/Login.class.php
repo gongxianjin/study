@@ -48,16 +48,16 @@ class Login
         return $getCode;
     }
 
-    public static function checkCode($code, $phone, $module = MODULE_NAME)
-    {
-        return true;
-        $codeInfo = S(strtolower($module) . '_code_'. $phone);
-        if( ! isset($codeInfo['code']) || $codeInfo['code'] != $code){
-            ajaxReturn('验证码不正确');
-        }
-        if( $codeInfo['time'] < ( time() - ( 1 * 60 )) ){
-            ajaxReturn('验证码已失效');
-        }
-        return true;
-    }
+    // public static function checkCode($code, $phone, $module = MODULE_NAME)
+    // {
+    //     return true;
+    //     $codeInfo = S(strtolower($module) . '_code_'. $phone);
+    //     if( ! isset($codeInfo['code']) || $codeInfo['code'] != $code){
+    //         ajaxReturn('验证码不正确');
+    //     }
+    //     if( $codeInfo['time'] < ( time() - ( 1 * 60 )) ){
+    //         ajaxReturn('验证码已失效');
+    //     }
+    //     return true;
+    // }
 }

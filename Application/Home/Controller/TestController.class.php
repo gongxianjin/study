@@ -6,8 +6,10 @@ namespace Home\Controller;
 */
 class TestController extends Base{
 	public function getBook(){
-		$xx = $_GET['text'];
-		echo "1 = ".$xx;
+	}
+
+	public function getPHPInfo(){
+		echo phpinfo();
 	}
 }
 ?>

@@ -31,6 +31,10 @@ class LoginController extends Controller
         ajaxReturn("登陆成功", 0, array('redirect_url'=> U('/')));
     }
 
+    // public function send_register_message(){
+        
+    // }
+
     public function register_()
     {
         $phone = getPhone();
@@ -55,7 +59,22 @@ class LoginController extends Controller
         if( ! D('User')->addUser($phone, $password, $open_id) ){
             ajaxReturn("注册失败");
         }
-        ajaxReturn("注册成功", 0, array('redirect_url'=> U('login/index')));
+        $DYSms = new \Common\Model\DYSms();
+        if ($DYSms->checkSMSCode($phone,$code)) {
+            $user = array(
+                    'phone' => $phone,
+                    'open_id' => '',
+                    'password' => md5($password),
+                    'nickname' => '用户' . $phone,
+                    'birthday' => '2008-12-29 16:25:46.635',
+                    'city' => 'city',
+                    'head_img' => 'haed_img'
+                );
+            M('User')->add($user);
+            ajaxReturn("注册成功", 0, array('redirect_url'=> U('login/index')));
+        }else{
+            ajaxReturn("注册失败,验证码不正确");
+        }
     }
 
     public function findPassword()
@@ -79,11 +98,12 @@ class LoginController extends Controller
 
     public function getCode()
     {
-        $phone = getPhone();
-        $getCode = \Home\Model\Login::getCode($phone);
 
         // 短信发送
-
-        ajaxReturn("验证码发送成功!", 0);
+        $phone = $_GET['phone'];
+        $DYSms = new \Common\Model\DYSms();
+        // $DYSms->send_register_message($phone);
+        // ajaxReturn("验证码发送成功!", 0);
+        $DYSms->test();
     }
 }

@@ -24,4 +24,6 @@ return array(
         'oss_host' => 'http://ereshiyitian.oss-cn-shanghai.aliyuncs.com/',
     ),
 
+    //阿里大鱼
+
 );
