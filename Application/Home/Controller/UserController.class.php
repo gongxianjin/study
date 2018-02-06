@@ -7,6 +7,8 @@ class UserController extends Base
     public function personal()
     {
         $this->assign('userInfo', D('User')->findFirst($this->user_id));
+        //活动
+        $this->assign('activity',D('Enlists')->getList($this->user_id));
         $this->display();
     }
 
@@ -18,10 +20,22 @@ class UserController extends Base
 
     public function deposit_cash()
     {
-        $money = D('UserFunds')->getMoney($this->user_id);
-        $this->assign('money', $money);
+        // $money = D('UserFunds')->getMoney($this->user_id);
+        // $this->assign('money', $money);
+        $g_id = (int)$_GET['g_id'];
+        if (!isset($g_id)) {
+            ajaxReturn("非法请求");
+        }
+        $query = D('Order')->getOrder($this->user_id,$g_id);
+        if (!$query) {
+            ajaxReturn("非法请求");
+        }
+        $this->assign('ac',$query);
         $this->display();
     }
+
+    //退还保证金
+
 
     public function integral()
     {
@@ -55,5 +69,15 @@ class UserController extends Base
             ajaxReturn('保存失败');
         }
         ajaxReturn('保存成功', 0);
+    }
+
+
+    public function depositFunc(){
+        $id = (int)I('post.id');
+        if (!isset($id)) {
+            ajaxReturn("非法请求");
+        }
+        //调用退款记录
+        $query = M('Order')->where('id = ' . $id)->setField('order_status',2);
     }
 }

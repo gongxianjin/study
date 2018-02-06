@@ -28,11 +28,10 @@ body div.header .header-btn >a {
   color: #fff;
 }
 body div.header .header-img {
-  position: absolute;
-  top: 50px;
   width: 100%;
 }
 body div.header .header-img .teacher-header {
+  margin-top: 50px;
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -43,6 +42,7 @@ body div.header .header-img .teacher-header img {
 }
 body div.header .header-img p {
   margin-top: -10px;
+  color: #fff;
 }
 body div.page {
   background-color: #fff;
@@ -146,6 +146,16 @@ body .js_dialog .weui-dialog .weui-dialog__ft p {
   font-size: 14px;
   color: #999;
   width: 100%;
+}
+body .js_dialog .weui-dialog .deposit_box a {
+  display: block;
+  text-align: left;
+  line-height: 35px;
+  color: #999;
+  border-bottom: 1px solid #e8e8e8;
+}
+body .js_dialog .weui-dialog .deposit_box a:last-child {
+  border: none;
 }
 body .js_dialog .weui-dialog .title-me {
   display: flex;
