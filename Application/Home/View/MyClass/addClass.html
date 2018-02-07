@@ -139,7 +139,9 @@
                 class_name: $('input[name="class_name"]').val(),
                 class_desc: $('textarea[name="class_desc"]').val(),
             },function(returnData){
-                ajaxReturnMsg(returnData);
+                weui.alert(returnData.message,function(){
+                    window.location.href = "{:U('MyClass/index')}";
+                });
             });
 
         });
