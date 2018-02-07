@@ -1,0 +1,1797 @@
+[ 2018-02-06T10:20:27+08:00 ] 127.0.0.1 /
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0004s ]
+
+[ 2018-02-06T10:20:49+08:00 ] 127.0.0.1 /
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0003s ]
+
+[ 2018-02-06T10:20:51+08:00 ] 127.0.0.1 /Home/CreateBook/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-06T10:20:54+08:00 ] 127.0.0.1 /Home/MyClass/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classes` WHERE ( user_id = 1 ) ORDER BY class_id asc  [ RunTime:0.0015s ]
+
+[ 2018-02-06T10:20:55+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-06T10:20:57+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/today_work.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 0 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-06T10:20:59+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-06T10:27:11+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T10:27:12+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-06T10:28:25+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T10:28:26+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2018-02-06T10:29:31+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-06T10:29:51+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-06T10:31:13+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-06T10:35:57+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-06T10:38:06+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-06T10:39:19+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-06T10:41:50+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-06T10:59:45+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-02-06T11:14:08+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-06T11:14:11+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-02-06T11:16:26+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-06T11:17:22+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-06T11:23:48+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-06T11:24:21+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-06T11:25:35+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-06T11:29:15+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-06T11:29:34+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-06T11:30:03+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2018-02-06T11:32:10+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-06T12:19:58+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0006s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '} <= end )' at line 1
+ [ SQL语句 ] : SELECT * FROM `classhomework` WHERE ( start <= {$day} <= end ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '} <= end )' at line 1
+ [ SQL语句 ] : SELECT * FROM `classhomework` WHERE ( start <= {$day} <= end ) 
+
+[ 2018-02-06T12:21:43+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: query /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 316 行.
+
+[ 2018-02-06T12:22:14+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '} and {$day}<= end )' at line 1
+ [ SQL语句 ] : SELECT * FROM `classhomework` WHERE ( start <= {$day} and {$day}<= end ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '} and {$day}<= end )' at line 1
+ [ SQL语句 ] : SELECT * FROM `classhomework` WHERE ( start <= {$day} and {$day}<= end ) 
+
+[ 2018-02-06T12:22:46+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classhomework` WHERE ( start <= 1517890966 and 1517890966<= end )  [ RunTime:0.0024s ]
+
+[ 2018-02-06T12:31:37+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classhomework` WHERE ( start <= 1517891497 and 1517891497<= end )  [ RunTime:0.0005s ]
+
+[ 2018-02-06T12:31:52+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( start <= 1517891512 and 1517891512<= end )  [ RunTime:0.0002s ]
+
+[ 2018-02-06T13:18:09+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: class_id /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 312 行.
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 0 and start <= 1517894289 and 1517894289<= end )  [ RunTime:0.0002s ]
+
+[ 2018-02-06T13:18:12+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: class_id /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 312 行.
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 0 and start <= 1517894292 and 1517894292<= end )  [ RunTime:0.0002s ]
+
+[ 2018-02-06T13:18:15+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: tenm /Library/WebServer/Documents/Study/Application/Home/Model/ClassstudentlistModel.class.php 第 24 行.
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-02-06T13:18:16+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517894296 and 1517894296<= end )  [ RunTime:0.0002s ]
+
+[ 2018-02-06T13:18:47+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517894327 and 1517894327<= end )  [ RunTime:0.0002s ]
+
+[ 2018-02-06T13:18:49+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/a.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 0 and start <= 1517894329 and 1517894329<= end )  [ RunTime:0.0002s ]
+
+[ 2018-02-06T13:18:53+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/aa.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 0 and start <= 1517894333 and 1517894333<= end )  [ RunTime:0.0002s ]
+
+[ 2018-02-06T13:18:59+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/dsadasf.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 0 and start <= 1517894339 and 1517894339<= end )  [ RunTime:0.0002s ]
+
+[ 2018-02-06T13:19:03+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/2.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 2 and start <= 1517894343 and 1517894343<= end )  [ RunTime:0.0002s ]
+
+[ 2018-02-06T13:19:30+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/2.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-06T13:19:33+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/a.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-06T13:19:37+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/asa.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-06T13:19:38+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/a.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-06T13:19:38+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/2.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-02-06T13:20:33+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/dsadasf.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-06T13:20:35+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/dsadasf.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-06T13:20:44+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/dsadasf.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-06T13:20:48+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517894448 and 1517894448<= end )  [ RunTime:0.0002s ]
+
+[ 2018-02-06T13:21:45+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517894505 and 1517894505<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: name /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 90 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 90 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 90 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 90 行.
+
+[ 2018-02-06T13:22:18+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517894538 and 1517894538<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: name /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 90 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 90 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 90 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 90 行.
+
+[ 2018-02-06T13:22:46+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517894566 and 1517894566<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: name /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 90 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 90 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 90 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 90 行.
+
+[ 2018-02-06T13:22:59+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517894579 and 1517894579<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: name /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 90 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 90 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 90 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 90 行.
+
+[ 2018-02-06T13:24:42+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517894682 and 1517894682<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T13:25:12+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517894712 and 1517894712<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T13:25:39+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517894739 and 1517894739<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T13:25:43+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517894743 and 1517894743<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T13:25:55+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517894755 and 1517894755<= end )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T13:26:11+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517894771 and 1517894771<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: name /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 90 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 90 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 90 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 90 行.
+
+[ 2018-02-06T13:26:41+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517894801 and 1517894801<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T13:26:47+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517894807 and 1517894807<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: name /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 90 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 90 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 90 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 90 行.
+
+[ 2018-02-06T13:27:43+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517894863 and 1517894863<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T13:27:57+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517894877 and 1517894877<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T13:28:07+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517894887 and 1517894887<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T13:28:49+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517894929 and 1517894929<= end )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T13:50:08+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517896208 and 1517896208<= end )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T13:50:18+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517809813 and 1517809813<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T13:50:49+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517896249 and 1517896249<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-06T13:50:50+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517809849 and 1517809849<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T13:52:34+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517896354 and 1517896354<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T13:52:36+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517809955 and 1517809955<= end )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T13:52:57+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517896377 and 1517896377<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T13:52:59+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517809978 and 1517809978<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: list /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 81 行.
+
+[ 2018-02-06T13:53:10+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517896390 and 1517896390<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T13:53:11+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517809990 and 1517809990<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: list /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 81 行.
+
+[ 2018-02-06T13:53:59+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517896439 and 1517896439<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-06T13:54:00+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517810039 and 1517810039<= end )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: list /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 81 行.
+
+[ 2018-02-06T13:54:10+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517896450 and 1517896450<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T13:54:11+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517810051 and 1517810051<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: list /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 81 行.
+
+[ 2018-02-06T13:54:27+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517896467 and 1517896467<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T13:54:29+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517810067 and 1517810067<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: list /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 81 行.
+
+[ 2018-02-06T13:55:10+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517896510 and 1517896510<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T13:55:11+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517810110 and 1517810110<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: list /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 81 行.
+
+[ 2018-02-06T13:55:23+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517896523 and 1517896523<= end )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T13:55:28+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517896528 and 1517896528<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T13:55:35+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517810133 and 1517810133<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: list /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 81 行.
+
+[ 2018-02-06T13:58:01+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517896681 and 1517896681<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-06T13:58:02+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517810281 and 1517810281<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: list /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 81 行.
+
+[ 2018-02-06T13:58:13+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517896693 and 1517896693<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T13:59:33+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517896773 and 1517896773<= end )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T13:59:41+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517810373 and 1517810373<= end )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T13:59:54+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517896794 and 1517896794<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T13:59:56+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517810395 and 1517810395<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T14:00:07+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517896807 and 1517896807<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T14:00:10+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517810407 and 1517810407<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T14:00:22+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517896822 and 1517896822<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-06T14:00:24+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517810422 and 1517810422<= end )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T14:01:20+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517896880 and 1517896880<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-06T14:01:22+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517810481 and 1517810481<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-06T14:02:03+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517896923 and 1517896923<= end )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T14:02:06+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517810523 and 1517810523<= end )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-06T14:02:35+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517896955 and 1517896955<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T14:02:36+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517810555 and 1517810555<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-06T14:03:37+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517897017 and 1517897017<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T14:03:38+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517810617 and 1517810617<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T15:00:46+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517900446 and 1517900446<= end )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant item - assumed 'item' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+
+[ 2018-02-06T15:00:51+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/6.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-06T15:00:57+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517814053 and 1517814053<= end )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T15:00:59+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517900453 and 1517900453<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T15:01:00+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517986853 and 1517986853<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T15:01:01+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1518073253 and 1518073253<= end )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T15:01:02+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517900462 and 1517900462<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant item - assumed 'item' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+
+[ 2018-02-06T15:01:03+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1518073262 and 1518073262<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T15:01:05+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517900465 and 1517900465<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant item - assumed 'item' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+
+[ 2018-02-06T15:01:33+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517900493 and 1517900493<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T15:01:42+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517900502 and 1517900502<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant item - assumed 'item' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+
+[ 2018-02-06T15:01:44+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517814103 and 1517814103<= end )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-06T15:02:39+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517900559 and 1517900559<= end )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for imageDomain(), called in /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php on line 121 and defined /Library/WebServer/Documents/Study/Application/Common/Common/function.php 第 18 行.
+NOTIC: [8] Undefined variable: images /Library/WebServer/Documents/Study/Application/Common/Common/function.php 第 20 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+
+[ 2018-02-06T15:02:40+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517814159 and 1517814159<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T15:02:55+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517900575 and 1517900575<= end )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant item - assumed 'item' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+
+[ 2018-02-06T15:02:56+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517814175 and 1517814175<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-02-06T15:03:11+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517900591 and 1517900591<= end )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant item - assumed 'item' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+
+[ 2018-02-06T15:03:12+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517814191 and 1517814191<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T15:03:21+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517900601 and 1517900601<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T15:03:28+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517900608 and 1517900608<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T15:03:35+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517900615 and 1517900615<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant item - assumed 'item' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+
+[ 2018-02-06T15:03:36+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517814215 and 1517814215<= end )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T15:03:37+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517900615 and 1517900615<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T15:03:38+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1518073415 and 1518073415<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T15:03:39+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1518159815 and 1518159815<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-06T15:06:12+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517900772 and 1517900772<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant item - assumed 'item' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+
+[ 2018-02-06T15:06:14+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/6.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-06T15:06:15+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517900775 and 1517900775<= end )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant item - assumed 'item' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+
+[ 2018-02-06T15:06:16+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/6.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-06T15:06:19+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517900779 and 1517900779<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant item - assumed 'item' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+
+[ 2018-02-06T15:06:27+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517900787 and 1517900787<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant item - assumed 'item' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+
+[ 2018-02-06T15:06:28+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/6.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-06T15:06:41+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517900801 and 1517900801<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant item - assumed 'item' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+
+[ 2018-02-06T15:06:42+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/6.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-06T15:06:42+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/fonts/iconfont.css
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2018-02-06T15:06:42+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/lib/css/weui_reset.css
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-06T15:06:42+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/style/work_detail.css
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-02-06T15:06:42+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/lib/js/zepto.min.js
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-06T15:06:42+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/lib/css/weui.css
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-02-06T15:06:42+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/lib/js/weui.min.js
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-06T15:06:42+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/lib/js/jquery.min.js
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-06T15:06:42+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/lib/js/jweui.min.js
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-06T15:07:07+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1517900827 and 1517900827<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant item - assumed 'item' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+
+[ 2018-02-06T15:07:09+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/6.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-06T15:07:09+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/lib/js/zepto.min.js
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-02-06T15:07:09+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/lib/js/weui.min.js
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-06T15:07:09+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/lib/js/jquery.min.js
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-06T15:07:09+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/lib/js/jweui.min.js
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2018-02-06T15:07:10+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/6.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-06T15:07:10+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/lib/js/zepto.min.js
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0122s ]
+
+[ 2018-02-06T15:07:10+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/lib/js/jweui.min.js
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-02-06T15:07:10+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/lib/js/jquery.min.js
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-02-06T15:07:10+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/lib/js/weui.min.js
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2018-02-06T15:07:34+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/6.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-06T15:08:01+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/6.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-06T20:25:00+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/6.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0449s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0039s ]
+

@@ -39,4 +39,13 @@ class ClasshomeworkModel extends Model{
 			$this->add($homework);
 		}
 	}
+
+	public function getOneDayList($class_id,$day){
+		$query = $this->where("class_id = {$class_id} and start <= {$day} and {$day}<= end")->select();
+		foreach($query as &$one){
+			$one['user_name'] = M('User')->where('id = ' . $one['user_id'])->getField('nickname');
+			$one['head_img'] = M('User')->where('id = ' . $one['user_id'])->getField('head_img');
+		}
+		return $query;
+	}
 }

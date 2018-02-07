@@ -300,6 +300,42 @@ class MyClassController extends Base{
 		// ajaxReturn($query);
 		echo json_encode($query);
 	}
+
+
+
+	//今日作业
+	public function todayWork(){
+		$time = (int)I('post.time');
+		if (!$time) {
+			$time = time();
+		}
+		if (IS_POST) {
+			$class_id = (int)I('post.class_id');
+		}else{
+			$class_id = (int)$_GET['class_id'];
+		}
+		$this->assign('class_id',$class_id);
+
+		if (empty($class_id)) {
+			ajaxReturn("非法请求");
+		}
+		$query = D('Classhomework')->getOneDayList($class_id,$time);
+		if (IS_POST) {
+			echo json_encode($query);
+		}else{
+			$this->assign('list',$query);
+			$this->display();
+		}
+	}
+
+	public function workDetail(){
+		$id = (int)$_GET['id'];
+		if (empty($id)) {
+			ajaxReturn("非法请求");
+		}
+
+		$this->display();
+	}
 }
 
 ?>

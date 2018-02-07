@@ -23,7 +23,7 @@
 </div>
 <div class="page">
     <div class="weui-tabbar page-tabber">
-        <a href="today_work.html" class="weui-tabbar__item">
+        <a href="<?php echo U('MyClass/todayWork',array('class_id' => $class['class_id']));?>" class="weui-tabbar__item">
             <img style="width: 24px" src="/mobile/images/person/icon3.png" alt="" class="weui-tabbar__icon">
             <p class="weui-tabbar__label">今日作业预览</p>
         </a>

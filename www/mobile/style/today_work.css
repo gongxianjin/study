@@ -1,0 +1,194 @@
+body {
+  background-color: #f3f3f3;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+body div.header {
+  top: 0;
+  height: 150px;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  color: #fff;
+  transition: 300ms;
+  background: url("../images/classPage/header_bg.png") center 0 no-repeat;
+  background-size: cover;
+}
+body div.header .header-top {
+  height: 50px;
+  line-height: 50px;
+}
+body div.header .header-top >span.header-back {
+  position: absolute;
+  left: 6px;
+  top: 5px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  overflow: hidden;
+  height: 40px;
+}
+body div.header .header-top >span.header-back >i {
+  font-size: 28px;
+}
+body div.header .header-top .header-text {
+  position: absolute;
+  left: 50px;
+  font-size: 20px;
+  display: inline-block;
+  right: 50px !important;
+  text-align: center !important;
+}
+body div.header .header-top .header-btn {
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+  width: 60px;
+  right: 0;
+}
+body div.header .header-top .header-btn >a {
+  text-align: center;
+  height: 100%;
+  color: #fff;
+}
+body div.header .header-top .header-btn >a >i {
+  font-size: 20px;
+}
+body div.header .header-down {
+  width: 100%;
+  margin-top: -20px;
+}
+body div.header .header-down .lesson-tab .lesson-title {
+  display: flex;
+  padding: 10px;
+  text-align: center;
+}
+body div.header .header-down .lesson-tab .lesson-title .lesson-item {
+  flex: 1;
+  margin-top: 15px;
+}
+body div.header .header-down .lesson-tab .lesson-title .lesson-item >p {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+body div.header .header-down .lesson-tab .lesson-title .lesson-item span {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  background-color: #e4e4e4;
+  color: #888;
+  border-radius: 50%;
+}
+body div.header .header-down .lesson-tab .lesson-title .lesson-item-active span {
+  background-image: url("../images/right_bg.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% 100% !important;
+  color: #fff !important;
+  background-color: transparent !important;
+  border-radius: 0 !important;
+}
+body div.header .header-down .lesson-tab .pass-content {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+body div.header .header-down .lesson-tab .pass-content >a {
+  padding: 10px 12px;
+  background-color: #21dcfd;
+  color: #fff;
+  font-size: 24px;
+  border-radius: 25px;
+  text-align: center;
+}
+body div.header .header-down .lesson-tab .pass-content >a i {
+  font-size: 26px;
+  margin-right: 5px;
+  border: 1px solid rgba(255,255,255,0.7);
+  padding: 0px;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+body div.header .header-down .lesson-tab .pass-content >p {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 15px;
+  color: #888;
+}
+body div.page {
+  top: 150px;
+  bottom: 0px;
+  transition: 300ms;
+  left: 0;
+  right: 0;
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+  font-size: 14px;
+  background-color: #f3f3f3;
+  overflow-y: auto;
+}
+body div.page .pass-content .content-tab-box {
+  background-color: #fff;
+}
+body div.page .pass-content .content-tab-box .imagetable {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 13px;
+  color: #333;
+  border-width: 1px;
+  border-color: #999;
+  border-collapse: collapse;
+}
+body div.page .pass-content .content-tab-box .imagetable .th_bg {
+  background-color: #f3f3f3;
+  color: #777;
+}
+body div.page .pass-content .content-tab-box .imagetable th {
+  border-width: 1px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #e8e8e8;
+  border-left: none;
+  text-align: center;
+  border-right: none;
+  font-weight: 400;
+}
+body div.page .pass-content .content-tab-box .imagetable td {
+  border-width: 1px;
+  padding: 8px 2px;
+  border-style: solid;
+  border-color: #e8e8e8;
+  border-left: none;
+  border-right: none;
+  text-align: center;
+  color: #666;
+}
+body div.page .pass-content .content-tab-box .imagetable td:nth-child(1) {
+  width: 15%;
+}
+body div.page .pass-content .content-tab-box .imagetable td:nth-child(2) {
+  width: 15%;
+}
+body div.page .pass-content .content-tab-box .imagetable td.no_complete {
+  color: #bc2929;
+}
+body div.page .pass-content .content-tab-box .imagetable td img {
+  width: 50%;
+}
+body div.page .pass-content .content-tab-box .imagetable td input {
+  margin-right: 10px;
+}
+body div.page .pass-content .content-tab-box .imagetable td a {
+  display: inline-block;
+  font-weight: 300;
+  background-color: #44d2ee;
+  color: #fff;
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-size: 11px;
+}
