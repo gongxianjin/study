@@ -14,7 +14,7 @@
     <span class="header-btn">
             <a href="#"><i class="txh icon-share"></i></a>
     </span>
-    <a href="class_detail.html" class="header-img">
+    <a href="{:U('Home/MyClass/editClass',array('class_id' => $class['class_id']))}" class="header-img">
         <div style="width: 90px;height: 90px;overflow: hidden" class="teacher-header">
             <img src="{:imageDomain($class['image'])}" alt="">
         </div>

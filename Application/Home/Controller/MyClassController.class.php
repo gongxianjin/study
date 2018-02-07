@@ -32,6 +32,7 @@ class MyClassController extends Base{
 		$stuList = D('Classstudentlist')->getStudents($class_id);
 
 		$this->assign('class',$c);
+		$this->assign('class_id',$class_id);
 		$this->assign('stuList',$stuList);
 		$this->display();
 	}
@@ -60,7 +61,7 @@ class MyClassController extends Base{
 			);
 		$query = M('Classes')->add($c);
 		if ($query) {
-			ajaxReturn("添加班级成功");
+			ajaxReturn("添加班级成功",array('redirect_url'=>U('MyClass/index')));
 		}else{
 			ajaxReturn("添加班级失败");
 		}
