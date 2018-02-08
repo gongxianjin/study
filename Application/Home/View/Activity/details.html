@@ -39,11 +39,15 @@
         </div>
     </div>
 </div>
-<div class="footer">
-    <a href="{:U('activity/curriculum', array('activity_id'=>$id))}">
-        <i class="txh icon-addpeople"></i>点击选择课程
-    </a>
-</div>
+
+<!-- 只允许学生报名 -->
+<if condition="$user_type eq 0">
+    <div class="footer">
+        <a href="{:U('activity/curriculum', array('activity_id'=>$id))}">
+            <i class="txh icon-addpeople"></i>点击选择课程
+        </a>
+    </div>
+</if>
 </body>
 <script src="/mobile/js/zepto.min.js"></script>
 <script src="/mobile/js/weui.min.js"></script>

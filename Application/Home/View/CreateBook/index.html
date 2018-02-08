@@ -193,10 +193,10 @@
                             };
                             switch(col){
                                 case 1: 
-                                    var html = '<div class="activity-list-' + (index % 2 == 0 ? "left" : "right") + ' activity-list-common"><div class="img-box"><img src="' + items.cover_img + '" alt=""><p>' + (items.name) + '<span class="' + items.s_html + '">[' + items.status + ']</span></p></div><div class="function-list"><div class="list-box"><div class="fuction">修改</div><div class="fuction del_btn" data="' + items.id+ '">删除</div></div></div></div>';
+                                    var html = '<div class="activity-list-' + (index % 2 == 0 ? "left" : "right") + ' activity-list-common"><div class="img-box"><img src="' + items.cover_img + '" alt=""><p>' + (items.name) + '<span class="' + items.s_html + '">[' + items.status + ']</span></p></div><div class="function-list"><div class="list-box"><div class="fuction change_btn" data="' + items.id+ '">修改</div><div class="fuction del_btn" data="' + items.id+ '">删除</div></div></div></div>';
                                     break;
                                 case 3:
-                                    var html = '<div class="activity-list-' + (index % 2 == 0 ? "left" : "right") + ' activity-list-common"><div class="img-box"><img src="' + items.image + '" alt=""><p>' + (items.book_name).substr(0,5) +'<span style="font-weight: 200;margin-left:5px ">' + (items.name).substr(0,5) + '</span></p></div><div class="function-list"><div class="list-box"><div class="fuction">修改</div><div class="fuction">删除</div></div></div></div>';
+                                    var html = '<div class="activity-list-' + (index % 2 == 0 ? "left" : "right") + ' activity-list-common"><div class="img-box"><img src="' + items.image + '" alt=""><p>' + (items.book_name).substr(0,5) +'<span style="font-weight: 200;margin-left:5px ">' + (items.name).substr(0,5) + '</span></p></div><div class="function-list"><div class="list-box"><div class="fuction">修改</div><div class="fuction del_text" data="' + items.id+ '">删除</div></div></div></div>';
                                     break;
                             }
                             res += html;
@@ -295,11 +295,43 @@
                 type: 'POST',
                 url: "{:U('Home/CreateBook/deleteBook')}",
                 data: {'book_id':id},
-                success:function(){
-                    console.log("删除成功");
+                success:function(res){
+                    weui.alert(res.message,function(){
+                        window.location.reload();
+                    })
                 }
             });
         });
+
+        //修改课本
+        $(".activity-list-book-all").on("click",".change_btn",function(){
+            var id = $(this).attr('data');
+            $.ajax({
+                type: 'POST',
+                url: "{:U('Home/CreateBook/getBook')}",
+                data: {'id':id},
+                success:function(res){
+                    $($(".body-box-common")[0]).css("display","block").siblings().css("display","none");
+                    
+                }
+            });
+        });
+
+        //删除课文
+        $(".activity-list-all").on("click",".del_text",function(){
+            var id = $(this).attr('data');
+            $.ajax({
+                type: 'POST',
+                url: "{:U('Home/CreateBook/deleteTextBook')}",
+                data: {'text_id':id},
+                success:function(res){
+                    weui.alert(res.message,function(){
+                        window.location.reload();
+                    })
+                }
+            });
+        });
+
 
     });
 </script>

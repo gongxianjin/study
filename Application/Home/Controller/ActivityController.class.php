@@ -117,6 +117,8 @@ class ActivityController extends Base
 
     public function details()
     {
+        //用户类型
+        $this->assign('user_type',$this->user_type);
          // 报名人数
         $this->create();
     }

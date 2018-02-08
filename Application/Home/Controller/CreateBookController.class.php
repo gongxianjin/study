@@ -44,9 +44,60 @@ class CreateBookController extends Base{
 		echo "合成预览";
 	}
 
+	//获取单个课本信息
+	public function getBook(){
+		if ($this->user_type == 1) {
+			//教师
+			$teacher_id = $this->user_id;
+			$id = I('post.id');
+			$res = M('Book')->where('id = ' . $id)->find();
+			// echo json_encode($res);
+			$this->ajaxReturn($res);
+		}else{
+			$this->error("权限不足");
+		}
+	}
+
 	//保存课本
 	public function saveBook(){
+		//发布还是保存
 		
+		$post = I('post.');
+		$status = $post['isPublish'];
+		//上传图片
+		//封面图片处理
+		$upload = new \Common\Model\Upload();
+		$file = $_FILES['book_cover_img'];
+		$cover_img = md5($file['tmp_name']) . '.' . end(explode('.', $file['name']));
+		$upRes = $upload->upload($cover_img,$file['tmp_name']);
+
+		if (!$upRes) {
+			ajaxReturn("图片上传失败");
+		}
+
+		$book = array(
+				'user_id' => $this->user_id,
+				'platform_id' => $this->platform_id,
+				//临时修改
+				'classify_id' => 0,
+				'level_id' => 0,
+				'type' => 1,
+				'name' => $post['bookName'],
+				'author' => M('User')->where('id = ' . $this->user_id)->getField('nickname'),
+				'press' => "",
+				'cover_img' => $cover_img,
+				'describe' => "",
+				'time' =>time(),
+				'status' => $status
+			);
+		$query = M('Book')->where('id = ' . $post['id'])->save($book);
+		if ($query) {
+			//上传成功
+			ajaxReturn("课本编辑成功");
+		}else{
+			//失败
+			ajaxReturn("课本编辑失败,请联系管理员");
+		}
 	}
 
 	public function createBook(){
@@ -89,7 +140,7 @@ class CreateBookController extends Base{
 				$textBook = array(
 						'book_id' => $book_id,
 						'name' => "unit" . $i,
-						'image' => '',
+						'image' => $cover_img,
 						'audio' => '',
 						'vide' => '',
 						'desc' => ''
@@ -191,6 +242,21 @@ class CreateBookController extends Base{
 		}
 
 		$query = M('Book')->where('id = ' . $id)->delete();
+		if ($query) {
+			ajaxReturn("删除成功");
+		}else{
+			ajaxReturn("删除失败");
+		}
+	}
+
+	//删除课文
+	public function deleteTextBook(){
+		$id = I('post.text_id');
+		if (!isset($id)) {
+			ajaxReturn("非法操作");
+		}
+
+		$query = M('BookRes')->where('id = ' . $id)->delete();
 		if ($query) {
 			ajaxReturn("删除成功");
 		}else{
