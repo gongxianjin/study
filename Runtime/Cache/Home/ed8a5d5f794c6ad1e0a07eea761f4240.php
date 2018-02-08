@@ -209,6 +209,11 @@
           </a>
       </div>
       <div class="weui-cells basic-info">
+          <div class="weui-cell weui-cell_access weui-cell__hd saveBtn">
+              保存修改
+          </div> 
+      </div>
+      <div class="weui-cells basic-info">
           <a class="weui-cell weui-cell_access" href="<?php echo U('login/loginout');?>">
               <div class="weui-cell__hd">
                   退出
@@ -218,7 +223,8 @@
   </div>
 
     <script>
-        $('#saveBtn').on('click', function(){
+        $('.saveBtn').on('click', function(){
+            console.log("save");
             var head_img = $('input[name="head_img"]').val();
             if( ! head_img ){
                 weui.alert('请选择头像');

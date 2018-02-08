@@ -45,7 +45,7 @@
         </div>
         <div class="page-placeholder"></div>
         <div class="page-list">
-            <div class="weui-cells">
+<!--             <div class="weui-cells">
 
                 <a class="weui-cell weui-cell_access" href="javascript:;">
                     <div class="weui-cell__bd">
@@ -61,7 +61,7 @@
                     <div class="weui-cell__ft"></div>
                 </a>
 
-            </div>
+            </div> -->
         </div>
     </div>
 

@@ -106,4 +106,9 @@ class LoginController extends Controller
         // ajaxReturn("验证码发送成功!", 0);
         $DYSms->test();
     }
+
+    public function loginout(){
+        session(null);
+        redirect(U("login/index"));
+    }
 }
