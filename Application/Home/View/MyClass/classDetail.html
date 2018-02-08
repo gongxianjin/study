@@ -51,10 +51,10 @@
             <volist name="stuList" id="stu">
                 <tr onclick="location='{:U(\'Home/MyClass/stuDetail\',array(\'class_id\' => $class[\'class_id\'],\'stu_id\' => $stu[\'id\']))}'">
                     <td>
-                        <if condition="$i lt 3">
-                            <img src="/mobile/images/integral/left1.png" alt="">
+                        <if condition="$i lt 4">
+                            <img src="/mobile/images/integral/left{$i}.png" alt="">
                         <else />
-                            {$i + 1}
+                            {$i}
                         </if>
                     </td>
                     <td>

@@ -10,7 +10,11 @@ class MyClassController extends Base{
 
 	public function index(){
 		$classes = M('Classes');
-		$query = $classes->where('user_id = ' . $this->user_id)->order('class_id asc')->select();
+		if ($this->user_type == 2) {
+			$query = $classes->order('class_id asc')->select();
+		}else{
+			$query = $classes->where('user_id = ' . $this->user_id)->order('class_id asc')->select();
+		}
 		$this->assign('classes',$query);
 		$this->display();
 	}
@@ -70,7 +74,11 @@ class MyClassController extends Base{
 	//编辑班级
 	public function editClass(){
 		$class_id = $_GET['class_id'];
-		$query = M('Classes')->where('class_id = ' . $class_id . ' and user_id = ' . $this->user_id)->find();
+		if ($this->user_type == 2) {
+			$query = M('Classes')->where('class_id = ' . $class_id)->find();
+		}else{
+			$query = M('Classes')->where('class_id = ' . $class_id . ' and user_id = ' . $this->user_id)->find();
+		}
 		if (!$query) {
 			$this->error('非法请求');
 		}
@@ -95,7 +103,11 @@ class MyClassController extends Base{
 				'image' => $post['head_img'],
 				'description' => substr($post['class_desc'], 0, 40)
 			);
-		$query = M('Classes')->where('class_id = ' . $post['class_id'] . " and user_id = " . $this->user_id)->save($c);
+		if ($this->user_type == 2) {
+			$query = M('Classes')->where('class_id = ' . $post['class_id'])->save($c);
+		}else{
+			$query = M('Classes')->where('class_id = ' . $post['class_id'] . " and user_id = " . $this->user_id)->save($c);
+		}
 		if ($query) {
 			ajaxReturn("保存成功");
 		}else{
@@ -105,7 +117,11 @@ class MyClassController extends Base{
 	//删除班级
 	public function delClass(){
 		$class_id = $_GET['class_id'];
-		$query = M('Classes')->where('class_id = ' . $class_id . " and user_id = " . $this->user_id)->delete();
+		if ($this->user_type == 2) {
+			$query = M('Classes')->where('class_id = ' . $class_id)->delete();
+		}else{
+			$query = M('Classes')->where('class_id = ' . $class_id . " and user_id = " . $this->user_id)->delete();
+		}
 		if ($query) {
 			ajaxReturn("删除成功");
 		}else{

@@ -57,4 +57,29 @@ class UserFundsModel extends Model
 
         return $res;
     }
+
+    //获取所有人的积分
+    public function integrals(){
+        $query = $this->select();
+        $res = array();
+        $res['list'] = array();
+        $total = 0;
+        foreach($query as $one){
+            $user = M('User')->where('id = ' . $one['user_id'])->find();
+            $class_id = M('Classstudentlist')->where('user_id = ' . $one['user_id'])->getField('class_id');
+            $stu = array(
+                    'user_id' => $one['user_id'],
+                    'nickname' => $user['nickname'],
+                    'head_img' => $user['head_img'],
+                    'class_name' => M('Classes')->where('class_id = ' . $class_id)->getField('class_name'),
+                    'score' => $one['score'],
+                    'class_id' => $class_id
+                );
+            array_push($res['list'], $stu);
+
+            $total += (int)$one['score'];
+        }
+        $res['total'] = $total;
+        return $res;
+    }
 }
