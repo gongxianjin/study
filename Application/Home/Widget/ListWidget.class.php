@@ -5,6 +5,7 @@ namespace Home\Widget;
 class ListWidget
 {
     protected $user_id = 0;
+    protected $type = 0;
     protected $platform_id = 0;
 
     public function __construct()
@@ -18,6 +19,7 @@ class ListWidget
             exit;
         }
         $this->user_id = $userInfo['id'];
+        $this->type = $userInfo['type'];
         $this->platform_id = $userInfo['platform_id'] ? $userInfo['platform_id'] : 1;
     }
 
@@ -66,7 +68,9 @@ class ListWidget
     public function getCourseList($activity_id = 0)
     {
         $where['`grade`.`type`'] = 1;
-        $where['`grade`.`user_id`'] = $this->user_id;
+        if($this->type != 0){
+            $where['`grade`.`user_id`'] = $this->user_id;
+        }
         if($activity_id)
         {
             $where['`activity`.`id`'] = $activity_id;

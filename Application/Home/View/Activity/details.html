@@ -42,8 +42,8 @@
 
 <!-- 只允许学生报名 -->
 <if condition="$user_type eq 0">
-    <div class="footer">
-        <a href="{:U('activity/curriculum', array('activity_id'=>$id))}">
+    <div class="footer"> 
+        <a href="{:U('activity/curriculum', array('activity_id'=>$activity_id))}">
             <i class="txh icon-addpeople"></i>点击选择课程
         </a>
     </div>

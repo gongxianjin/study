@@ -6,7 +6,11 @@
         <div class="header-img">
             <div class="teacher-header">
                 <a href="{:U('user/personal_infor')}">
-                    <img src="{:imageDomain($userInfo['head_img'])}"  style="border-radius: 50%;" alt="">
+                    <if condition="$userInfo['head_img']">
+                        <img src="{:imageDomain($userInfo['head_img'])}"  style="border-radius: 50%;" alt="">
+                        <else/>
+                        <img src="/mobile/images/person/header_teacher.png"  style="border-radius: 50%;" alt="">
+                    </if>
                 </a>
             </div>
             <p>{$userInfo.nickname}</p>

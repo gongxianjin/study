@@ -86,7 +86,8 @@ class Pay
 
         $prepayIndex = isset($index['PREPAY_ID'][0]) ? $index['PREPAY_ID'][0] : false;
         $rd['appId'] = $sendData['appid'];
-        $rd['timeStamp'] = time();
+        $timeStamp = time();
+        $rd["timeStamp"] = "$timeStamp";
         $rd['nonceStr'] = $sendData['nonce_str'];
         $rd['package'] = "prepay_id=" . $data[$prepayIndex]['value'];
         $rd['signType'] = "MD5";
@@ -95,7 +96,7 @@ class Pay
     }
 
     public function open_id()
-    {
+    { 
         if (isset($_GET['code']))
         {
             $url = "https://api.weixin.qq.com/sns/oauth2/access_token?";
@@ -103,7 +104,7 @@ class Pay
             $url .= "&secret=" . C('weixin.app_secret');
             $url .= "&code=" . $_GET['code'];
             $url .= "&grant_type=authorization_code";
-            $result = json_decode(file_get_contents($url), true);
+            $result = json_decode(file_get_contents($url), true); 
             if( ! isset($result['openid']) ){
                 return false;
             }

@@ -73,7 +73,7 @@ class OrderController extends Base
         //微信统一下单
         $wxModel = new \Weixin\Api\Pay();
         $notify_url = "http://" . $_SERVER['HTTP_HOST'] . "/weixin/callback/goods";
-        $payData = $wxModel->getCode($trade_no, $price, $notify_url,  "童学惠-积分商城兑换");
+        $payData = $wxModel->getCode($trade_no, $price, $notify_url,  "童学惠-积分商城兑换"); 
         if($payData === false)
         {
             $orderModel->rollback();
@@ -109,14 +109,17 @@ class OrderController extends Base
         //微信统一下单
         $wxModel = new \Weixin\Api\Pay();
         $notify_url = "http://" . $_SERVER['HTTP_HOST'] . "/weixin/callback/caution";
-        $payData = $wxModel->getCode($trade_no, $price, $notify_url,  "童学惠-保证金充值");
+        $payData = $wxModel->getCode($trade_no, $price, $notify_url,  "童学惠-保证金充值"); 
         if($payData === false){
             ajaxReturn('微信下单失败');
         }
         if( ! $orderModel->addTrade($trade_no, $price, $this->user_id, $this->platform_id, $grade_id) ){
             ajaxReturn('订单创建失败');
-        }
-        $this->assign($payData);
-        $this->display('weixin/pay');
+         }
+          $this->assign($payData);
+          $this->display('weixin/pay');
+
+         
+
     }
 }

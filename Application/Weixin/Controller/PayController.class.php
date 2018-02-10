@@ -13,9 +13,4 @@ class PayController extends Controller
 
 
 
-
-
-
-
-
 }

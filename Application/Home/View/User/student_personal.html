@@ -7,7 +7,11 @@
         <div class="header-img">
             <div class="teacher-header">
                 <a href="{:U('user/personal_infor')}">
-                    <img src="{:imageDomain($userInfo['head_img'])}"  style="border-radius: 50%;" alt="">
+                    <if condition="$userInfo['head_img']">
+                        <img src="{:imageDomain($userInfo['head_img'])}"  style="border-radius: 50%;" alt="">
+                        <else/>
+                        <img src="/mobile/images/person/header_teacher.png"  style="border-radius: 50%;" alt="">
+                    </if>
                 </a>
             </div>
             <p>{$userInfo.nickname}</p>
@@ -64,6 +68,11 @@
                     </div>
                     <div class="weui-cell__ft"></div>
                 </a>
+                <a class="weui-cell weui-cell_access" href="{:U('login/loginout')}">
+                    <div class="weui-cell__hd">
+                        <p>退出</p>
+                    </div>
+                </a>
 
             </div>
         </div>
@@ -81,6 +90,34 @@
                 </div>
             </div>
 
+        </div>
+    </div>
+    <div class="js_dialog" id="iosDialog1" style="display: none;">
+        <div class="weui-mask"></div>
+        <div class="weui-dialog">
+            <!--
+                    <div class="weui-dialog__hd"><strong class="weui-dialog__title">我的专属二维码</strong></div>
+            -->
+            <div class="weui-dialog__bd">
+                <div class="title-me">
+                    <div class="title-me-left">
+                        <img src="/mobile/images/person/header_teacher.png" alt="">
+                    </div>
+                    <div class="title-me-right">
+                        <p>欧阳果果</p>
+                        <span style="margin-right: 10px">四川</span><span>成都</span>
+                    </div>
+                </div>
+                <div class="hd-body">
+                    <div class="hd-img">
+                        <img src="/mobile/images/person/erweima.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+            <div class="weui-dialog__ft">
+                <p>用手机扫描二维码，加我好友</p>
+            </div>
         </div>
     </div>
     <script>

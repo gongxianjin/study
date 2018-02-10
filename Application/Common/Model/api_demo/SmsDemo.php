@@ -1,8 +1,8 @@
 <?php
 
 ini_set("display_errors", "on");
-
-require_once dirname(__DIR__) . '/api_sdk/vendor/autoload.php';
+//require_once  APP_PATH . 'Common/Model/Dayu/vendor/autoload.php';    //此处为你放置API的路径
+require_once dirname(__DIR__) . '/Dayu/vendor/autoload.php';
 
 use Aliyun\Core\Config;
 use Aliyun\Core\Profile\DefaultProfile;

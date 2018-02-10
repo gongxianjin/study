@@ -1,0 +1,16 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title><?php echo C('APP_NAME');?>-登陆</title>
+    <link rel="stylesheet" type="text/css" href="/asstes/css/style.css" />
+</head>
+<body>
+<form id="slick-login" method="post" action="<?php echo U('login/login');?>">
+    <label for="account">账号</label>
+    <input type="text" id="account" name="account" class="placeholder" placeholder="账号">
+    <label for="password">密码</label>
+    <input type="password" id="password" name="password" class="placeholder" placeholder="密码">
+    <input type="submit" value="登陆">
+</form>
+</body>
+</html>

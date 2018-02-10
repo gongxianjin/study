@@ -30,8 +30,7 @@ class DYSms{
             ajaxReturn("该手机号已注册");
         }else{
         	//发送短信
-            $this->send_phone($phone,$this->sms_code['register']);
-            ajaxReturn("验证码已发送");
+            $this->sendSms($phone,$this->sms_code['register']);
         }
     } 
 
@@ -40,10 +39,54 @@ class DYSms{
      * @param  integer $length [验证码长度]
      */
     public function createSMSCode($length = 4){
-        $min = pow(10 , ($length - 1));
-        $max = pow(10, $length) - 1;
+        $min = intval(pow(10 , ($length - 1)));
+        $max = intval(pow(10, $length) - 1);
         return rand($min, $max);
     }
+
+    /**
+     * 发送验证码
+     * @param  [integer] $phone [手机号]
+     */
+    public function sendSms($phone,$sms_code){
+        require_once  APP_PATH . 'Common/Model/SmsApi/TopSdk.php';    //此处为你放置API的路径
+        date_default_timezone_set('Asia/Shanghai');
+        $c = new \TopClient;
+
+        $c->appkey = $this->app_key;
+        $c->secretKey = $this->app_secret;
+        $templateCode = $sms_code;   //短信模板ID
+        $req = new \AlibabaAliqinFcSmsNumSendRequest;
+        $req ->setExtend( "" );
+        $req ->setSmsType( "normal" );
+        $req ->setSmsFreeSignName( "童学惠" );
+
+//        $code=$this->createSMSCode($length = 4);
+        $rescode = \Home\Model\Login::getCode($phone); 
+        $smsData = array('code'=>strval($rescode['code']),
+            'name'=> 'txh'
+            );    //所使用的模板若有变量 在这里填入变量的值  我的变量名为username此处也为username
+        $SmsParam = json_encode($smsData); 
+        $req ->setSmsParam($SmsParam);
+        $req ->setRecNum($phone);
+        $req ->setSmsTemplateCode( $templateCode ); 
+        $resp = $c ->execute( $req );  
+	$resp = (array)$resp;
+        if ($resp['code']) {
+            $data="发送失败";
+        } else{
+            $result = (array)$resp['result'];
+            if($result['success']){
+                $data="发送成功";
+            }else{
+                $data="发送失败";
+            }
+        }
+        echo $data;
+    }
+
+
+
 
     /**
      * 发送验证码
@@ -168,6 +211,7 @@ class DYSms{
     //test 
 
     public function test(){
+        require_once  APP_PATH . 'Common/Model/Dayu/vendor/autoload.php';    //此处为你放置API的路径
     	require_once(APP_PATH . 'Common/Model/api_demo/SmsDemo.php');
     	header('Content-Type: text/plain; charset=utf-8');  
           

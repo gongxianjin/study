@@ -21,7 +21,7 @@ class ClassstudentlistModel extends Model {
 				'head_img' => $temp['head_img'],
 				'name' => $temp['nickname'],
 				'phone' => $temp['phone'],
-				'type' => (int)$tenm['type'],
+				'type' => (int)$temp['type'],
 				'role' => ((int)$temp['type'] == 0 ? "学生" : "老师")
 				);
 			$temp = M('UserFunds')->where('user_id = ' . $one['user_id'])->find();
@@ -58,5 +58,16 @@ class ClassstudentlistModel extends Model {
 			return 0;
 		}
 	}
+	 public function classesList( $user_id = 0)
+    {
+        $where = array();
+        if( $user_id ){
+            $where['classstudentlist.user_id'] = $user_id;
+        }
+        return $this->where($where)
+            ->join("LEFT JOIN `classes` ON `classes`.`class_id` = `classstudentlist`.`class_id`")
+            ->field("`classstudentlist`.`class_id` as `class_id`,`classes`.`class_name` as `class_name`,`classes`.`image` as `class_img`")
+            ->select();
+    }
 }
 ?>

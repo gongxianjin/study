@@ -19,6 +19,7 @@ class Upload
         }
 
         $filename = md5($file['tmp_name']) . '.' . end(explode('.', $file['name']));
+
         if( ! $this->upload($filename, $file['tmp_name']) ){
             return array('message'=> '上传失败');
         }

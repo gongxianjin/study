@@ -7,10 +7,17 @@ class ActivityController extends Base
     public function index()
     {
         $Activity = new \Home\Model\ActivityModel();
-        $this->assign('showData', $Activity->getActivityList(
-            $this->platform_id,
-            $this->user_id
-        ));
+        //老师
+        if($this->user_type != 0){
+            $this->assign('showData', $Activity->getActivityList(
+                $this->platform_id,
+                $this->user_id
+            ));
+        }else{
+            $this->assign('showData', $Activity->getActivityList(
+                $this->platform_id,0,0,1
+            ));
+        }
         $this->display();
     }
 
@@ -118,7 +125,13 @@ class ActivityController extends Base
     public function details()
     {
         //用户类型
-        $this->assign('user_type',$this->user_type);
+        $this->assign('user_type',$this->user_type); 
+        //活动ID
+	$activity_id = I('activity_id', 0, 'intval');
+        if( ! $activity_id ){
+            ajaxReturn('缺少参数');
+        } 
+        $this->assign('activity_id',$activity_id);
          // 报名人数
         $this->create();
     }
@@ -132,7 +145,11 @@ class ActivityController extends Base
 
         $activityModel = new \Home\Model\ActivityModel();
         $findFirst = $activityModel->findFirst($activity_id);
-        if( ! isset($findFirst['user_id'])  || $findFirst['user_id'] != $this->user_id)
+//        if( ! isset($findFirst['user_id'])  || $findFirst['user_id'] != $this->user_id)
+//        {
+//            ajaxReturn('活动不存在');
+//        }
+        if( empty($findFirst) )
         {
             ajaxReturn('活动不存在');
         }

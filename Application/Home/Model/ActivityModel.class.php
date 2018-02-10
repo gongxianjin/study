@@ -5,7 +5,7 @@ use Think\Model;
 
 class ActivityModel extends Model
 {
-    public function getActivityList($platform_id = 0, $user_id = 0, $grade_id = 0)
+    public function getActivityList($platform_id = 0, $user_id = 0, $grade_id = 0,$status = 0)
     {
         $where = array();
         if( $platform_id ){
@@ -16,6 +16,9 @@ class ActivityModel extends Model
         }
         if( $grade_id ){
             $where['grade_id'] = $grade_id;
+        }
+        if($status){
+            $where['status'] = $status;
         }
         return $this->where($where)->select();
     }

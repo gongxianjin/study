@@ -25,5 +25,4 @@ class UploadController extends Base
         $returnMsg = array('code'=> 0, 'message'=>'success', 'filename'=> $filename);
         exit(json_encode($returnMsg));
     }
-
 }

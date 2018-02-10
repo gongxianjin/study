@@ -1,0 +1,11 @@
+[ 2018-02-10T00:04:34+08:00 ] 118.112.56.156 /Home/student/tasklist/classid/6.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class_task_list` WHERE `setup` = 1 AND `user_id` = 12 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT `user`.`nickname` as `username` FROM `classstudentlist` LEFT JOIN `user` ON `user`.`id` = `classstudentlist`.`teacher_id`  WHERE classstudentlist.user_id = '12' AND classstudentlist.class_id = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class_task_list` WHERE `user_id` = 12 AND `time` BETWEEN 1518192000 AND 1518278400 LIMIT 1   [ RunTime:0.0001s ]
+

@@ -86,10 +86,4 @@
             }, "JSON");
         }
     })(ck={});
-
-    $('#send_code').click(function(){
-        $.post("{:U('Home/Login/send_register_message')}",{phone:$('input[name="phone"]').val()},function(res){
-            ajaxReturnMsg(res);
-        });
-    });
 </script>

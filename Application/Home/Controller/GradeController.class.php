@@ -41,6 +41,8 @@ class GradeController extends Base
         $this->display();
     }
 
-
+    public function add_student(){
+        $this->display();
+    }
 
 }

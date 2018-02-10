@@ -1,7 +1,7 @@
 <extend name="Common/common" />
 <block name="stylesheet"><link rel="stylesheet" href="/mobile/style/person_infor.css"></block>
 <block name="title">个人信息设置</block>
-<block name="header_btn"><a  id="saveBtn" style="font-weight: normal">保存</a></block>
+<block name="header_btn"><a  id="saveBtn" style="font-weight: normal;color: #3972a8;">保存</a></block>
 <block name="content">
 
   <div class="page">
@@ -66,12 +66,7 @@
               </div>
               <span class="weui-cell__ft"></span>
           </a>
-      </div>
-      <div class="weui-cells basic-info">
-          <div class="weui-cell weui-cell_access weui-cell__hd saveBtn">
-              保存修改
-          </div> 
-      </div>
+      </div> 
       <div class="weui-cells basic-info">
           <a class="weui-cell weui-cell_access" href="{:U('login/loginout')}">
               <div class="weui-cell__hd">
@@ -82,8 +77,7 @@
   </div>
 
     <script>
-        $('.saveBtn').on('click', function(){
-            console.log("save");
+        $('#saveBtn').on('click', function(){ 
             var head_img = $('input[name="head_img"]').val();
             if( ! head_img ){
                 weui.alert('请选择头像');
