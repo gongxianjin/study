@@ -45,4 +45,13 @@ class UserModel extends Model
     {
         return md5("LKDSf8hKLFHb{$password}*KDFD*HB#kFL*#W");
     }
+
+    public function getList($type,$platform_id = 1){
+        $query = $this->where("platform_id = {$platform_id} and type = {$type}")->select();
+        foreach($query as &$one){
+            $one['score'] = M('UserFunds')->where("user_id = {$one['id']}")->getField('score');
+        }
+
+        return $query;
+    }
 }

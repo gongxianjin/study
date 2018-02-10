@@ -1,0 +1,152 @@
+body {
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+body div.header {
+  top: 0;
+  height: 50px;
+  line-height: 50px;
+  width: 100%;
+  background-color: #2addfd;
+  z-index: 100;
+  color: #fff;
+  transition: 300ms;
+}
+body div.header >span.header-back {
+  position: absolute;
+  left: 6px;
+  top: 5px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  overflow: hidden;
+  height: 40px;
+}
+body div.header >span.header-back >i {
+  font-size: 28px;
+}
+body div.header .header-text {
+  position: absolute;
+  left: 50px;
+  font-size: 20px;
+  display: inline-block;
+  right: 50px !important;
+  text-align: center !important;
+}
+body div.header .header-btn {
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+  width: 60px;
+  right: 0;
+}
+body div.header .header-btn >a {
+  text-align: center;
+  height: 100%;
+  color: #fff;
+  font-weight: normal;
+  font-size: 13px;
+}
+body .choice-person-box {
+  text-align: center;
+  background-color: #fff;
+  height: 35px;
+  box-sizing: border-box;
+  display: flex;
+}
+body .choice-person-box .choice-person-list {
+  flex: 1;
+  line-height: 35px;
+  color: #999;
+}
+body .choice-person-box .choice-person-list:first-child {
+  border-right: 1px solid #ededed;
+}
+body div.page {
+  top: 85px;
+  transition: 300ms;
+  position: absolute;
+  z-index: 10;
+  font-size: 14px;
+  background-color: #fff;
+  overflow-y: hidden;
+}
+body div.page .search-box {
+  position: fixed;
+  width: 100%;
+}
+body div.page .search-box .weui-search-bar__cancel-btn {
+  color: #2addfd;
+}
+body div.page .search-box .weui-cells {
+  margin-top: 0;
+  background-color: #fff;
+}
+body div.page .search-box .weui-cells .weui-cell p {
+  font-size: 14px;
+  color: #333;
+}
+body div.page .content-tab-box .imagetable {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 13px;
+  color: #333;
+  border-width: 1px;
+  border-color: #999;
+  border-collapse: collapse;
+}
+body div.page .content-tab-box .imagetable .th_bg {
+  background-color: #f3f3f3;
+  color: #777;
+}
+body div.page .content-tab-box .imagetable th {
+  border-width: 1px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #e8e8e8;
+  border-left: none;
+  text-align: center;
+  border-right: none;
+  font-weight: 400;
+}
+body div.page .content-tab-box .imagetable td {
+  border-width: 1px;
+  padding: 8px 2px;
+  border-style: solid;
+  border-color: #e8e8e8;
+  border-left: none;
+  border-right: none;
+  text-align: center;
+  color: #666;
+}
+body div.page .content-tab-box .imagetable td:nth-child(1) {
+  width: 12%;
+}
+body div.page .content-tab-box .imagetable td:nth-child(2) {
+  width: 12%;
+}
+body div.page .content-tab-box .imagetable td img {
+  width: 50%;
+}
+body div.page .content-tab-box .imagetable td input {
+  margin-right: 10px;
+}
+body div.page .content-tab-box .imagetable td a {
+  display: inline-block;
+  font-weight: 300;
+  background-color: #44d2ee;
+  color: #fff;
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-size: 11px;
+}
+body div.page .content-tab-box .imagetable tbody {
+  height: 616px;
+  overflow-y: auto;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}

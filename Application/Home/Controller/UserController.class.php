@@ -80,4 +80,14 @@ class UserController extends Base
         //调用退款记录
         $query = M('Order')->where('id = ' . $id)->setField('order_status',2);
     }
+
+    public function deleteUser(){
+        $user_id = (int)I('post.id');
+        if (!empty($user_id) && $this->user_type == 2) {
+            M('User')->where('id = ' . $user_id)->delete();
+            ajaxReturn("删除成功");
+        }else{
+            ajaxReturn("删除失败");
+        }
+    }
 }
