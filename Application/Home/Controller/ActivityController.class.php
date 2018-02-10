@@ -8,11 +8,14 @@ class ActivityController extends Base
     {
         $Activity = new \Home\Model\ActivityModel();
         //老师
-        if($this->user_type != 0){
+        if($this->user_type == 1){
             $this->assign('showData', $Activity->getActivityList(
                 $this->platform_id,
                 $this->user_id
             ));
+        }else if($this->user_type == 2){
+            //管理员
+            $this->assign('showData',M('Activity')->where('platform_id = ' . $this->platform_id)->select());
         }else{
             $this->assign('showData', $Activity->getActivityList(
                 $this->platform_id,0,0,1
@@ -30,10 +33,19 @@ class ActivityController extends Base
         {
             $Activity = new \Home\Model\ActivityModel();
             $findFirst = $Activity->findFirst($activity_id);
-            if(isset($findFirst['user_id']) && $findFirst['user_id'] == $this->user_id)
-            {
-                $default = $findFirst;
-                $default['courseMap'] = D('ActivityCourse')->getCourseMap($activity_id);
+            //非管理员
+            if ($this->user_type != 2) {
+                if(isset($findFirst['user_id']) && $findFirst['user_id'] == $this->user_id)
+                {
+                    $default = $findFirst;
+                    $default['courseMap'] = D('ActivityCourse')->getCourseMap($activity_id);
+                }
+            }else{
+                if(isset($findFirst['user_id']))
+                {
+                    $default = $findFirst;
+                    $default['courseMap'] = D('ActivityCourse')->getCourseMap($activity_id);
+                }
             }
         }
         $this->assign($default);
@@ -74,10 +86,17 @@ class ActivityController extends Base
 
         $Activity = new \Home\Model\ActivityModel();
         $findFirst = $Activity->findFirst($activity_id);
-        if($activity_id && (!isset($findFirst['user_id']) || $findFirst['user_id'] != $this->user_id)){
-            ajaxReturn('修改的活动不存在');
+        //管理员
+        if ($this->user_type != 2) {
+            if($activity_id && (!isset($findFirst['user_id']) || $findFirst['user_id'] != $this->user_id)){
+                ajaxReturn('修改的活动不存在');
+            }
+        }else{
+            if($activity_id && (!isset($findFirst['user_id']))){
+                ajaxReturn('修改的活动不存在');
+            }
         }
-        $setActivity = $Activity->setActivity($activity_id, $this->platform_id, $this->user_id,
+        $setActivity = $Activity->setActivity($activity_id, $this->platform_id, $findFirst['user_id'],
             $activity_name, $activity_start, $continuous, $every_start, $every_end, $repeat, $activity_img, $content);
         if($setActivity === false){
             ajaxReturn('操作失败');
@@ -94,9 +113,17 @@ class ActivityController extends Base
         }
         $activityModel = new \Home\Model\ActivityModel();
         $findFirst = $activityModel->findFirst($activity_id);
-        if( ! isset($findFirst['user_id'])  || $findFirst['user_id'] != $this->user_id)
-        {
-            ajaxReturn('活动不存在');
+        //教师
+        if ($this->user_type != 2) {
+            if( ! isset($findFirst['user_id'])  || $findFirst['user_id'] != $this->user_id)
+                {
+                    ajaxReturn('活动不存在');
+                }
+        }else{
+            if( ! isset($findFirst['user_id']))
+                {
+                    ajaxReturn('活动不存在');
+                }
         }
         if($activityModel->setRelease($activity_id) === false){
             ajaxReturn('操作失败');
@@ -112,9 +139,16 @@ class ActivityController extends Base
         }
         $activityModel = new \Home\Model\ActivityModel();
         $findFirst = $activityModel->findFirst($activity_id);
-        if( ! isset($findFirst['user_id'])  || $findFirst['user_id'] != $this->user_id)
-        {
-            ajaxReturn('活动不存在');
+        if ($this->user_type != 2) {
+            if( ! isset($findFirst['user_id'])  || $findFirst['user_id'] != $this->user_id)
+                {
+                    ajaxReturn('活动不存在');
+                }
+        }else{
+            if( ! isset($findFirst['user_id']))
+                {
+                    ajaxReturn('活动不存在');
+                }
         }
         if($activityModel->setClosure($activity_id) === false){
             ajaxReturn('操作失败');
