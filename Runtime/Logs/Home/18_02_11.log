@@ -4,3 +4,1584 @@ SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
 SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
 SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0002s ]
 
+[ 2018-02-11T11:02:55+08:00 ] 127.0.0.1 /
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( platform_id = 1 and type = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( platform_id = 1 and status = 0 and type = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( platform_id = 1 and status = 1 and type = 0 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-11T11:04:24+08:00 ] 127.0.0.1 /Home/MyClass/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classes` WHERE ( user_id = 6 ) ORDER BY class_id asc  [ RunTime:0.0005s ]
+
+[ 2018-02-11T11:04:28+08:00 ] 127.0.0.1 /
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:04:29+08:00 ] 127.0.0.1 /Home/MyClass/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classes` WHERE ( user_id = 6 ) ORDER BY class_id asc  [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:04:30+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 and user_id = 6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:04:31+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1518318271 and 1518318271<= end )  [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant item - assumed 'item' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+
+[ 2018-02-11T11:04:36+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1518318276 and 1518318276<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant item - assumed 'item' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+
+[ 2018-02-11T11:04:38+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+ERR: 1146:Table 'study.classtasklist' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `classtasklist`
+ERR: 1146:Table 'study.classtasklist' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `classtasklist`
+
+[ 2018-02-11T11:07:14+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `class_task_list` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0003s ]
+ERR: 1054:Unknown column 'course_id' in 'field list'
+ [ SQL语句 ] : SELECT `course_id` FROM `classhomework` WHERE ( id = 1 ) LIMIT 1  
+ERR: 1054:Unknown column 'course_id' in 'field list'
+ [ SQL语句 ] : SELECT `course_id` FROM `classhomework` WHERE ( id = 1 ) LIMIT 1  
+
+[ 2018-02-11T11:07:50+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `class_task_list` WHERE ( class_id = 1 )  [ RunTime:0.0003s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 7 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 8 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 12 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 13 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 14 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 15 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+
+[ 2018-02-11T11:08:01+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 and user_id = 6 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:08:01+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 and user_id = 6 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-02-11T11:08:03+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `class_task_list` WHERE ( class_id = 1 )  [ RunTime:0.0011s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 7 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 8 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 12 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 13 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 14 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 15 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+
+[ 2018-02-11T11:08:05+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 and user_id = 6 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-11T11:08:06+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class_task_list` WHERE ( class_id = 1 )  [ RunTime:0.0003s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 8 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 13 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 14 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 15 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+
+[ 2018-02-11T11:08:13+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 and user_id = 6 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:08:49+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `class_task_list` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 7 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 8 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 13 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 14 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 15 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+
+[ 2018-02-11T11:08:50+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 and user_id = 6 ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2018-02-11T11:08:51+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `class_task_list` WHERE ( class_id = 1 )  [ RunTime:0.0006s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 7 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 8 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 13 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 14 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 15 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+
+[ 2018-02-11T11:08:52+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class_task_list` WHERE ( class_id = 1 )  [ RunTime:0.0003s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 7 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 8 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 12 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 13 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 14 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 15 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+
+[ 2018-02-11T11:08:53+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 and user_id = 6 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:08:55+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class_task_list` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 7 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 8 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 12 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 13 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 14 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 15 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+
+[ 2018-02-11T11:09:05+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class_task_list` WHERE ( class_id = 1 )  [ RunTime:0.0003s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 7 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 8 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 12 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 13 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 14 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 15 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+
+[ 2018-02-11T11:09:06+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book`  [ RunTime:0.0001s ]
+
+[ 2018-02-11T11:09:07+08:00 ] 127.0.0.1 /Home/MyClass/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 11 )  [ RunTime:0.0014s ]
+
+[ 2018-02-11T11:09:13+08:00 ] 127.0.0.1 /Home/MyClass/addHomeworkFunc.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1146:Table 'study.classtasklist' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `classtasklist`
+ERR: 1146:Table 'study.classtasklist' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `classtasklist`
+
+[ 2018-02-11T11:09:15+08:00 ] 127.0.0.1 /Home/MyClass/addHomeworkFunc.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+ERR: 1146:Table 'study.classtasklist' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `classtasklist`
+ERR: 1146:Table 'study.classtasklist' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `classtasklist`
+
+[ 2018-02-11T11:09:16+08:00 ] 127.0.0.1 /Home/MyClass/addHomeworkFunc.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1146:Table 'study.classtasklist' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `classtasklist`
+ERR: 1146:Table 'study.classtasklist' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `classtasklist`
+
+[ 2018-02-11T11:09:16+08:00 ] 127.0.0.1 /Home/MyClass/addHomeworkFunc.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1146:Table 'study.classtasklist' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `classtasklist`
+ERR: 1146:Table 'study.classtasklist' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `classtasklist`
+
+[ 2018-02-11T11:09:16+08:00 ] 127.0.0.1 /Home/MyClass/addHomeworkFunc.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1146:Table 'study.classtasklist' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `classtasklist`
+ERR: 1146:Table 'study.classtasklist' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `classtasklist`
+
+[ 2018-02-11T11:09:20+08:00 ] 127.0.0.1 /Home/MyClass/addHomeworkFunc.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 1146:Table 'study.classtasklist' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `classtasklist`
+ERR: 1146:Table 'study.classtasklist' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `classtasklist`
+
+[ 2018-02-11T11:09:20+08:00 ] 127.0.0.1 /Home/MyClass/addHomeworkFunc.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 1146:Table 'study.classtasklist' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `classtasklist`
+ERR: 1146:Table 'study.classtasklist' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `classtasklist`
+
+[ 2018-02-11T11:09:20+08:00 ] 127.0.0.1 /Home/MyClass/addHomeworkFunc.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+ERR: 1146:Table 'study.classtasklist' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `classtasklist`
+ERR: 1146:Table 'study.classtasklist' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `classtasklist`
+
+[ 2018-02-11T11:09:21+08:00 ] 127.0.0.1 /Home/MyClass/addHomeworkFunc.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 1146:Table 'study.classtasklist' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `classtasklist`
+ERR: 1146:Table 'study.classtasklist' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `classtasklist`
+
+[ 2018-02-11T11:09:21+08:00 ] 127.0.0.1 /Home/MyClass/addHomeworkFunc.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+ERR: 1146:Table 'study.classtasklist' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `classtasklist`
+ERR: 1146:Table 'study.classtasklist' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `classtasklist`
+
+[ 2018-02-11T11:09:25+08:00 ] 127.0.0.1 /Home/MyClass/addHomeworkFunc.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 1146:Table 'study.classtasklist' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `classtasklist`
+ERR: 1146:Table 'study.classtasklist' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `classtasklist`
+
+[ 2018-02-11T11:09:26+08:00 ] 127.0.0.1 /Home/MyClass/addHomeworkFunc.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 1146:Table 'study.classtasklist' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `classtasklist`
+ERR: 1146:Table 'study.classtasklist' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `classtasklist`
+
+[ 2018-02-11T11:09:26+08:00 ] 127.0.0.1 /Home/MyClass/addHomeworkFunc.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 1146:Table 'study.classtasklist' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `classtasklist`
+ERR: 1146:Table 'study.classtasklist' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `classtasklist`
+
+[ 2018-02-11T11:09:26+08:00 ] 127.0.0.1 /Home/MyClass/addHomeworkFunc.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1146:Table 'study.classtasklist' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `classtasklist`
+ERR: 1146:Table 'study.classtasklist' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `classtasklist`
+
+[ 2018-02-11T11:09:38+08:00 ] 127.0.0.1 /Home/MyClass/addHomeworkFunc.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+ERR: 1146:Table 'study.classtasklist' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `classtasklist`
+ERR: 1146:Table 'study.classtasklist' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `classtasklist`
+
+[ 2018-02-11T11:09:52+08:00 ] 127.0.0.1 /Home/MyClass/addHomeworkFunc.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+ERR: 1146:Table 'study.classtasklist' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `classtasklist`
+ERR: 1146:Table 'study.classtasklist' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `classtasklist`
+
+[ 2018-02-11T11:09:53+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book`  [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:09:54+08:00 ] 127.0.0.1 /Home/MyClass/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 11 )  [ RunTime:0.0003s ]
+
+[ 2018-02-11T11:09:57+08:00 ] 127.0.0.1 /Home/MyClass/addHomeworkFunc.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 1146:Table 'study.classtasklist' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `classtasklist`
+ERR: 1146:Table 'study.classtasklist' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `classtasklist`
+
+[ 2018-02-11T11:10:20+08:00 ] 127.0.0.1 /Home/MyClass/addHomeworkFunc.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-02-11T11:10:29+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book`  [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:10:29+08:00 ] 127.0.0.1 /Home/MyClass/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 11 )  [ RunTime:0.0004s ]
+
+[ 2018-02-11T11:10:30+08:00 ] 127.0.0.1 /Home/MyClass/addHomeworkFunc.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+ERR: 1146:Table 'study.classtasklist' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `classtasklist`
+ERR: 1146:Table 'study.classtasklist' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `classtasklist`
+
+[ 2018-02-11T11:10:56+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book`  [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:10:56+08:00 ] 127.0.0.1 /Home/MyClass/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 11 )  [ RunTime:0.0003s ]
+
+[ 2018-02-11T11:10:57+08:00 ] 127.0.0.1 /Home/MyClass/addHomeworkFunc.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0006s ]
+SQL: INSERT INTO `class_task_list` (`course_id`,`teacher_id`,`class_id`,`start`,`end`,`setup`,`time`,`day`,`start_text_id`,`end_text_id`) VALUES ('11','6','1','1518278400','1518364800','1','1518318657','1','52','52') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0009s ]
+SQL: INSERT INTO `classhomework` (`class_id`,`book_id`,`start`,`end`,`day`,`time`,`status`,`user_id`) VALUES ('1','11','1518278400','1518364800','1','1518318657','0','2') [ RunTime:0.0009s ]
+SQL: INSERT INTO `classhomework` (`class_id`,`book_id`,`start`,`end`,`day`,`time`,`status`,`user_id`) VALUES ('1','11','1518278400','1518364800','1','1518318657','0','1') [ RunTime:0.0007s ]
+SQL: INSERT INTO `classhomework` (`class_id`,`book_id`,`start`,`end`,`day`,`time`,`status`,`user_id`) VALUES ('1','11','1518278400','1518364800','1','1518318657','0','3') [ RunTime:0.0003s ]
+
+[ 2018-02-11T11:11:06+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `book`  [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:11:06+08:00 ] 127.0.0.1 /Home/MyClass/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 11 )  [ RunTime:0.0003s ]
+
+[ 2018-02-11T11:11:14+08:00 ] 127.0.0.1 /Home/MyClass/addHomeworkFunc.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0007s ]
+SQL: INSERT INTO `class_task_list` (`course_id`,`teacher_id`,`class_id`,`start`,`end`,`setup`,`time`,`day`,`start_text_id`,`end_text_id`) VALUES ('11','6','1','1517414400','1517500800','1','1518318674','1','52','52') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: INSERT INTO `classhomework` (`class_id`,`book_id`,`start`,`end`,`day`,`time`,`status`,`user_id`) VALUES ('1','11','1517414400','1517500800','1','1518318674','0','2') [ RunTime:0.0003s ]
+SQL: INSERT INTO `classhomework` (`class_id`,`book_id`,`start`,`end`,`day`,`time`,`status`,`user_id`) VALUES ('1','11','1517414400','1517500800','1','1518318674','0','1') [ RunTime:0.0003s ]
+SQL: INSERT INTO `classhomework` (`class_id`,`book_id`,`start`,`end`,`day`,`time`,`status`,`user_id`) VALUES ('1','11','1517414400','1517500800','1','1518318674','0','3') [ RunTime:0.0003s ]
+
+[ 2018-02-11T11:11:18+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `class_task_list` WHERE ( class_id = 1 )  [ RunTime:0.0004s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 7 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 8 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 12 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 13 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 14 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 15 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 21 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+
+[ 2018-02-11T11:11:30+08:00 ] 127.0.0.1 /Home/MyClass/SeeHomework/id/Arrayid/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:11:34+08:00 ] 127.0.0.1 /Home/MyClass/SeeHomework/id/Arrayid.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:11:38+08:00 ] 127.0.0.1 /Home/MyClass/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 11 )  [ RunTime:0.0013s ]
+
+[ 2018-02-11T11:11:40+08:00 ] 127.0.0.1 /Home/MyClass/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 11 )  [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:11:41+08:00 ] 127.0.0.1 /Home/MyClass/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 11 )  [ RunTime:0.0003s ]
+

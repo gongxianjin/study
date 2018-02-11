@@ -198,8 +198,8 @@ class MyClassController extends Base{
 			ajaxReturn("暂无该班级");
 		}else{
 			//判断身份
-			$isExit = M('Classstudentlist')->where('class_id = ' . $class_id . " and user_id = " . $this->user_id)->find();
-			if (!$isExit || $this->user_type != 1) {
+			// $isExit = M('Classstudentlist')->where('class_id = ' . $class_id . " and user_id = " . $this->user_id)->find();
+			if ($this->user_type == 0) {
 				ajaxReturn("非法请求");
 			}
 		}
@@ -223,7 +223,7 @@ class MyClassController extends Base{
 
 	public function addHomeworkFunc(){
 		$post = I('post.');
-		if ($this->user_type != 1) {
+		if ($this->user_type == 0) {
 			ajaxReturn("非法请求");
 		}
 		if (!IS_POST) {
@@ -244,7 +244,7 @@ class MyClassController extends Base{
 				'start_text_id' => $post['start_id'],
 				'end_text_id' => $post['end_id']
 			);
-		$query = M('Classtasklist')->add($work);
+		$query = M('ClassTaskList')->add($work);
 
 		if ($query) {
 			//给每个同学分配作业

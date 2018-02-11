@@ -50,25 +50,25 @@
             <!--管理员-->
 <div class="activity-container">
     <div class="weui-flex">
-        <a href="teacher_activity.html" class="weui-flex__item">
+        <a href="<?php echo U('activity/index');?>" class="weui-flex__item">
             <div class="placeholders">
                 <img src="/mobile/images/buy1.png" alt="">
                 <p>活动管理</p>
             </div>
         </a>
-        <a href="maneger_class.html" class="weui-flex__item">
+        <a href="<?php echo U('Home/MyClass/index');?>" class="weui-flex__item">
             <div class="placeholders">
                 <img src="/mobile/images/buy2.png" alt="">
                 <p>班级管理</p>
             </div>
         </a>
-        <a href="integral_manager.html" class="weui-flex__item">
+        <a href="<?php echo U('Manager/index');?>" class="weui-flex__item">
             <div class="placeholders">
                 <img src="/mobile/images/buy3.png" alt="">
                 <p>积分管理</p>
             </div>
         </a>
-        <a href="library.html" class="weui-flex__item">
+        <a href="<?php echo U('library/index');?>" class="weui-flex__item">
             <div class="placeholders">
                 <img src="/mobile/images/buy4.png" alt="">
                 <p>图书馆管理</p>
@@ -82,7 +82,7 @@
             <img src="/mobile/images/absent.png" alt="">
         </div>
         <div class="center-calender">
-            <a href="person_manager.html">
+            <a href="<?php echo U('Manager/userManager');?>">
                 <i class="txh icon-xingming"></i>
                 用户管理
             </a>
@@ -96,13 +96,57 @@
         </div>
     </div>
 </div>
+<div class="js_dialog" id="iosDialog1" style="display: none;">
+    <div class="weui-mask"></div>
+    <div class="weui-dialog">
+        <div class="weui-dialog__bd">
+            <div class="weui-cells weui-cells_checkbox">
+                <label class="weui-cell weui-check__label">
+                    <div class="weui-cell__hd">
+                        <p>注册学员：</p>
+                    </div>
+                    <div class="weui-cell__bd">
+                        <p><?php echo ($totalUser); ?></p>
+                    </div>
+                </label>
+                <label class="weui-cell weui-check__label">
+                    <div class="weui-cell__hd">
+                        <p>使用中学员:</p>
+                    </div>
+                    <div class="weui-cell__bd">
+                        <p><?php echo ($usingUser); ?></p>
+                    </div>
+                </label>
+                <label  class="weui-cell weui-check__label">
+                    <div class="weui-cell__hd">
+                        <p>已过期学员:</p>
+                    </div>
+                    <div class="weui-cell__bd">
+                        <p><?php echo ($pastUser); ?></p>
+                    </div>
+                </label>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(function(){
+        var $iosDialog1 = $('#iosDialog1');
+        $('#tongji').on('click', function(){
+            $iosDialog1.fadeIn(200);
+        });
+        $(".weui-mask").on('click',function () {
+            $iosDialog1.fadeOut(200);
+        })
+    })
+</script>
         <?php elseif($user_type == 1): ?>
             <!-- 教师 -->
             <!--教师-->
 <div class="activity-container">
     <div class="weui-flex">
-        <a href="teacher_activity.html" class="weui-flex__item">
-            <div class="placeholders">
+        <a class="weui-flex__item" href="<?php echo U('activity/index');?>">
+            <div  class="placeholders">
                 <img src="/mobile/images/buy1.png" alt="">
                 <p>我的活动</p>
             </div>
@@ -113,14 +157,14 @@
                 <p>我的班级</p>
             </div>
         </a>
-        <a href="student_manager.html" class="weui-flex__item">
-            <div class="placeholders">
+        <a class="weui-flex__item" href="<?php echo U('user/studentlist');?>">
+            <div  class="placeholders">
                 <img src="/mobile/images/buy3.png" alt="">
                 <p>学生管理</p>
             </div>
         </a>
-        <a href="library.html" class="weui-flex__item">
-            <div class="placeholders">
+        <a class="weui-flex__item" href="<?php echo U('library/index');?>">
+            <div  class="placeholders">
                 <img src="/mobile/images/buy4.png" alt="">
                 <p>图书馆管理</p>
             </div>
@@ -154,7 +198,7 @@
                 <p>课程活动</p>
             </div>
         </a>
-        <a class="weui-flex__item">
+        <a class="weui-flex__item" href="<?php echo U('student/course');?>">
             <div  class="placeholder">
                 <img src="/mobile/images/buy2.png" alt="">
                 <p>今日作业</p>
