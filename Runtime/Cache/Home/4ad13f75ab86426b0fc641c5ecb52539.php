@@ -82,7 +82,7 @@
             <img src="/mobile/images/absent.png" alt="">
         </div>
         <div class="center-calender">
-            <a href="person_manager.html">
+            <a href="<?php echo U('Manager/userManager');?>">
                 <i class="txh icon-xingming"></i>
                 用户管理
             </a>

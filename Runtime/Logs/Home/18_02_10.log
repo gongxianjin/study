@@ -9,3 +9,746 @@ SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
 SQL: SELECT `user`.`nickname` as `username` FROM `classstudentlist` LEFT JOIN `user` ON `user`.`id` = `classstudentlist`.`teacher_id`  WHERE classstudentlist.user_id = '12' AND classstudentlist.class_id = 6 LIMIT 1   [ RunTime:0.0002s ]
 SQL: SELECT * FROM `class_task_list` WHERE `user_id` = 12 AND `time` BETWEEN 1518192000 AND 1518278400 LIMIT 1   [ RunTime:0.0001s ]
 
+[ 2018-02-10T12:01:41+08:00 ] 117.174.31.206 /Home/weixin/getCode.html?code=061yAza425JwnM0wiNb420ODa42yAzae&state=
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `open_id` = 'oWYSTwwptM_vGxq1TWPMyXJmFMSA' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-10T12:02:05+08:00 ] 117.174.31.206 /Home/login/login.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '17628025118' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/html/study/ThinkPHP/Common/functions.php 第 1272 行.
+
+[ 2018-02-10T12:02:05+08:00 ] 117.174.31.206 /
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0002s ]
+
+[ 2018-02-10T12:02:07+08:00 ] 117.174.31.206 /Home/user/personal.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `enlists` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `enlists` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `enlists` WHERE ( user_id = 11 )  [ RunTime:0.0001s ]
+
+[ 2018-02-10T12:02:08+08:00 ] 117.174.31.206 /
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0002s ]
+
+[ 2018-02-10T12:02:09+08:00 ] 117.174.31.206 /Home/user/personal.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `enlists` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `enlists` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `enlists` WHERE ( user_id = 11 )  [ RunTime:0.0001s ]
+
+[ 2018-02-10T12:02:11+08:00 ] 117.174.31.206 /
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0002s ]
+
+[ 2018-02-10T12:02:18+08:00 ] 117.174.31.206 /Home/user/personal.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `enlists` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `enlists` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `enlists` WHERE ( user_id = 11 )  [ RunTime:0.0001s ]
+
+[ 2018-02-10T12:02:19+08:00 ] 117.174.31.206 /Home/user/personal.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `enlists` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `enlists` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `enlists` WHERE ( user_id = 11 )  [ RunTime:0.0001s ]
+
+[ 2018-02-10T12:02:28+08:00 ] 117.174.31.206 /
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0002s ]
+
+[ 2018-02-10T13:47:26+08:00 ] 111.14.158.82 /Home/login/login.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '17311481508' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/html/study/ThinkPHP/Common/functions.php 第 1272 行.
+
+[ 2018-02-10T13:47:26+08:00 ] 111.14.158.82 /
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( platform_id = 1 and type = 0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( platform_id = 1 and status = 0 and type = 0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( platform_id = 1 and status = 1 and type = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-10T13:48:08+08:00 ] 111.14.158.82 /
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0002s ]
+
+[ 2018-02-10T13:48:24+08:00 ] 111.14.158.82 /
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0002s ]
+
+[ 2018-02-10T13:48:36+08:00 ] 111.14.158.82 /Home/activity/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE `platform_id` = 1 AND `status` = 1  [ RunTime:0.0002s ]
+
+[ 2018-02-10T13:48:50+08:00 ] 111.14.158.82 /Home/activity/details/activity_id/3.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-10T13:48:56+08:00 ] 111.14.158.82 /Home/activity/details/activity_id/12.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-10T13:49:06+08:00 ] 111.14.158.82 /Home/activity/details/activity_id/10.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-10T13:49:10+08:00 ] 111.14.158.82 /Home/activity/curriculum/activity_id/10.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity_course` [ RunTime:0.0004s ]
+SQL: SELECT `grade`.`id`,`grade`.`name`,`grade`.`price` FROM `activity_course` LEFT JOIN `activity` ON `activity`.`id`=`activity_course`.`activity_id`  LEFT JOIN `grade` ON `activity_course`.`grade_id`=`grade`.`id`  WHERE `grade`.`type` = 1 AND `activity`.`id` = 10  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: head_img /var/www/html/study/Runtime/Cache/Home/3f7c3a8d2912f4abf4f089ddffcfccca.php 第 161 行.
+NOTIC: [8] Undefined index: title /var/www/html/study/Runtime/Cache/Home/3f7c3a8d2912f4abf4f089ddffcfccca.php 第 164 行.
+NOTIC: [8] Undefined index: describe /var/www/html/study/Runtime/Cache/Home/3f7c3a8d2912f4abf4f089ddffcfccca.php 第 165 行.
+
+[ 2018-02-10T13:49:16+08:00 ] 111.14.158.82 /Home/order/caution.html?grade_id=6
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `grade` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0004s ]
+
+[ 2018-02-10T13:49:40+08:00 ] 111.14.158.82 /Home/login/login.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '17311481508' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/html/study/ThinkPHP/Common/functions.php 第 1272 行.
+
+[ 2018-02-10T13:49:41+08:00 ] 111.14.158.82 /
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0002s ]
+
+[ 2018-02-10T13:49:52+08:00 ] 111.14.158.82 /Home/activity/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE `platform_id` = 1 AND `status` = 1  [ RunTime:0.0002s ]
+
+[ 2018-02-10T13:49:57+08:00 ] 111.14.158.82 /Home/activity/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE `platform_id` = 1 AND `status` = 1  [ RunTime:0.0002s ]
+
+[ 2018-02-10T13:49:58+08:00 ] 111.14.158.82 /Home/activity/details/activity_id/3.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-10T13:50:00+08:00 ] 111.14.158.82 /Home/activity/curriculum/activity_id/3.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `activity_course` [ RunTime:0.0004s ]
+SQL: SELECT `grade`.`id`,`grade`.`name`,`grade`.`price` FROM `activity_course` LEFT JOIN `activity` ON `activity`.`id`=`activity_course`.`activity_id`  LEFT JOIN `grade` ON `activity_course`.`grade_id`=`grade`.`id`  WHERE `grade`.`type` = 1 AND `activity`.`id` = 3  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: head_img /var/www/html/study/Runtime/Cache/Home/3f7c3a8d2912f4abf4f089ddffcfccca.php 第 161 行.
+NOTIC: [8] Undefined index: title /var/www/html/study/Runtime/Cache/Home/3f7c3a8d2912f4abf4f089ddffcfccca.php 第 164 行.
+NOTIC: [8] Undefined index: describe /var/www/html/study/Runtime/Cache/Home/3f7c3a8d2912f4abf4f089ddffcfccca.php 第 165 行.
+
+[ 2018-02-10T13:50:04+08:00 ] 111.14.158.82 /Home/order/caution.html?grade_id=6
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `grade` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+
+[ 2018-02-10T13:50:05+08:00 ] 111.14.158.82 /Home/order/caution.html?grade_id=6&code=0817Eoog0zggrx1D59qg0uyzog07Eoob&state=
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `grade` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: INSERT INTO `order` (`trade_no`,`price`,`user_id`,`create_time`,`platform_id`,`grade_id`) VALUES ('T2018021013500453116','0.01','3','1518241805','1','6') [ RunTime:0.0109s ]
+
+[ 2018-02-10T13:50:40+08:00 ] 111.14.158.82 /Home/activity/curriculum/activity_id/3.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `activity` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity_course` [ RunTime:0.0004s ]
+SQL: SELECT `grade`.`id`,`grade`.`name`,`grade`.`price` FROM `activity_course` LEFT JOIN `activity` ON `activity`.`id`=`activity_course`.`activity_id`  LEFT JOIN `grade` ON `activity_course`.`grade_id`=`grade`.`id`  WHERE `grade`.`type` = 1 AND `activity`.`id` = 3  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: head_img /var/www/html/study/Runtime/Cache/Home/3f7c3a8d2912f4abf4f089ddffcfccca.php 第 161 行.
+NOTIC: [8] Undefined index: title /var/www/html/study/Runtime/Cache/Home/3f7c3a8d2912f4abf4f089ddffcfccca.php 第 164 行.
+NOTIC: [8] Undefined index: describe /var/www/html/study/Runtime/Cache/Home/3f7c3a8d2912f4abf4f089ddffcfccca.php 第 165 行.
+
+[ 2018-02-10T13:51:32+08:00 ] 111.14.158.82 /Home/student/course.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT `classstudentlist`.`class_id` as `class_id`,`classes`.`class_name` as `class_name`,`classes`.`image` as `class_img` FROM `classstudentlist` LEFT JOIN `classes` ON `classes`.`class_id` = `classstudentlist`.`class_id`  WHERE classstudentlist.user_id = '3'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `curriculum` [ RunTime:0.0004s ]
+SQL: SELECT `grade`.`id` as `grade_id`,`grade`.`name` as `grade_name`,`grade`.`img` as `grade_img` FROM `curriculum` LEFT JOIN `grade` ON `grade`.`id` = `curriculum`.`grade_id`  WHERE curriculum.user_id = '3' AND curriculum.status = 0  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cover_img /var/www/html/study/Runtime/Cache/Home/41e3b0c4c07df9d026fb5f3eb3ce0552.php 第 34 行.
+NOTIC: [8] Undefined index: cover_img /var/www/html/study/Runtime/Cache/Home/41e3b0c4c07df9d026fb5f3eb3ce0552.php 第 34 行.
+NOTIC: [8] Undefined index: cover_img /var/www/html/study/Runtime/Cache/Home/41e3b0c4c07df9d026fb5f3eb3ce0552.php 第 34 行.
+NOTIC: [8] Undefined index: cover_img /var/www/html/study/Runtime/Cache/Home/41e3b0c4c07df9d026fb5f3eb3ce0552.php 第 34 行.
+
+[ 2018-02-10T13:51:35+08:00 ] 111.14.158.82 /Home/student/tasklist/classid/10.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class_task_list` WHERE `setup` = 1 AND `user_id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT `user`.`nickname` as `username` FROM `classstudentlist` LEFT JOIN `user` ON `user`.`id` = `classstudentlist`.`teacher_id`  WHERE classstudentlist.user_id = '3' AND classstudentlist.class_id = 10 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class_task_list` WHERE `user_id` = 3 AND `time` BETWEEN 1518192000 AND 1518278400 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-10T13:51:41+08:00 ] 111.14.158.82 /Home/student/tasklist/classid/15.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classes` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class_task_list` WHERE `setup` = 1 AND `user_id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT `user`.`nickname` as `username` FROM `classstudentlist` LEFT JOIN `user` ON `user`.`id` = `classstudentlist`.`teacher_id`  WHERE classstudentlist.user_id = '3' AND classstudentlist.class_id = 15 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class_task_list` WHERE `user_id` = 3 AND `time` BETWEEN 1518192000 AND 1518278400 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-10T13:51:50+08:00 ] 111.14.158.82 /Home/student/tasklist/classid/integral.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-10T13:51:51+08:00 ] 111.14.158.82 /Home/student/tasklist/classid/15.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class_task_list` WHERE `setup` = 1 AND `user_id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT `user`.`nickname` as `username` FROM `classstudentlist` LEFT JOIN `user` ON `user`.`id` = `classstudentlist`.`teacher_id`  WHERE classstudentlist.user_id = '3' AND classstudentlist.class_id = 15 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class_task_list` WHERE `user_id` = 3 AND `time` BETWEEN 1518192000 AND 1518278400 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-10T13:51:59+08:00 ] 111.14.158.82 /Home/student/tasklist/classid/integral.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-10T13:52:01+08:00 ] 111.14.158.82 /Home/student/tasklist/classid/15.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class_task_list` WHERE `setup` = 1 AND `user_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT `user`.`nickname` as `username` FROM `classstudentlist` LEFT JOIN `user` ON `user`.`id` = `classstudentlist`.`teacher_id`  WHERE classstudentlist.user_id = '3' AND classstudentlist.class_id = 15 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class_task_list` WHERE `user_id` = 3 AND `time` BETWEEN 1518192000 AND 1518278400 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-10T13:52:02+08:00 ] 111.14.158.82 /Home/student/tasklist/classid/integral.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-10T13:52:15+08:00 ] 111.14.158.82 /Home/student/tasklist/classid/15.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class_task_list` WHERE `setup` = 1 AND `user_id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT `user`.`nickname` as `username` FROM `classstudentlist` LEFT JOIN `user` ON `user`.`id` = `classstudentlist`.`teacher_id`  WHERE classstudentlist.user_id = '3' AND classstudentlist.class_id = 15 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class_task_list` WHERE `user_id` = 3 AND `time` BETWEEN 1518192000 AND 1518278400 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-10T13:52:20+08:00 ] 111.14.158.82 /Home/student/tasklist/classid/integral.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-10T13:52:22+08:00 ] 111.14.158.82 /Home/student/tasklist/classid/15.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class_task_list` WHERE `setup` = 1 AND `user_id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT `user`.`nickname` as `username` FROM `classstudentlist` LEFT JOIN `user` ON `user`.`id` = `classstudentlist`.`teacher_id`  WHERE classstudentlist.user_id = '3' AND classstudentlist.class_id = 15 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class_task_list` WHERE `user_id` = 3 AND `time` BETWEEN 1518192000 AND 1518278400 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-10T13:52:25+08:00 ] 111.14.158.82 /Home/student/tasklist/classid/integral.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-10T13:52:28+08:00 ] 111.14.158.82 /Home/student/tasklist/classid/integral.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-10T13:57:19+08:00 ] 111.14.158.82 /
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0002s ]
+
+[ 2018-02-10T13:57:25+08:00 ] 111.14.158.82 /Home/shop/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods_type` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name`,`whether` FROM `goods_type` WHERE `platform_id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `score_shop` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `score_shop` WHERE `platform_id` = 1  [ RunTime:0.0002s ]
+
+[ 2018-02-10T13:57:38+08:00 ] 111.14.158.82 /Home/Shop/index/goods_type_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods_type` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name`,`whether` FROM `goods_type` WHERE `platform_id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `score_shop` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `score_shop` WHERE `platform_id` = 1 AND `type_id` = 1  [ RunTime:0.0002s ]
+
+[ 2018-02-10T13:57:41+08:00 ] 111.14.158.82 /Home/shop/detail/goods_id/2.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `score_shop` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `score_shop` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-10T13:57:43+08:00 ] 111.14.158.82 /Home/shop/next/goods_id/2.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user_address` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user_address` WHERE `user_id` = 3 AND `def` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_address` WHERE `user_id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `score_shop` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `score_shop` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: address_id /var/www/html/study/Runtime/Cache/Home/99acc81dc90a913ce3457ae5c365fd91.php 第 88 行.
+
+[ 2018-02-10T13:57:47+08:00 ] 111.14.158.82 /Home/order/goods/count/1/goods_id/2.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-10T13:57:48+08:00 ] 111.14.158.82 /Home/shop/next/goods_id/2.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user_address` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user_address` WHERE `user_id` = 3 AND `def` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user_address` WHERE `user_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `score_shop` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `score_shop` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: address_id /var/www/html/study/Runtime/Cache/Home/99acc81dc90a913ce3457ae5c365fd91.php 第 88 行.
+
+[ 2018-02-10T13:57:49+08:00 ] 111.14.158.82 /Home/address/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user_address` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user_address`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: name /var/www/html/study/Runtime/Cache/Home/378dba1afaeafe6e1bbcb70ecf110e04.php 第 34 行.
+
+[ 2018-02-10T13:57:52+08:00 ] 111.14.158.82 /Home/shop/next/goods_id/2/address_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user_address` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user_address` WHERE `user_id` = 3 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user_address` WHERE `user_id` = 3 AND `def` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user_address` WHERE `user_id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `score_shop` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `score_shop` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: address_id /var/www/html/study/Runtime/Cache/Home/99acc81dc90a913ce3457ae5c365fd91.php 第 88 行.
+
+[ 2018-02-10T13:57:55+08:00 ] 111.14.158.82 /Home/address/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user_address` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user_address`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: name /var/www/html/study/Runtime/Cache/Home/378dba1afaeafe6e1bbcb70ecf110e04.php 第 34 行.
+
+[ 2018-02-10T13:57:57+08:00 ] 111.14.158.82 /Home/shop/next/goods_id/2/address_id/1/address_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user_address` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user_address` WHERE `user_id` = 3 AND `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_address` WHERE `user_id` = 3 AND `def` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user_address` WHERE `user_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `score_shop` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `score_shop` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: address_id /var/www/html/study/Runtime/Cache/Home/99acc81dc90a913ce3457ae5c365fd91.php 第 88 行.
+
+[ 2018-02-10T13:58:13+08:00 ] 111.14.158.82 /Home/address/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user_address` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user_address`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: name /var/www/html/study/Runtime/Cache/Home/378dba1afaeafe6e1bbcb70ecf110e04.php 第 34 行.
+
+[ 2018-02-10T13:58:14+08:00 ] 111.14.158.82 /Home/shop/next/goods_id/2/address_id/1/address_id/1/address_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user_address` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user_address` WHERE `user_id` = 3 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user_address` WHERE `user_id` = 3 AND `def` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user_address` WHERE `user_id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `score_shop` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `score_shop` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: address_id /var/www/html/study/Runtime/Cache/Home/99acc81dc90a913ce3457ae5c365fd91.php 第 88 行.
+
+[ 2018-02-10T13:58:17+08:00 ] 111.14.158.82 /Home/order/goods/count/1/goods_id/2.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-10T13:58:19+08:00 ] 111.14.158.82 /Home/shop/next/goods_id/2/address_id/1/address_id/1/address_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user_address` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user_address` WHERE `user_id` = 3 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user_address` WHERE `user_id` = 3 AND `def` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user_address` WHERE `user_id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `score_shop` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `score_shop` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: address_id /var/www/html/study/Runtime/Cache/Home/99acc81dc90a913ce3457ae5c365fd91.php 第 88 行.
+
+[ 2018-02-10T13:58:20+08:00 ] 111.14.158.82 /Home/shop/detail/goods_id/2.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `score_shop` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `score_shop` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-10T13:58:22+08:00 ] 111.14.158.82 /Home/shop/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods_type` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name`,`whether` FROM `goods_type` WHERE `platform_id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `score_shop` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `score_shop` WHERE `platform_id` = 1  [ RunTime:0.0002s ]
+
+[ 2018-02-10T13:58:24+08:00 ] 111.14.158.82 /
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0002s ]
+
+[ 2018-02-10T13:58:29+08:00 ] 111.14.158.82 /Home/library/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classify_level` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify_level` WHERE `classify_id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `book_classify` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: platform_id /var/www/html/study/Runtime/Cache/Home/4060877857253123334407ec869cf83d.php 第 55 行.
+SQL: SELECT `id`,`name`,`head_img` FROM `book_classify`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book` WHERE `level_id` = 1 LIMIT 3   [ RunTime:0.0002s ]
+
+[ 2018-02-10T13:59:11+08:00 ] 111.14.158.82 /Home/Library/book_list/level_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `book` WHERE `platform_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: key /var/www/html/study/Runtime/Cache/Home/a9e1e3471119e361dda22575af9d6137.php 第 37 行.
+
+[ 2018-02-10T13:59:26+08:00 ] 111.14.158.82 /Home/user/personal.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `enlists` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `enlists` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `enlists` WHERE ( user_id = 3 )  [ RunTime:0.0001s ]
+
+[ 2018-02-10T13:59:38+08:00 ] 111.14.158.82 /Home/user/personal_infor.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-10T14:01:11+08:00 ] 111.14.158.82 /Home/user/setPersonal.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: UPDATE `user` SET `nickname`='我变成学生了',`head_img`='0be9b7131937faadd178894875b52c28.jpg',`sex`='0',`birthday`='1968-07-16',`city`='' WHERE `id` = 3 [ RunTime:0.0003s ]
+
+[ 2018-02-10T14:01:18+08:00 ] 111.14.158.82 /Home/user/personal.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `enlists` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `enlists` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `enlists` WHERE ( user_id = 3 )  [ RunTime:0.0002s ]
+
+[ 2018-02-10T14:01:31+08:00 ] 111.14.158.82 /Home/user/integral.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0004s ]
+SQL: SELECT `score` FROM `user_funds` WHERE `user_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user_score_detail` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user_score_detail` WHERE `user_id` = 3  [ RunTime:0.0001s ]
+
+[ 2018-02-10T14:02:37+08:00 ] 111.14.158.82 /Home/user/integral.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0004s ]
+SQL: SELECT `score` FROM `user_funds` WHERE `user_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user_score_detail` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user_score_detail` WHERE `user_id` = 3  [ RunTime:0.0001s ]
+
+[ 2018-02-10T14:02:55+08:00 ] 111.14.158.82 /Home/user/personal.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `enlists` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `enlists` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `enlists` WHERE ( user_id = 3 )  [ RunTime:0.0001s ]
+
+[ 2018-02-10T20:55:10+08:00 ] 118.112.56.156 /Home/login/login.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '18628246831' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/html/study/ThinkPHP/Common/functions.php 第 1272 行.
+
+[ 2018-02-10T20:55:10+08:00 ] 118.112.56.156 /
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0002s ]
+
+[ 2018-02-10T20:55:13+08:00 ] 118.112.56.156 /Home/student/course.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT `classstudentlist`.`class_id` as `class_id`,`classes`.`class_name` as `class_name`,`classes`.`image` as `class_img` FROM `classstudentlist` LEFT JOIN `classes` ON `classes`.`class_id` = `classstudentlist`.`class_id`  WHERE classstudentlist.user_id = '12'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `curriculum` [ RunTime:0.0004s ]
+SQL: SELECT `grade`.`id` as `grade_id`,`grade`.`name` as `grade_name`,`grade`.`img` as `grade_img` FROM `curriculum` LEFT JOIN `grade` ON `grade`.`id` = `curriculum`.`grade_id`  WHERE curriculum.user_id = '12' AND curriculum.status = 0  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cover_img /var/www/html/study/Runtime/Cache/Home/41e3b0c4c07df9d026fb5f3eb3ce0552.php 第 34 行.
+NOTIC: [8] Undefined index: cover_img /var/www/html/study/Runtime/Cache/Home/41e3b0c4c07df9d026fb5f3eb3ce0552.php 第 34 行.
+NOTIC: [8] Undefined index: cover_img /var/www/html/study/Runtime/Cache/Home/41e3b0c4c07df9d026fb5f3eb3ce0552.php 第 34 行.
+
+[ 2018-02-10T20:55:21+08:00 ] 118.112.56.156 /Home/student/tasklist/classid/18.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class_task_list` WHERE `setup` = 1 AND `user_id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT `user`.`nickname` as `username` FROM `classstudentlist` LEFT JOIN `user` ON `user`.`id` = `classstudentlist`.`teacher_id`  WHERE classstudentlist.user_id = '12' AND classstudentlist.class_id = 18 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class_task_list` WHERE `user_id` = 12 AND `time` BETWEEN 1518192000 AND 1518278400 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-10T20:55:31+08:00 ] 118.112.56.156 /Home/student/tasklist/classid/17.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classes` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class_task_list` WHERE `setup` = 1 AND `user_id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0005s ]
+SQL: SELECT `user`.`nickname` as `username` FROM `classstudentlist` LEFT JOIN `user` ON `user`.`id` = `classstudentlist`.`teacher_id`  WHERE classstudentlist.user_id = '12' AND classstudentlist.class_id = 17 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class_task_list` WHERE `user_id` = 12 AND `time` BETWEEN 1518192000 AND 1518278400 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-10T21:59:55+08:00 ] 118.112.56.156 /Home/login/login.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '18628246831' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/html/study/ThinkPHP/Common/functions.php 第 1272 行.
+
+[ 2018-02-10T21:59:56+08:00 ] 118.112.56.156 /
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0002s ]
+
+[ 2018-02-10T22:00:01+08:00 ] 118.112.56.156 /Home/activity/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity` WHERE `platform_id` = 1 AND `status` = 1  [ RunTime:0.0002s ]
+
+[ 2018-02-10T22:00:03+08:00 ] 118.112.56.156 /Home/activity/details/activity_id/3.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-10T22:00:05+08:00 ] 118.112.56.156 /Home/activity/curriculum/activity_id/3.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity_course` [ RunTime:0.0004s ]
+SQL: SELECT `grade`.`id`,`grade`.`name`,`grade`.`price` FROM `activity_course` LEFT JOIN `activity` ON `activity`.`id`=`activity_course`.`activity_id`  LEFT JOIN `grade` ON `activity_course`.`grade_id`=`grade`.`id`  WHERE `grade`.`type` = 1 AND `activity`.`id` = 3  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: head_img /var/www/html/study/Runtime/Cache/Home/3f7c3a8d2912f4abf4f089ddffcfccca.php 第 161 行.
+NOTIC: [8] Undefined index: title /var/www/html/study/Runtime/Cache/Home/3f7c3a8d2912f4abf4f089ddffcfccca.php 第 164 行.
+NOTIC: [8] Undefined index: describe /var/www/html/study/Runtime/Cache/Home/3f7c3a8d2912f4abf4f089ddffcfccca.php 第 165 行.
+
+[ 2018-02-10T22:00:07+08:00 ] 118.112.56.156 /Home/order/caution.html?grade_id=6
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `grade` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0004s ]
+
+[ 2018-02-10T22:00:08+08:00 ] 118.112.56.156 /Home/order/caution.html?grade_id=6&code=011SBjq62H2U7K0WJ5n62I4eq62SBjqv&state=
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `grade` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0004s ]
+SQL: INSERT INTO `order` (`trade_no`,`price`,`user_id`,`create_time`,`platform_id`,`grade_id`) VALUES ('T2018021022000833085','0.01','12','1518271208','1','6') [ RunTime:0.0127s ]
+
+[ 2018-02-10T22:00:14+08:00 ] 118.112.56.156 /Home/order/caution.html?grade_id=6
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `grade` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+
+[ 2018-02-10T22:00:15+08:00 ] 118.112.56.156 /Home/order/caution.html?grade_id=6&code=011ov2Ie18wdst0rWKFe13z4Ie1ov2Il&state=
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `grade` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0004s ]
+SQL: INSERT INTO `order` (`trade_no`,`price`,`user_id`,`create_time`,`platform_id`,`grade_id`) VALUES ('T2018021022001574546','0.01','12','1518271215','1','6') [ RunTime:0.0112s ]
+
+[ 2018-02-10T22:08:21+08:00 ] 118.112.56.156 /
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0002s ]
+
+[ 2018-02-10T22:08:23+08:00 ] 118.112.56.156 /Home/activity/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE `platform_id` = 1 AND `status` = 1  [ RunTime:0.0002s ]
+
+[ 2018-02-10T22:08:24+08:00 ] 118.112.56.156 /Home/activity/details/activity_id/3.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-10T22:08:25+08:00 ] 118.112.56.156 /Home/activity/curriculum/activity_id/3.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity_course` [ RunTime:0.0004s ]
+SQL: SELECT `grade`.`id`,`grade`.`name`,`grade`.`price` FROM `activity_course` LEFT JOIN `activity` ON `activity`.`id`=`activity_course`.`activity_id`  LEFT JOIN `grade` ON `activity_course`.`grade_id`=`grade`.`id`  WHERE `grade`.`type` = 1 AND `activity`.`id` = 3  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: head_img /var/www/html/study/Runtime/Cache/Home/3f7c3a8d2912f4abf4f089ddffcfccca.php 第 161 行.
+NOTIC: [8] Undefined index: title /var/www/html/study/Runtime/Cache/Home/3f7c3a8d2912f4abf4f089ddffcfccca.php 第 164 行.
+NOTIC: [8] Undefined index: describe /var/www/html/study/Runtime/Cache/Home/3f7c3a8d2912f4abf4f089ddffcfccca.php 第 165 行.
+
+[ 2018-02-10T22:08:53+08:00 ] 118.112.56.156 /
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0002s ]
+
+[ 2018-02-10T22:08:55+08:00 ] 118.112.56.156 /Home/activity/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity` WHERE `platform_id` = 1 AND `status` = 1  [ RunTime:0.0002s ]
+
+[ 2018-02-10T22:08:56+08:00 ] 118.112.56.156 /Home/activity/details/activity_id/3.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-10T22:08:57+08:00 ] 118.112.56.156 /Home/activity/curriculum/activity_id/3.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity_course` [ RunTime:0.0004s ]
+SQL: SELECT `grade`.`id`,`grade`.`name`,`grade`.`price` FROM `activity_course` LEFT JOIN `activity` ON `activity`.`id`=`activity_course`.`activity_id`  LEFT JOIN `grade` ON `activity_course`.`grade_id`=`grade`.`id`  WHERE `grade`.`type` = 1 AND `activity`.`id` = 3  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: head_img /var/www/html/study/Runtime/Cache/Home/3f7c3a8d2912f4abf4f089ddffcfccca.php 第 161 行.
+NOTIC: [8] Undefined index: title /var/www/html/study/Runtime/Cache/Home/3f7c3a8d2912f4abf4f089ddffcfccca.php 第 164 行.
+NOTIC: [8] Undefined index: describe /var/www/html/study/Runtime/Cache/Home/3f7c3a8d2912f4abf4f089ddffcfccca.php 第 165 行.
+
+[ 2018-02-10T22:08:58+08:00 ] 118.112.56.156 /Home/order/caution.html?grade_id=6
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `grade` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+
+[ 2018-02-10T22:09:00+08:00 ] 118.112.56.156 /Home/order/caution.html?grade_id=6&code=071NinJa2K0zUO0zCWJa2Qp2Ja2NinJx&state=
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `grade` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0004s ]
+
+[ 2018-02-10T22:41:56+08:00 ] 118.112.56.156 /
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0002s ]
+
+[ 2018-02-10T22:41:58+08:00 ] 118.112.56.156 /Home/activity/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE `platform_id` = 1 AND `status` = 1  [ RunTime:0.0002s ]
+
+[ 2018-02-10T22:41:58+08:00 ] 118.112.56.156 /Home/activity/details/activity_id/3.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-10T22:42:00+08:00 ] 118.112.56.156 /Home/activity/curriculum/activity_id/3.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `activity_course` [ RunTime:0.0004s ]
+SQL: SELECT `grade`.`id`,`grade`.`name`,`grade`.`price` FROM `activity_course` LEFT JOIN `activity` ON `activity`.`id`=`activity_course`.`activity_id`  LEFT JOIN `grade` ON `activity_course`.`grade_id`=`grade`.`id`  WHERE `grade`.`type` = 1 AND `activity`.`id` = 3  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: head_img /var/www/html/study/Runtime/Cache/Home/3f7c3a8d2912f4abf4f089ddffcfccca.php 第 161 行.
+NOTIC: [8] Undefined index: title /var/www/html/study/Runtime/Cache/Home/3f7c3a8d2912f4abf4f089ddffcfccca.php 第 164 行.
+NOTIC: [8] Undefined index: describe /var/www/html/study/Runtime/Cache/Home/3f7c3a8d2912f4abf4f089ddffcfccca.php 第 165 行.
+
+[ 2018-02-10T22:42:01+08:00 ] 118.112.56.156 /Home/order/caution.html?grade_id=6
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `grade` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+
+[ 2018-02-10T22:42:02+08:00 ] 118.112.56.156 /Home/order/caution.html?grade_id=6&code=081w3nJ71jwB2T1MVCI71l8rJ71w3nJC&state=
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `grade` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0004s ]
+

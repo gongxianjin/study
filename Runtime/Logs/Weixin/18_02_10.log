@@ -1,0 +1,4 @@
+[ 2018-02-10T22:42:11+08:00 ] 103.7.30.106 /weixin/callback/caution
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `order` WHERE `trade_no` = 'T2018021022420244673' LIMIT 1   [ RunTime:0.0003s ]
+
