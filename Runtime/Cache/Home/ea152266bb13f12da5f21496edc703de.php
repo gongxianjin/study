@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -30,12 +30,10 @@
             普通课程
         </div>
         <div class="class-list-box">
-            <foreach name="classes" item="item">
-                <a href="{:U('student/tasklist', array('classid'=>$item['class_id']))}" class="class-list clearfix">
-                    <img src="{:imageDomain($item['class_img'], '/mobile/images/activity/class2.png')}" alt="">
-                    <p>{$item.class_name}</p>
-                </a>
-            </foreach>
+            <?php if(is_array($classes)): foreach($classes as $key=>$item): ?><a href="<?php echo U('student/tasklist', array('classid'=>$item['class_id']));?>" class="class-list clearfix">
+                    <img src="<?php echo imageDomain($item['class_img'], '/mobile/images/activity/class2.png');?>" alt="">
+                    <p><?php echo ($item["class_name"]); ?></p>
+                </a><?php endforeach; endif; ?>
         </div>
     </div>
 
@@ -45,12 +43,12 @@
             <!--我的活动-->
         <!--</div>-->
         <!--<div class="class-list-box">-->
-            <!--<foreach name="Curriculum" item="item">-->
+            <!--<?php if(is_array($Curriculum)): foreach($Curriculum as $key=>$item): ?>-->
                 <!--<a href="activity_detail.html" class="class-list clearfix">-->
                     <!--<img src="/mobile/images/activity/class2.png" alt="">-->
                     <!--<p>录音三</p>-->
                 <!--</a>-->
-            <!--</foreach>-->
+            <!--<?php endforeach; endif; ?>-->
         <!--</div>-->
     <!--</div>-->
 

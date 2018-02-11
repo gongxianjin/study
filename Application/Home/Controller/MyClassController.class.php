@@ -28,6 +28,11 @@ class MyClassController extends Base{
 		}
 		//班级信息
 		$c = M('Classes')->where("class_id = " . $class_id . " and user_id = " . $this->user_id)->find();
+		if ($this->user_type == 2) {
+			$c = M('Classes')->where("class_id = " . $class_id)->find();
+		}else{
+			$c = M('Classes')->where("class_id = " . $class_id . " and user_id = " . $this->user_id)->find();
+		}
 		if (!$c) {
 			ajaxReturn("非法请求");
 		}
@@ -245,6 +250,7 @@ class MyClassController extends Base{
 				'end_text_id' => $post['end_id']
 			);
 		$query = M('ClassTaskList')->add($work);
+		$work['homework_id'] = M('ClassTaskList')->where($work)->getField('id');
 
 		if ($query) {
 			//给每个同学分配作业
@@ -353,6 +359,23 @@ class MyClassController extends Base{
 
 		$this->display();
 	}
+
+	//文字点评	
+	public function addTextComment(){
+		$post = I('post.');
+		$user_id = (int)$post['id'];
+		$task_id = (int)$post['task_id'];
+		$comment = $post['comment'];
+		if (M('homework_res')->where("user_id = {$user_id} and homework_id = {$task_id}")->find()) {
+			M('homework_res')->where("user_id = {$user_id} and homework_id = {$task_id}")->setField('comment_text',$comment);
+			ajaxReturn("点评成功");
+		}else{
+			ajaxReturn("学生还未完成作业，暂时无法评论");
+		}
+	}
+	//语音点评
+	//收听点评
+	//点赞送花
 }
 
 ?>

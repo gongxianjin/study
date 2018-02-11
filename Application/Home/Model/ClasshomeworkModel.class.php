@@ -32,7 +32,8 @@ class ClasshomeworkModel extends Model{
 				'end' => $task['end'],
 				'day' => $task['day'],
 				'time' => time(),
-				'status' => 0
+				'status' => 0,
+				'homework_id' => $task['homework_id']
 			);
 		foreach($stus as $stu){
 			$homework['user_id'] = $stu['user_id'];

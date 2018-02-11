@@ -1585,3 +1585,2285 @@ SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
 SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0008s ]
 SQL: SELECT * FROM `book_res` WHERE ( book_id = 11 )  [ RunTime:0.0003s ]
 
+[ 2018-02-11T11:15:34+08:00 ] 127.0.0.1 /Home/MyClass/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 11 )  [ RunTime:0.0019s ]
+
+[ 2018-02-11T11:15:35+08:00 ] 127.0.0.1 /Home/MyClass/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 11 )  [ RunTime:0.0003s ]
+
+[ 2018-02-11T11:15:41+08:00 ] 127.0.0.1 /Home/MyClass/editClass/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 and user_id = 6 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:19:53+08:00 ] 127.0.0.1 /Home/user/personal.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `enlists` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `enlists` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `enlists` WHERE ( user_id = 6 )  [ RunTime:0.0004s ]
+
+[ 2018-02-11T11:19:54+08:00 ] 127.0.0.1 /Home/user/personal_infor.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:20:34+08:00 ] 127.0.0.1 /Home/login/login.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '18108182710' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:20:41+08:00 ] 127.0.0.1 /Home/login/login.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '18108182710' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Library/WebServer/Documents/Study/ThinkPHP/Common/functions.php 第 1272 行.
+
+[ 2018-02-11T11:20:41+08:00 ] 127.0.0.1 /
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0004s ]
+
+[ 2018-02-11T11:20:56+08:00 ] 127.0.0.1 /Home/user/personal.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `enlists` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `enlists` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `enlists` WHERE ( user_id = 2 )  [ RunTime:0.0004s ]
+
+[ 2018-02-11T11:20:59+08:00 ] 127.0.0.1 /
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:21:00+08:00 ] 127.0.0.1 /Home/student/course.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT `classstudentlist`.`class_id` as `class_id`,`classes`.`class_name` as `class_name`,`classes`.`image` as `class_img` FROM `classstudentlist` LEFT JOIN `classes` ON `classes`.`class_id` = `classstudentlist`.`class_id`  WHERE classstudentlist.user_id = '2'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `curriculum` [ RunTime:0.0009s ]
+SQL: SELECT `grade`.`id` as `grade_id`,`grade`.`name` as `grade_name`,`grade`.`img` as `grade_img` FROM `curriculum` LEFT JOIN `grade` ON `grade`.`id` = `curriculum`.`grade_id`  WHERE curriculum.user_id = '2' AND curriculum.status = 0  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Runtime/Cache/Home/ea152266bb13f12da5f21496edc703de.php 第 34 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Runtime/Cache/Home/ea152266bb13f12da5f21496edc703de.php 第 34 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Runtime/Cache/Home/ea152266bb13f12da5f21496edc703de.php 第 34 行.
+
+[ 2018-02-11T11:21:03+08:00 ] 127.0.0.1 /Home/student/course.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT `classstudentlist`.`class_id` as `class_id`,`classes`.`class_name` as `class_name`,`classes`.`image` as `class_img` FROM `classstudentlist` LEFT JOIN `classes` ON `classes`.`class_id` = `classstudentlist`.`class_id`  WHERE classstudentlist.user_id = '2'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `curriculum` [ RunTime:0.0004s ]
+SQL: SELECT `grade`.`id` as `grade_id`,`grade`.`name` as `grade_name`,`grade`.`img` as `grade_img` FROM `curriculum` LEFT JOIN `grade` ON `grade`.`id` = `curriculum`.`grade_id`  WHERE curriculum.user_id = '2' AND curriculum.status = 0  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Runtime/Cache/Home/ea152266bb13f12da5f21496edc703de.php 第 34 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Runtime/Cache/Home/ea152266bb13f12da5f21496edc703de.php 第 34 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Runtime/Cache/Home/ea152266bb13f12da5f21496edc703de.php 第 34 行.
+
+[ 2018-02-11T11:21:05+08:00 ] 127.0.0.1 /Home/student/tasklist/classid/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classes` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class_task_list` WHERE `setup` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT `user`.`nickname` as `username` FROM `classstudentlist` LEFT JOIN `user` ON `user`.`id` = `classstudentlist`.`teacher_id`  WHERE classstudentlist.user_id = '2' AND classstudentlist.class_id = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class_task_list` WHERE `user_id` = 2 AND `time` BETWEEN 1518278400 AND 1518364800 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2018-02-11T11:25:25+08:00 ] 127.0.0.1 /Home/student/course.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT `classstudentlist`.`class_id` as `class_id`,`classes`.`class_name` as `class_name`,`classes`.`image` as `class_img` FROM `classstudentlist` LEFT JOIN `classes` ON `classes`.`class_id` = `classstudentlist`.`class_id`  WHERE classstudentlist.user_id = '2'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `curriculum` [ RunTime:0.0004s ]
+SQL: SELECT `grade`.`id` as `grade_id`,`grade`.`name` as `grade_name`,`grade`.`img` as `grade_img` FROM `curriculum` LEFT JOIN `grade` ON `grade`.`id` = `curriculum`.`grade_id`  WHERE curriculum.user_id = '2' AND curriculum.status = 0  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Runtime/Cache/Home/ea152266bb13f12da5f21496edc703de.php 第 34 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Runtime/Cache/Home/ea152266bb13f12da5f21496edc703de.php 第 34 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Runtime/Cache/Home/ea152266bb13f12da5f21496edc703de.php 第 34 行.
+
+[ 2018-02-11T11:25:28+08:00 ] 127.0.0.1 /Home/student/tasklist/classid/0.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:25:29+08:00 ] 127.0.0.1 /Home/student/course.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT `classstudentlist`.`class_id` as `class_id`,`classes`.`class_name` as `class_name`,`classes`.`image` as `class_img` FROM `classstudentlist` LEFT JOIN `classes` ON `classes`.`class_id` = `classstudentlist`.`class_id`  WHERE classstudentlist.user_id = '2'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `curriculum` [ RunTime:0.0004s ]
+SQL: SELECT `grade`.`id` as `grade_id`,`grade`.`name` as `grade_name`,`grade`.`img` as `grade_img` FROM `curriculum` LEFT JOIN `grade` ON `grade`.`id` = `curriculum`.`grade_id`  WHERE curriculum.user_id = '2' AND curriculum.status = 0  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Runtime/Cache/Home/ea152266bb13f12da5f21496edc703de.php 第 34 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Runtime/Cache/Home/ea152266bb13f12da5f21496edc703de.php 第 34 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Runtime/Cache/Home/ea152266bb13f12da5f21496edc703de.php 第 34 行.
+
+[ 2018-02-11T11:25:30+08:00 ] 127.0.0.1 /Home/student/tasklist/classid/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class_task_list` WHERE `setup` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT `user`.`nickname` as `username` FROM `classstudentlist` LEFT JOIN `user` ON `user`.`id` = `classstudentlist`.`teacher_id`  WHERE classstudentlist.user_id = '2' AND classstudentlist.class_id = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class_task_list` WHERE `user_id` = 2 AND `time` BETWEEN 1518278400 AND 1518364800 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:25:34+08:00 ] 127.0.0.1 /Home/student/tasklist/classid/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class_task_list` WHERE `setup` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT `user`.`nickname` as `username` FROM `classstudentlist` LEFT JOIN `user` ON `user`.`id` = `classstudentlist`.`teacher_id`  WHERE classstudentlist.user_id = '2' AND classstudentlist.class_id = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class_task_list` WHERE `user_id` = 2 AND `time` BETWEEN 1518278400 AND 1518364800 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:25:37+08:00 ] 127.0.0.1 /Home/student/tasklist/classid/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class_task_list` WHERE `setup` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT `user`.`nickname` as `username` FROM `classstudentlist` LEFT JOIN `user` ON `user`.`id` = `classstudentlist`.`teacher_id`  WHERE classstudentlist.user_id = '2' AND classstudentlist.class_id = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class_task_list` WHERE `user_id` = 2 AND `time` BETWEEN 1518278400 AND 1518364800 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:25:41+08:00 ] 127.0.0.1 /Home/student/tasklist/classid/0.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-11T11:25:42+08:00 ] 127.0.0.1 /Home/student/course.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT `classstudentlist`.`class_id` as `class_id`,`classes`.`class_name` as `class_name`,`classes`.`image` as `class_img` FROM `classstudentlist` LEFT JOIN `classes` ON `classes`.`class_id` = `classstudentlist`.`class_id`  WHERE classstudentlist.user_id = '2'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `curriculum` [ RunTime:0.0004s ]
+SQL: SELECT `grade`.`id` as `grade_id`,`grade`.`name` as `grade_name`,`grade`.`img` as `grade_img` FROM `curriculum` LEFT JOIN `grade` ON `grade`.`id` = `curriculum`.`grade_id`  WHERE curriculum.user_id = '2' AND curriculum.status = 0  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Runtime/Cache/Home/ea152266bb13f12da5f21496edc703de.php 第 34 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Runtime/Cache/Home/ea152266bb13f12da5f21496edc703de.php 第 34 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Runtime/Cache/Home/ea152266bb13f12da5f21496edc703de.php 第 34 行.
+
+[ 2018-02-11T11:25:55+08:00 ] 127.0.0.1 /Home/student/tasklist/classid/0.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:25:56+08:00 ] 127.0.0.1 /Home/student/course.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT `classstudentlist`.`class_id` as `class_id`,`classes`.`class_name` as `class_name`,`classes`.`image` as `class_img` FROM `classstudentlist` LEFT JOIN `classes` ON `classes`.`class_id` = `classstudentlist`.`class_id`  WHERE classstudentlist.user_id = '2'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `curriculum` [ RunTime:0.0004s ]
+SQL: SELECT `grade`.`id` as `grade_id`,`grade`.`name` as `grade_name`,`grade`.`img` as `grade_img` FROM `curriculum` LEFT JOIN `grade` ON `grade`.`id` = `curriculum`.`grade_id`  WHERE curriculum.user_id = '2' AND curriculum.status = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Runtime/Cache/Home/ea152266bb13f12da5f21496edc703de.php 第 34 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Runtime/Cache/Home/ea152266bb13f12da5f21496edc703de.php 第 34 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Runtime/Cache/Home/ea152266bb13f12da5f21496edc703de.php 第 34 行.
+
+[ 2018-02-11T11:33:06+08:00 ] 127.0.0.1 /Home/student/tasklist/classid/0.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:33:10+08:00 ] 127.0.0.1 /Home/student/course.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT `classstudentlist`.`class_id` as `class_id`,`classes`.`class_name` as `class_name`,`classes`.`image` as `class_img` FROM `classstudentlist` LEFT JOIN `classes` ON `classes`.`class_id` = `classstudentlist`.`class_id`  WHERE classstudentlist.user_id = '2'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `curriculum` [ RunTime:0.0004s ]
+SQL: SELECT `grade`.`id` as `grade_id`,`grade`.`name` as `grade_name`,`grade`.`img` as `grade_img` FROM `curriculum` LEFT JOIN `grade` ON `grade`.`id` = `curriculum`.`grade_id`  WHERE curriculum.user_id = '2' AND curriculum.status = 0  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Runtime/Cache/Home/ea152266bb13f12da5f21496edc703de.php 第 34 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Runtime/Cache/Home/ea152266bb13f12da5f21496edc703de.php 第 34 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Runtime/Cache/Home/ea152266bb13f12da5f21496edc703de.php 第 34 行.
+
+[ 2018-02-11T11:33:12+08:00 ] 127.0.0.1 /Home/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:33:13+08:00 ] 127.0.0.1 /Home/user/personal.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `enlists` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `enlists` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `enlists` WHERE ( user_id = 2 )  [ RunTime:0.0004s ]
+
+[ 2018-02-11T11:34:25+08:00 ] 127.0.0.1 /Home/student/course.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT `classstudentlist`.`class_id` as `class_id`,`classes`.`class_name` as `class_name`,`classes`.`image` as `class_img` FROM `classstudentlist` LEFT JOIN `classes` ON `classes`.`class_id` = `classstudentlist`.`class_id`  WHERE classstudentlist.user_id = '2'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `curriculum` [ RunTime:0.0004s ]
+SQL: SELECT `grade`.`id` as `grade_id`,`grade`.`name` as `grade_name`,`grade`.`img` as `grade_img` FROM `curriculum` LEFT JOIN `grade` ON `grade`.`id` = `curriculum`.`grade_id`  WHERE curriculum.user_id = '2' AND curriculum.status = 0  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Runtime/Cache/Home/ea152266bb13f12da5f21496edc703de.php 第 34 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Runtime/Cache/Home/ea152266bb13f12da5f21496edc703de.php 第 34 行.
+
+[ 2018-02-11T11:34:50+08:00 ] 127.0.0.1 /Home/student/course.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT `classstudentlist`.`class_id` as `class_id`,`classes`.`class_name` as `class_name`,`classes`.`image` as `class_img` FROM `classstudentlist` LEFT JOIN `classes` ON `classes`.`class_id` = `classstudentlist`.`class_id`  WHERE classstudentlist.user_id = '2'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `curriculum` [ RunTime:0.0005s ]
+SQL: SELECT `grade`.`id` as `grade_id`,`grade`.`name` as `grade_name`,`grade`.`img` as `grade_img` FROM `curriculum` LEFT JOIN `grade` ON `grade`.`id` = `curriculum`.`grade_id`  WHERE curriculum.user_id = '2' AND curriculum.status = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Runtime/Cache/Home/ea152266bb13f12da5f21496edc703de.php 第 34 行.
+NOTIC: [8] Undefined index: cover_img /Library/WebServer/Documents/Study/Runtime/Cache/Home/ea152266bb13f12da5f21496edc703de.php 第 34 行.
+
+[ 2018-02-11T11:36:40+08:00 ] 127.0.0.1 /Home/student/course.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0005s ]
+SQL: SELECT `classstudentlist`.`class_id` as `class_id`,`classes`.`class_name` as `class_name`,`classes`.`image` as `class_img` FROM `classstudentlist` LEFT JOIN `classes` ON `classes`.`class_id` = `classstudentlist`.`class_id`  WHERE classstudentlist.user_id = '2'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `curriculum` [ RunTime:0.0003s ]
+SQL: SELECT `grade`.`id` as `grade_id`,`grade`.`name` as `grade_name`,`grade`.`img` as `grade_img` FROM `curriculum` LEFT JOIN `grade` ON `grade`.`id` = `curriculum`.`grade_id`  WHERE curriculum.user_id = '2' AND curriculum.status = 0  [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:36:43+08:00 ] 127.0.0.1 /Home/student/tasklist/classid/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class_task_list` WHERE `setup` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT `user`.`nickname` as `username` FROM `classstudentlist` LEFT JOIN `user` ON `user`.`id` = `classstudentlist`.`teacher_id`  WHERE classstudentlist.user_id = '2' AND classstudentlist.class_id = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class_task_list` WHERE `user_id` = 2 AND `time` BETWEEN 1518278400 AND 1518364800 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:39:21+08:00 ] 127.0.0.1 /Home/student/tasklist/classid/integral.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-02-11T11:39:22+08:00 ] 127.0.0.1 /Home/student/tasklist/classid/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class_task_list` WHERE `setup` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT `user`.`nickname` as `username` FROM `classstudentlist` LEFT JOIN `user` ON `user`.`id` = `classstudentlist`.`teacher_id`  WHERE classstudentlist.user_id = '2' AND classstudentlist.class_id = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class_task_list` WHERE `user_id` = 2 AND `time` BETWEEN 1518278400 AND 1518364800 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:47:20+08:00 ] 127.0.0.1 /Home/login/login.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '13555555555' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Library/WebServer/Documents/Study/ThinkPHP/Common/functions.php 第 1272 行.
+
+[ 2018-02-11T11:47:21+08:00 ] 127.0.0.1 /
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( platform_id = 1 and type = 0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( platform_id = 1 and status = 0 and type = 0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( platform_id = 1 and status = 1 and type = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:47:23+08:00 ] 127.0.0.1 /Home/MyClass/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classes` ORDER BY class_id asc  [ RunTime:0.0003s ]
+
+[ 2018-02-11T11:47:25+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:47:27+08:00 ] 127.0.0.1 /Home/MyClass/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classes` ORDER BY class_id asc  [ RunTime:0.0003s ]
+
+[ 2018-02-11T11:47:28+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:47:29+08:00 ] 127.0.0.1 /Home/MyClass/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` ORDER BY class_id asc  [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:47:30+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/2.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 2 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 2 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 5 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 6 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-11T11:47:32+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:47:34+08:00 ] 127.0.0.1 /Home/MyClass/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` ORDER BY class_id asc  [ RunTime:0.0003s ]
+
+[ 2018-02-11T11:47:50+08:00 ] 127.0.0.1 /Home/MyClass/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` ORDER BY class_id asc  [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:47:52+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:47:59+08:00 ] 127.0.0.1 /Home/MyClass/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` ORDER BY class_id asc  [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:48:00+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/2.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 2 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 2 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 6 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-11T11:48:02+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/5.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 5 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 5 )  [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:48:05+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/8.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 8 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 8 )  [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:49:09+08:00 ] 127.0.0.1 /Home/MyClass/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classes` ORDER BY class_id asc  [ RunTime:0.0007s ]
+
+[ 2018-02-11T11:49:10+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:49:15+08:00 ] 127.0.0.1 /Home/MyClass/addStudent/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`nickname`,`head_img` FROM `user` WHERE ( platform_id = 1 )  [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:49:19+08:00 ] 127.0.0.1 /Home/MyClass/addStuFunc.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( user_id = 4 and class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `classstudentlist` (`teacher_id`,`user_id`,`class_id`,`time`) VALUES ('1','4','1','1518320959') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT `count` FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `classes` SET `count`='7' WHERE ( class_id = 1 ) [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:49:23+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-11T11:49:27+08:00 ] 127.0.0.1 /Home/MyClass/stuDetail/class_id/1/stu_id/4.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 and user_id = 4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `score` FROM `user_funds` WHERE `user_id` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user_score_detail` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `user_score_detail` WHERE ( user_id = 4 )  [ RunTime:0.0004s ]
+
+[ 2018-02-11T11:49:31+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `class_task_list` WHERE ( class_id = 1 )  [ RunTime:0.0003s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 7 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 8 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 13 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 14 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 15 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 21 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+
+[ 2018-02-11T11:49:33+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book`  [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:49:33+08:00 ] 127.0.0.1 /Home/MyClass/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 11 )  [ RunTime:0.0014s ]
+
+[ 2018-02-11T11:50:07+08:00 ] 127.0.0.1 /Home/student/tasklist/classid/integral.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:50:09+08:00 ] 127.0.0.1 /Home/student/tasklist/classid/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `classes` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class_task_list` WHERE `setup` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT `user`.`nickname` as `username` FROM `classstudentlist` LEFT JOIN `user` ON `user`.`id` = `classstudentlist`.`teacher_id`  WHERE classstudentlist.user_id = '2' AND classstudentlist.class_id = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `class_task_list` WHERE `user_id` = 2 AND `time` BETWEEN 1518278400 AND 1518364800 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-11T11:50:12+08:00 ] 127.0.0.1 /Home/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:50:13+08:00 ] 127.0.0.1 /Home/user/personal.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `enlists` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `enlists` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `enlists` WHERE ( user_id = 2 )  [ RunTime:0.0005s ]
+
+[ 2018-02-11T11:50:15+08:00 ] 127.0.0.1 /Home/user/personal_infor.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:50:21+08:00 ] 127.0.0.1 /Home/login/login.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '13555555555' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Library/WebServer/Documents/Study/ThinkPHP/Common/functions.php 第 1272 行.
+
+[ 2018-02-11T11:50:21+08:00 ] 127.0.0.1 /
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( platform_id = 1 and type = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( platform_id = 1 and status = 0 and type = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( platform_id = 1 and status = 1 and type = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:50:23+08:00 ] 127.0.0.1 /Home/MyClass/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` ORDER BY class_id asc  [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:50:23+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-11T11:50:25+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `class_task_list` WHERE ( class_id = 1 )  [ RunTime:0.0003s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 8 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 12 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 13 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 14 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 15 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 21 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+
+[ 2018-02-11T11:50:27+08:00 ] 127.0.0.1 /Home/MyClass/addHomework/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book`  [ RunTime:0.0003s ]
+
+[ 2018-02-11T11:50:27+08:00 ] 127.0.0.1 /Home/MyClass/getTextBooks.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book_res` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `book_res` WHERE ( book_id = 11 )  [ RunTime:0.0017s ]
+
+[ 2018-02-11T11:50:38+08:00 ] 127.0.0.1 /Home/MyClass/addHomeworkFunc.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0005s ]
+SQL: INSERT INTO `class_task_list` (`course_id`,`teacher_id`,`class_id`,`start`,`end`,`setup`,`time`,`day`,`start_text_id`,`end_text_id`) VALUES ('11','1','1','1517414400','1518278400','1','1518321038','10','52','52') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: INSERT INTO `classhomework` (`class_id`,`book_id`,`start`,`end`,`day`,`time`,`status`,`user_id`) VALUES ('1','11','1517414400','1518278400','10','1518321038','0','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `classhomework` (`class_id`,`book_id`,`start`,`end`,`day`,`time`,`status`,`user_id`) VALUES ('1','11','1517414400','1518278400','10','1518321038','0','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `classhomework` (`class_id`,`book_id`,`start`,`end`,`day`,`time`,`status`,`user_id`) VALUES ('1','11','1517414400','1518278400','10','1518321038','0','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `classhomework` (`class_id`,`book_id`,`start`,`end`,`day`,`time`,`status`,`user_id`) VALUES ('1','11','1517414400','1518278400','10','1518321038','0','3') [ RunTime:0.0001s ]
+
+[ 2018-02-11T11:50:48+08:00 ] 127.0.0.1 /Home/user/personal.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `enlists` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `enlists` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `enlists` WHERE ( user_id = 1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0007s ]
+SQL: SELECT `name` FROM `activity` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `activity` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `activity` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-11T11:50:48+08:00 ] 127.0.0.1 /Home/user/personal_infor.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:51:12+08:00 ] 127.0.0.1 /Home/login/login.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '18761152656' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Library/WebServer/Documents/Study/ThinkPHP/Common/functions.php 第 1272 行.
+
+[ 2018-02-11T11:51:12+08:00 ] 127.0.0.1 /
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0003s ]
+
+[ 2018-02-11T11:51:15+08:00 ] 127.0.0.1 /Home/student/course.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT `classstudentlist`.`class_id` as `class_id`,`classes`.`class_name` as `class_name`,`classes`.`image` as `class_img` FROM `classstudentlist` LEFT JOIN `classes` ON `classes`.`class_id` = `classstudentlist`.`class_id`  WHERE classstudentlist.user_id = '4'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `curriculum` [ RunTime:0.0004s ]
+SQL: SELECT `grade`.`id` as `grade_id`,`grade`.`name` as `grade_name`,`grade`.`img` as `grade_img` FROM `curriculum` LEFT JOIN `grade` ON `grade`.`id` = `curriculum`.`grade_id`  WHERE curriculum.user_id = '4' AND curriculum.status = 0  [ RunTime:0.0002s ]
+
+[ 2018-02-11T11:51:16+08:00 ] 127.0.0.1 /Home/student/tasklist/classid/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `classes` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class_task_list` WHERE `setup` = 1 AND `user_id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT `user`.`nickname` as `username` FROM `classstudentlist` LEFT JOIN `user` ON `user`.`id` = `classstudentlist`.`teacher_id`  WHERE classstudentlist.user_id = '4' AND classstudentlist.class_id = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `class_task_list` WHERE `user_id` = 4 AND `time` BETWEEN 1518278400 AND 1518364800 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T12:35:00+08:00 ] 127.0.0.1 /Home/student/tasklist/classid/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class_task_list` WHERE `setup` = 1 AND `user_id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0009s ]
+SQL: SELECT `user`.`nickname` as `username` FROM `classstudentlist` LEFT JOIN `user` ON `user`.`id` = `classstudentlist`.`teacher_id`  WHERE classstudentlist.user_id = '4' AND classstudentlist.class_id = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE `user_id` = 4 AND `time` BETWEEN 1518278400 AND 1518364800 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: setup /Library/WebServer/Documents/Study/Runtime/Cache/Home/2e25d4593663ce23711528929b6d684e.php 第 104 行.
+
+[ 2018-02-11T12:35:02+08:00 ] 127.0.0.1 /Home/student/tasklist/classid/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classes` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class_task_list` WHERE `setup` = 1 AND `user_id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0006s ]
+SQL: SELECT `user`.`nickname` as `username` FROM `classstudentlist` LEFT JOIN `user` ON `user`.`id` = `classstudentlist`.`teacher_id`  WHERE classstudentlist.user_id = '4' AND classstudentlist.class_id = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classhomework` WHERE `user_id` = 4 AND `time` BETWEEN 1518278400 AND 1518364800 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: setup /Library/WebServer/Documents/Study/Runtime/Cache/Home/2e25d4593663ce23711528929b6d684e.php 第 104 行.
+
+[ 2018-02-11T12:35:05+08:00 ] 127.0.0.1 /Home/student/tasklist/classid/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class_task_list` WHERE `setup` = 1 AND `user_id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT `user`.`nickname` as `username` FROM `classstudentlist` LEFT JOIN `user` ON `user`.`id` = `classstudentlist`.`teacher_id`  WHERE classstudentlist.user_id = '4' AND classstudentlist.class_id = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classhomework` WHERE `user_id` = 4 AND `time` BETWEEN 1518278400 AND 1518364800 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: setup /Library/WebServer/Documents/Study/Runtime/Cache/Home/2e25d4593663ce23711528929b6d684e.php 第 104 行.
+
+[ 2018-02-11T12:35:08+08:00 ] 127.0.0.1 /Home/student/index/taskid/20.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0004s ]
+ERR: 1054:Unknown column 'booktext_res.bookres_id' in 'on clause'
+ [ SQL语句 ] : SELECT `class_task_list`.`id` as `task_id`,`booktext_res`.`content_img` as `content_img`,`booktext_res`.`content_voice` as `content_voice` FROM `class_task_list` LEFT JOIN `classhomework` ON `classhomework`.`id` = `class_task_list`.`course_id` LEFT JOIN `book_res` ON `book_res`.`id` = `classhomework`.`start` LEFT JOIN `booktext_res` ON `booktext_res`.`bookres_id` = `book_res`.`id`  WHERE class_task_list.id = 20 LIMIT 1  
+ERR: 1054:Unknown column 'booktext_res.bookres_id' in 'on clause'
+ [ SQL语句 ] : SELECT `class_task_list`.`id` as `task_id`,`booktext_res`.`content_img` as `content_img`,`booktext_res`.`content_voice` as `content_voice` FROM `class_task_list` LEFT JOIN `classhomework` ON `classhomework`.`id` = `class_task_list`.`course_id` LEFT JOIN `book_res` ON `book_res`.`id` = `classhomework`.`start` LEFT JOIN `booktext_res` ON `booktext_res`.`bookres_id` = `book_res`.`id`  WHERE class_task_list.id = 20 LIMIT 1  
+
+[ 2018-02-11T12:49:10+08:00 ] 127.0.0.1 /Home/student/index/taskid/20.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0006s ]
+ERR: 1054:Unknown column 'booktext_res.bookres_id' in 'on clause'
+ [ SQL语句 ] : SELECT `class_task_list`.`id` as `task_id`,`booktext_res`.`content_img` as `content_img`,`booktext_res`.`content_voice` as `content_voice` FROM `class_task_list` LEFT JOIN `classhomework` ON `classhomework`.`id` = `class_task_list`.`course_id` LEFT JOIN `book_res` ON `book_res`.`id` = `classhomework`.`start` LEFT JOIN `booktext_res` ON `booktext_res`.`bookres_id` = `book_res`.`id`  WHERE class_task_list.id = 20 LIMIT 1  
+ERR: 1054:Unknown column 'booktext_res.bookres_id' in 'on clause'
+ [ SQL语句 ] : SELECT `class_task_list`.`id` as `task_id`,`booktext_res`.`content_img` as `content_img`,`booktext_res`.`content_voice` as `content_voice` FROM `class_task_list` LEFT JOIN `classhomework` ON `classhomework`.`id` = `class_task_list`.`course_id` LEFT JOIN `book_res` ON `book_res`.`id` = `classhomework`.`start` LEFT JOIN `booktext_res` ON `booktext_res`.`bookres_id` = `book_res`.`id`  WHERE class_task_list.id = 20 LIMIT 1  
+
+[ 2018-02-11T12:54:12+08:00 ] 127.0.0.1 /Home/student/index/taskid/20.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0005s ]
+ERR: 1054:Unknown column 'booktext_res.bookres_id' in 'on clause'
+ [ SQL语句 ] : SELECT `class_task_list`.`id` as `task_id`,`booktext_res`.`content_img` as `content_img`,`booktext_res`.`content_voice` as `content_voice` FROM `class_task_list` LEFT JOIN `classhomework` ON `classhomework`.`id` = `class_task_list`.`course_id` LEFT JOIN `book_res` ON `book_res`.`id` = `classhomework`.`start` LEFT JOIN `booktext_res` ON `booktext_res`.`bookres_id` = `book_res`.`id`  WHERE class_task_list.id = 20 LIMIT 1  
+ERR: 1054:Unknown column 'booktext_res.bookres_id' in 'on clause'
+ [ SQL语句 ] : SELECT `class_task_list`.`id` as `task_id`,`booktext_res`.`content_img` as `content_img`,`booktext_res`.`content_voice` as `content_voice` FROM `class_task_list` LEFT JOIN `classhomework` ON `classhomework`.`id` = `class_task_list`.`course_id` LEFT JOIN `book_res` ON `book_res`.`id` = `classhomework`.`start` LEFT JOIN `booktext_res` ON `booktext_res`.`bookres_id` = `book_res`.`id`  WHERE class_task_list.id = 20 LIMIT 1  
+
+[ 2018-02-11T13:23:23+08:00 ] 127.0.0.1 /Home/user/personal.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `enlists` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `enlists` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `enlists` WHERE ( user_id = 4 )  [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:23:24+08:00 ] 127.0.0.1 /Home/user/personal_infor.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-11T13:23:32+08:00 ] 127.0.0.1 /Home/login/login.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '13555555555' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Library/WebServer/Documents/Study/ThinkPHP/Common/functions.php 第 1272 行.
+
+[ 2018-02-11T13:23:32+08:00 ] 127.0.0.1 /
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( platform_id = 1 and type = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( platform_id = 1 and status = 0 and type = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( platform_id = 1 and status = 1 and type = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:23:33+08:00 ] 127.0.0.1 /Home/MyClass/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classes` ORDER BY class_id asc  [ RunTime:0.0003s ]
+
+[ 2018-02-11T13:23:52+08:00 ] 127.0.0.1 /Home/user/personal.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `enlists` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `enlists` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `enlists` WHERE ( user_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `activity` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `activity` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `activity` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-11T13:23:53+08:00 ] 127.0.0.1 /Home/user/personal_infor.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:23:55+08:00 ] 127.0.0.1 /Home/login/login.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '13555555555' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Library/WebServer/Documents/Study/ThinkPHP/Common/functions.php 第 1272 行.
+
+[ 2018-02-11T13:23:55+08:00 ] 127.0.0.1 /
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0003s ]
+
+[ 2018-02-11T13:23:57+08:00 ] 127.0.0.1 /Home/MyClass/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( user_id = 1 ) ORDER BY class_id asc  [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:23:58+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/2.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 2 and user_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 2 and user_id = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 2 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 5 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 6 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:24:00+08:00 ] 127.0.0.1 /Home/MyClass/stuDetail/class_id/2/stu_id/3.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 2 and user_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `score` FROM `user_funds` WHERE `user_id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user_score_detail` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user_score_detail` WHERE ( user_id = 3 )  [ RunTime:0.0005s ]
+
+[ 2018-02-11T13:24:02+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/2.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `class_task_list` WHERE ( class_id = 2 )  [ RunTime:0.0003s ]
+
+[ 2018-02-11T13:24:05+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/2.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 2 and start <= 1518326645 and 1518326645<= end )  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant item - assumed 'item' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+
+[ 2018-02-11T13:24:06+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 2 and start <= 1518845045 and 1518845045<= end )  [ RunTime:0.0004s ]
+
+[ 2018-02-11T13:24:07+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 2 and start <= 1518758645 and 1518758645<= end )  [ RunTime:0.0003s ]
+
+[ 2018-02-11T13:24:08+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 2 and start <= 1518413045 and 1518413045<= end )  [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:24:30+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/2.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 2 and start <= 1518326670 and 1518326670<= end )  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant item - assumed 'item' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+
+[ 2018-02-11T13:24:31+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 2 and start <= 1518413070 and 1518413070<= end )  [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:24:44+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 2 and start <= 1518499470 and 1518499470<= end )  [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:24:45+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 2 and start <= 1518413070 and 1518413070<= end )  [ RunTime:0.0003s ]
+
+[ 2018-02-11T13:24:51+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/5.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 5 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 5 and user_id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 5 )  [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:24:52+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/5.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 5 and start <= 1518326692 and 1518326692<= end )  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant item - assumed 'item' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+
+[ 2018-02-11T13:27:36+08:00 ] 127.0.0.1 /
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:27:43+08:00 ] 127.0.0.1 /Home/MyClass/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( user_id = 1 ) ORDER BY class_id asc  [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:28:15+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/2.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 2 and user_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 2 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 2 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 6 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-11T13:28:17+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/5.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 5 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 5 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 5 )  [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:28:18+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/6.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 6 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 6 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 6 )  [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:28:20+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/8.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 8 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 8 and user_id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 8 )  [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:28:21+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/7.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 7 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 7 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 7 )  [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:28:23+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/2.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 2 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 2 and user_id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 2 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 5 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 6 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:28:48+08:00 ] 127.0.0.1 /Home/MyClass/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` WHERE ( user_id = 1 ) ORDER BY class_id asc  [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:29:02+08:00 ] 127.0.0.1 /Home/MyClass/index.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( user_id = 1 ) ORDER BY class_id asc  [ RunTime:0.0003s ]
+
+[ 2018-02-11T13:29:03+08:00 ] 127.0.0.1 /Home/MyClass/classDetail/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classstudentlist` WHERE ( class_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user_funds` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_funds` WHERE ( user_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:29:04+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1518326944 and 1518326944<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant item - assumed 'item' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+
+[ 2018-02-11T13:29:07+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/7.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-11T13:31:44+08:00 ] 127.0.0.1 /Home/MyClass/editClass/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` WHERE ( class_id = 1 and user_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:31:49+08:00 ] 127.0.0.1 /Home/MyClass/homeworkManager/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `class_task_list` WHERE ( class_id = 1 )  [ RunTime:0.0003s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 7 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 8 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 13 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 14 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 15 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 21 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `course_id` FROM `class_task_list` WHERE ( id = 22 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `book` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+NOTIC: [8] Array to string conversion /Library/WebServer/Documents/Study/Runtime/Cache/Home/05a007a0004930268f09eb91ec1a31a2.php 第 87 行.
+
+[ 2018-02-11T13:31:51+08:00 ] 127.0.0.1 /Home/MyClass/SeeHomework/id/Arrayid.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:31:54+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1518327114 and 1518327114<= end )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant item - assumed 'item' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+
+[ 2018-02-11T13:31:55+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/6.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:32:02+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/7.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:34:28+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/7.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:41:23+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1518414078 and 1518414078<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-11T13:41:24+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1518500478 and 1518500478<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-11T13:41:26+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1518414078 and 1518414078<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-11T13:47:20+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1518328040 and 1518328040<= end )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant item - assumed 'item' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+
+[ 2018-02-11T13:47:23+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/7.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-11T13:47:41+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1518328061 and 1518328061<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant item - assumed 'item' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+NOTIC: [8] Use of undefined constant homework_id - assumed 'homework_id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+
+[ 2018-02-11T13:47:42+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/7.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:47:46+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1518328066 and 1518328066<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant item - assumed 'item' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+NOTIC: [8] Use of undefined constant homework_id - assumed 'homework_id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+
+[ 2018-02-11T13:47:48+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/7.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:48:06+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1518328086 and 1518328086<= end )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant item - assumed 'item' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+NOTIC: [8] Use of undefined constant homework_id - assumed 'homework_id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+
+[ 2018-02-11T13:48:07+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/7.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-02-11T13:48:26+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1518328106 and 1518328106<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-11T13:48:28+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1518328108 and 1518328108<= end )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-11T13:48:29+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1518328109 and 1518328109<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-11T13:48:30+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1518500910 and 1518500910<= end )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-11T13:48:31+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1518414510 and 1518414510<= end )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-11T13:48:38+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1518500910 and 1518500910<= end )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-11T13:48:38+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1518414510 and 1518414510<= end )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-11T13:48:40+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1518328120 and 1518328120<= end )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant item - assumed 'item' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+NOTIC: [8] Use of undefined constant homework_id - assumed 'homework_id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+
+[ 2018-02-11T13:48:41+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1518414520 and 1518414520<= end )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-11T13:48:42+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: class_id /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 338 行.
+
+[ 2018-02-11T13:48:44+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1518328124 and 1518328124<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant item - assumed 'item' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+NOTIC: [8] Use of undefined constant homework_id - assumed 'homework_id' /Library/WebServer/Documents/Study/Runtime/Cache/Home/59750e73b21bcfb0a4c2ca2be1e3e280.php 第 121 行.
+
+[ 2018-02-11T13:49:26+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1518328166 and 1518328166<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-11T13:49:27+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/7/tast_id/0.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-11T13:49:30+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1518414569 and 1518414569<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-11T13:49:31+08:00 ] 127.0.0.1 /Home/MyClass/workDetail.html?id=7&task_id=0
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-11T13:51:23+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1518328283 and 1518328283<= end )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-11T13:51:24+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/7/tast_id/0.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:51:29+08:00 ] 127.0.0.1 /Home/MyClass/addTextComment.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 368 行.
+SQL: SHOW COLUMNS FROM `homework_res` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `homework_res` WHERE ( id = 7 and homework_id = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:51:30+08:00 ] 127.0.0.1 /Home/MyClass/addTextComment.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 368 行.
+SQL: SHOW COLUMNS FROM `homework_res` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `homework_res` WHERE ( id = 7 and homework_id = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:51:31+08:00 ] 127.0.0.1 /Home/MyClass/addTextComment.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 368 行.
+SQL: SHOW COLUMNS FROM `homework_res` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `homework_res` WHERE ( id = 7 and homework_id = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:51:31+08:00 ] 127.0.0.1 /Home/MyClass/addTextComment.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 368 行.
+SQL: SHOW COLUMNS FROM `homework_res` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `homework_res` WHERE ( id = 7 and homework_id = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:51:31+08:00 ] 127.0.0.1 /Home/MyClass/addTextComment.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 368 行.
+SQL: SHOW COLUMNS FROM `homework_res` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `homework_res` WHERE ( id = 7 and homework_id = 0 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-11T13:51:58+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/7/tast_id/0.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-11T13:52:00+08:00 ] 127.0.0.1 /Home/MyClass/addTextComment.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 368 行.
+SQL: SHOW COLUMNS FROM `homework_res` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `homework_res` WHERE ( id = 7 and homework_id = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:52:51+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/7/tast_id/0.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:52:54+08:00 ] 127.0.0.1 /Home/MyClass/addTextComment.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 368 行.
+SQL: SHOW COLUMNS FROM `homework_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `homework_res` WHERE ( id = 7 and homework_id = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:52:56+08:00 ] 127.0.0.1 /Home/MyClass/addTextComment.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 368 行.
+SQL: SHOW COLUMNS FROM `homework_res` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `homework_res` WHERE ( id = 7 and homework_id = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:53:00+08:00 ] 127.0.0.1 /Home/MyClass/addTextComment.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 368 行.
+SQL: SHOW COLUMNS FROM `homework_res` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `homework_res` WHERE ( id = 7 and homework_id = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:53:02+08:00 ] 127.0.0.1 /Home/MyClass/addTextComment.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 368 行.
+SQL: SHOW COLUMNS FROM `homework_res` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `homework_res` WHERE ( id = 7 and homework_id = 0 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-11T13:53:58+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/7/tast_id/0.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-02-11T13:53:59+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/7/tast_id/0.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-11T13:54:01+08:00 ] 127.0.0.1 /Home/MyClass/addTextComment.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 368 行.
+SQL: SHOW COLUMNS FROM `homework_res` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `homework_res` WHERE ( id = 7 and homework_id = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:54:04+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/7/tast_id/0.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:54:15+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/7/tast_id/0.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:54:17+08:00 ] 127.0.0.1 /Home/MyClass/addTextComment.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 368 行.
+SQL: SHOW COLUMNS FROM `homework_res` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `homework_res` WHERE ( id = 7 and homework_id = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:54:19+08:00 ] 127.0.0.1 /Home/MyClass/addTextComment.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 368 行.
+SQL: SHOW COLUMNS FROM `homework_res` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `homework_res` WHERE ( id = 7 and homework_id = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:55:25+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/7/tast_id/0.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:55:27+08:00 ] 127.0.0.1 /Home/MyClass/addTextComment.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 368 行.
+SQL: SHOW COLUMNS FROM `homework_res` [ RunTime:0.0004s ]
+ERR: 1054:Unknown column 'user_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `homework_res` WHERE ( user_id = 7 and homework_id = 0 ) LIMIT 1  
+ERR: 1054:Unknown column 'user_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `homework_res` WHERE ( user_id = 7 and homework_id = 0 ) LIMIT 1  
+
+[ 2018-02-11T13:55:28+08:00 ] 127.0.0.1 /Home/MyClass/addTextComment.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 368 行.
+SQL: SHOW COLUMNS FROM `homework_res` [ RunTime:0.0004s ]
+ERR: 1054:Unknown column 'user_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `homework_res` WHERE ( user_id = 7 and homework_id = 0 ) LIMIT 1  
+ERR: 1054:Unknown column 'user_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `homework_res` WHERE ( user_id = 7 and homework_id = 0 ) LIMIT 1  
+
+[ 2018-02-11T13:55:28+08:00 ] 127.0.0.1 /Home/MyClass/addTextComment.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 368 行.
+SQL: SHOW COLUMNS FROM `homework_res` [ RunTime:0.0003s ]
+ERR: 1054:Unknown column 'user_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `homework_res` WHERE ( user_id = 7 and homework_id = 0 ) LIMIT 1  
+ERR: 1054:Unknown column 'user_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `homework_res` WHERE ( user_id = 7 and homework_id = 0 ) LIMIT 1  
+
+[ 2018-02-11T13:55:48+08:00 ] 127.0.0.1 /Home/MyClass/addTextComment.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 368 行.
+SQL: SHOW COLUMNS FROM `homework_res` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `homework_res` WHERE ( user_id = 7 and homework_id = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:56:28+08:00 ] 127.0.0.1 /Home/MyClass/addTextComment.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 368 行.
+SQL: SHOW COLUMNS FROM `homework_res` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `homework_res` WHERE ( user_id = 7 and homework_id = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1048:Column 'comment_text' cannot be null
+ [ SQL语句 ] : UPDATE `homework_res` SET `comment_text`=NULL WHERE ( user_id = 7 and homework_id = 0 )
+ERR: 1048:Column 'comment_text' cannot be null
+ [ SQL语句 ] : UPDATE `homework_res` SET `comment_text`=NULL WHERE ( user_id = 7 and homework_id = 0 )
+
+[ 2018-02-11T13:56:34+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/7/tast_id/0.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-02-11T13:57:43+08:00 ] 127.0.0.1 /Home/MyClass/workDetail/id/7/tast_id/0.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-11T13:57:46+08:00 ] 127.0.0.1 /Home/MyClass/addTextComment.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `homework_res` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `homework_res` WHERE ( user_id = 7 and homework_id = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `homework_res` SET `comment_text`='请输入评论1213' WHERE ( user_id = 7 and homework_id = 0 ) [ RunTime:0.0003s ]
+
+[ 2018-02-11T14:34:02+08:00 ] 127.0.0.1 /Home/MyClass/todayWork/class_id/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classhomework` WHERE ( class_id = 1 and start <= 1518330842 and 1518330842<= end )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nickname` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `head_img` FROM `user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-11T14:34:03+08:00 ] 127.0.0.1 /Home/MyClass/todayWork.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: class_id /Library/WebServer/Documents/Study/Application/Home/Controller/MyClassController.class.php 第 338 行.
+
+[ 2018-02-11T14:34:06+08:00 ] 127.0.0.1 /Home/
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0004s ]
+
+[ 2018-02-11T14:34:07+08:00 ] 127.0.0.1 /Home/user/personal.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `enlists` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `enlists` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `enlists` WHERE ( user_id = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `activity` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `activity` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `activity` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-11T14:34:08+08:00 ] 127.0.0.1 /Home/user/personal_infor.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-11T14:34:27+08:00 ] 127.0.0.1 /Home/login/login.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '18108182710' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Library/WebServer/Documents/Study/ThinkPHP/Common/functions.php 第 1272 行.
+
+[ 2018-02-11T14:34:27+08:00 ] 127.0.0.1 /
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0004s ]
+
+[ 2018-02-11T14:34:29+08:00 ] 127.0.0.1 /Home/user/personal.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `enlists` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `enlists` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `enlists` WHERE ( user_id = 2 )  [ RunTime:0.0002s ]
+
+[ 2018-02-11T14:34:33+08:00 ] 127.0.0.1 /
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `activity` WHERE `status` = 1 AND `platform_id` = 1 LIMIT 3   [ RunTime:0.0003s ]
+
+[ 2018-02-11T14:34:34+08:00 ] 127.0.0.1 /Home/student/course.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0004s ]
+SQL: SELECT `classstudentlist`.`class_id` as `class_id`,`classes`.`class_name` as `class_name`,`classes`.`image` as `class_img` FROM `classstudentlist` LEFT JOIN `classes` ON `classes`.`class_id` = `classstudentlist`.`class_id`  WHERE classstudentlist.user_id = '2'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `curriculum` [ RunTime:0.0006s ]
+SQL: SELECT `grade`.`id` as `grade_id`,`grade`.`name` as `grade_name`,`grade`.`img` as `grade_img` FROM `curriculum` LEFT JOIN `grade` ON `grade`.`id` = `curriculum`.`grade_id`  WHERE curriculum.user_id = '2' AND curriculum.status = 0  [ RunTime:0.0003s ]
+
+[ 2018-02-11T14:34:35+08:00 ] 127.0.0.1 /Home/student/tasklist/classid/1.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classes` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classes` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class_task_list` WHERE `setup` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classstudentlist` [ RunTime:0.0003s ]
+SQL: SELECT `user`.`nickname` as `username` FROM `classstudentlist` LEFT JOIN `user` ON `user`.`id` = `classstudentlist`.`teacher_id`  WHERE classstudentlist.user_id = '2' AND classstudentlist.class_id = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `classhomework` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classhomework` WHERE `user_id` = 2 AND `time` BETWEEN 1518278400 AND 1518364800 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: setup /Library/WebServer/Documents/Study/Runtime/Cache/Home/2e25d4593663ce23711528929b6d684e.php 第 104 行.
+
+[ 2018-02-11T14:34:36+08:00 ] 127.0.0.1 /Home/student/index/taskid/13.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0004s ]
+ERR: 1054:Unknown column 'booktext_res.bookres_id' in 'on clause'
+ [ SQL语句 ] : SELECT `class_task_list`.`id` as `task_id`,`booktext_res`.`content_img` as `content_img`,`booktext_res`.`content_voice` as `content_voice` FROM `class_task_list` LEFT JOIN `classhomework` ON `classhomework`.`id` = `class_task_list`.`course_id` LEFT JOIN `book_res` ON `book_res`.`id` = `classhomework`.`start` LEFT JOIN `booktext_res` ON `booktext_res`.`bookres_id` = `book_res`.`id`  WHERE class_task_list.id = 13 LIMIT 1  
+ERR: 1054:Unknown column 'booktext_res.bookres_id' in 'on clause'
+ [ SQL语句 ] : SELECT `class_task_list`.`id` as `task_id`,`booktext_res`.`content_img` as `content_img`,`booktext_res`.`content_voice` as `content_voice` FROM `class_task_list` LEFT JOIN `classhomework` ON `classhomework`.`id` = `class_task_list`.`course_id` LEFT JOIN `book_res` ON `book_res`.`id` = `classhomework`.`start` LEFT JOIN `booktext_res` ON `booktext_res`.`bookres_id` = `book_res`.`id`  WHERE class_task_list.id = 13 LIMIT 1  
+
+[ 2018-02-11T14:37:36+08:00 ] 127.0.0.1 /Home/student/index/taskid/13.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0005s ]
+ERR: 1054:Unknown column 'booktext_res.bookres_id' in 'on clause'
+ [ SQL语句 ] : SELECT `class_task_list`.`id` as `task_id`,`booktext_res`.`content_img` as `content_img`,`booktext_res`.`content_voice` as `content_voice` FROM `class_task_list` LEFT JOIN `classhomework` ON `classhomework`.`id` = `class_task_list`.`course_id` LEFT JOIN `book_res` ON `book_res`.`id` = `classhomework`.`start` LEFT JOIN `booktext_res` ON `booktext_res`.`bookres_id` = `book_res`.`id`  WHERE class_task_list.id = 13 LIMIT 1  
+ERR: 1054:Unknown column 'booktext_res.bookres_id' in 'on clause'
+ [ SQL语句 ] : SELECT `class_task_list`.`id` as `task_id`,`booktext_res`.`content_img` as `content_img`,`booktext_res`.`content_voice` as `content_voice` FROM `class_task_list` LEFT JOIN `classhomework` ON `classhomework`.`id` = `class_task_list`.`course_id` LEFT JOIN `book_res` ON `book_res`.`id` = `classhomework`.`start` LEFT JOIN `booktext_res` ON `booktext_res`.`bookres_id` = `book_res`.`id`  WHERE class_task_list.id = 13 LIMIT 1  
+
+[ 2018-02-11T14:37:59+08:00 ] 127.0.0.1 /Home/student/index/taskid/13.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0004s ]
+ERR: 1054:Unknown column 'booktext_res.bookres_id' in 'on clause'
+ [ SQL语句 ] : SELECT `class_task_list`.`id` as `task_id`,`booktext_res`.`content_img` as `content_img`,`booktext_res`.`content_voice` as `content_voice` FROM `class_task_list` LEFT JOIN `classhomework` ON `classhomework`.`id` = `class_task_list`.`course_id` LEFT JOIN `book_res` ON `book_res`.`id` = `classhomework`.`start` LEFT JOIN `booktext_res` ON `booktext_res`.`bookres_id` = `book_res`.`id`  WHERE class_task_list.id = 13 LIMIT 1  
+ERR: 1054:Unknown column 'booktext_res.bookres_id' in 'on clause'
+ [ SQL语句 ] : SELECT `class_task_list`.`id` as `task_id`,`booktext_res`.`content_img` as `content_img`,`booktext_res`.`content_voice` as `content_voice` FROM `class_task_list` LEFT JOIN `classhomework` ON `classhomework`.`id` = `class_task_list`.`course_id` LEFT JOIN `book_res` ON `book_res`.`id` = `classhomework`.`start` LEFT JOIN `booktext_res` ON `booktext_res`.`bookres_id` = `book_res`.`id`  WHERE class_task_list.id = 13 LIMIT 1  
+
+[ 2018-02-11T14:38:01+08:00 ] 127.0.0.1 /Home/student/index/taskid/13.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `class_task_list` [ RunTime:0.0005s ]
+ERR: 1054:Unknown column 'booktext_res.bookres_id' in 'on clause'
+ [ SQL语句 ] : SELECT `class_task_list`.`id` as `task_id`,`booktext_res`.`content_img` as `content_img`,`booktext_res`.`content_voice` as `content_voice` FROM `class_task_list` LEFT JOIN `classhomework` ON `classhomework`.`id` = `class_task_list`.`course_id` LEFT JOIN `book_res` ON `book_res`.`id` = `classhomework`.`start` LEFT JOIN `booktext_res` ON `booktext_res`.`bookres_id` = `book_res`.`id`  WHERE class_task_list.id = 13 LIMIT 1  
+ERR: 1054:Unknown column 'booktext_res.bookres_id' in 'on clause'
+ [ SQL语句 ] : SELECT `class_task_list`.`id` as `task_id`,`booktext_res`.`content_img` as `content_img`,`booktext_res`.`content_voice` as `content_voice` FROM `class_task_list` LEFT JOIN `classhomework` ON `classhomework`.`id` = `class_task_list`.`course_id` LEFT JOIN `book_res` ON `book_res`.`id` = `classhomework`.`start` LEFT JOIN `booktext_res` ON `booktext_res`.`bookres_id` = `book_res`.`id`  WHERE class_task_list.id = 13 LIMIT 1  
+
+[ 2018-02-11T14:38:14+08:00 ] 127.0.0.1 /Home/student/index/taskid/13.html
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: showData /Library/WebServer/Documents/Study/Runtime/Cache/Home/fda2bcdbca4bba982aa85f195139dc75.php 第 151 行.
+NOTIC: [8] Undefined variable: signPackage /Library/WebServer/Documents/Study/Runtime/Cache/Home/fda2bcdbca4bba982aa85f195139dc75.php 第 266 行.
+NOTIC: [8] Undefined variable: signPackage /Library/WebServer/Documents/Study/Runtime/Cache/Home/fda2bcdbca4bba982aa85f195139dc75.php 第 267 行.
+NOTIC: [8] Undefined variable: signPackage /Library/WebServer/Documents/Study/Runtime/Cache/Home/fda2bcdbca4bba982aa85f195139dc75.php 第 268 行.
+NOTIC: [8] Undefined variable: signPackage /Library/WebServer/Documents/Study/Runtime/Cache/Home/fda2bcdbca4bba982aa85f195139dc75.php 第 269 行.
+

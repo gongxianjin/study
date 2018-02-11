@@ -8,18 +8,18 @@ class StudentController extends Base
 
     public function index()
     {
-        $taskid = I('get.taskid', 0, 'intval');
-        if( ! $taskid ){
-            ajaxReturn('缺少参数');
-        }
-        //获取该课程第一篇课文和语音
-        $this->assign('showData', D('ClassTaskList')->findBooks(
-            $taskid
-        ));
-        //进入JSSDK
-        $jssdk = new Weixin();
-        $signPackage = $jssdk->GetSignPackage();
-        $this->assign('signPackage', $signPackage);
+        // $taskid = I('get.taskid', 0, 'intval');
+        // if( ! $taskid ){
+        //     ajaxReturn('缺少参数');
+        // }
+        // //获取该课程第一篇课文和语音
+        // $this->assign('showData', D('ClassTaskList')->findBooks(
+        //     $taskid
+        // ));
+        // //进入JSSDK
+        // $jssdk = new Weixin();
+        // $signPackage = $jssdk->GetSignPackage();
+        // $this->assign('signPackage', $signPackage);
         $this->display();
     }
 
@@ -38,7 +38,7 @@ class StudentController extends Base
         //今日作业完成情况
         $map['user_id'] = $this->user_id;
         $map['time'] = array('between',array(strtotime(date('Y-m-d'.'00:00:00',time())),strtotime(date('Y-m-d'.'00:00:00',time()+3600*24))));
-        $classtask = M('class_task_list')->where($map)->find();
+        $classtask = M('classhomework')->where($map)->find();
 //        dump($classtask);die;
         $this->assign('classtask',$classtask);
         $this->display();
@@ -89,6 +89,14 @@ class StudentController extends Base
         $param['content_voice'] = $content_voice;
         $param['time'] = time();
         return M('homework_res')->add($param);
+    }
+
+    public function workDetail(){
+        $user_id = (int)$_GET['id'];
+        $task_id = (int)$_GET['task_id'];
+        $query = M('homework_res')->where("user_id = {$user_id} and homework_id = {$task_id}")->find();
+        $this->assign('work',$query);
+        $this->display();
     }
 
 }

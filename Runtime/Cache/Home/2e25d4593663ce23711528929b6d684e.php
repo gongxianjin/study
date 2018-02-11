@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -43,13 +43,13 @@
 </div>
 <div class="page">
     <div class="lesson-header">
-        <h4>{$class.class_name}课程</h4>
+        <h4><?php echo ($class["class_name"]); ?>课程</h4>
         <div class="lesson-box">
-            <div class="lesson-left">{$class.count}人已参加</div>
-            <div class="lesson-right">{$taskcounts}次交作业</div>
+            <div class="lesson-left"><?php echo ($class["count"]); ?>人已参加</div>
+            <div class="lesson-right"><?php echo ($taskcounts); ?>次交作业</div>
         </div>
         <div class="lesson-down">
-            <div class="head-teacher">班主任:<span>{$teacher.username}</span></div>
+            <div class="head-teacher">班主任:<span><?php echo ($teacher["username"]); ?></span></div>
             <div class="join-weixin">
                 <a href="#">加微信<i class="txh icon-weixin1"></i></a>
             </div>
@@ -101,15 +101,13 @@
                 </div>
             </div>
             <div class="pass-content">
-                <if condition="($classtask neq '') AND ($classtask['setup'] == 0)" >
-                    <a href="{:U('student/index', array('taskid'=>$classtask['id']))}"><i class="txh icon-wancheng"></i>
+                <?php if(($classtask != '') AND ($classtask['setup'] == 0)): ?><a href="<?php echo U('student/index', array('taskid'=>$classtask['id']));?>"><i class="txh icon-wancheng"></i>
                         去做作业
                     </a>
-                <elseif condition="($classtask eq '') OR ($classtask['setup'] == 1)"  />
-                    <a href="{:U('student/doneHomeWork',array('taskid'=>$classtask['id']))}"><i class="txh icon-wancheng"></i>
+                <?php elseif(($classtask == '') OR ($classtask['setup'] == 1)): ?>
+                    <a href="<?php echo U('student/doneHomeWork',array('taskid'=>$classtask['id']));?>"><i class="txh icon-wancheng"></i>
                         今日已交作业！
-                    </a>
-                </if>
+                    </a><?php endif; ?>
                 <p><?php echo date('H:i:s',$classtask['time'])?></p>
             </div>
         </div>

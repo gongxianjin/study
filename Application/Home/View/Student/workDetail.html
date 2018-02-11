@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/mobile/css/weui_reset.css">
     <link rel="stylesheet" href="/mobile/fonts/iconfont.css">
     <link rel="stylesheet" href="/mobile/style/work_detail.css">
+    <include file="Common/js" />
     <title>作业详情</title>
 </head>
 <body>
@@ -84,15 +85,13 @@
         <div class="weui-dialog__bd">
             <div class="weui-cell">
                 <div class="weui-cell__bd" style="border:1px solid #e8e8e8;line-height: 30px;">
-                    <textarea rows="3" class="weui-textarea">
-                        请输入评论
-                    </textarea>
+                    <textarea rows="3" class="weui-textarea comment-text">请输入评论</textarea>
                 </div>
             </div>
         </div>
         <div class="weui-dialog__ft">
             <a href="javascript:;" class="weui-dialog__btn close_btn weui-dialog__btn_default">取消</a>
-            <a href="javascript:;" class="refuse-btn ">发送</a>
+            <a href="javascript:;" class="refuse-btn add-text-comment-btn">发送</a>
         </div>
     </div>
 </div>
@@ -169,6 +168,15 @@
         $("#iosDialog1").css("display","none");
         $(".weui-mask").css({opacity:"0",visibility: "hidden"});
         $(".weui-dialog").css({opacity:"0",visibility: "hidden"});
+    });
+
+
+    $('.add-text-comment-btn').click(function(){
+        var id = "{:I('get.id')}}";
+        var task_id = "{:I('get.task_id')}";
+        $.post("{:U('MyClass/addTextComment')}",{id:id,task_id:task_id,comment:$('.comment-text').val()},function(res){
+            ajaxReturnMsg(res);
+        })
     });
 </script>
 </html>
