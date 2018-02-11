@@ -51,8 +51,8 @@ class CreateBookController extends Base{
 			$teacher_id = $this->user_id;
 			$id = I('post.id');
 			$res = M('Book')->where('id = ' . $id)->find();
-			// echo json_encode($res);
-			$this->ajaxReturn($res);
+			echo json_encode($res);
+			// $this->ajaxReturn($res);
 		}else{
 			$this->error("权限不足");
 		}
@@ -192,9 +192,18 @@ class CreateBookController extends Base{
 						'image' => $cover_img,
 					);
 			$BookTextModel = M("BookRes");
-			$query = $BookTextModel->add($booktext);
+			if ($post['text_type'] == "change") {
+				$query = $BookTextModel->where('id = ' . (int)$post['text_book_id'])->save($booktext);
+			}else{
+				$query = $BookTextModel->add($booktext);
+			}
 			if($query){
-				//课文保存成功
+				//课文保存成功\
+				if ($post['text_type'] == "change") {
+					$booktext_id = (int)$post['text_book_id'];
+				}else{
+					$booktext_id = M('BookRes')->where($booktext)->getField('id');
+				}
 				$booktext_id = M('BookRes')->where($booktext)->getField('id');
 				$pageModel = M('BooktextRes');
 				$page = $post['unitCount'];
@@ -261,6 +270,20 @@ class CreateBookController extends Base{
 			ajaxReturn("删除成功");
 		}else{
 			ajaxReturn("删除失败");
+		}
+	}
+
+	//获取单个课本信息
+	public function getTextBook(){
+		if ($this->user_type == 1) {
+			//教师
+			$teacher_id = $this->user_id;
+			$id = I('post.id');
+			$res = M('BookRes')->where('id = ' . $id)->find();
+			echo json_encode($res);
+			// $this->ajaxReturn($res);
+		}else{
+			$this->error("权限不足");
 		}
 	}
 

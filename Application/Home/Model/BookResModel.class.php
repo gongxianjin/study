@@ -20,7 +20,7 @@ class BookResModel extends Model{
 					foreach($one as $key => $value){
 						$oneBook[$key] = $one[$key];
 					}
-					$oneBook['image'] = imageDomain($oneBook['image']);
+					$oneBook['image'] = imageDomain($oneBook['image'],"/mobile/images/activity/activity_fengmian.png");
 					array_push($res, $oneBook);
 					$oneBook = array();
 				}

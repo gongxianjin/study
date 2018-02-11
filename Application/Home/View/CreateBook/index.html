@@ -114,7 +114,7 @@
                 <div class="lesson-img-box">
                     <ul class="weui-uploader__files" id="uploaderFiles">
 
-                        <li class="weui-uploader__file" style="background-image:url(/mobile/images/activity/activity_fengmian.png)">
+                        <li class="weui-uploader__file" style="background-image:url(/mobile/images/activity/activity_fengmian.png)" id="text_cover_img">
                         </li>
                     </ul>
                     <div class="weui-uploader__input-box">
@@ -157,6 +157,8 @@
                     <a href="{:U('Home/CreateBook/previewBook')}">合成预览</a>
                     <a href="javascript:document.textBookForm.submit();">保存</a>
                 </div>
+                <input type="hidden" name="text_type">
+                <input type="hidden" name="text_book_id">
             </form>
         </div>
         <!-- 图书列表-->
@@ -196,7 +198,7 @@
                                     var html = '<div class="activity-list-' + (index % 2 == 0 ? "left" : "right") + ' activity-list-common"><div class="img-box"><img src="' + items.cover_img + '" alt=""><p>' + (items.name) + '<span class="' + items.s_html + '">[' + items.status + ']</span></p></div><div class="function-list"><div class="list-box"><div class="fuction change_btn" data="' + items.id+ '">修改</div><div class="fuction del_btn" data="' + items.id+ '">删除</div></div></div></div>';
                                     break;
                                 case 3:
-                                    var html = '<div class="activity-list-' + (index % 2 == 0 ? "left" : "right") + ' activity-list-common"><div class="img-box"><img src="' + items.image + '" alt=""><p>' + (items.book_name).substr(0,5) +'<span style="font-weight: 200;margin-left:5px ">' + (items.name).substr(0,5) + '</span></p></div><div class="function-list"><div class="list-box"><div class="fuction">修改</div><div class="fuction del_text" data="' + items.id+ '">删除</div></div></div></div>';
+                                    var html = '<div class="activity-list-' + (index % 2 == 0 ? "left" : "right") + ' activity-list-common"><div class="img-box"><img src="' + items.image + '" alt=""><p>' + (items.book_name).substr(0,5) +'<span style="font-weight: 200;margin-left:5px ">' + (items.name).substr(0,5) + '</span></p></div><div class="function-list"><div class="list-box"><div class="fuction change_btn" data="' + items.id + '">修改</div><div class="fuction del_text" data="' + items.id+ '">删除</div></div></div></div>';
                                     break;
                             }
                             res += html;
@@ -234,9 +236,10 @@
             //添加单元
             var count = $('#text_count').val();
             var html = "";
-            html += "<tr><th>名称</th><th>排序</th><th>操作</th></tr>";
+            html += "<tr><th>名称</th><th>排序</th></tr>";
             for(var i = 1;i <= count;i++){
-                html += '<tr><td>unit' + i + '</td><td>' + i + '</td><td><a href="#">删除</a><a href="#">修改</a><a href="#">制作新课文</a><a href="#">添加课文</a></td><tr>';
+                // html += '<tr><td>unit' + i + '</td><td>' + i + '</td><td><a href="#">删除</a><a href="#">修改</a><a href="#">制作新课文</a><a href="#">添加课文</a></td><tr>';
+                html += '<tr><td>unit' + i + '</td><td>' + i + '</td><tr>';
             }
             html += '<input type="hidden" name="textCount" value="' + count +'">';
             $('#unitTable').html(html);
@@ -328,6 +331,25 @@
                     weui.alert(res.message,function(){
                         window.location.reload();
                     })
+                }
+            });
+        });
+
+        //修改课文
+        $(".activity-list-all").on("click",".change_btn",function(){
+            var id = $(this).attr('data');
+            $.ajax({
+                type: 'POST',
+                url: "{:U('Home/CreateBook/getTextBook')}",
+                data: {'id':id},
+                success:function(res){
+                    res = JSON.parse(res);
+                    console.log(res);
+                    $($(".body-box-common")[2]).css("display","block").siblings().css("display","none");
+                    $("input[name='text_type']").val("change");
+                    $("input[name='text_book_id']").val(res['id']);
+                    $("input[name='bookName']").val(res['name']);
+                    $('#text_cover_img').css("background-image","url(" + "{:imageDomain('/')}" + res['image'] + ")");
                 }
             });
         });

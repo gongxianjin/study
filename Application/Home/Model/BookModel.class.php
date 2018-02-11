@@ -28,7 +28,7 @@ class BookModel extends Model
                 foreach($one as $key => $value){
                     $oneBook[$key] = $one[$key];
                 }
-                $oneBook['cover_img'] = imageDomain($oneBook['cover_img']);
+                $oneBook['cover_img'] = imageDomain($oneBook['cover_img'],"/mobile/images/activity/activity_fengmian.png");
                 if ((int)$oneBook['status'] == 1) {
                    $oneBook['status'] = "已发布";
                    $oneBook['s_html'] = "public";
