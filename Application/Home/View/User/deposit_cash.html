@@ -28,9 +28,8 @@
                 });
             }
         })(ck={});
-
         $('#deposit').click(function(){
-            $.post("{:U('Home/User/depositFunc')}",{id:$("input[name='id']")},function(res){
+            $.post("{:U('Home/user/depositFunc')}",{id:$("input[name='id']").val()},function(res){
                 ajaxReturnMsg(res);
             });
         });

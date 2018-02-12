@@ -50,9 +50,9 @@
             </tr>
             <?php if(is_array($stuList)): $i = 0; $__LIST__ = $stuList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$stu): $mod = ($i % 2 );++$i;?><tr onclick="location='<?php echo U('Home/MyClass/stuDetail',array('class_id' => $class['class_id'],'stu_id' => $stu['id']));?>'">
                     <td>
-                        <?php if($i < 3): ?><img src="/mobile/images/integral/left1.png" alt="">
+                        <?php if($i < 4): ?><img src="/mobile/images/integral/left<?php echo ($i); ?>.png" alt="">
                         <?php else: ?>
-                            <?php echo ($i + 1); endif; ?>
+                            <?php echo ($i); endif; ?>
                     </td>
                     <td>
                         <img src="<?php echo imageDomain($stu['head_img']);?>" alt="">

@@ -92,7 +92,7 @@
                         <?php else: ?>
                             <td class="no_complete">未完成</td><?php endif; ?>
                         <td>
-                            <a href="<?php echo U('workDetail',array('id' => $one['id']));?>">查看</a>
+                            <a href="<?php echo U('workDetail',array('id' => $one['id'],'tast_id' => $one['homework_id']));?>">查看</a>
                         </td>
                     </tr><?php endforeach; endif; else: echo "" ;endif; ?>
 
@@ -118,7 +118,7 @@
                     result = JSON.parse(result);
                     console.log(result);
                     $.each(result,function(index,item){
-                        html += '<tr><td>' + (index < 3 ? '<img src="/mobile/images/integral/left' + (index + 1) + '.png" alt="">' : (index + 1)) + '</td><td><img src="<?php echo imageDomain('/');?>' + item.head_img + '" alt=""></td><td>' + item.user_name + '</td>' + (item.status == 0 ? '<td class="no_complete">未完成</td>' : '<td>已完成</td>') +'<td><a href="<?php echo U('workDetail?id=' + item.id + '');?>">查看</a></td></tr>';
+                        html += '<tr><td>' + (index < 3 ? '<img src="/mobile/images/integral/left' + (index + 1) + '.png" alt="">' : (index + 1)) + '</td><td><img src="<?php echo imageDomain('/');?>' + item.head_img + '" alt=""></td><td>' + item.user_name + '</td>' + (item.status == 0 ? '<td class="no_complete">未完成</td>' : '<td>已完成</td>') +'<td><a href="<?php echo U('workDetail');?>?id=' + item.id + '&task_id=' + item.homework_id + '">查看</a></td></tr>';
                     });
                     $('#t_b').html(html);
                 });

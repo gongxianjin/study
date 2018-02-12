@@ -26,7 +26,7 @@ class UserController extends Base
         if (!isset($g_id)) {
             ajaxReturn("非法请求");
         }
-        $query = D('Order')->getOrder($this->user_id,$g_id);
+        $query = D('Order')->getOrder($this->user_id,$g_id); 
         if (!$query) {
             ajaxReturn("非法请求");
         }
@@ -71,16 +71,6 @@ class UserController extends Base
         ajaxReturn('保存成功', 0);
     }
 
-
-    public function depositFunc(){
-        $id = (int)I('post.id');
-        if (!isset($id)) {
-            ajaxReturn("非法请求");
-        }
-        //调用退款记录
-        $query = M('Order')->where('id = ' . $id)->setField('order_status',2);
-    }
-
     public function deleteUser(){
         $user_id = (int)I('post.id');
         if (!empty($user_id) && $this->user_type == 2) {
@@ -88,6 +78,27 @@ class UserController extends Base
             ajaxReturn("删除成功");
         }else{
             ajaxReturn("删除失败");
+        }
+    }
+
+
+    public function depositFunc(){
+        $id = (int)I('post.id');
+        if (!isset($id)) {
+            ajaxReturn("非法请求");
+        }
+        $orderModel = new \Home\Model\OrderModel();
+        $order = $orderModel->findbyOrderId($id);
+        $weixin = new \Weixin\Api\Weixin();
+        $res = $weixin->refund($order['trade_no'],$order['out_trade_no'],$order['price'],$order['price']);
+        if($res['return_code'] == 'SUCCESS'){
+            //修改订单状态
+            M('Order')->where('id = ' . $id)->setField('status',4);
+            $enlist = M('Enlists')->where('user_id = ' . $this->user_id . ' and g_id = ' . $order['grade_id'] . ' and status = 1')->find();
+            D('Enlists')->setList($enlist['id']);
+            ajaxReturn('退款成功', 0);
+        }else{
+            ajaxReturn('退款失败');
         }
     }
 }

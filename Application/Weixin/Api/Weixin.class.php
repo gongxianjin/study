@@ -178,4 +178,157 @@ class Weixin
         fclose($fp);
     }
 
+
+    /**
+     * 生成签名
+     * @return 签名，本函数不覆盖sign成员变量，如要设置签名需要调用SetSign方法赋值
+     */
+    public function paySign($data)
+    {
+        $buff = "";
+        ksort($data);
+        foreach ($data as $k => $v)
+        {
+            if($k != "sign" && $v != "" && !is_array($v))
+            {
+                $buff .= $k . "=" . $v . "&";
+            }
+        }
+        return strtoupper(md5($buff . "key=" . C('weixin.key')));
+    }
+
+
+
+    /**
+     * 输出xml字符
+     * @throws WxPayException
+     **/
+    public function array2xml($arr)
+    {
+        $xml = "<xml>";
+        foreach ($arr as $key => $val) {
+            if (is_numeric($val)) {
+                $xml .= "<" . $key . ">" . $val . "</" . $key . ">";
+            } else {
+                $xml .= "<" . $key . "><![CDATA[" . $val . "]]></" . $key . ">";
+            }
+        }
+        $xml .= "</xml>";
+        return $xml;
+    }
+
+    /**
+     * 将xml转为array
+     * @param string $xml
+     * @throws WxPayException
+     */
+    public function xml2array($xml)
+    {
+        //将XML转为array
+        return json_decode(json_encode(simplexml_load_string($xml, 'SimpleXMLElement', LIBXML_NOCDATA)), true);
+    }
+
+
+    /**
+     * 以post方式提交xml到对应的接口url
+     *
+     * @param string $xml  需要post的xml数据
+     * @param string $url  url
+     * @param bool $useCert 是否需要证书，默认不需要
+     * @param int $second   url执行超时时间，默认30s
+     * @throws WxPayException
+     */
+    private static function postXmlCurl($xml, $url, $useCert = false, $second = 30)
+    {
+        $ch = curl_init();
+        //设置超时
+        curl_setopt($ch, CURLOPT_TIMEOUT, $second);
+        curl_setopt($ch,CURLOPT_URL, $url);
+//		curl_setopt($ch,CURLOPT_SSL_VERIFYPEER,TRUE);
+//		curl_setopt($ch,CURLOPT_SSL_VERIFYHOST,2);//严格校验
+
+        curl_setopt($ch,CURLOPT_SSL_VERIFYPEER,FALSE);
+        curl_setopt($ch,CURLOPT_SSL_VERIFYHOST,FALSE);//严格校验
+        //设置header
+        curl_setopt($ch, CURLOPT_HEADER, FALSE);
+        //要求结果为字符串且输出到屏幕上
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
+
+        if($useCert == true){
+            //设置证书
+            //使用证书：cert 与 key 分别属于两个.pem文件
+            curl_setopt($ch,CURLOPT_SSLCERTTYPE,'PEM');
+            curl_setopt($ch,CURLOPT_SSLCERT, dirname ( __FILE__ ).DIRECTORY_SEPARATOR.'cert'.DIRECTORY_SEPARATOR.'apiclient_cert.pem');
+            curl_setopt($ch,CURLOPT_SSLKEYTYPE,'PEM');
+            curl_setopt($ch,CURLOPT_SSLKEY, dirname ( __FILE__ ).DIRECTORY_SEPARATOR.'cert'.DIRECTORY_SEPARATOR.'apiclient_key.pem');
+        }
+        //post提交方式
+        curl_setopt($ch, CURLOPT_POST, TRUE);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $xml);
+        //运行curl
+        $data = curl_exec($ch);  
+        //返回结果
+        if($data){
+            curl_close($ch);
+            return $data;
+        } else {
+            $error = curl_errno($ch);
+            curl_close($ch);
+            echo $error;
+            exit();
+        }
+    }
+
+    /**
+     *
+     * 产生随机字符串，不长于32位
+     * @param int $length
+     * @return 产生的随机字符串
+     */
+    public static function getNonceStr($length = 32)
+    {
+        $chars = "abcdefghijklmnopqrstuvwxyz0123456789";
+        $str ="";
+        for ( $i = 0; $i < $length; $i++ )  {
+            $str .= substr($chars, mt_rand(0, strlen($chars)-1), 1);
+        }
+        return $str;
+    }
+
+    public function refund($out_refund_no,$transaction_id,$total_fee,$refund_fee){
+//        $config = $this->config;
+        //退款参数
+        $refundorder = array(
+            'appid'         =>  C('weixin.app_id'),
+            'mch_id'        => C('weixin.mch_id'),
+            'nonce_str'     => $this->getNonceStr(),
+            'transaction_id'=> $transaction_id,
+            'out_refund_no' => $out_refund_no,
+            'total_fee'     => $total_fee * 100,
+            'refund_fee'    => $refund_fee * 100
+        );
+        $refundorder['sign'] = $this->paySign($refundorder);
+        //请求数据,进行退款
+        $xmldata = $this->array2xml($refundorder);
+        $url = 'https://api.mch.weixin.qq.com/secapi/pay/refund';
+        $res = self::postXmlCurl($xmldata, $url, true, 10);
+        if(!$res){
+            return array('status'=>0, 'msg'=>"Can't connect the server" );
+        }
+
+        // 这句file_put_contents是用来查看服务器返回的结果 测试完可以删除了
+        //file_put_contents('./log3.txt',$res,FILE_APPEND);
+
+        $content = self::xml2array($res);
+        if(strval($content['result_code']) == 'FAIL'){
+            return array('status'=>0, 'msg'=>strval($content['err_code']).':'.strval($content['err_code_des']));
+        }
+        if(strval($content['return_code']) == 'FAIL'){
+            return array('status'=>0, 'msg'=>strval($content['return_msg']));
+        }
+
+        return $content;
+    }
+
+
 }

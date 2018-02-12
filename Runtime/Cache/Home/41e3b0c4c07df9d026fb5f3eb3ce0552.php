@@ -24,33 +24,31 @@
 
 </div>
 <div class="page">
-    <div class="my-works-box">
+    <div class="my-works-box" style="height: 50%;">
         <div class="my-work-title">
             <i class="txh icon-xiaobenkechengtongji"></i>
             普通课程
         </div>
         <div class="class-list-box">
             <?php if(is_array($classes)): foreach($classes as $key=>$item): ?><a href="<?php echo U('student/tasklist', array('classid'=>$item['class_id']));?>" class="class-list clearfix">
-                    <img src="<?php echo imageDomain($item['cover_img'], '/mobile/images/activity/class2.png');?>" alt="">
+                    <img src="<?php echo imageDomain($item['class_img'], '/mobile/images/activity/class2.png');?>" alt="">
                     <p><?php echo ($item["class_name"]); ?></p>
                 </a><?php endforeach; endif; ?>
         </div>
     </div>
 
-    <!--<div class="my-works-box">-->
-        <!--<div class="my-work-title">-->
-            <!--<i class="txh icon-xiaobenkechengtongji"></i>-->
-            <!--我的活动-->
-        <!--</div>-->
-        <!--<div class="class-list-box">-->
-            <!--<?php if(is_array($Curriculum)): foreach($Curriculum as $key=>$item): ?>-->
-                <!--<a href="activity_detail.html" class="class-list clearfix">-->
-                    <!--<img src="/mobile/images/activity/class2.png" alt="">-->
-                    <!--<p>录音三</p>-->
-                <!--</a>-->
-            <!--<?php endforeach; endif; ?>-->
-        <!--</div>-->
-    <!--</div>-->
+    <div class="my-works-box" style="height: 50%;">
+        <div class="my-work-title">
+            <i class="txh icon-xiaobenkechengtongji"></i>
+            我的活动
+        </div>
+        <div class="class-list-box">
+            <?php if(is_array($Curriculum)): foreach($Curriculum as $key=>$item): ?><a href="<?php echo U('student/tasklist', array('grade_id'=>$item['grade_id']));?>" class="class-list clearfix">
+                    <img src="<?php echo imageDomain($item['grade_img'], '/mobile/images/activity/class2.png');?>" alt="">
+                    <p><?php echo ($item["grade_name"]); ?></p>
+                </a><?php endforeach; endif; ?>
+        </div>
+    </div>
 
 </div>
 </body>

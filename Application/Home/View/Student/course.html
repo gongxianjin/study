@@ -24,7 +24,7 @@
 
 </div>
 <div class="page">
-    <div class="my-works-box">
+    <div class="my-works-box" style="height: 50%;">
         <div class="my-work-title">
             <i class="txh icon-xiaobenkechengtongji"></i>
             普通课程
@@ -39,20 +39,20 @@
         </div>
     </div>
 
-    <!--<div class="my-works-box">-->
-        <!--<div class="my-work-title">-->
-            <!--<i class="txh icon-xiaobenkechengtongji"></i>-->
-            <!--我的活动-->
-        <!--</div>-->
-        <!--<div class="class-list-box">-->
-            <!--<foreach name="Curriculum" item="item">-->
-                <!--<a href="activity_detail.html" class="class-list clearfix">-->
-                    <!--<img src="/mobile/images/activity/class2.png" alt="">-->
-                    <!--<p>录音三</p>-->
-                <!--</a>-->
-            <!--</foreach>-->
-        <!--</div>-->
-    <!--</div>-->
+    <div class="my-works-box" style="height: 50%;">
+        <div class="my-work-title">
+            <i class="txh icon-xiaobenkechengtongji"></i>
+            我的活动
+        </div>
+        <div class="class-list-box">
+            <foreach name="Curriculum" item="item">
+                <a href="{:U('student/tasklist', array('grade_id'=>$item['grade_id']))}" class="class-list clearfix">
+                    <img src="{:imageDomain($item['grade_img'], '/mobile/images/activity/class2.png')}" alt="">
+                    <p>{$item.grade_name}</p>
+                </a>
+            </foreach>
+        </div>
+    </div>
 
 </div>
 </body>

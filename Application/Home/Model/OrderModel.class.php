@@ -35,8 +35,13 @@ class OrderModel extends Model
         return $this->where(array('trade_no' => $trade_no))->find();
     }
 
+    public function findbyOrderId($order_id)
+    {
+        return $this->where(array('id' => $order_id))->find();
+    }
+
     public function getOrder($user_id,$class_id){
-        $query = $this->where('user_id = ' . $user_id . ' and grade_id = ' . $class_id)->find();
+        $query = $this->where('user_id = ' . $user_id . ' and grade_id = ' . $class_id . ' and status = 1')->find();
         return $query;
     }
 }

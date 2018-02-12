@@ -95,7 +95,7 @@ body div.page .page-list .weui-cells {
   margin-top: 0;
 }
 body div.page .page-list .weui-cells .weui-cell {
-  line-height: 25px;
+  line-height: 10px;
 }
 body div.page .page-list .weui-cells .weui-cell .weui-cell__bd {
   color: #333;

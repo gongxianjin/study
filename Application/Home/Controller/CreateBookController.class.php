@@ -198,7 +198,7 @@ class CreateBookController extends Base{
 				$query = $BookTextModel->add($booktext);
 			}
 			if($query){
-				//课文保存成功\
+				//课文保存成功
 				if ($post['text_type'] == "change") {
 					$booktext_id = (int)$post['text_book_id'];
 				}else{

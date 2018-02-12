@@ -47,7 +47,6 @@ class CallbackController extends Controller
     {
         $wxModel = new \Weixin\Api\Pay();
         $param = $wxModel->common();
-
         // 查询订单是否存在
         $trade_no = $param['out_trade_no'];
         $tradeModel = new \Home\Model\OrderModel();
@@ -75,7 +74,14 @@ class CallbackController extends Controller
             $tradeModel->rollback();
             $wxModel->returnMsg('订单状态修改失败');
         }
-        if( ! D('Curriculum')->setAdd($tradeInfo['platform_id'], $tradeInfo['user_id'], $tradeInfo['grade_id']))
+        $CurriculumModel = new \Home\Model\CurriculumModel();
+        if( ! $CurriculumModel->setAdd($tradeInfo['platform_id'], $tradeInfo['user_id'], $tradeInfo['grade_id']))
+        {
+            $tradeModel->rollback();
+            $wxModel->returnMsg('增加失败');
+        }
+        $EnlistsModel = new \Home\Model\EnlistsModel();
+        if( ! $EnlistsModel->setList(0,$tradeInfo['platform_id'], $tradeInfo['user_id'], $tradeInfo['grade_id'],1))
         {
             $tradeModel->rollback();
             $wxModel->returnMsg('增加失败');

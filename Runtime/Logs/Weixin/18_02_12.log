@@ -1,0 +1,9 @@
+[ 2018-02-12T00:10:18+08:00 ] 103.7.30.69 /weixin/callback/caution
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `order` WHERE `trade_no` = 'T2018021200101129190' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `order` SET `out_trade_no`='4200000069201802121232080127',`pay_time`='1518365418',`status`='1' WHERE `trade_no` = 'T2018021200101129190' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `curriculum` [ RunTime:0.0004s ]
+SQL: INSERT INTO `curriculum` (`platform_id`,`user_id`,`grade_id`) VALUES ('1','11','6') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `enlists` [ RunTime:0.0004s ]
+SQL: INSERT INTO `enlists` (`status`,`platform_id`,`user_id`,`g_id`,`type`,`time`) VALUES ('1','1','11','6','0','1518365418') [ RunTime:0.0001s ]
+

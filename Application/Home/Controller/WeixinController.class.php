@@ -82,40 +82,6 @@ class WeixinController extends Controller
         redirect(U('login/register', array('open_id'=> $result['openid'])));
     }
 
-    public function refund($transaction_id,$out_refund_no,$total_fee,$refund_fee){  
-        $config = $this->config;  
-          
-        //退款参数  
-        $refundorder = array(  
-            'appid'         => $config['appid'],  
-            'mch_id'        => $config['mch_id'],  
-            'nonce_str'     => self::getNonceStr(),  
-            'transaction_id'=> $transaction_id,  
-            'out_refund_no' => $out_refund_no,  
-            'total_fee'     => $total_fee * 100,  
-            'refund_fee'    => $refund_fee * 100  
-        );  
-        $refundorder['sign'] = self::makeSign($refundorder);  
-          
-        //请求数据,进行退款  
-        $xmldata = self::array2xml($refundorder);  
-        $url = 'https://api.mch.weixin.qq.com/secapi/pay/refund';  
-        $res = self::curl_post_ssl($url, $xmldata);  
-        if(!$res){  
-            return array('status'=>0, 'msg'=>"Can't connect the server" );  
-        }  
-        // 这句file_put_contents是用来查看服务器返回的结果 测试完可以删除了  
-        //file_put_contents('./log3.txt',$res,FILE_APPEND);  
-          
-        $content = self::xml2array($res);  
-        if(strval($content['result_code']) == 'FAIL'){  
-            return array('status'=>0, 'msg'=>strval($content['err_code']).':'.strval($content['err_code_des']));  
-        }  
-        if(strval($content['return_code']) == 'FAIL'){  
-            return array('status'=>0, 'msg'=>strval($content['return_msg']));  
-        }  
-          
-        return $content;  
-    }  
+
 
 }

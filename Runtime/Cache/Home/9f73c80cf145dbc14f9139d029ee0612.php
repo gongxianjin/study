@@ -105,7 +105,7 @@
                         去做作业
                     </a>
                 <?php elseif(($classtask == '') OR ($classtask['setup'] == 1)): ?>
-                    <a href="#"><i class="txh icon-wancheng"></i>
+                    <a href="<?php echo U('student/doneHomeWork',array('taskid'=>$classtask['id']));?>"><i class="txh icon-wancheng"></i>
                         今日已交作业！
                     </a><?php endif; ?>
                 <p><?php echo date('H:i:s',$classtask['time'])?></p>
